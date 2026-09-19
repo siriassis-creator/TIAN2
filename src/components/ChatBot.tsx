@@ -76,7 +76,7 @@ const QuizBlock = ({ quiz, onSend, isLast, speak, isLoading }: any) => {
         ))}
       </div>
 
-      {/* ปุ่มส่งคำตอบ (แสดงเฉพาะกล่องแชทล่าสุด) */}
+      {/* ปุ่มส่งคำตอบ */}
       {isLast && !submitted && (
         <button 
           onClick={() => {
@@ -138,11 +138,12 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
     const historyToKeep = messages.filter((msg, idx) => !(idx === 0 && msg.role === 'model'));
     const newHistoryForApi = [...historyToKeep, newUserMsg].slice(-6);
 
+    // เลิกใช้ slice เอาข้อความผู้ใช้ออกเวลามี Error เพื่อให้ผู้ใช้เห็นข้อความตัวเองในแชทเสมอ
     setMessages((prev) => [...prev, newUserMsg]);
     setInputText('');
     setIsLoading(true);
 
-    // 🎯 เพิ่มกฎข้อ 7 เพื่อกำชับเรื่องการแปลคำอ่านไทย (reading) ให้แม่นยำที่สุด
+    // 🎯 แก้ไขชื่อฟิลด์เป็น reading_th เพื่อบังคับ AI คายภาษาไทย 100%
     const systemInstruction = `
       คุณคือ "AI คุณครู" ครูสอนภาษาจีน
       หน้าทึ่: พูดคุย ดึงข้อมูลจาก DATABASE มาอธิบาย แปลประโยค หรือ "สร้างแบบทดสอบ" ให้นักเรียน
@@ -160,7 +161,7 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
         "vocabularies": [
           {
             "meaning": "คำแปล",
-            "reading": "คำอ่านไทย",
+            "reading_th": "คำอ่านภาษาไทย (เช่น เสวีย-เสี้ยว)",
             "pinyin": "พินอิน",
             "chinese": "อักษรจีน",
             "example_cn": "ประโยคตัวอย่างภาษาจีน",
@@ -169,7 +170,7 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
           }
         ],
         "quiz": {
-          "is_active": true หรือ false (ใส่ true ถ้าต้องการส่งคำถาม),
+          "is_active": true หรือ false,
           "question_cn": "คำถามภาษาจีน",
           "question_pinyin": "พินอินคำถาม",
           "question_th": "คำถามภาษาไทย",
@@ -184,20 +185,15 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
         }
       }
       3. **กฎการสร้างแบบทดสอบ (Quiz):**
-         - หากนักเรียนขอให้สร้างแบบทดสอบ ให้สร้าง "ทีละ 1 ข้อ" ใส่ในก้อน "quiz" เสมอ
-         - ต้องมีตัวเลือกอย่างน้อย 3-4 ข้อ (A, B, C, D) 
-         - ห้ามตั้งคำถามซ้ำกับข้อที่ผ่านมา
+         - สร้าง "ทีละ 1 ข้อ" ใส่ในก้อน "quiz" เสมอ, มีตัวเลือก 3-4 ข้อ, ห้ามตั้งคำถามซ้ำ
       4. **กฎการเฉลยคำตอบ:**
-         - เมื่อนักเรียนพิมพ์ตอบกลับมา ให้คุณเฉลยและอธิบายทันที ลงในช่อง "message"
-         - หากนักเรียนขอสร้างข้อสอบหลายข้อ ให้สร้างคำถาม "ข้อต่อไป" ส่งมาพร้อมกันใน "quiz" ทันที จนกว่าจะครบ
-      5. **กฎการแปลประโยคหรือกลุ่มคำ (สำคัญมาก):**
-         - หากนักเรียนพิมพ์ประโยคยาวๆ หรือพิมพ์คำศัพท์มาเรียงกันหลายๆ คำเพื่อขอให้แปล ในช่อง "message" ห้ามแปลแยกเป็นข้อๆ (1, 2, 3...) เด็ดขาด! ให้ตอบสรุปรวมภาพรวมตามโครงสร้างนี้เท่านั้น:
-           ประโยคภาษาจีน: [ประโยคหรือกลุ่มคำภาษาจีนทั้งหมด]
-           พินอินรวม: [พินอินของประโยคหรือกลุ่มคำทั้งหมด]
-           คำแปลรวม: [คำแปลภาษาไทยภาพรวม]
-         - หลังจากที่สรุปภาพรวมใน "message" แล้ว ให้จับคำศัพท์ "แยกทีละคำ" ใส่ลงใน array "vocabularies" ทั้งหมด เพื่อให้ระบบนำไปสร้างเป็นการ์ดคำศัพท์
-      6. ห้ามสร้างข้อความที่วนลูป หรือพิมพ์ตัวอักษรซ้ำๆ ไปมาเด็ดขาด
-      7. **กฎการเขียนคำอ่านไทย (reading):** ในช่อง "reading" ให้เขียนคำอ่านภาษาไทยเทียบเสียงจากพินอินให้ใกล้เคียงและถูกต้องตามหลักภาษาไทยที่สุด โดยอิงตามการผันวรรณยุกต์ (เสียง 1=สามัญ, 2=จัตวา, 3=เอก, 4=โท) เพื่อช่วยให้นักเรียนระดับเริ่มต้นออกเสียงตามได้ง่ายและแม่นยำ
+         - เมื่อนักเรียนตอบกลับมา ให้เฉลยและอธิบายทันทีใน "message"
+         - ถ้าขอสร้างข้อสอบหลายข้อ ให้ส่งข้อต่อไปมาพร้อมกันทันที จนครบ
+      5. **กฎการแปลประโยคหรือกลุ่มคำ:**
+         - ห้ามแปลแยกเป็นข้อๆ (1, 2, 3...) เด็ดขาด! ให้ตอบสรุปรวมใน "message" (ประโยคภาษาจีน, พินอินรวม, คำแปลรวม)
+         - แล้วค่อยจับคำศัพท์ "แยกทีละคำ" ใส่ลงใน "vocabularies"
+      6. ห้ามวนลูป หรือพิมพ์ตัวอักษรซ้ำๆ ไปมา
+      7. **กฎคำอ่านภาษาไทย (สำคัญมาก):** ในช่อง "reading_th" ของ vocabularies บังคับว่าต้องเขียนคำอ่านภาษาไทย โดยเทียบเสียงพินอินให้ถูกต้องตามการผันวรรณยุกต์ไทย (สามัญ, จัตวา, เอก, โท) เท่านั้น ห้ามเว้นว่าง!
     `;
 
     try {
@@ -212,16 +208,42 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
       });
 
       const data = await response.json();
+      
+      // 🎯 ดักจับ Error ในแชทแทนการใช้ Alert (รวมถึง Error โควต้าเต็ม - Rate Limit 429)
       if (response.ok && data.reply) {
         setMessages((prev) => [...prev, { role: 'model', parts: [{ text: data.reply }] }]);
       } else {
-        const errorDetail = typeof data.error === 'object' ? JSON.stringify(data.error) : data.error;
-        setMessages((prev) => prev.slice(0, -1));
-        alert(`AI แจ้งข้อผิดพลาด: ` + (errorDetail || 'ไม่ทราบสาเหตุ'));
+        const errorDetail = String(typeof data.error === 'object' ? JSON.stringify(data.error) : (data.error || 'ไม่ทราบสาเหตุ'));
+        const errorLower = errorDetail.toLowerCase();
+        
+        // เช็คว่าเป็น Error โควต้าเต็ม (Rate Limit) หรือไม่
+        const isRateLimit = response.status === 429 || errorLower.includes('limit') || errorLower.includes('quota') || errorLower.includes('429') || errorLower.includes('too many requests');
+
+        let fallbackMsg = "";
+        if (isRateLimit) {
+          fallbackMsg = JSON.stringify({
+            message: `ตอนนี้คุณครู ${selectedProvider} สอนนักเรียนเยอะมากจนโควต้าเต็มแล้วค่ะ 😅 รบกวนนักเรียนรอสัก 1-2 นาทีแล้วค่อยถามใหม่ หรือจะสลับไปถาม "คุณครูท่านอื่น" ที่แถบด้านบนแทนก่อนก็ได้นะคะ!`,
+            vocabularies: [],
+            quiz: { is_active: false }
+          });
+        } else {
+          fallbackMsg = JSON.stringify({
+            message: `อ๊ะ! คุณครู ${selectedProvider} พบข้อผิดพลาดนิดหน่อยค่ะ (${errorDetail}) รบกวนนักเรียนลองสลับไปถามคุณครูท่านอื่นแทนก่อนนะคะ 🙏`,
+            vocabularies: [],
+            quiz: { is_active: false }
+          });
+        }
+        
+        setMessages((prev) => [...prev, { role: 'model', parts: [{ text: fallbackMsg }] }]);
       }
     } catch (err) {
-      setMessages((prev) => prev.slice(0, -1));
-      alert('ไม่สามารถเชื่อมต่อเซิร์ฟเวอร์ AI ได้');
+      // ดักจับ Error กรณีอินเทอร์เน็ตหลุด หรือ API ล่ม
+      const fallbackMsg = JSON.stringify({
+        message: "เกิดปัญหาในการเชื่อมต่อกับคุณครูค่ะ (Network Error) 😥 รบกวนตรวจสอบอินเทอร์เน็ต หรือลองเปลี่ยนคุณครูที่แถบด้านบนดูนะคะ!",
+        vocabularies: [],
+        quiz: { is_active: false }
+      });
+      setMessages((prev) => [...prev, { role: 'model', parts: [{ text: fallbackMsg }] }]);
     } finally {
       setIsLoading(false);
     }
@@ -255,7 +277,6 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
       
       return (
         <div className="flex flex-col gap-3 w-full">
-          {/* ข้อความหลักอธิบายหรือเฉลยคำตอบ */}
           {parsed.message && (
             <div className="bg-white text-slate-700 border border-slate-200 rounded-2xl rounded-tl-none p-4 shadow-sm">
               <p className="text-[15px] leading-relaxed whitespace-pre-wrap">{String(parsed.message)}</p>
@@ -268,7 +289,6 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
             </div>
           )}
 
-          {/* กล่องคำศัพท์ (ถ้ามี) */}
           {Array.isArray(parsed.vocabularies) && parsed.vocabularies.length > 0 && (
             <div className="flex flex-col gap-3 w-full">
               {parsed.vocabularies.map((v: any, i: number) => (
@@ -278,7 +298,8 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
                   </div>
                   <div className="grid grid-cols-[70px_1fr] gap-y-3 gap-x-2 text-sm items-center">
                     <div className="text-slate-500 font-semibold">การอ่าน:</div>
-                    <div className="text-slate-700">{v.reading || '-'}</div>
+                    {/* 🎯 อ่านจาก reading_th หรือเผื่อ AI ดื้อส่ง reading แบบเดิมมา */}
+                    <div className="text-slate-700 font-medium">{v.reading_th || v.reading || '-'}</div>
                     
                     <div className="text-slate-500 font-semibold">Pinyin:</div>
                     <div className="text-slate-700">{v.pinyin || '-'}</div>
@@ -316,7 +337,6 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
             </div>
           )}
 
-          {/* 🎯 แสดงแบบทดสอบเมื่อ AI ให้คำถามมา */}
           <QuizBlock 
             quiz={parsed.quiz} 
             onSend={handleSend} 
