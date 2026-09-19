@@ -62,7 +62,7 @@ export default async function handler(req, res) {
       const urlGroq = "https://api.groq.com/openai/v1/chat/completions";
       const apiUrl = isGpt ? urlOpenAI : urlGroq;
       
-      const modelName = isGpt ? "gpt-4o-mini" : "qwen/qwen3.6-27b"; // อัปเดตโมเดล Groq ตามบริบทปัจจุบัน
+      const modelName = isGpt ? "gpt-4o-mini" : "qwen/qwen3.8-27b";
 
       const response = await fetch(apiUrl, {
         method: 'POST',
