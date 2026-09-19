@@ -13,7 +13,6 @@ interface Message {
   parts: [{ text: string }];
 }
 
-// 🎯 Component สำหรับแสดงแบบทดสอบ (Quiz)
 const QuizBlock = ({ quiz, onSend, isLast, speak, isLoading }: any) => {
   const [selected, setSelected] = useState('');
   const [submitted, setSubmitted] = useState(false);
@@ -31,14 +30,12 @@ const QuizBlock = ({ quiz, onSend, isLast, speak, isLoading }: any) => {
         )}
       </div>
       
-      {/* ส่วนคำถาม */}
       <div className="mb-5 pl-1">
         <div className="text-xl font-bold text-slate-800">{quiz.question_cn}</div>
         <div className="text-[15px] text-slate-600 font-mono mt-1.5">{quiz.question_pinyin}</div>
         <div className="text-[15px] text-slate-700 mt-1">{quiz.question_th}</div>
       </div>
 
-      {/* ส่วนตัวเลือก */}
       <div className="space-y-3">
         {quiz.options?.map((opt: any, i: number) => (
           <label 
@@ -76,7 +73,6 @@ const QuizBlock = ({ quiz, onSend, isLast, speak, isLoading }: any) => {
         ))}
       </div>
 
-      {/* ปุ่มส่งคำตอบ */}
       {isLast && !submitted && (
         <button 
           onClick={() => {
@@ -138,12 +134,10 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
     const historyToKeep = messages.filter((msg, idx) => !(idx === 0 && msg.role === 'model'));
     const newHistoryForApi = [...historyToKeep, newUserMsg].slice(-6);
 
-    // เลิกใช้ slice เอาข้อความผู้ใช้ออกเวลามี Error เพื่อให้ผู้ใช้เห็นข้อความตัวเองในแชทเสมอ
     setMessages((prev) => [...prev, newUserMsg]);
     setInputText('');
     setIsLoading(true);
 
-    // 🎯 แก้ไขชื่อฟิลด์เป็น reading_th เพื่อบังคับ AI คายภาษาไทย 100%
     const systemInstruction = `
       คุณคือ "AI คุณครู" ครูสอนภาษาจีน
       หน้าทึ่: พูดคุย ดึงข้อมูลจาก DATABASE มาอธิบาย แปลประโยค หรือ "สร้างแบบทดสอบ" ให้นักเรียน
@@ -154,10 +148,10 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
       ---------------
       
       กฎเหล็กการตอบ (สำคัญมาก):
-      1. ห้ามใช้ Markdown สัญลักษณ์พิเศษ
-      2. ต้องตอบกลับมาเป็น JSON Format เท่านั้น ตามโครงสร้างนี้:
+      1. ต้องตอบกลับมาเป็น JSON Format เท่านั้น ขึ้นต้นด้วย { และจบด้วย } ห้ามมีข้อความเกริ่นนำหรือลงท้ายเด็ดขาด
+      2. โครงสร้าง JSON ต้องเป็นไปตามนี้:
       {
-        "message": "ข้อความทักทาย อธิบาย หรือแปลความหมาย (ต้องมี 3 ส่วน: 1.ไทย 2.จีน 3.พินอิน)",
+        "message": "ข้อความทักทาย หรืออธิบาย (ต้องมี 1.ไทย 2.จีน 3.พินอิน)",
         "vocabularies": [
           {
             "meaning": "คำแปล",
@@ -165,7 +159,7 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
             "pinyin": "พินอิน",
             "chinese": "อักษรจีน",
             "example_cn": "ประโยคตัวอย่างภาษาจีน",
-            "example_pinyin": "พินอินของประโยคตัวอย่าง (ต้องมีเสมอ)",
+            "example_pinyin": "พินอินประโยคตัวอย่าง",
             "example_th": "คำแปลประโยคตัวอย่าง"
           }
         ],
@@ -175,25 +169,14 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
           "question_pinyin": "พินอินคำถาม",
           "question_th": "คำถามภาษาไทย",
           "options": [
-            {
-              "id": "A",
-              "text_cn": "ตัวเลือกจีน",
-              "text_pinyin": "พินอินตัวเลือก",
-              "text_th": "ไทยตัวเลือก"
-            }
+            { "id": "A", "text_cn": "จีน", "text_pinyin": "พินอิน", "text_th": "ไทย" }
           ]
         }
       }
-      3. **กฎการสร้างแบบทดสอบ (Quiz):**
-         - สร้าง "ทีละ 1 ข้อ" ใส่ในก้อน "quiz" เสมอ, มีตัวเลือก 3-4 ข้อ, ห้ามตั้งคำถามซ้ำ
-      4. **กฎการเฉลยคำตอบ:**
-         - เมื่อนักเรียนตอบกลับมา ให้เฉลยและอธิบายทันทีใน "message"
-         - ถ้าขอสร้างข้อสอบหลายข้อ ให้ส่งข้อต่อไปมาพร้อมกันทันที จนครบ
-      5. **กฎการแปลประโยคหรือกลุ่มคำ:**
-         - ห้ามแปลแยกเป็นข้อๆ (1, 2, 3...) เด็ดขาด! ให้ตอบสรุปรวมใน "message" (ประโยคภาษาจีน, พินอินรวม, คำแปลรวม)
-         - แล้วค่อยจับคำศัพท์ "แยกทีละคำ" ใส่ลงใน "vocabularies"
-      6. ห้ามวนลูป หรือพิมพ์ตัวอักษรซ้ำๆ ไปมา
-      7. **กฎคำอ่านภาษาไทย (สำคัญมาก):** ในช่อง "reading_th" ของ vocabularies บังคับว่าต้องเขียนคำอ่านภาษาไทย โดยเทียบเสียงพินอินให้ถูกต้องตามการผันวรรณยุกต์ไทย (สามัญ, จัตวา, เอก, โท) เท่านั้น ห้ามเว้นว่าง!
+      3. การสร้างแบบทดสอบ: สร้างทีละ 1 ข้อ มี 3-4 ตัวเลือก เมื่อนักเรียนตอบ ให้เฉลยใน message และถ้าขอหลายข้อให้ส่งข้อต่อไปมาใน quiz
+      4. การแปลประโยคหรือกลุ่มคำ: ห้ามแปลแยกเป็นข้อๆ ให้ตอบสรุปรวมใน message (จีน, พินอินรวม, คำแปลรวม) แล้วค่อยจับคำศัพท์ "แยกทีละคำ" ใส่ลงใน vocabularies
+      5. กฎคำอ่านภาษาไทย: ช่อง "reading_th" บังคับเขียนเป็นคำอ่านภาษาไทยเทียบเสียงพินอินให้ถูกต้อง ห้ามเว้นว่าง
+      6. **ข้อควรระวังสำคัญ (Strict JSON):** ห้ามใช้เครื่องหมาย Enter หรือเว้นบรรทัดแบบปกติภายในเครื่องหมายคำพูด ("...") หากต้องการขึ้นบรรทัดใหม่ให้พิมพ์สัญลักษณ์ \\n เท่านั้น และห้ามมี Comma (,) เกินมาในตัวสุดท้ายของ Array หรือ Object
     `;
 
     try {
@@ -209,37 +192,25 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
 
       const data = await response.json();
       
-      // 🎯 ดักจับ Error ในแชทแทนการใช้ Alert (รวมถึง Error โควต้าเต็ม - Rate Limit 429)
       if (response.ok && data.reply) {
         setMessages((prev) => [...prev, { role: 'model', parts: [{ text: data.reply }] }]);
       } else {
         const errorDetail = String(typeof data.error === 'object' ? JSON.stringify(data.error) : (data.error || 'ไม่ทราบสาเหตุ'));
         const errorLower = errorDetail.toLowerCase();
-        
-        // เช็คว่าเป็น Error โควต้าเต็ม (Rate Limit) หรือไม่
-        const isRateLimit = response.status === 429 || errorLower.includes('limit') || errorLower.includes('quota') || errorLower.includes('429') || errorLower.includes('too many requests');
+        const isRateLimit = response.status === 429 || errorLower.includes('limit') || errorLower.includes('quota') || errorLower.includes('429');
 
-        let fallbackMsg = "";
-        if (isRateLimit) {
-          fallbackMsg = JSON.stringify({
-            message: `ตอนนี้คุณครู ${selectedProvider} สอนนักเรียนเยอะมากจนโควต้าเต็มแล้วค่ะ 😅 รบกวนนักเรียนรอสัก 1-2 นาทีแล้วค่อยถามใหม่ หรือจะสลับไปถาม "คุณครูท่านอื่น" ที่แถบด้านบนแทนก่อนก็ได้นะคะ!`,
-            vocabularies: [],
-            quiz: { is_active: false }
-          });
-        } else {
-          fallbackMsg = JSON.stringify({
-            message: `อ๊ะ! คุณครู ${selectedProvider} พบข้อผิดพลาดนิดหน่อยค่ะ (${errorDetail}) รบกวนนักเรียนลองสลับไปถามคุณครูท่านอื่นแทนก่อนนะคะ 🙏`,
-            vocabularies: [],
-            quiz: { is_active: false }
-          });
-        }
-        
+        const fallbackMsg = JSON.stringify({
+          message: isRateLimit 
+            ? `ตอนนี้คุณครู ${selectedProvider} สอนนักเรียนเยอะมากจนโควต้าเต็มแล้วค่ะ 😅 รบกวนรอสัก 1-2 นาที หรือสลับไปถาม "คุณครูท่านอื่น" ที่แถบด้านบนแทนก่อนนะคะ!`
+            : `อ๊ะ! คุณครู ${selectedProvider} พบข้อผิดพลาดนิดหน่อยค่ะ (${errorDetail}) รบกวนนักเรียนลองสลับไปถามคุณครูท่านอื่นแทนก่อนนะคะ 🙏`,
+          vocabularies: [],
+          quiz: { is_active: false }
+        });
         setMessages((prev) => [...prev, { role: 'model', parts: [{ text: fallbackMsg }] }]);
       }
     } catch (err) {
-      // ดักจับ Error กรณีอินเทอร์เน็ตหลุด หรือ API ล่ม
       const fallbackMsg = JSON.stringify({
-        message: "เกิดปัญหาในการเชื่อมต่อกับคุณครูค่ะ (Network Error) 😥 รบกวนตรวจสอบอินเทอร์เน็ต หรือลองเปลี่ยนคุณครูที่แถบด้านบนดูนะคะ!",
+        message: "ระบบขัดข้อง หรือ อินเทอร์เน็ตมีปัญหาค่ะ 😥 รบกวนตรวจสอบสัญญาณ หรือลองเปลี่ยนคุณครูที่แถบด้านบนดูนะคะ!",
         vocabularies: [],
         quiz: { is_active: false }
       });
@@ -250,8 +221,17 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
   };
 
   const toggleListen = () => {
+    // ลบการใช้ alert ในส่วนของไมโครโฟนออก เปลี่ยนเป็นการแจ้งเตือนแบบอ่อนโยน
     const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
-    if (!SpeechRecognition) return alert('เบราว์เซอร์ของคุณไม่รองรับการพิมพ์ด้วยเสียง');
+    if (!SpeechRecognition) {
+      const fallbackMsg = JSON.stringify({
+        message: "เบราว์เซอร์ของนักเรียนไม่รองรับระบบพิมพ์ด้วยเสียงค่ะ แนะนำให้ใช้ Google Chrome หรือ Safari ในมือถือนะคะ 🎤",
+        vocabularies: [],
+        quiz: { is_active: false }
+      });
+      setMessages((prev) => [...prev, { role: 'model', parts: [{ text: fallbackMsg }] }]);
+      return;
+    }
 
     const recognition = new SpeechRecognition();
     recognition.lang = micLang; 
@@ -272,7 +252,17 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
   const renderModelMessage = (text: string, isLast: boolean) => {
     try {
       const safeText = typeof text === 'string' ? text : JSON.stringify(text);
-      const cleanText = safeText.replace(/```json/gi, '').replace(/```/g, '').trim();
+      
+      // 1. คลีน Markdown ทิ้งก่อน
+      let cleanText = safeText.replace(/```json/gi, '').replace(/```/g, '').trim();
+      
+      // 2. 🎯 คีมคีบ JSON: บังคับตัดเอาเฉพาะข้อมูลตั้งแต่ปีกกา { ถึง } เท่านั้น เพื่อแก้ปัญหา AI บ่นนอกเรื่อง
+      const startIdx = cleanText.indexOf('{');
+      const endIdx = cleanText.lastIndexOf('}');
+      if (startIdx !== -1 && endIdx !== -1) {
+          cleanText = cleanText.substring(startIdx, endIdx + 1);
+      }
+      
       const parsed = JSON.parse(cleanText);
       
       return (
@@ -298,7 +288,6 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
                   </div>
                   <div className="grid grid-cols-[70px_1fr] gap-y-3 gap-x-2 text-sm items-center">
                     <div className="text-slate-500 font-semibold">การอ่าน:</div>
-                    {/* 🎯 อ่านจาก reading_th หรือเผื่อ AI ดื้อส่ง reading แบบเดิมมา */}
                     <div className="text-slate-700 font-medium">{v.reading_th || v.reading || '-'}</div>
                     
                     <div className="text-slate-500 font-semibold">Pinyin:</div>
@@ -347,6 +336,7 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
         </div>
       );
     } catch (e) {
+      console.error("JSON Parse Error: ", e);
       const fallbackText = typeof text === 'string' ? text : JSON.stringify(text);
       return (
         <div className="bg-white text-slate-700 border border-slate-200 rounded-2xl rounded-tl-none p-4 shadow-sm">
