@@ -73,7 +73,7 @@ export default async function handler(req, res) {
         body: JSON.stringify({
           model: modelName,
           messages: formattedMessages,
-          temperature: 0.4,
+          temperature: 0.2, // ลด temperature ลงเพื่อป้องกันอาการวนลูป
           response_format: { type: "json_object" }
         })
       });
@@ -103,8 +103,8 @@ export default async function handler(req, res) {
       });
 
       const model = "@cf/meta/llama-3.1-8b-instruct-fast";
-   // ใช้การต่อ String แบบดั้งเดิมด้วยเครื่องหมายบวก (+) ชัวร์ที่สุดครับ
-const apiUrl = "https://api.cloudflare.com/client/v4/accounts/" + cfAccountId + "/ai/run/" + model;
+      // ใช้การต่อ String แบบดั้งเดิมด้วยเครื่องหมายบวก (+) ชัวร์ที่สุดครับ
+      const apiUrl = "[https://api.cloudflare.com/client/v4/accounts/](https://api.cloudflare.com/client/v4/accounts/)" + cfAccountId + "/ai/run/" + model;
 
       const response = await fetch(apiUrl, {
         method: 'POST',
@@ -113,7 +113,9 @@ const apiUrl = "https://api.cloudflare.com/client/v4/accounts/" + cfAccountId + 
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          messages: formattedMessages
+          messages: formattedMessages,
+          temperature: 0.2, // ลด temperature ลงเพื่อป้องกันอาการวนลูป
+          max_tokens: 800   // ป้องกันการสร้างข้อความยาวเกินไป
         })
       });
 
@@ -123,7 +125,10 @@ const apiUrl = "https://api.cloudflare.com/client/v4/accounts/" + cfAccountId + 
          throw new Error(JSON.stringify(data.errors || data));
       }
 
-      let cleanReply = data.result.response;
+      // ดึงข้อมูลและบังคับแปลงเป็น String ก่อนใช้ .replace
+      let rawReply = data.result.response || data.result;
+      let cleanReply = typeof rawReply === 'object' ? JSON.stringify(rawReply) : String(rawReply || "");
+
       cleanReply = cleanReply.replace(/```json/gi, '').replace(/```/g, '').trim();
 
       const startIndex = cleanReply.indexOf('{');
