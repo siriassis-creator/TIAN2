@@ -103,7 +103,8 @@ export default async function handler(req, res) {
       });
 
       const model = "@cf/meta/llama-3.1-8b-instruct-fast";
-      const apiUrl = `[https://api.cloudflare.com/client/v4/accounts/$](https://api.cloudflare.com/client/v4/accounts/$){cfAccountId}/ai/run/${model}`;
+   // ใช้การต่อ String แบบดั้งเดิมด้วยเครื่องหมายบวก (+) ชัวร์ที่สุดครับ
+const apiUrl = "https://api.cloudflare.com/client/v4/accounts/" + cfAccountId + "/ai/run/" + model;
 
       const response = await fetch(apiUrl, {
         method: 'POST',
