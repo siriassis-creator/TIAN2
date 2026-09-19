@@ -1,14 +1,16 @@
-// netlify/functions/gemini.js
+// api/gemini.js
 
-export const handler = async function (event, context) {
-  if (event.httpMethod !== 'POST') {
-    return { statusCode: 405, body: 'Method Not Allowed' };
+export default async function handler(req, res) {
+  // 1. เช็ค Method
+  if (req.method !== 'POST') {
+    return res.status(405).json({ error: 'Method Not Allowed' });
   }
 
   try {
-    const { messages, systemInstruction, provider = 'gemini' } = JSON.parse(event.body);
+    // 2. Vercel แปลง body เป็น Object ให้แล้ว ไม่ต้องใช้ JSON.parse()
+    const { messages, systemInstruction, provider = 'gemini' } = req.body;
     
-    // ดึง API Keys จาก Netlify Environment Variables
+    // ดึง API Keys จาก Vercel Environment Variables
     const geminiKey = process.env.GEMINI_API_KEY;
     const openaiKey = process.env.OPENAI_API_KEY;
     const groqKey = process.env.GROQ_API_KEY;
@@ -19,7 +21,7 @@ export const handler = async function (event, context) {
     // 1. Google Gemini
     // ==========================================
     if (provider === 'gemini') {
-      if (!geminiKey) return { statusCode: 500, body: JSON.stringify({ error: 'ไม่พบ GEMINI_API_KEY' }) };
+      if (!geminiKey) return res.status(500).json({ error: 'ไม่พบ GEMINI_API_KEY' });
 
       const payload = {
         contents: messages,
@@ -27,7 +29,7 @@ export const handler = async function (event, context) {
         generationConfig: { maxOutputTokens: 2048, temperature: 0.4, responseMimeType: "application/json" }
       };
 
-      const apiUrl = "https://" + "generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=" + geminiKey;
+      const apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=" + geminiKey;
 
       const response = await fetch(apiUrl, {
         method: 'POST',
@@ -36,7 +38,8 @@ export const handler = async function (event, context) {
       });
       const data = await response.json();
       if (!response.ok) throw new Error(JSON.stringify(data));
-      return { statusCode: 200, body: JSON.stringify({ reply: data.candidates[0].content.parts[0].text }) };
+      
+      return res.status(200).json({ reply: data.candidates[0].content.parts[0].text });
     }
 
     // ==========================================
@@ -46,7 +49,7 @@ export const handler = async function (event, context) {
       const isGpt = provider === 'chatgpt';
       const apiKey = isGpt ? openaiKey : groqKey;
       
-      if (!apiKey) return { statusCode: 500, body: JSON.stringify({ error: `ไม่พบ API Key สำหรับ ${provider.toUpperCase()}` }) };
+      if (!apiKey) return res.status(500).json({ error: `ไม่พบ API Key สำหรับ ${provider.toUpperCase()}` });
 
       const formattedMessages = messages.map(m => ({
         role: m.role === 'model' ? 'assistant' : 'user',
@@ -55,11 +58,11 @@ export const handler = async function (event, context) {
 
       formattedMessages.unshift({ role: 'system', content: systemInstruction + "\nRespond strictly in valid JSON." });
 
-      const urlOpenAI = "https://" + "api.openai.com/v1/chat/completions";
-      const urlGroq = "https://" + "api.groq.com/openai/v1/chat/completions";
+      const urlOpenAI = "https://api.openai.com/v1/chat/completions";
+      const urlGroq = "https://api.groq.com/openai/v1/chat/completions";
       const apiUrl = isGpt ? urlOpenAI : urlGroq;
       
-      const modelName = isGpt ? "gpt-4o-mini" : "llama-3.3-70b-versatile";
+      const modelName = isGpt ? "gpt-4o-mini" : "qwen/qwen3.6-27b"; // อัปเดตโมเดล Groq ตามบริบทปัจจุบัน
 
       const response = await fetch(apiUrl, {
         method: 'POST',
@@ -78,7 +81,7 @@ export const handler = async function (event, context) {
       const data = await response.json();
       if (!response.ok) throw new Error(JSON.stringify(data));
       
-      return { statusCode: 200, body: JSON.stringify({ reply: data.choices[0].message.content }) };
+      return res.status(200).json({ reply: data.choices[0].message.content });
     }
 
     // ==========================================
@@ -86,26 +89,21 @@ export const handler = async function (event, context) {
     // ==========================================
     if (provider === 'cloudflare') {
       if (!cfAccountId || !cfToken) {
-        return { statusCode: 500, body: JSON.stringify({ error: 'ไม่พบ CLOUDFLARE_ACCOUNT_ID หรือ CLOUDFLARE_API_TOKEN' }) };
+        return res.status(500).json({ error: 'ไม่พบ CLOUDFLARE_ACCOUNT_ID หรือ CLOUDFLARE_API_TOKEN' });
       }
 
-      // Cloudflare (Llama) คุยผ่าน Message Array เหมือน OpenAI
       const formattedMessages = messages.map(m => ({
         role: m.role === 'model' ? 'assistant' : 'user',
         content: m.parts[0].text
       }));
 
-      // บังคับการตอบกลับเป็น JSON ด้วย System Prompt 
-      // (Cloudflare บางตัวอาจจะไม่รองรับ response_format แบบตรงๆ)
       formattedMessages.unshift({ 
         role: 'system', 
         content: systemInstruction + "\n\nCRITICAL RULE: You MUST reply with ONLY a raw, valid JSON object. Do NOT wrap it in Markdown code blocks (like ```json). Do NOT add any introductory or concluding text." 
       });
 
-      // 🎯 โมเดลล่าสุดและเร็วที่สุดของ Cloudflare ตามที่อาจารย์ต้องการ
       const model = "@cf/meta/llama-3.1-8b-instruct-fast";
-      
-      const apiUrl = "https://" + "[api.cloudflare.com/client/v4/accounts/](https://api.cloudflare.com/client/v4/accounts/)" + cfAccountId + "/ai/run/" + model;
+      const apiUrl = `[https://api.cloudflare.com/client/v4/accounts/$](https://api.cloudflare.com/client/v4/accounts/$){cfAccountId}/ai/run/${model}`;
 
       const response = await fetch(apiUrl, {
         method: 'POST',
@@ -124,7 +122,6 @@ export const handler = async function (event, context) {
          throw new Error(JSON.stringify(data.errors || data));
       }
 
-      // 🎯 Cloudflare อาจส่งกลับมาพร้อม Markdown ควบ JSON เราจึงต้องทำการ Clean ให้ปลอดภัยก่อนส่งต่อให้หน้าแชท
       let cleanReply = data.result.response;
       cleanReply = cleanReply.replace(/```json/gi, '').replace(/```/g, '').trim();
 
@@ -135,12 +132,12 @@ export const handler = async function (event, context) {
         cleanReply = cleanReply.substring(startIndex, endIndex + 1);
       }
 
-      return { statusCode: 200, body: JSON.stringify({ reply: cleanReply }) };
+      return res.status(200).json({ reply: cleanReply });
     }
 
-    return { statusCode: 400, body: JSON.stringify({ error: 'ไม่รู้จัก Provider ที่เลือก' }) };
+    return res.status(400).json({ error: 'ไม่รู้จัก Provider ที่เลือก' });
 
   } catch (error) {
-    return { statusCode: 500, body: JSON.stringify({ error: error.message }) };
+    return res.status(500).json({ error: error.message });
   }
-};
+}
