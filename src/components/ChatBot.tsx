@@ -60,6 +60,7 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
     setInputText('');
     setIsLoading(true);
 
+    // 🎯 เพิ่มกฎเหล็กข้อ 4 และ 5 เพื่อป้องกัน AI หลอนและวนลูป
     const systemInstruction = `
       คุณคือ "AI เหล่าซือ" ครูสอนภาษาจีน
       หน้าทึ่: พูดคุยและดึงข้อมูลจาก DATABASE มาอธิบายนักเรียน
@@ -86,6 +87,8 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
         ]
       }
       3. หากคำถามเป็นการทักทาย หรือไม่ได้ถามหาคำศัพท์ ให้ใส่ vocabularies เป็นก้อน array ว่าง []
+      4. ประโยคตัวอย่างภาษาจีน (example_cn) ต้องสั้น กระชับ ใช้ในชีวิตประจำวันได้จริง
+      5. ห้ามสร้างข้อความที่วนลูป หรือพิมพ์ตัวอักษรซ้ำๆ ไปมาเด็ดขาด
     `;
 
     try {
