@@ -30,7 +30,7 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
 
   useEffect(() => {
     const initialJson = JSON.stringify({
-      message: `สวัสดีครับ! วันนี้เรามาทบทวนบทเรียน "${lessonTitle}" กันเถอะ มีคำศัพท์หรือประโยคไหนในบทนี้ที่อยากให้เหล่าซือช่วยอธิบายไหมครับ? กดไมค์พูดถามมาได้เลยนะ!`,
+      message: `สวัสดีครับ! วันนี้เรามาทบทวนบทเรียน "${lessonTitle}" กันเถอะ มีคำศัพท์หรือประโยคไหนในบทนี้ที่อยากให้คุณครูช่วยอธิบายไหมครับ? กดไมค์พูดถามมาได้เลยนะ!`,
       vocabularies: []
     });
     setMessages([
@@ -60,9 +60,8 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
     setInputText('');
     setIsLoading(true);
 
-    // 🎯 เพิ่มกฎเหล็กข้อ 4 และ 5 เพื่อป้องกัน AI หลอนและวนลูป
     const systemInstruction = `
-      คุณคือ "AI เหล่าซือ" ครูสอนภาษาจีน
+      คุณคือ "AI คุณครู" ครูสอนภาษาจีน
       หน้าทึ่: พูดคุยและดึงข้อมูลจาก DATABASE มาอธิบายนักเรียน
       
       --- DATABASE ---
@@ -108,7 +107,7 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
       } else {
         const errorDetail = typeof data.error === 'object' ? JSON.stringify(data.error) : data.error;
         setMessages((prev) => prev.slice(0, -1));
-        alert(`AI (${selectedProvider}) แจ้งข้อผิดพลาด: ` + (errorDetail || 'ไม่ทราบสาเหตุ'));
+        alert(`AI แจ้งข้อผิดพลาด: ` + (errorDetail || 'ไม่ทราบสาเหตุ'));
       }
     } catch (err) {
       setMessages((prev) => prev.slice(0, -1));
@@ -140,7 +139,6 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
 
   const renderModelMessage = (text: string) => {
     try {
-      // ทำความสะอาดก่อนพยายาม Parse 
       const safeText = typeof text === 'string' ? text : JSON.stringify(text);
       const cleanText = safeText.replace(/```json/gi, '').replace(/```/g, '').trim();
       const parsed = JSON.parse(cleanText);
@@ -148,25 +146,25 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
       return (
         <div className="flex flex-col gap-3 w-full">
           {parsed.message && (
-            <div className="bg-white text-slate-700 border border-slate-200 rounded-2xl rounded-tl-none p-3 shadow-sm">
-              <p className="text-sm leading-relaxed">{String(parsed.message)}</p>
+            <div className="bg-white text-slate-700 border border-slate-200 rounded-2xl rounded-tl-none p-4 shadow-sm">
+              <p className="text-[15px] leading-relaxed">{String(parsed.message)}</p>
               <button 
                 onClick={() => speak(String(parsed.message), 'th-TH')} 
-                className="mt-2 text-indigo-500 hover:text-indigo-700 bg-indigo-50 px-2 py-1 rounded-md flex items-center gap-1 text-xs font-bold transition-colors w-max"
+                className="mt-3 text-indigo-600 hover:text-indigo-800 bg-indigo-50 px-3 py-1.5 rounded-lg flex items-center gap-1.5 text-xs font-bold transition-colors w-max"
               >
-                <Volume2 size={14} /> ฟัง
+                <Volume2 size={16} /> ฟังเสียง
               </button>
             </div>
           )}
 
           {Array.isArray(parsed.vocabularies) && parsed.vocabularies.length > 0 && (
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-3 w-full">
               {parsed.vocabularies.map((v: any, i: number) => (
-                <div key={i} className="bg-emerald-50 border border-emerald-100 rounded-xl p-3 shadow-sm text-sm font-sans w-full max-w-[95%]">
-                  <div className="font-bold text-emerald-800 mb-2 border-b border-emerald-200/50 pb-1">
+                <div key={i} className="bg-emerald-50 border border-emerald-100 rounded-xl p-4 shadow-sm text-sm font-sans w-full lg:max-w-[85%]">
+                  <div className="font-bold text-emerald-800 mb-3 border-b border-emerald-200/50 pb-2 text-base">
                     📖 {v.meaning || '-'}
                   </div>
-                  <div className="grid grid-cols-[60px_1fr] gap-y-2 gap-x-2 text-xs items-center">
+                  <div className="grid grid-cols-[70px_1fr] gap-y-3 gap-x-2 text-sm items-center">
                     <div className="text-slate-500 font-semibold">การอ่าน:</div>
                     <div className="text-slate-700">{v.reading || '-'}</div>
                     
@@ -174,27 +172,27 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
                     <div className="text-slate-700">{v.pinyin || '-'}</div>
                     
                     <div className="text-slate-500 font-semibold mt-1">เขียน:</div>
-                    <div className="flex items-center gap-2 mt-1">
-                      <span className="text-lg font-bold text-slate-800 leading-none">{v.chinese || '-'}</span>
+                    <div className="flex items-center gap-3 mt-1">
+                      <span className="text-xl font-bold text-slate-800 leading-none">{v.chinese || '-'}</span>
                       {v.chinese && (
-                        <button onClick={() => speak(v.chinese, 'zh-CN')} className="text-emerald-600 hover:text-emerald-800 bg-emerald-100 p-1 rounded-full">
-                          <Volume2 size={14} />
+                        <button onClick={() => speak(v.chinese, 'zh-CN')} className="text-emerald-600 hover:text-emerald-800 bg-emerald-100 p-1.5 rounded-full">
+                          <Volume2 size={16} />
                         </button>
                       )}
                     </div>
                   </div>
 
                   {(v.example_cn || v.example_th) && (
-                    <div className="mt-3 pt-2 border-t border-emerald-200/50">
-                      <div className="text-[10px] text-slate-400 font-semibold uppercase mb-1">ตัวอย่าง</div>
+                    <div className="mt-4 pt-3 border-t border-emerald-200/50">
+                      <div className="text-[11px] text-slate-400 font-bold uppercase mb-1.5">ตัวอย่างประโยค</div>
                       <div className="flex items-start justify-between gap-2">
-                        <div className="flex flex-col">
-                          <span className="font-medium text-slate-800">{v.example_cn || ''}</span>
-                          <span className="text-slate-500 text-xs mt-0.5">{v.example_th || ''}</span>
+                        <div className="flex flex-col gap-1">
+                          <span className="font-medium text-slate-800 text-base">{v.example_cn || ''}</span>
+                          <span className="text-slate-500 text-sm">{v.example_th || ''}</span>
                         </div>
                         {v.example_cn && (
-                          <button onClick={() => speak(v.example_cn, 'zh-CN')} className="text-indigo-500 hover:text-indigo-700 bg-indigo-50 p-1.5 rounded-full shrink-0 mt-0.5">
-                            <Volume2 size={14} />
+                          <button onClick={() => speak(v.example_cn, 'zh-CN')} className="text-indigo-500 hover:text-indigo-700 bg-indigo-50 p-2 rounded-full shrink-0 mt-0.5">
+                            <Volume2 size={16} />
                           </button>
                         )}
                       </div>
@@ -207,10 +205,9 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
         </div>
       );
     } catch (e) {
-      // 🎯 ถ้า AI แอบใส่ข้อความแปลกๆ มาจน JSON พัง (เช่น Cloudflare รวน) จะตกมาเข้าที่นี่ (Fallback) ป้องกันหน้าเว็บขาว (React Crash)
       const fallbackText = typeof text === 'string' ? text : JSON.stringify(text);
       return (
-        <div className="bg-white text-slate-700 border border-slate-200 rounded-2xl rounded-tl-none p-3 shadow-sm">
+        <div className="bg-white text-slate-700 border border-slate-200 rounded-2xl rounded-tl-none p-4 shadow-sm">
           <p className="text-sm whitespace-pre-wrap">{fallbackText}</p>
         </div>
       );
@@ -218,84 +215,96 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
   };
 
   return (
-    <div className="fixed bottom-6 right-6 w-[420px] h-[580px] bg-slate-50 rounded-3xl shadow-2xl border border-slate-200 flex flex-col z-[9999] overflow-hidden">
+    /* 🎯 เปลี่ยนจากหน้าต่างเล็กมุมขวา เป็นเต็มจอ (fixed inset-0 w-full h-full) */
+    <div className="fixed inset-0 w-full h-full bg-slate-50 flex flex-col z-[9999] overflow-hidden">
       
-      <div className="bg-emerald-600 text-white p-3 flex flex-col gap-2 shadow-md z-10">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <Bot size={22} />
-            <h3 className="font-bold text-sm">AI ติวเตอร์ภาษาจีน</h3>
+      {/* 🎯 Header - จัดให้อยู่ตรงกลางด้วย max-w-3xl */}
+      <div className="bg-emerald-600 text-white p-3 shadow-md z-10 flex justify-center">
+        <div className="w-full max-w-3xl flex flex-col gap-3">
+          <div className="flex items-center justify-between mt-1">
+            <div className="flex items-center gap-2">
+              <Bot size={26} />
+              <h3 className="font-bold text-lg">AI ติวเตอร์ภาษาจีน</h3>
+            </div>
+            <button onClick={onClose} className="hover:bg-emerald-500 p-2 rounded-xl transition-colors">
+              <X size={22} />
+            </button>
           </div>
-          <button onClick={onClose} className="hover:bg-emerald-500 p-1 rounded-lg transition-colors">
-            <X size={18} />
+          
+          <div className="flex items-center gap-2 text-sm bg-emerald-700/60 p-2 rounded-xl border border-emerald-400/30">
+            <Cpu size={18} className="text-emerald-100 shrink-0 ml-1" />
+            <select 
+              value={selectedProvider}
+              onChange={(e) => setSelectedProvider(e.target.value as any)}
+              className="bg-transparent border-none text-white outline-none w-full cursor-pointer font-medium text-base"
+            >
+              {/* 🎯 เปลี่ยนชื่อคุณครูตามที่อาจารย์ต้องการ */}
+              <option value="gemini" className="text-slate-800">คุณครู GeGe</option>
+              <option value="groq" className="text-slate-800">คุณครู LUNA</option>
+              <option value="cloudflare" className="text-slate-800">คุณครู SKY</option>
+         
+            </select>
+          </div>
+        </div>
+      </div>
+
+      {/* 🎯 ช่องแชท - แสดงผลเต็มความสูงและจัดกลางสำหรับจอใหญ่ */}
+      <div className="flex-1 overflow-y-auto p-4 flex flex-col items-center bg-[#f8fafc]">
+        <div className="w-full max-w-3xl space-y-6 pb-4">
+          {messages.map((msg, idx) => (
+            <div key={idx} className={`flex w-full ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
+              {msg.role === 'user' ? (
+                <div className="max-w-[85%] rounded-2xl p-4 shadow-sm bg-emerald-100 text-emerald-950 rounded-tr-none">
+                  <p className="text-[15px] leading-relaxed">{msg.parts[0].text}</p>
+                </div>
+              ) : (
+                renderModelMessage(msg.parts[0].text)
+              )}
+            </div>
+          ))}
+          {isLoading && (
+            <div className="flex justify-start w-full">
+              <div className="bg-white p-4 rounded-2xl rounded-tl-none shadow-sm flex items-center gap-3 border border-slate-200 text-slate-500 text-sm">
+                <Loader2 className="animate-spin w-5 h-5 text-emerald-500" /> กำลังคิดคำตอบ...
+              </div>
+            </div>
+          )}
+          <div ref={messagesEndRef} />
+        </div>
+      </div>
+
+      {/* 🎯 แถบพิมพ์ข้อความด้านล่าง - จัดกลาง */}
+      <div className="p-4 bg-white border-t border-slate-200 flex justify-center shadow-[0_-4px_15px_-5px_rgba(0,0,0,0.05)]">
+        <div className="w-full max-w-3xl flex items-center gap-3">
+          <button 
+            onClick={() => setMicLang(prev => prev === 'th-TH' ? 'zh-CN' : 'th-TH')}
+            className="text-xs font-bold text-slate-600 bg-slate-100 border border-slate-200 px-3 py-3 rounded-2xl hover:bg-slate-200 transition-colors flex-shrink-0"
+          >
+            {micLang === 'th-TH' ? '🇹🇭 พูดไทย' : '🇨🇳 พูดจีน'}
+          </button>
+
+          <button 
+            onClick={toggleListen}
+            className={`p-3.5 rounded-full flex-shrink-0 transition-all shadow-sm ${isListening ? 'bg-red-500 text-white animate-pulse' : 'bg-slate-100 text-slate-500 hover:bg-slate-200'}`}
+          >
+            <Mic size={20} />
+          </button>
+          <input 
+            type="text"
+            value={inputText}
+            onChange={e => setInputText(e.target.value)}
+            onKeyDown={e => e.key === 'Enter' && handleSend(inputText)}
+            placeholder="พิมพ์ถามคุณครู..."
+            className="flex-1 bg-slate-100 border-none rounded-full px-5 py-3.5 text-[15px] focus:ring-2 focus:ring-emerald-500 outline-none w-full"
+          />
+          <button 
+            onClick={() => handleSend(inputText)}
+            disabled={!inputText.trim() || isLoading}
+            className="p-3.5 bg-emerald-600 text-white rounded-full flex-shrink-0 hover:bg-emerald-700 disabled:opacity-50 transition-all shadow-sm"
+          >
+            <Send size={20} />
           </button>
         </div>
-        <div className="flex items-center gap-2 text-xs bg-emerald-700/50 p-1.5 rounded-lg border border-emerald-500/50">
-          <Cpu size={14} className="text-emerald-200" />
-          <select 
-            value={selectedProvider}
-            onChange={(e) => setSelectedProvider(e.target.value as any)}
-            className="bg-transparent border-none text-white outline-none w-full cursor-pointer font-medium"
-          >
-            <option value="gemini" className="text-slate-800">✨ Google Gemini (ฟรี)</option>
-            <option value="groq" className="text-slate-800">⚡ Llama-3 by Groq (ฟรี/เร็วมาก)</option>
-            <option value="cloudflare" className="text-slate-800">☁️ Cloudflare AI (Llama 3.1)</option>
-            <option value="chatgpt" className="text-slate-800">🤖 ChatGPT (ต้องเติมเงิน API)</option>
-          </select>
-        </div>
-      </div>
-
-      <div className="flex-1 overflow-y-auto p-4 space-y-4">
-        {messages.map((msg, idx) => (
-          <div key={idx} className={`flex w-full ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
-            {msg.role === 'user' ? (
-              <div className="max-w-[85%] rounded-2xl p-3 shadow-sm bg-emerald-100 text-emerald-900 rounded-tr-none">
-                <p className="text-sm leading-relaxed">{msg.parts[0].text}</p>
-              </div>
-            ) : (
-              renderModelMessage(msg.parts[0].text)
-            )}
-          </div>
-        ))}
-        {isLoading && (
-          <div className="flex justify-start">
-            <div className="bg-white p-3 rounded-2xl rounded-tl-none shadow-sm flex items-center gap-2 border border-slate-200 text-slate-500 text-sm">
-              <Loader2 className="animate-spin w-4 h-4 text-emerald-500" /> {selectedProvider} กำลังคิด...
-            </div>
-          </div>
-        )}
-        <div ref={messagesEndRef} />
-      </div>
-
-      <div className="p-3 bg-white border-t border-slate-200 flex items-center gap-2">
-        <button 
-          onClick={() => setMicLang(prev => prev === 'th-TH' ? 'zh-CN' : 'th-TH')}
-          className="text-[10px] font-bold text-slate-500 bg-slate-100 border border-slate-200 px-2 py-2 rounded-xl hover:bg-slate-200 transition-colors flex-shrink-0"
-        >
-          {micLang === 'th-TH' ? '🇹🇭 พูดไทย' : '🇨🇳 พูดจีน'}
-        </button>
-
-        <button 
-          onClick={toggleListen}
-          className={`p-3 rounded-full flex-shrink-0 transition-all shadow-sm ${isListening ? 'bg-red-500 text-white animate-pulse' : 'bg-slate-100 text-slate-500 hover:bg-slate-200'}`}
-        >
-          <Mic size={18} />
-        </button>
-        <input 
-          type="text"
-          value={inputText}
-          onChange={e => setInputText(e.target.value)}
-          onKeyDown={e => e.key === 'Enter' && handleSend(inputText)}
-          placeholder="พิมพ์ถามเหล่าซือ..."
-          className="flex-1 bg-slate-100 border-none rounded-full px-4 py-2 text-sm focus:ring-2 focus:ring-emerald-500 outline-none w-full"
-        />
-        <button 
-          onClick={() => handleSend(inputText)}
-          disabled={!inputText.trim() || isLoading}
-          className="p-3 bg-emerald-600 text-white rounded-full flex-shrink-0 hover:bg-emerald-700 disabled:opacity-50 transition-all shadow-sm"
-        >
-          <Send size={18} />
-        </button>
       </div>
     </div>
   );
