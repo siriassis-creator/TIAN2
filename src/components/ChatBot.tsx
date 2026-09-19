@@ -13,6 +13,88 @@ interface Message {
   parts: [{ text: string }];
 }
 
+// 🎯 Component สำหรับแสดงแบบทดสอบ (Quiz)
+const QuizBlock = ({ quiz, onSend, isLast, speak, isLoading }: any) => {
+  const [selected, setSelected] = useState('');
+  const [submitted, setSubmitted] = useState(false);
+
+  if (!quiz || !quiz.is_active) return null;
+
+  return (
+    <div className="bg-indigo-50/80 border border-indigo-200 rounded-2xl p-5 shadow-sm w-full lg:max-w-[90%] mt-3">
+      <div className="font-bold text-indigo-900 mb-4 border-b border-indigo-200/60 pb-3 flex justify-between items-center">
+        <span className="flex items-center gap-2 text-base">📝 แบบทดสอบความเข้าใจ</span>
+        {quiz.question_cn && (
+          <button onClick={() => speak(quiz.question_cn, 'zh-CN')} className="text-indigo-600 hover:text-indigo-800 bg-indigo-100 p-2 rounded-full transition-colors shadow-sm">
+            <Volume2 size={18} />
+          </button>
+        )}
+      </div>
+      
+      {/* ส่วนคำถาม */}
+      <div className="mb-5 pl-1">
+        <div className="text-xl font-bold text-slate-800">{quiz.question_cn}</div>
+        <div className="text-[15px] text-slate-600 font-mono mt-1.5">{quiz.question_pinyin}</div>
+        <div className="text-[15px] text-slate-700 mt-1">{quiz.question_th}</div>
+      </div>
+
+      {/* ส่วนตัวเลือก */}
+      <div className="space-y-3">
+        {quiz.options?.map((opt: any, i: number) => (
+          <label 
+            key={i} 
+            className={`flex items-start gap-4 p-4 rounded-xl border-2 cursor-pointer transition-all ${
+              selected === opt.id 
+                ? 'bg-indigo-100/50 border-indigo-400 shadow-sm' 
+                : 'bg-white border-slate-200 hover:bg-slate-50 hover:border-slate-300'
+            }`}
+          >
+            <input 
+              type="radio" 
+              name={`quiz-opt-${quiz.question_cn}`}
+              value={opt.id}
+              checked={selected === opt.id}
+              onChange={() => !submitted && setSelected(opt.id)}
+              disabled={submitted || !isLast || isLoading}
+              className="mt-1 w-4 h-4 text-indigo-600"
+            />
+            <div className="flex-1">
+              <div className="flex items-center gap-3">
+                <span className="font-bold text-slate-800 text-lg">{opt.text_cn}</span>
+                <button 
+                  type="button" 
+                  onClick={(e) => { e.preventDefault(); speak(opt.text_cn, 'zh-CN'); }} 
+                  className="text-slate-400 hover:text-indigo-600 bg-slate-100 hover:bg-indigo-50 p-1.5 rounded-full transition-colors"
+                >
+                  <Volume2 size={16} />
+                </button>
+              </div>
+              <div className="text-sm text-slate-500 font-mono mt-1">{opt.text_pinyin}</div>
+              <div className="text-sm text-slate-600 mt-0.5">{opt.text_th}</div>
+            </div>
+          </label>
+        ))}
+      </div>
+
+      {/* ปุ่มส่งคำตอบ (แสดงเฉพาะกล่องแชทล่าสุด) */}
+      {isLast && !submitted && (
+        <button 
+          onClick={() => {
+            if(selected) {
+              setSubmitted(true);
+              onSend(`ฉันขอตอบตัวเลือก: ${selected}`);
+            }
+          }}
+          disabled={!selected || isLoading}
+          className="mt-5 w-full bg-indigo-600 text-white font-bold py-3.5 rounded-xl hover:bg-indigo-700 disabled:opacity-50 transition-all shadow-md flex justify-center items-center gap-2 text-base"
+        >
+          ส่งคำตอบ <Send size={18} />
+        </button>
+      )}
+    </div>
+  );
+};
+
 export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBotProps) {
   const [messages, setMessages] = useState<Message[]>([]);
   const [inputText, setInputText] = useState('');
@@ -21,7 +103,6 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
   const [micLang, setMicLang] = useState<'th-TH' | 'zh-CN'>('th-TH'); 
   
   const [selectedProvider, setSelectedProvider] = useState<'gemini' | 'chatgpt' | 'groq' | 'cloudflare'>('gemini');
-
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -30,8 +111,9 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
 
   useEffect(() => {
     const initialJson = JSON.stringify({
-      message: `สวัสดีครับ! วันนี้เรามาทบทวนบทเรียน "${lessonTitle}" กันเถอะ มีคำศัพท์หรือประโยคไหนในบทนี้ที่อยากให้คุณครูช่วยอธิบายไหมครับ? กดไมค์พูดถามมาได้เลยนะ!`,
-      vocabularies: []
+      message: `สวัสดีครับ! วันนี้เรามาทบทวนบทเรียน "${lessonTitle}" กันเถอะ\n同学们好！今天我们来复习一下 "${lessonTitle}" 这节课。\n(Tóngxué men hǎo! Jīntiān wǒmen lái fùxí yíxià zhè jié kè.)\n\nมีคำศัพท์ไหนอยากให้ครูอธิบาย ให้แปลประโยค หรือ **อยากลองทำแบบทดสอบ** พิมพ์บอกครูได้เลยนะ!`,
+      vocabularies: [],
+      quiz: { is_active: false }
     });
     setMessages([
       { role: 'model', parts: [{ text: initialJson }] }
@@ -60,9 +142,10 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
     setInputText('');
     setIsLoading(true);
 
+    // 🎯 เพิ่มกฎข้อ 5 สำหรับการหั่นประโยคเป็นคำศัพท์
     const systemInstruction = `
       คุณคือ "AI คุณครู" ครูสอนภาษาจีน
-      หน้าทึ่: พูดคุยและดึงข้อมูลจาก DATABASE มาอธิบายนักเรียน
+      หน้าทึ่: พูดคุย ดึงข้อมูลจาก DATABASE มาอธิบาย แปลประโยค หรือ "สร้างแบบทดสอบ" ให้นักเรียน
       
       --- DATABASE ---
       หัวข้อ: ${lessonTitle}
@@ -70,24 +153,49 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
       ---------------
       
       กฎเหล็กการตอบ (สำคัญมาก):
-      1. ห้ามใช้ Markdown (เช่น **, *) หรือสัญลักษณ์พิเศษ
+      1. ห้ามใช้ Markdown สัญลักษณ์พิเศษ
       2. ต้องตอบกลับมาเป็น JSON Format เท่านั้น ตามโครงสร้างนี้:
       {
-        "message": "ข้อความอธิบาย พูดคุย หรือสรุปบทเรียน (ภาษาไทยล้วน ไม่มีสัญลักษณ์)",
+        "message": "ข้อความทักทาย อธิบาย หรือแปลความหมาย (ต้องมี 3 ส่วน: 1.ไทย 2.จีน 3.พินอิน)",
         "vocabularies": [
           {
             "meaning": "คำแปล",
-            "reading": "คำอ่านภาษาไทย",
-            "pinyin": "พินอิน (Pinyin)",
-            "chinese": "การเขียน (อักษรจีน)",
+            "reading": "คำอ่านไทย",
+            "pinyin": "พินอิน",
+            "chinese": "อักษรจีน",
             "example_cn": "ประโยคตัวอย่างภาษาจีน",
+            "example_pinyin": "พินอินของประโยคตัวอย่าง (ต้องมีเสมอ)",
             "example_th": "คำแปลประโยคตัวอย่าง"
           }
-        ]
+        ],
+        "quiz": {
+          "is_active": true หรือ false (ใส่ true ถ้าต้องการส่งคำถาม),
+          "question_cn": "คำถามภาษาจีน",
+          "question_pinyin": "พินอินคำถาม",
+          "question_th": "คำถามภาษาไทย",
+          "options": [
+            {
+              "id": "A",
+              "text_cn": "ตัวเลือกจีน",
+              "text_pinyin": "พินอินตัวเลือก",
+              "text_th": "ไทยตัวเลือก"
+            }
+          ]
+        }
       }
-      3. หากคำถามเป็นการทักทาย หรือไม่ได้ถามหาคำศัพท์ ให้ใส่ vocabularies เป็นก้อน array ว่าง []
-      4. ประโยคตัวอย่างภาษาจีน (example_cn) ต้องสั้น กระชับ ใช้ในชีวิตประจำวันได้จริง
-      5. ห้ามสร้างข้อความที่วนลูป หรือพิมพ์ตัวอักษรซ้ำๆ ไปมาเด็ดขาด
+      3. **กฎการสร้างแบบทดสอบ (Quiz):**
+         - หากนักเรียนขอให้สร้างแบบทดสอบ ให้สร้าง "ทีละ 1 ข้อ" ใส่ในก้อน "quiz" เสมอ
+         - ต้องมีตัวเลือกอย่างน้อย 3-4 ข้อ (A, B, C, D) 
+         - ห้ามตั้งคำถามซ้ำกับข้อที่ผ่านมา
+      4. **กฎการเฉลยคำตอบ:**
+         - เมื่อนักเรียนพิมพ์ตอบกลับมา ให้คุณเฉลยและอธิบายทันที ลงในช่อง "message"
+         - หากนักเรียนขอสร้างข้อสอบหลายข้อ ให้สร้างคำถาม "ข้อต่อไป" ส่งมาพร้อมกันใน "quiz" ทันที จนกว่าจะครบ
+      5. **กฎการแปลประโยคหรือกลุ่มคำ (สำคัญมาก):**
+         - หากนักเรียนพิมพ์ประโยคยาวๆ หรือพิมพ์คำศัพท์มาเรียงกันหลายๆ คำเพื่อขอให้แปล ในช่อง "message" ต้องตอบโครงสร้างนี้:
+           พินอินประโยค: [พินอินของทั้งประโยค]
+           คำแปล: [คำแปลภาษาไทยของทั้งประโยค]
+         - หลังจากนั้นให้แยกคำศัพท์ "แต่ละคำ" จากประโยคนั้น ใส่ลงใน array "vocabularies" เพื่อให้ระบบนำไปสร้างการ์ดคำศัพท์เรียงกันทีละคำ
+      6. ห้ามสร้างข้อความที่วนลูป หรือพิมพ์ตัวอักษรซ้ำๆ ไปมาเด็ดขาด
     `;
 
     try {
@@ -137,7 +245,7 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
     recognition.start();
   };
 
-  const renderModelMessage = (text: string) => {
+  const renderModelMessage = (text: string, isLast: boolean) => {
     try {
       const safeText = typeof text === 'string' ? text : JSON.stringify(text);
       const cleanText = safeText.replace(/```json/gi, '').replace(/```/g, '').trim();
@@ -145,18 +253,20 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
       
       return (
         <div className="flex flex-col gap-3 w-full">
+          {/* ข้อความหลักอธิบายหรือเฉลยคำตอบ */}
           {parsed.message && (
             <div className="bg-white text-slate-700 border border-slate-200 rounded-2xl rounded-tl-none p-4 shadow-sm">
-              <p className="text-[15px] leading-relaxed">{String(parsed.message)}</p>
+              <p className="text-[15px] leading-relaxed whitespace-pre-wrap">{String(parsed.message)}</p>
               <button 
                 onClick={() => speak(String(parsed.message), 'th-TH')} 
-                className="mt-3 text-indigo-600 hover:text-indigo-800 bg-indigo-50 px-3 py-1.5 rounded-lg flex items-center gap-1.5 text-xs font-bold transition-colors w-max"
+                className="mt-3 text-emerald-600 hover:text-emerald-800 bg-emerald-50 px-3 py-1.5 rounded-lg flex items-center gap-1.5 text-xs font-bold transition-colors w-max"
               >
-                <Volume2 size={16} /> ฟังเสียง
+                <Volume2 size={16} /> ฟังเสียงคุณครู
               </button>
             </div>
           )}
 
+          {/* กล่องคำศัพท์ (ถ้ามี) */}
           {Array.isArray(parsed.vocabularies) && parsed.vocabularies.length > 0 && (
             <div className="flex flex-col gap-3 w-full">
               {parsed.vocabularies.map((v: any, i: number) => (
@@ -188,10 +298,11 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
                       <div className="flex items-start justify-between gap-2">
                         <div className="flex flex-col gap-1">
                           <span className="font-medium text-slate-800 text-base">{v.example_cn || ''}</span>
-                          <span className="text-slate-500 text-sm">{v.example_th || ''}</span>
+                          {v.example_pinyin && <span className="text-slate-500 text-sm font-mono">{v.example_pinyin}</span>}
+                          <span className="text-slate-600 text-sm">{v.example_th || ''}</span>
                         </div>
                         {v.example_cn && (
-                          <button onClick={() => speak(v.example_cn, 'zh-CN')} className="text-indigo-500 hover:text-indigo-700 bg-indigo-50 p-2 rounded-full shrink-0 mt-0.5">
+                          <button onClick={() => speak(v.example_cn, 'zh-CN')} className="text-emerald-600 hover:text-emerald-800 bg-emerald-100 p-2 rounded-full shrink-0 mt-0.5">
                             <Volume2 size={16} />
                           </button>
                         )}
@@ -202,6 +313,15 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
               ))}
             </div>
           )}
+
+          {/* 🎯 แสดงแบบทดสอบเมื่อ AI ให้คำถามมา */}
+          <QuizBlock 
+            quiz={parsed.quiz} 
+            onSend={handleSend} 
+            isLast={isLast} 
+            speak={speak} 
+            isLoading={isLoading} 
+          />
         </div>
       );
     } catch (e) {
@@ -215,10 +335,8 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
   };
 
   return (
-    /* 🎯 เปลี่ยนจากหน้าต่างเล็กมุมขวา เป็นเต็มจอ (fixed inset-0 w-full h-full) */
     <div className="fixed inset-0 w-full h-full bg-slate-50 flex flex-col z-[9999] overflow-hidden">
       
-      {/* 🎯 Header - จัดให้อยู่ตรงกลางด้วย max-w-3xl */}
       <div className="bg-emerald-600 text-white p-3 shadow-md z-10 flex justify-center">
         <div className="w-full max-w-3xl flex flex-col gap-3">
           <div className="flex items-center justify-between mt-1">
@@ -238,17 +356,15 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
               onChange={(e) => setSelectedProvider(e.target.value as any)}
               className="bg-transparent border-none text-white outline-none w-full cursor-pointer font-medium text-base"
             >
-              {/* 🎯 เปลี่ยนชื่อคุณครูตามที่อาจารย์ต้องการ */}
               <option value="gemini" className="text-slate-800">คุณครู GeGe</option>
               <option value="groq" className="text-slate-800">คุณครู LUNA</option>
               <option value="cloudflare" className="text-slate-800">คุณครู SKY</option>
-         
+              <option value="chatgpt" className="text-slate-800">คุณครู GPT</option>
             </select>
           </div>
         </div>
       </div>
 
-      {/* 🎯 ช่องแชท - แสดงผลเต็มความสูงและจัดกลางสำหรับจอใหญ่ */}
       <div className="flex-1 overflow-y-auto p-4 flex flex-col items-center bg-[#f8fafc]">
         <div className="w-full max-w-3xl space-y-6 pb-4">
           {messages.map((msg, idx) => (
@@ -258,14 +374,14 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
                   <p className="text-[15px] leading-relaxed">{msg.parts[0].text}</p>
                 </div>
               ) : (
-                renderModelMessage(msg.parts[0].text)
+                renderModelMessage(msg.parts[0].text, idx === messages.length - 1)
               )}
             </div>
           ))}
           {isLoading && (
             <div className="flex justify-start w-full">
               <div className="bg-white p-4 rounded-2xl rounded-tl-none shadow-sm flex items-center gap-3 border border-slate-200 text-slate-500 text-sm">
-                <Loader2 className="animate-spin w-5 h-5 text-emerald-500" /> กำลังคิดคำตอบ...
+                <Loader2 className="animate-spin w-5 h-5 text-emerald-500" /> คุณครูกำลังคิดคำตอบ...
               </div>
             </div>
           )}
@@ -273,7 +389,6 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
         </div>
       </div>
 
-      {/* 🎯 แถบพิมพ์ข้อความด้านล่าง - จัดกลาง */}
       <div className="p-4 bg-white border-t border-slate-200 flex justify-center shadow-[0_-4px_15px_-5px_rgba(0,0,0,0.05)]">
         <div className="w-full max-w-3xl flex items-center gap-3">
           <button 
@@ -294,7 +409,7 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
             value={inputText}
             onChange={e => setInputText(e.target.value)}
             onKeyDown={e => e.key === 'Enter' && handleSend(inputText)}
-            placeholder="พิมพ์ถามคุณครู..."
+            placeholder="พิมพ์ถาม สั่งให้แปล หรือขอให้ครูทำแบบทดสอบได้เลย..."
             className="flex-1 bg-slate-100 border-none rounded-full px-5 py-3.5 text-[15px] focus:ring-2 focus:ring-emerald-500 outline-none w-full"
           />
           <button 
