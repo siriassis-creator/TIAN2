@@ -1,6 +1,5 @@
 // src/components/ChatBot.tsx
 import React, { useState, useEffect, useRef } from 'react';
-// 🎯 1. เพิ่ม VolumeX เข้ามาสำหรับทำปุ่มปิดเสียง
 import { Send, Mic, Volume2, VolumeX, X, Loader2, Bot, Cpu } from 'lucide-react';
 
 interface ChatBotProps {
@@ -98,12 +97,25 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
   const [isLoading, setIsLoading] = useState(false);
   const [isListening, setIsListening] = useState(false);
   const [micLang, setMicLang] = useState<'th-TH' | 'zh-CN'>('th-TH'); 
-  
-  // 🎯 2. สร้าง State เปิด/ปิดเสียงพูดอัตโนมัติ (เริ่มต้นให้เปิดไว้)
   const [isAutoSpeak, setIsAutoSpeak] = useState(true);
-
   const [selectedProvider, setSelectedProvider] = useState<'gemini' | 'chatgpt' | 'groq' | 'cloudflare'>('gemini');
+  
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  
+  // 🎯 สร้างระบบควบคุมการเล่นเสียง
+  const currentAudioRef = useRef<HTMLAudioElement | null>(null);
+  const isPlayingRef = useRef(false);
+
+  // ฟังก์ชันหยุดเสียงทุกอย่างทันทีที่กดปิด หรือขึ้นข้อความใหม่
+  const stopAudio = () => {
+    isPlayingRef.current = false;
+    if (currentAudioRef.current) {
+      currentAudioRef.current.pause();
+      currentAudioRef.current.src = '';
+      currentAudioRef.current = null;
+    }
+    window.speechSynthesis.cancel();
+  };
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -111,7 +123,7 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
 
   useEffect(() => {
     const initialJson = JSON.stringify({
-      message: `สวัสดีครับ! วันนี้เรามาทบทวนบทเรียน "${lessonTitle}" กันเถอะ\n同学们好！今天我们来复习一下 "${lessonTitle}" 这节课。\n(Tóngxué men hǎo! Jīntiān wǒmen lái fùxí yíxià zhè jié kè.)\n\nมีคำศัพท์ไหนอยากให้ครูอธิบาย ให้แปลประโยค หรือ **อยากลองทำแบบทดสอบ** พิมพ์บอกครูได้เลยนะ!`,
+      message: `สวัสดีครับ! วันนี้เรามาทบทวนบทเรียน "${lessonTitle}" กันเถอะ\n同学们好！今天我们来复习一下 "${lessonTitle}" 这节课。\n(Tóngxué men hǎo! Jīntiān wǒmen lái fùxí yíxià zhè jié kè.)\n\nมีคำศัพท์ไหนอยากให้ครูอธิบาย ให้แปลประโยค หรือ **อยากลองทำแบบทดสอบ** พิมพ์บอกครูได้เลยนะ! สามารถดูรายละเอียดข้างล่างได้เลยครับ`,
       vocabularies: [],
       quiz: { is_active: false }
     });
@@ -120,20 +132,56 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
     ]);
   }, [lessonTitle]);
 
-  const speak = (text: string, lang: 'zh-CN' | 'th-TH') => {
-    if ('speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-      const cleanText = text.replace(/[\[\]\(\)\-\*\_]/g, ''); 
-      const utterance = new SpeechSynthesisUtterance(cleanText);
-      utterance.lang = lang; 
-      utterance.rate = 0.9;
-      window.speechSynthesis.speak(utterance);
+  // 🎯 อัปเกรดระบบลำโพง: สลับภาษาอัตโนมัติแล้วยิง API ดึงเสียงฟรีจาก Google
+  const speak = async (text: string, defaultLang: 'zh-CN' | 'th-TH' = 'th-TH') => {
+    stopAudio(); // หยุดเสียงเก่าก่อนเล่นใหม่
+    isPlayingRef.current = true;
+
+    // 1. คลีนพินอิน(ภาษาอังกฤษ) และสัญลักษณ์พิเศษทิ้ง เพื่อกันหุ่นยนต์อ่าน a-b-c
+    let cleanText = text.replace(/\([a-zA-Zāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ\s]+\)/g, '');
+    cleanText = cleanText.replace(/[\[\]\-\*\_]/g, '');
+
+    // 2. หั่นประโยค สลับก้อนภาษาจีนกับก้อนภาษาไทย
+    const segments = cleanText.split(/([\u4e00-\u9fa5]+)/g);
+
+    // 3. ใช้ลูปเพื่อเล่นเสียงต่อกันทีละท่อนแบบเนียนๆ
+    for (const segment of segments) {
+      if (!isPlayingRef.current) break; // ถ้าผู้ใช้กดปิดเสียงกลางคัน ให้หลุดลูปทันที
+      if (!segment.trim()) continue;
+
+      // ตรวจสอบว่าท่อนนี้เป็นจีนหรือไทย
+      const isChinese = /[\u4e00-\u9fa5]/.test(segment);
+      const langCode = isChinese ? 'zh-CN' : (defaultLang === 'zh-CN' ? 'zh-CN' : 'th');
+
+      try {
+        // ยิงไปขอไฟล์เสียงฟรีจาก api/tts.js ของเรา
+        const response = await fetch('/api/tts', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text: segment, lang: langCode })
+        });
+
+        if (response.ok && isPlayingRef.current) {
+          const blob = await response.blob();
+          const audioUrl = URL.createObjectURL(blob);
+          const audio = new Audio(audioUrl);
+          currentAudioRef.current = audio;
+
+          // รอให้ท่อนนี้เล่นจบก่อน ค่อยวนลูปไปเล่นท่อนถัดไป
+          await new Promise((resolve) => {
+            audio.onended = resolve;
+            audio.onerror = resolve; // ถ้าเล่นไฟล์พัง ให้ข้ามไปท่อนต่อไปเลย
+            audio.play();
+          });
+        }
+      } catch (e) {
+        console.error("ระบบดึงเสียงทำงานผิดพลาด:", e);
+      }
     }
   };
 
-  // 🎯 3. ฟังก์ชันสำหรับอ่านออกเสียงอัตโนมัติเมื่อได้ข้อความใหม่
   const triggerAutoSpeak = (replyText: string) => {
-    if (!isAutoSpeak) return; // ถ้าผู้ใช้ปิดเสียงไว้ ให้ข้ามไปเลย
+    if (!isAutoSpeak) return; 
     
     try {
       let cleanText = replyText.replace(/```json/gi, '').replace(/```/g, '').trim();
@@ -144,12 +192,10 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
       }
       const parsed = JSON.parse(cleanText);
       
-      // สั่งให้อ่านออกเสียงเฉพาะช่อง message หลัก
       if (parsed.message) {
         speak(parsed.message, 'th-TH');
       }
     } catch (e) {
-      // ถ้า JSON แตก (เช่น Error) ให้อ่านดิบๆ ไปเลย
       speak(replyText, 'th-TH');
     }
   };
@@ -175,10 +221,10 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
       ---------------
       
       กฎเหล็กการตอบ (สำคัญมาก):
-      1. ต้องตอบกลับมาเป็น JSON Format เท่านั้น ขึ้นต้นด้วย { และจบด้วย } ห้ามมีข้อความเกริ่นนำหรือลงท้ายเด็ดขาด
+      1. ต้องตอบกลับมาเป็น JSON Format เท่านั้น ขึ้นต้นด้วย { และจบด้วย } ห้ามมีข้อความเกริ่นนำหรือลงท้าย
       2. โครงสร้าง JSON ต้องเป็นไปตามนี้:
       {
-        "message": "ข้อความทักทาย หรืออธิบาย (ต้องมี 1.ไทย 2.จีน 3.พินอิน)",
+        "message": "คำตอบแบบสั้น กระชับที่สุด และต้องลงท้ายด้วยคำว่า 'สามารถดูรายละเอียดข้างล่างได้เลยค่ะ/ครับ' เสมอ ห้ามอธิบายยาวๆ ในช่องนี้เด็ดขาด",
         "vocabularies": [
           {
             "meaning": "คำแปล",
@@ -200,10 +246,10 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
           ]
         }
       }
-      3. การสร้างแบบทดสอบ: สร้างทีละ 1 ข้อ มี 3-4 ตัวเลือก เมื่อนักเรียนตอบ ให้เฉลยใน message และถ้าขอหลายข้อให้ส่งข้อต่อไปมาใน quiz
-      4. การแปลประโยคหรือกลุ่มคำ: ห้ามแปลแยกเป็นข้อๆ ให้ตอบสรุปรวมใน message (จีน, พินอินรวม, คำแปลรวม) แล้วค่อยจับคำศัพท์ "แยกทีละคำ" ใส่ลงใน vocabularies
-      5. กฎคำอ่านภาษาไทย: ช่อง "reading_th" บังคับเขียนเป็นคำอ่านภาษาไทยเทียบเสียงพินอินให้ถูกต้อง ห้ามเว้นว่าง
-      6. **ข้อควรระวังสำคัญ (Strict JSON):** ห้ามใช้เครื่องหมาย Enter หรือเว้นบรรทัดแบบปกติภายในเครื่องหมายคำพูด ("...") หากต้องการขึ้นบรรทัดใหม่ให้พิมพ์สัญลักษณ์ \\n เท่านั้น และห้ามมี Comma (,) เกินมาในตัวสุดท้ายของ Array หรือ Object
+      3. การสร้างแบบทดสอบ: สร้างทีละ 1 ข้อ มี 3-4 ตัวเลือก เมื่อนักเรียนตอบ ให้เฉลยใน message สั้นๆ และส่งข้อต่อไปมาใน quiz
+      4. การแปลประโยคหรือกลุ่มคำ: ตอบสรุปสั้นๆ ใน message แล้วค่อยนำคำศัพท์ "แยกทีละคำ" ใส่ลงใน vocabularies เพื่อให้การ์ดคำศัพท์ทำงาน
+      5. กฎคำอ่านภาษาไทย: ช่อง "reading_th" บังคับเขียนคำอ่านภาษาไทยเทียบเสียงพินอินให้ถูกต้องเสมอ
+      6. ห้ามใช้เครื่องหมาย Enter หรือเว้นบรรทัดแบบปกติภายใน JSON
     `;
 
     try {
@@ -221,7 +267,6 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
       
       if (response.ok && data.reply) {
         setMessages((prev) => [...prev, { role: 'model', parts: [{ text: data.reply }] }]);
-        // 🎯 4. สั่งให้อ่านข้อความทันทีเมื่อตอบกลับมา
         triggerAutoSpeak(data.reply);
       } else {
         const errorDetail = String(typeof data.error === 'object' ? JSON.stringify(data.error) : (data.error || 'ไม่ทราบสาเหตุ'));
@@ -236,7 +281,7 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
           quiz: { is_active: false }
         });
         setMessages((prev) => [...prev, { role: 'model', parts: [{ text: fallbackMsg }] }]);
-        triggerAutoSpeak(fallbackMsg); // 🎯 ให้อ่านแจ้งเตือน Error ด้วยเลย
+        triggerAutoSpeak(fallbackMsg);
       }
     } catch (err) {
       const fallbackMsg = JSON.stringify({
@@ -302,7 +347,7 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
                 onClick={() => speak(String(parsed.message), 'th-TH')} 
                 className="mt-3 text-emerald-600 hover:text-emerald-800 bg-emerald-50 px-3 py-1.5 rounded-lg flex items-center gap-1.5 text-xs font-bold transition-colors w-max"
               >
-                <Volume2 size={16} /> ฟังซ้ำอีกครั้ง
+                <Volume2 size={16} /> ฟังเสียงคุณครู
               </button>
             </div>
           )}
@@ -385,12 +430,11 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
               <h3 className="font-bold text-lg">AI ติวเตอร์ภาษาจีน</h3>
             </div>
             
-            {/* 🎯 5. เพิ่มปุ่มเปิด/ปิดเสียงพูดอัตโนมัติ ไว้คู่กับปุ่มกากบาท */}
             <div className="flex items-center gap-2">
               <button 
                 onClick={() => {
                   setIsAutoSpeak(!isAutoSpeak);
-                  if (isAutoSpeak) window.speechSynthesis.cancel(); // สั่งให้เงียบทันทีที่กดปิดเสียง
+                  stopAudio(); // 🎯 กดปุ่มแล้วเสียงดับทันที
                 }}
                 className={`p-2 rounded-xl transition-colors shadow-sm flex items-center gap-1 ${
                   isAutoSpeak ? 'bg-emerald-500 hover:bg-emerald-400 text-white' : 'bg-slate-100/20 hover:bg-slate-100/30 text-emerald-100'
