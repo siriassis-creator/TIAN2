@@ -1,6 +1,7 @@
 // src/components/ChatBot.tsx
 import React, { useState, useEffect, useRef } from 'react';
-import { Send, Mic, Volume2, X, Loader2, Bot, Cpu } from 'lucide-react';
+// 🎯 1. เพิ่ม VolumeX เข้ามาสำหรับทำปุ่มปิดเสียง
+import { Send, Mic, Volume2, VolumeX, X, Loader2, Bot, Cpu } from 'lucide-react';
 
 interface ChatBotProps {
   lessonTitle: string;
@@ -98,6 +99,9 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
   const [isListening, setIsListening] = useState(false);
   const [micLang, setMicLang] = useState<'th-TH' | 'zh-CN'>('th-TH'); 
   
+  // 🎯 2. สร้าง State เปิด/ปิดเสียงพูดอัตโนมัติ (เริ่มต้นให้เปิดไว้)
+  const [isAutoSpeak, setIsAutoSpeak] = useState(true);
+
   const [selectedProvider, setSelectedProvider] = useState<'gemini' | 'chatgpt' | 'groq' | 'cloudflare'>('gemini');
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
@@ -124,6 +128,29 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
       utterance.lang = lang; 
       utterance.rate = 0.9;
       window.speechSynthesis.speak(utterance);
+    }
+  };
+
+  // 🎯 3. ฟังก์ชันสำหรับอ่านออกเสียงอัตโนมัติเมื่อได้ข้อความใหม่
+  const triggerAutoSpeak = (replyText: string) => {
+    if (!isAutoSpeak) return; // ถ้าผู้ใช้ปิดเสียงไว้ ให้ข้ามไปเลย
+    
+    try {
+      let cleanText = replyText.replace(/```json/gi, '').replace(/```/g, '').trim();
+      const startIdx = cleanText.indexOf('{');
+      const endIdx = cleanText.lastIndexOf('}');
+      if (startIdx !== -1 && endIdx !== -1) {
+          cleanText = cleanText.substring(startIdx, endIdx + 1);
+      }
+      const parsed = JSON.parse(cleanText);
+      
+      // สั่งให้อ่านออกเสียงเฉพาะช่อง message หลัก
+      if (parsed.message) {
+        speak(parsed.message, 'th-TH');
+      }
+    } catch (e) {
+      // ถ้า JSON แตก (เช่น Error) ให้อ่านดิบๆ ไปเลย
+      speak(replyText, 'th-TH');
     }
   };
 
@@ -194,6 +221,8 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
       
       if (response.ok && data.reply) {
         setMessages((prev) => [...prev, { role: 'model', parts: [{ text: data.reply }] }]);
+        // 🎯 4. สั่งให้อ่านข้อความทันทีเมื่อตอบกลับมา
+        triggerAutoSpeak(data.reply);
       } else {
         const errorDetail = String(typeof data.error === 'object' ? JSON.stringify(data.error) : (data.error || 'ไม่ทราบสาเหตุ'));
         const errorLower = errorDetail.toLowerCase();
@@ -207,6 +236,7 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
           quiz: { is_active: false }
         });
         setMessages((prev) => [...prev, { role: 'model', parts: [{ text: fallbackMsg }] }]);
+        triggerAutoSpeak(fallbackMsg); // 🎯 ให้อ่านแจ้งเตือน Error ด้วยเลย
       }
     } catch (err) {
       const fallbackMsg = JSON.stringify({
@@ -215,13 +245,13 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
         quiz: { is_active: false }
       });
       setMessages((prev) => [...prev, { role: 'model', parts: [{ text: fallbackMsg }] }]);
+      triggerAutoSpeak(fallbackMsg);
     } finally {
       setIsLoading(false);
     }
   };
 
   const toggleListen = () => {
-    // ลบการใช้ alert ในส่วนของไมโครโฟนออก เปลี่ยนเป็นการแจ้งเตือนแบบอ่อนโยน
     const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
     if (!SpeechRecognition) {
       const fallbackMsg = JSON.stringify({
@@ -230,6 +260,7 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
         quiz: { is_active: false }
       });
       setMessages((prev) => [...prev, { role: 'model', parts: [{ text: fallbackMsg }] }]);
+      triggerAutoSpeak(fallbackMsg);
       return;
     }
 
@@ -252,11 +283,8 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
   const renderModelMessage = (text: string, isLast: boolean) => {
     try {
       const safeText = typeof text === 'string' ? text : JSON.stringify(text);
-      
-      // 1. คลีน Markdown ทิ้งก่อน
       let cleanText = safeText.replace(/```json/gi, '').replace(/```/g, '').trim();
       
-      // 2. 🎯 คีมคีบ JSON: บังคับตัดเอาเฉพาะข้อมูลตั้งแต่ปีกกา { ถึง } เท่านั้น เพื่อแก้ปัญหา AI บ่นนอกเรื่อง
       const startIdx = cleanText.indexOf('{');
       const endIdx = cleanText.lastIndexOf('}');
       if (startIdx !== -1 && endIdx !== -1) {
@@ -274,7 +302,7 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
                 onClick={() => speak(String(parsed.message), 'th-TH')} 
                 className="mt-3 text-emerald-600 hover:text-emerald-800 bg-emerald-50 px-3 py-1.5 rounded-lg flex items-center gap-1.5 text-xs font-bold transition-colors w-max"
               >
-                <Volume2 size={16} /> ฟังเสียงคุณครู
+                <Volume2 size={16} /> ฟังซ้ำอีกครั้ง
               </button>
             </div>
           )}
@@ -356,9 +384,26 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
               <Bot size={26} />
               <h3 className="font-bold text-lg">AI ติวเตอร์ภาษาจีน</h3>
             </div>
-            <button onClick={onClose} className="hover:bg-emerald-500 p-2 rounded-xl transition-colors">
-              <X size={22} />
-            </button>
+            
+            {/* 🎯 5. เพิ่มปุ่มเปิด/ปิดเสียงพูดอัตโนมัติ ไว้คู่กับปุ่มกากบาท */}
+            <div className="flex items-center gap-2">
+              <button 
+                onClick={() => {
+                  setIsAutoSpeak(!isAutoSpeak);
+                  if (isAutoSpeak) window.speechSynthesis.cancel(); // สั่งให้เงียบทันทีที่กดปิดเสียง
+                }}
+                className={`p-2 rounded-xl transition-colors shadow-sm flex items-center gap-1 ${
+                  isAutoSpeak ? 'bg-emerald-500 hover:bg-emerald-400 text-white' : 'bg-slate-100/20 hover:bg-slate-100/30 text-emerald-100'
+                }`}
+                title={isAutoSpeak ? "ปิดเสียงพูดอัตโนมัติ" : "เปิดเสียงพูดอัตโนมัติ"}
+              >
+                {isAutoSpeak ? <Volume2 size={20} /> : <VolumeX size={20} />}
+              </button>
+
+              <button onClick={onClose} className="hover:bg-emerald-500 p-2 rounded-xl transition-colors">
+                <X size={22} />
+              </button>
+            </div>
           </div>
           
           <div className="flex items-center gap-2 text-sm bg-emerald-700/60 p-2 rounded-xl border border-emerald-400/30">
