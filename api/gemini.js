@@ -69,7 +69,7 @@ export default async function handler(req, res) {
         modelName = "gpt-4o-mini";
       } else if (isDeepseek) {
         apiUrl = "https://openrouter.ai/api/v1/chat/completions"; // Endpoint สำหรับ OpenRouter
-        modelName = "deepseek-v4.1-flash:free"; // โมเดล DeepSeek แบบ Free
+        modelName = "deepseek/deepseek-r1:free";
       } else {
         apiUrl = "https://api.groq.com/openai/v1/chat/completions";
         modelName = "qwen/qwen3.8-27b";
@@ -153,6 +153,6 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'ไม่รู้จัก Provider ที่เลือก' });
 
   } catch (error) {
-    return res.status(500).json({ error: error.message });
+    return res.status(500).json({ error: error.message });ƒ
   }
 }
