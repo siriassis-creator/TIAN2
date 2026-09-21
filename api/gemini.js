@@ -12,6 +12,7 @@ export default async function handler(req, res) {
     const geminiKey = process.env.GEMINI_API_KEY;
     const openaiKey = process.env.OPENAI_API_KEY;
     const groqKey = process.env.GROQ_API_KEY;
+    const deepseekKey = process.env.DEEPSEEK_API_KEY; // 🎯 นำ API Key จาก TokenHarbor มาใส่ตัวแปรนี้ใน Vercel
     const cfAccountId = process.env.CLOUDFLARE_ACCOUNT_ID; 
     const cfToken = process.env.CLOUDFLARE_API_TOKEN;
 
@@ -41,14 +42,13 @@ export default async function handler(req, res) {
     }
 
     // ==========================================
-    // 2. ChatGPT, Groq หรือ DeepSeek (ใช้งานผ่าน Groq ฟรี 100%)
+    // 2. ChatGPT, Groq หรือ DeepSeek (ผ่าน TokenHarbor)
     // ==========================================
     if (provider === 'chatgpt' || provider === 'groq' || provider === 'deepseek') {
       const isGpt = provider === 'chatgpt';
       const isDeepseek = provider === 'deepseek';
       
-      // 🎯 ใช้ groqKey สำหรับทั้งคุณครู LUNA และคุณครู DeepSeek เลยครับ (ประหยัด ไม่ต้องเสียเงิน)
-      const apiKey = isGpt ? openaiKey : groqKey;
+      const apiKey = isGpt ? openaiKey : (isDeepseek ? deepseekKey : groqKey);
       
       if (!apiKey) return res.status(500).json({ error: `ไม่พบ API Key สำหรับ ${provider.toUpperCase()}` });
 
@@ -66,9 +66,9 @@ export default async function handler(req, res) {
         apiUrl = "https://api.openai.com/v1/chat/completions";
         modelName = "gpt-4o-mini";
       } else if (isDeepseek) {
-        // 🎯 สลับให้คุณครู DeepSeek มาวิ่งผ่าน API ของ Groq (ได้ใช้ DeepSeek R1 ฟรีและไวมาก!)
-        apiUrl = "https://api.groq.com/openai/v1/chat/completions"; 
-        modelName = "deepseek-r1-distill-llama-70b"; 
+        // 🎯 สลับให้คุณครู DeepSeek วิ่งผ่าน API ของ TokenHarbor
+        apiUrl = "https://api.tokenharbor.ai/v1/chat/completions"; 
+        modelName = "deepseek-chat"; // ใช้โมเดล DeepSeek V3 (หรือเปลี่ยนเป็น deepseek-reasoner ถ้าอยากใช้ R1)
       } else {
         apiUrl = "https://api.groq.com/openai/v1/chat/completions";
         modelName = "qwen/qwen3.8-27b";
