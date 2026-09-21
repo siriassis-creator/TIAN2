@@ -453,8 +453,7 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
               <option value="groq" className="text-slate-800">คุณครู LUNA</option>
               <option value="cloudflare" className="text-slate-800">คุณครู SKY</option>
               <option value="chatgpt" className="text-slate-800">คุณครู GPT</option>
-              {/* 🎯 เพิ่มคุณครู DeepSeek ในเมนูให้เลือก */}
-              <option value="deepseek" className="text-slate-800">คุณครู DeepSeek</option>
+          
             </select>
           </div>
         </div>
