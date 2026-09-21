@@ -1,0 +1,3155 @@
+[
+    {
+      "question_id": "CN_PRE_Q001",
+      "test_id": "CN_PRE_001",
+      "question_number": 1,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "อุปกรณ์ทานอาหาร",
+      "lesson": "LS5",
+      "question": "คำศัพท์ภาษาจีนว่า “筷子” (kuàizi) มีความหมายตรงกับข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ช้อน"
+        },
+        {
+          "id": "B",
+          "text": "ตะเกียบ"
+        },
+        {
+          "id": "C",
+          "text": "ส้อม"
+        },
+        {
+          "id": "D",
+          "text": "จาน"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "“筷子” (kuàizi) แปลว่า ตะเกียบ ซึ่งเป็นอุปกรณ์ทานอาหารหลักในบทเรียน LS5",
+      "learning_objective": "ระบุความหมายคำศัพท์อุปกรณ์ทานอาหารได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q001"
+    },
+    {
+      "question_id": "CN_PRE_Q002",
+      "test_id": "CN_PRE_001",
+      "question_number": 2,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "เครื่องดื่ม",
+      "lesson": "LS5",
+      "question": "คำศัพท์ภาษาจีนที่หมายถึง “น้ำผลไม้” คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "可乐 (kělè)"
+        },
+        {
+          "id": "B",
+          "text": "牛奶 (niúnǎi)"
+        },
+        {
+          "id": "C",
+          "text": "果汁 (guǒzhī)"
+        },
+        {
+          "id": "D",
+          "text": "冰水 (bīngshuǐ)"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "“果汁” (guǒzhī) แปลว่า น้ำผลไม้ (ส่วน A=โค้ก, B=นม, D=น้ำเย็น)",
+      "learning_objective": "ระบุคำศัพท์ภาษาจีนของหมวดเครื่องดื่มได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q002"
+    },
+    {
+      "question_id": "CN_PRE_Q003",
+      "test_id": "CN_PRE_001",
+      "question_number": 3,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "เครื่องเขียน",
+      "lesson": "LS6",
+      "question": "คำว่า “橡皮” (xiàngpí) มีความหมายตรงกับข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ดินสอ"
+        },
+        {
+          "id": "B",
+          "text": "ยางลบ"
+        },
+        {
+          "id": "C",
+          "text": "ปากกาหมึกซึม"
+        },
+        {
+          "id": "D",
+          "text": "สมุดบันทึก"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "“橡皮” (xiàngpí) แปลว่า ยางลบ ในบทเรียน LS6",
+      "learning_objective": "ระบุความหมายคำศัพท์หมวดเครื่องเขียนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q003"
+    },
+    {
+      "question_id": "CN_PRE_Q004",
+      "test_id": "CN_PRE_001",
+      "question_number": 4,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "pinyin",
+      "topic": "เครื่องแต่งกาย",
+      "lesson": "LS6",
+      "question": "Pinyin ที่ถูกต้องของคำว่า “上衣” (เสื้อ) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "shàngyī"
+        },
+        {
+          "id": "B",
+          "text": "kùzi"
+        },
+        {
+          "id": "C",
+          "text": "qúnzi"
+        },
+        {
+          "id": "D",
+          "text": "xié"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "“上衣” ออกเสียงว่า shàngyī แปลว่า เสื้อท่อนบน",
+      "learning_objective": "จับคู่คำศัพท์เครื่องแต่งกายกับ Pinyin ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q004"
+    },
+    {
+      "question_id": "CN_PRE_Q005",
+      "test_id": "CN_PRE_001",
+      "question_number": 5,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "culture",
+      "topic": "เงินตราและสกุลเงิน",
+      "lesson": "LS6",
+      "question": "สกุลเงินประจำชาติของประเทศจีนเรียกว่าอะไรในภาษาจีน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "泰铢 (Tàizhū)"
+        },
+        {
+          "id": "B",
+          "text": "人民币 (Rénmínbì)"
+        },
+        {
+          "id": "C",
+          "text": "美元 (Měihuán)"
+        },
+        {
+          "id": "D",
+          "text": "英镑 (Yīngbàng)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "“人民币” (Rénmínbì) คือ เงินหยวน/เงินเรนมินบี สกุลเงินของจีน",
+      "learning_objective": "บอกชื่อสกุลเงินของประเทศจีนเป็นภาษาจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q005"
+    },
+    {
+      "question_id": "CN_PRE_Q006",
+      "test_id": "CN_PRE_001",
+      "question_number": 6,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "คำลักษณนาม",
+      "lesson": "LS5",
+      "question": "คำนามในข้อใดต้องใช้คำลักษณนามว่า “双” (shuāng)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "杯子 (แก้ว)"
+        },
+        {
+          "id": "B",
+          "text": "盘子 (จาน)"
+        },
+        {
+          "id": "C",
+          "text": "鞋 (รองเท้า)"
+        },
+        {
+          "id": "D",
+          "text": "蛋糕 (เค้ก)"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "“双” ใช้กับสิ่งของที่เป็นคู่ เช่น 鞋 (รองเท้า) และ 筷子 (ตะเกียบ)",
+      "learning_objective": "เลือกใช้คำลักษณนาม 双 กับสิ่งของที่เป็นคู่ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q006"
+    },
+    {
+      "question_id": "CN_PRE_Q007",
+      "test_id": "CN_PRE_001",
+      "question_number": 7,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "คำลักษณนาม",
+      "lesson": "LS5",
+      "question": "วลีในข้อใดใช้คำลักษณนาม “杯” (bēi) ได้ถูกต้องตามบริบท?",
+      "options": [
+        {
+          "id": "A",
+          "text": "一杯蛋糕"
+        },
+        {
+          "id": "B",
+          "text": "一杯果汁"
+        },
+        {
+          "id": "C",
+          "text": "一杯筷子"
+        },
+        {
+          "id": "D",
+          "text": "一杯橡皮"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "“杯” (แก้ว/ถ้วย) ใช้กับเครื่องดื่ม เช่น 果汁 (น้ำผลไม้) หรือ 可乐 (โค้ก)",
+      "learning_objective": "เลือกใช้คำลักษณนาม 杯 กับภาชนะบรรจุเครื่องดื่มได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q007"
+    },
+    {
+      "question_id": "CN_PRE_Q008",
+      "test_id": "CN_PRE_001",
+      "question_number": 8,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "คำลักษณนาม",
+      "lesson": "LS6",
+      "question": "คำว่า “笔记本” (สมุดบันทึก) ต้องใช้คำลักษณนามในข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "个 (gè)"
+        },
+        {
+          "id": "B",
+          "text": "支 (zhī)"
+        },
+        {
+          "id": "C",
+          "text": "本 (běn)"
+        },
+        {
+          "id": "D",
+          "text": "块 (kuài)"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "“本” ใช้เป็นลักษณนามของสมุดและหนังสือ เช่น 一本笔记本 (สมุด 1 เล่ม)",
+      "learning_objective": "เลือกใช้คำลักษณนาม 本 กับหนังสือและสมุดได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q008"
+    },
+    {
+      "question_id": "CN_PRE_Q009",
+      "test_id": "CN_PRE_001",
+      "question_number": 9,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "sentence_pattern",
+      "topic": "รูปประโยค",
+      "lesson": "LS5",
+      "question": "รูปประโยค “ขอ...ให้ฉันหน่อย, ขอบคุณ!” ตรงกับโครงสร้างภาษาจีนในข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "给你..."
+        },
+        {
+          "id": "B",
+          "text": "给我..."
+        },
+        {
+          "id": "C",
+          "text": "没有...了"
+        },
+        {
+          "id": "D",
+          "text": "太...了"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "“给我 + [สิ่งของ], 谢谢！” แปลว่า ขอ...ให้ฉันหน่อย ขอบคุณ! (เช่น 给我一双筷子，谢谢！)",
+      "learning_objective": "ระบุรูปประโยคสุภาพในการขอสิ่งของได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q009"
+    },
+    {
+      "question_id": "CN_PRE_Q010",
+      "test_id": "CN_PRE_001",
+      "question_number": 10,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "sentence_pattern",
+      "topic": "รูปประโยค",
+      "lesson": "LS6",
+      "question": "ประโยคถามราคา “สิ่งนี้ราคาเท่าไร?” ในภาษาจีนคือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "这块橡皮多少钱？"
+        },
+        {
+          "id": "B",
+          "text": "这块橡皮很好看。"
+        },
+        {
+          "id": "C",
+          "text": "我只有十五块钱。"
+        },
+        {
+          "id": "D",
+          "text": "一共多少人？"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างถามราคาคือ [สิ่งของ] + 多少钱？ (แปลว่า ...ราคาเท่าไร?)",
+      "learning_objective": "ระบุประโยคถามราคาสินค้าพื้นฐานได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q010"
+    },
+    {
+      "question_id": "CN_PRE_Q011",
+      "test_id": "CN_PRE_001",
+      "question_number": 11,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "pinyin",
+      "topic": "Pinyin",
+      "lesson": "LS5",
+      "question": "เติมสระ Pinyin ที่หายไปของคำว่า “盘子” (จาน): p __ nzi",
+      "options": [],
+      "correct_answer": [
+        "á"
+      ],
+      "score": 1,
+      "explanation": "“盘子” ออกเสียงวรรณยุกต์เสียงที่ 2 คือ pánzi",
+      "learning_objective": "เติมสระ Pinyin ที่ขาดหายไปของคำว่าจานได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q011"
+    },
+    {
+      "question_id": "CN_PRE_Q012",
+      "test_id": "CN_PRE_001",
+      "question_number": 12,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "pinyin",
+      "topic": "Pinyin",
+      "lesson": "LS6",
+      "question": "เติม Pinyin ที่ขาดหายไปของคำว่า “เท่าไร” (多少): duō __",
+      "options": [],
+      "correct_answer": [
+        "shao"
+      ],
+      "score": 1,
+      "explanation": "“多少” อ่านออกเสียงว่า duōshao แปลว่า เท่าไร",
+      "learning_objective": "เติม Pinyin ที่ขาดหายไปของคำว่าเท่าไรได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q012"
+    },
+    {
+      "question_id": "CN_PRE_Q013",
+      "test_id": "CN_PRE_001",
+      "question_number": 13,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "คำลักษณนาม",
+      "lesson": "LS5",
+      "question": "เติมคำลักษณนามลงในช่องว่าง: “请给我一___蛋糕。” (ขอเค้กให้ฉัน 1 ชิ้น)",
+      "options": [],
+      "correct_answer": [
+        "块"
+      ],
+      "score": 1,
+      "explanation": "“块” ใช้เป็นลักษณนามของเค้ก (蛋糕) แปลว่า ชิ้น/ก้อน",
+      "learning_objective": "เติมคำลักษณนาม 块 ในประโยคได้ถูกต้องตามบริบท",
+      "pre_post_pair": "CN_POST_Q013"
+    },
+    {
+      "question_id": "CN_PRE_Q014",
+      "test_id": "CN_PRE_001",
+      "question_number": 14,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "คำลักษณนาม",
+      "lesson": "LS5",
+      "question": "เติมคำลักษณนามลงในช่องว่าง: “爸爸给我一___勺子。” (คุณพ่อให้ช้อนฉัน 1 คัน)",
+      "options": [],
+      "correct_answer": [
+        "个"
+      ],
+      "score": 1,
+      "explanation": "“勺子” (ช้อน) ใช้ลักษณนามทั่วไปคือ “个” (gè)",
+      "learning_objective": "เติมคำลักษณนาม 个 ในประโยคบอกจำนวนอุปกรณ์ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q014"
+    },
+    {
+      "question_id": "CN_PRE_Q015",
+      "test_id": "CN_PRE_001",
+      "question_number": 15,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "ไวยากรณ์",
+      "lesson": "LS5",
+      "question": "เติมคำกริยาลงในช่องว่าง: “姐姐___我一杯果汁。” (พี่สาวให้น้ำผลไม้ฉัน 1 แก้ว)",
+      "options": [],
+      "correct_answer": [
+        "给"
+      ],
+      "score": 1,
+      "explanation": "“给” ทำหน้าที่เป็นคำกริยา แปลว่า ให้/มอบให้",
+      "learning_objective": "เติมคำกริยา 给 แสดงการมอบสิ่งของในประโยคได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q015"
+    },
+    {
+      "question_id": "CN_PRE_Q016",
+      "test_id": "CN_PRE_001",
+      "question_number": 16,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "เงินตราและตัวเลข",
+      "lesson": "LS6",
+      "question": "คำว่า “十块” คิดเป็นเงินจำนวนกี่หยวน? (ตอบเป็นตัวเลข)",
+      "options": [],
+      "correct_answer": [
+        "10"
+      ],
+      "score": 1,
+      "explanation": "“十” (shí) = 10 และ “块” (kuài) = หน่วยเงินหยวน ดังนั้น 十块 = 10 หยวน",
+      "learning_objective": "แปลงคำอ่านราคาเงินหยวนเป็นตัวเลขจำนวนเงินได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q016"
+    },
+    {
+      "question_id": "CN_PRE_Q017",
+      "test_id": "CN_PRE_001",
+      "question_number": 17,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "character",
+      "topic": "หมวดอักษรจีน",
+      "lesson": "LS5",
+      "question": "หมวดอักษรจีน “木” (木字旁) สื่อความหมายถึงสิ่งใด?",
+      "options": [],
+      "correct_answer": [
+        "ต้นไม้",
+        "ไม้"
+      ],
+      "score": 1,
+      "explanation": "หมวด “木” สื่อถึงต้นไม้หรือของทำจากไม้ เช่น 杯 (แก้ว), 树 (ต้นไม้)",
+      "learning_objective": "ระบุความหมายของหมวดอักษรจีน 木字旁 ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q017"
+    },
+    {
+      "question_id": "CN_PRE_Q018",
+      "test_id": "CN_PRE_001",
+      "question_number": 18,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "character",
+      "topic": "หมวดอักษรจีน",
+      "lesson": "LS6",
+      "question": "หมวดอักษรจีน “钅” (金字旁) สื่อความหมายถึงสิ่งใด?",
+      "options": [],
+      "correct_answer": [
+        "โลหะ",
+        "เงิน"
+      ],
+      "score": 1,
+      "explanation": "หมวด “钅” สื่อถึงโลหะ ทรัพย์สิน หรือเงิน เช่น 钱 (เงิน), 铅 (ตะกั่ว/ดินสอ)",
+      "learning_objective": "ระบุความหมายของหมวดอักษรจีน 金字旁 ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q018"
+    },
+    {
+      "question_id": "CN_PRE_Q019",
+      "test_id": "CN_PRE_001",
+      "question_number": 19,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "กลุ่มคำศัพท์",
+      "lesson": "LS5",
+      "question": "คำศัพท์ในข้อใดจัดอยู่ในกลุ่ม “อุปกรณ์ทานอาหาร” ทั้งหมด? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "筷子 (kuàizi)"
+        },
+        {
+          "id": "B",
+          "text": "勺子 (sháozi)"
+        },
+        {
+          "id": "C",
+          "text": "盘子 (pánzi)"
+        },
+        {
+          "id": "D",
+          "text": "铅笔 (qiānbǐ)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "A(ตะเกียบ), B(ช้อน), C(จาน) เป็นอุปกรณ์ทานอาหาร ส่วน D(ดินสอ) เป็นเครื่องเขียน",
+      "learning_objective": "จำแนกกลุ่มคำศัพท์ที่เป็นอุปกรณ์ทานอาหารได้ทั้งหมด",
+      "pre_post_pair": "CN_POST_Q019"
+    },
+    {
+      "question_id": "CN_PRE_Q020",
+      "test_id": "CN_PRE_001",
+      "question_number": 20,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "กลุ่มคำศัพท์",
+      "lesson": "LS6",
+      "question": "คำศัพท์ในข้อใดจัดอยู่ในกลุ่ม “เครื่องเขียน” ทั้งหมด? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "铅笔 (qiānbǐ)"
+        },
+        {
+          "id": "B",
+          "text": "橡皮 (xiàngpí)"
+        },
+        {
+          "id": "C",
+          "text": "笔记本 (bǐjìběn)"
+        },
+        {
+          "id": "D",
+          "text": "果汁 (guǒzhī)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "A(ดินสอ), B(ยางลบ), C(สมุด) เป็นเครื่องเขียน ส่วน D(น้ำผลไม้) เป็นเครื่องดื่ม",
+      "learning_objective": "จำแนกกลุ่มคำศัพท์ที่เป็นเครื่องเขียนได้ทั้งหมด",
+      "pre_post_pair": "CN_POST_Q020"
+    },
+    {
+      "question_id": "CN_PRE_Q021",
+      "test_id": "CN_PRE_001",
+      "question_number": 21,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "คำลักษณนาม",
+      "lesson": "LS5",
+      "question": "สิ่งของในข้อใดสามารถใช้คำลักษณนาม “双” (shuāng) ได้? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "筷子 (ตะเกียบ)"
+        },
+        {
+          "id": "B",
+          "text": "鞋 (รองเท้า)"
+        },
+        {
+          "id": "C",
+          "text": "袜子 (ถุงเท้า)"
+        },
+        {
+          "id": "D",
+          "text": "蛋糕 (เค้ก)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "สิ่งของที่เป็นคู่ เช่น ตะเกียบ รองเท้า ถุงเท้า ใช้ “双” ส่วนเค้กใช้ “块”",
+      "learning_objective": "เลือกสิ่งของที่สามารถใช้คำลักษณนาม 双 ได้ถูกต้องทั้งหมด",
+      "pre_post_pair": "CN_POST_Q021"
+    },
+    {
+      "question_id": "CN_PRE_Q022",
+      "test_id": "CN_PRE_001",
+      "question_number": 22,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "คำลักษณนาม",
+      "lesson": "LS6",
+      "question": "สิ่งของในข้อใดสามารถใช้คำลักษณนาม “支” (zhī) ได้? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "铅笔 (ดินสอ)"
+        },
+        {
+          "id": "B",
+          "text": "钢笔 (ปากกาหมึกซึม)"
+        },
+        {
+          "id": "C",
+          "text": "毛笔 (พู่กัน)"
+        },
+        {
+          "id": "D",
+          "text": "盘子 (จาน)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "สิ่งของที่เป็นแท่ง/ด้าม เช่น ดินสอ ปากกา พู่กัน ใช้ “支” ส่วนจานใช้ “个”",
+      "learning_objective": "เลือกสิ่งของที่สามารถใช้คำลักษณนาม 支 ได้ถูกต้องทั้งหมด",
+      "pre_post_pair": "CN_POST_Q022"
+    },
+    {
+      "question_id": "CN_PRE_Q023",
+      "test_id": "CN_PRE_001",
+      "question_number": 23,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "pinyin",
+      "topic": "Pinyin และการอ่านราคา",
+      "lesson": "LS6",
+      "question": "ข้อใดเป็นคำอ่าน Pinyin ที่ถูกต้องของราคา “20.00 หยวน” (20 块)? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "èrshí kuài"
+        },
+        {
+          "id": "B",
+          "text": "èrshí yuán"
+        },
+        {
+          "id": "C",
+          "text": "sānshí kuài"
+        },
+        {
+          "id": "D",
+          "text": "èr kuài"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ราคา 20 หยวน อ่านว่า èrshí kuài (ภาษาพูด) หรือ èrshí yuán (ภาษาทางการ)",
+      "learning_objective": "เลือกคำอ่าน Pinyin ของราคาเงินหยวนที่ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q023"
+    },
+    {
+      "question_id": "CN_PRE_Q024",
+      "test_id": "CN_PRE_001",
+      "question_number": 24,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "character",
+      "topic": "หมวดอักษรจีน",
+      "lesson": "LS5",
+      "question": "ตัวอักษรจีนในข้อใดมีหมวดอักษร “木” (หมวดไม้) ประกอบอยู่? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "杯"
+        },
+        {
+          "id": "B",
+          "text": "树"
+        },
+        {
+          "id": "C",
+          "text": "椅"
+        },
+        {
+          "id": "D",
+          "text": "钱"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "杯 (แก้ว), 树 (ต้นไม้), 椅 (เก้าอี้) มีหมวด 木 อยู่ด้านข้าง ส่วน 钱 มีหมวด 钅",
+      "learning_objective": "ระบุตัวอักษรจีนที่มีหมวดอักษร 木 ประกอบอยู่ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q024"
+    },
+    {
+      "question_id": "CN_PRE_Q025",
+      "test_id": "CN_PRE_001",
+      "question_number": 25,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "culture",
+      "topic": "เงินตราและสกุลเงิน",
+      "lesson": "LS6",
+      "question": "สกุลเงินต่างประเทศในข้อใดมีระบุอยู่ในบทเรียน LS6? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "人民币 (เงินหยวน)"
+        },
+        {
+          "id": "B",
+          "text": "泰铢 (เงินบาท)"
+        },
+        {
+          "id": "C",
+          "text": "美元 (เงินดอลลาร์)"
+        },
+        {
+          "id": "D",
+          "text": "日元 (เงินเยน)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "score": 2,
+      "explanation": "บทเรียน LS6 สรุปสกุลเงินหลัก ได้แก่ 人民币, 泰铢, 美元, 日元, 英镑",
+      "learning_objective": "เลือกชื่อสกุลเงินต่างประเทศที่มีในบทเรียนได้ทั้งหมด",
+      "pre_post_pair": "CN_POST_Q025"
+    },
+    {
+      "question_id": "CN_PRE_Q026",
+      "test_id": "CN_PRE_001",
+      "question_number": 26,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "ไวยากรณ์",
+      "lesson": "LS5",
+      "question": "ประโยค “没有果汁了，你喝可乐吗？” มีความหมายตรงกับข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "น้ำผลไม้หมดแล้ว คุณจะดื่มโค้กไหม?"
+        },
+        {
+          "id": "B",
+          "text": "น้ำผลไม้อร่อยมาก คุณดื่มโค้กไหม?"
+        },
+        {
+          "id": "C",
+          "text": "มีน้ำผลไม้เยอะแยะ คุณดื่มโค้กไหม?"
+        },
+        {
+          "id": "D",
+          "text": "ห้ามดื่มน้ำผลไม้และโค้ก"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "“没有...了” แสดงการเปลี่ยนแปลงสถานะว่าสิ่งของหมดแล้ว",
+      "learning_objective": "วิเคราะห์ความหมายของประโยคที่มีโครงสร้าง 没有...了 ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q026"
+    },
+    {
+      "question_id": "CN_PRE_Q027",
+      "test_id": "CN_PRE_001",
+      "question_number": 27,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "sentence_pattern",
+      "topic": "รูปประโยค",
+      "lesson": "LS6",
+      "question": "หากต้องการอุทานว่า “ปากกาด้ามนี้แพงจังเลย!” ควรพูดอย่างไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "这支笔太贵了！"
+        },
+        {
+          "id": "B",
+          "text": "这支笔真贵啊！"
+        },
+        {
+          "id": "C",
+          "text": "这支笔多少钱？"
+        },
+        {
+          "id": "D",
+          "text": "这支笔很好看。"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้าง “真 + Adj + 啊!” ใช้แสดงการอุทานชื่นชมหรือรำพึง (真贵啊 = แพงจังเลย)",
+      "learning_objective": "เลือกใช้โครงสร้างคำอุทานบอกระดับ 真... ได้ตรงบริบท",
+      "pre_post_pair": "CN_POST_Q027"
+    },
+    {
+      "question_id": "CN_PRE_Q028",
+      "test_id": "CN_PRE_001",
+      "question_number": 28,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "sentence_pattern",
+      "topic": "รูปประโยค",
+      "lesson": "LS6",
+      "question": "เมื่อรู้สึกว่าสินค้ามีราคาสูงเกินไปจนตัดสินใจไม่ซื้อ ตรงกับประโยคใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "太贵了，我没买。"
+        },
+        {
+          "id": "B",
+          "text": "真便宜，我买。"
+        },
+        {
+          "id": "C",
+          "text": "一共十五块。"
+        },
+        {
+          "id": "D",
+          "text": "给你钱。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "“太贵了，我没买” แปลว่า แพงเกินไปแล้ว ฉันเลยไม่ได้ซื้อ (จากบทอ่านเรื่องร้านแพนด้า)",
+      "learning_objective": "ใช้โครงสร้าง 太...了 แสดงความรู้สึกราคาสูงเกินไปจนไม่ซื้อ",
+      "pre_post_pair": "CN_POST_Q028"
+    },
+    {
+      "question_id": "CN_PRE_Q029",
+      "test_id": "CN_PRE_001",
+      "question_number": 29,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "conversation",
+      "topic": "บทสนทนาการซื้อขาย",
+      "lesson": "LS6",
+      "question": "ในบทสนทนาซื้อขาย ประโยค “这块橡皮送给你。” คำว่า “送” มีความหมายว่าอย่างไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ขายในราคาแพง"
+        },
+        {
+          "id": "B",
+          "text": "ให้ฟรี / แถมให้"
+        },
+        {
+          "id": "C",
+          "text": "ส่งคืนสินค้า"
+        },
+        {
+          "id": "D",
+          "text": "ขอยืม"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำว่า “送” (sòng) ในบริบทซื้อขายหมายถึง มอบให้ฟรีหรือแถมให้โดยไม่คิดเงิน",
+      "learning_objective": "วิเคราะห์ความหมายของคำกริยา 送 ในบทสนทนาซื้อขายได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q029"
+    },
+    {
+      "question_id": "CN_PRE_Q030",
+      "test_id": "CN_PRE_001",
+      "question_number": 30,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "vocabulary",
+      "topic": "เงินตราและการคำนวณ",
+      "lesson": "LS6",
+      "question": "ยางลบราคา 2.5 หยวน (两块五) และดินสอราคา 5 หยวน (五块) รวมเป็นเงินกี่หยวน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "七块五 (7.5 หยวน)"
+        },
+        {
+          "id": "B",
+          "text": "六块五 (6.5 หยวน)"
+        },
+        {
+          "id": "C",
+          "text": "八块 (8 หยวน)"
+        },
+        {
+          "id": "D",
+          "text": "十块 (10 หยวน)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "2.5 + 5 = 7.5 หยวน ภาษาจีนพูดว่า “七块五” (qī kuài wǔ)",
+      "learning_objective": "คำนวณราคารวมเงินหยวนจากบริบทสินค้า 2 ชิ้นได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q030"
+    },
+    {
+      "question_id": "CN_PRE_Q031",
+      "test_id": "CN_PRE_001",
+      "question_number": 31,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "sentence_pattern",
+      "topic": "โครงสร้างประโยค",
+      "lesson": "LS6",
+      "question": "เรียงขยายประโยค: 橡皮 -> 熊猫橡皮 -> ? ข้อใดสมบูรณ์ที่สุด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "这块熊猫橡皮真可爱！"
+        },
+        {
+          "id": "B",
+          "text": "橡皮多少钱？"
+        },
+        {
+          "id": "C",
+          "text": "给我橡皮。"
+        },
+        {
+          "id": "D",
+          "text": "橡皮很贵。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ลำดับขยายความ: คำนาม (橡皮) -> นามระบุลักษณะ (熊猫橡皮) -> ประโยคสมบูรณ์ (这块熊猫橡皮真可爱！)",
+      "learning_objective": "วิเคราะห์การเรียงลำดับขยายวลีภาษาจีนให้เป็นประโยคสมบูรณ์",
+      "pre_post_pair": "CN_POST_Q031"
+    },
+    {
+      "question_id": "CN_PRE_Q032",
+      "test_id": "CN_PRE_001",
+      "question_number": 32,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "การอ่านจับใจความ",
+      "lesson": "LS5",
+      "question": "จากบทอ่านเรื่องวันเกิดน้องสาว (LS5) คุณพ่อให้อะไรเป็นของขวัญแก่น้องสาว?",
+      "options": [
+        {
+          "id": "A",
+          "text": "รองเท้า 1 คู่ (一双鞋)"
+        },
+        {
+          "id": "B",
+          "text": "เสื้อ T-shirt 1 ตัว (一件T恤)"
+        },
+        {
+          "id": "C",
+          "text": "สมุดบันทึก 1 เล่ม (一本笔记本)"
+        },
+        {
+          "id": "D",
+          "text": "ปากกา 1 ด้าม (一支笔)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "บทอ่านระบุว่า: 爸爸送给妹妹一双鞋 (คุณพ่อให้รองเท้า 1 คู่), 妈妈送给妹妹一件T恤",
+      "learning_objective": "จับใจความและสรุปรายละเอียดจากบทอ่านเรื่องวันเกิดน้องสาว",
+      "pre_post_pair": "CN_POST_Q032"
+    },
+    {
+      "question_id": "CN_PRE_Q033",
+      "test_id": "CN_PRE_001",
+      "question_number": 33,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "การอ่านจับใจความ",
+      "lesson": "LS6",
+      "question": "จากบทอ่านเที่ยวปักกิ่ง (LS6) ทำไมผู้เขียนจึงไม่ซื้อปากกาหมึกซึมหมีแพนด้า?",
+      "options": [
+        {
+          "id": "A",
+          "text": "เพราะพกพาไม่สะดวก"
+        },
+        {
+          "id": "B",
+          "text": "เพราะราคา 250 หยวน ซึ่งแพงเกินไป (太贵了)"
+        },
+        {
+          "id": "C",
+          "text": "เพราะสินค้าหมดสต็อก"
+        },
+        {
+          "id": "D",
+          "text": "เพราะหัวปากกาชำรุด"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "บทอ่านระบุว่า: 钢笔二百五十块，太贵了，我没买 (ปากกา 250 หยวน แพงเกินไป ฉันเลยไม่ซื้อ)",
+      "learning_objective": "สรุปเหตุผลจากบทอ่านเรื่องการเที่ยวร้านหมีแพนด้าได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q033"
+    },
+    {
+      "question_id": "CN_PRE_Q034",
+      "test_id": "CN_PRE_001",
+      "question_number": 34,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "culture",
+      "topic": "อัตราแลกเปลี่ยน",
+      "lesson": "LS6",
+      "question": "ประโยค “一百泰铢是二十二块人民币” หมายถึงอะไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "เงิน 100 บาท เท่ากับเงิน 22 หยวน"
+        },
+        {
+          "id": "B",
+          "text": "เงิน 100 หยวน เท่ากับเงิน 22 บาท"
+        },
+        {
+          "id": "C",
+          "text": "เงิน 22 บาท ซื้อสินค้าได้ 100 ชิ้น"
+        },
+        {
+          "id": "D",
+          "text": "เงิน 100 บาท ทอนเงิน 22 หยวน"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "一百泰铢 (100 บาท) 是 (คือ/เท่ากับ) 二十二块人民币 (22 หยวน)",
+      "learning_objective": "แปลความหมายประโยคเปรียบเทียบอัตราแลกเปลี่ยนเงินบาทและหยวน",
+      "pre_post_pair": "CN_POST_Q034"
+    },
+    {
+      "question_id": "CN_PRE_Q035",
+      "test_id": "CN_PRE_001",
+      "question_number": 35,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "culture",
+      "topic": "วัฒนธรรมและตัวอักษร",
+      "lesson": "LS6",
+      "question": "ตัวอักษร “笔” (ปากกา/พู่กัน) มีหมวดด้านบนคือ “竹” (zhú) สื่อถึงสิ่งใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ไม้ไผ่ที่ใช้ทำด้ามพู่กันจีน"
+        },
+        {
+          "id": "B",
+          "text": "ขนสัตว์ที่ใช้ทำหัวพู่กัน"
+        },
+        {
+          "id": "C",
+          "text": "ก้อนหินที่ใช้ฝนหมึก"
+        },
+        {
+          "id": "D",
+          "text": "กระดาษที่ใช้เขียน"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "หมวด “竹” (ไม้ไผ่) อยู่ด้านบนของคำว่า 笔 สื่อถึงด้ามพู่กันจีนโบราณที่ทำจากไม้ไผ่",
+      "learning_objective": "อธิบายองค์ประกอบของตัวอักษร 笔 และประวัติพู่กันจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q035"
+    },
+    {
+      "question_id": "CN_PRE_Q036",
+      "test_id": "CN_PRE_001",
+      "question_number": 36,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "ไวยากรณ์",
+      "lesson": "LS6",
+      "question": "เติมคำวิเศษณ์ลงในช่องว่าง: “买笔记本和橡皮，__多少钱？” (ซื้อสมุดและยางลบ รวมทั้งหมดเท่าไร)",
+      "options": [],
+      "correct_answer": [
+        "一共"
+      ],
+      "score": 1,
+      "explanation": "“一共” แปลว่า รวมทั้งหมด ใช้ถามหรือบอกราคารวม",
+      "learning_objective": "เติมคำวิเศษณ์สรุปรวมราคา 一共 ในประโยคได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q036"
+    },
+    {
+      "question_id": "CN_PRE_Q037",
+      "test_id": "CN_PRE_001",
+      "question_number": 37,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "ไวยากรณ์",
+      "lesson": "LS6",
+      "question": "เติมคำในช่องว่าง: “这个书包十六块，但我__十五块钱。” (กระเป๋านี้ 16 หยวน แต่ฉันมีแค่ 15 หยวน)",
+      "options": [],
+      "correct_answer": [
+        "只有"
+      ],
+      "score": 1,
+      "explanation": "“只有” แปลว่า มีแค่/มีเพียง แสดงข้อจำกัดของจำนวนเงินที่มี",
+      "learning_objective": "เติมคำบอกข้อจำกัด 只有 ในประโยคได้ถูกบริบท",
+      "pre_post_pair": "CN_POST_Q037"
+    },
+    {
+      "question_id": "CN_PRE_Q038",
+      "test_id": "CN_PRE_001",
+      "question_number": 38,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "vocabulary",
+      "topic": "Pinyin และการอ่านราคา",
+      "lesson": "LS6",
+      "question": "เติม Pinyin ของราคา 3.50 หยวน: sān kuài __",
+      "options": [],
+      "correct_answer": [
+        "wǔ"
+      ],
+      "score": 1,
+      "explanation": "3.50 หยวน ละคำว่า 毛 ได้ พูดว่า sān kuài wǔ",
+      "learning_objective": "เติมคำอ่าน Pinyin หน่วยเศษเงินหยวน (毛) ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q038"
+    },
+    {
+      "question_id": "CN_PRE_Q039",
+      "test_id": "CN_PRE_001",
+      "question_number": 39,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "คำลักษณนาม",
+      "lesson": "LS6",
+      "question": "เติมคำลักษณนามลงในช่องว่าง: “这__上衣三百五十块。” (เสื้อตัวนี้ราคา 350 หยวน)",
+      "options": [],
+      "correct_answer": [
+        "件"
+      ],
+      "score": 1,
+      "explanation": "“件” ใช้เป็นลักษณนามของเสื้อท่อนบน เช่น 上衣, T恤",
+      "learning_objective": "เติมคำลักษณนามของเสื้อ 件 ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q039"
+    },
+    {
+      "question_id": "CN_PRE_Q040",
+      "test_id": "CN_PRE_001",
+      "question_number": 40,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "ไวยากรณ์",
+      "lesson": "LS5",
+      "question": "เติมคำกริยาในประโยค: “娜林__王冬冬一双筷子。” (นารินส่งตะเกียบให้หวังตงตง 1 คู่)",
+      "options": [],
+      "correct_answer": [
+        "给"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้าง: ประธาน + 给 + ผู้รับ + สิ่งของ",
+      "learning_objective": "เติมคำกริยาแสดงการส่งมอบสิ่งของในประโยคให้สมบูรณ์",
+      "pre_post_pair": "CN_POST_Q040"
+    },
+    {
+      "question_id": "CN_PRE_Q041",
+      "test_id": "CN_PRE_001",
+      "question_number": 41,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "character",
+      "topic": "โครงสร้างอักษรจีน",
+      "lesson": "LS6",
+      "question": "ตัวอักษร “钱” (เงิน) ประกอบด้วยหมวด 钅 (金字旁) รวมกับส่วนประกอบใดด้านขวา?",
+      "options": [],
+      "correct_answer": [
+        "戋"
+      ],
+      "score": 1,
+      "explanation": "อักษร 钱 เกิดจากหมวด 钅 (โลหะ/เงิน) + 戋",
+      "learning_objective": "ระบุองค์ประกอบอักษรจีนของคำว่า 钱 ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q041"
+    },
+    {
+      "question_id": "CN_PRE_Q042",
+      "test_id": "CN_PRE_001",
+      "question_number": 42,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "culture",
+      "topic": "วัฒนธรรมและตัวอักษร",
+      "lesson": "LS6",
+      "question": "ตัวอักษรจีนมงคลที่หมายถึง “โชคลาภวาสนา” ที่นิยมใช้พู่กันจีนเขียนบนกระดาษสีแดงคือตัวใด?",
+      "options": [],
+      "correct_answer": [
+        "福"
+      ],
+      "score": 1,
+      "explanation": "ตัวอักษร “福” (fú) หมายถึง โชคลาภ ความสุข วาสนา นิยมเขียนติดหน้าบ้านช่วงตรุษจีน",
+      "learning_objective": "ระบุตัวอักษรจีนตั้งมงคลที่นิยมเขียนด้วยพู่กันจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q042"
+    },
+    {
+      "question_id": "CN_PRE_Q043",
+      "test_id": "CN_PRE_001",
+      "question_number": 43,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "คำลักษณนาม",
+      "lesson": "LS6",
+      "question": "วลีบอกจำนวนในข้อใดจับคู่คำนามและลักษณนามได้ถูกต้อง? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "一个书包"
+        },
+        {
+          "id": "B",
+          "text": "一本笔记本"
+        },
+        {
+          "id": "C",
+          "text": "一块橡皮"
+        },
+        {
+          "id": "D",
+          "text": "一双铅笔"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "A(กระเป๋า1ใบ), B(สมุด1เล่ม), C(ยางลบ1ก้อน) ถูกต้อง ส่วน D ต้องใช้ 一支铅笔",
+      "learning_objective": "จับคู่คำนามกับคำลักษณนามที่ถูกต้องได้ทุกข้อ",
+      "pre_post_pair": "CN_POST_Q043"
+    },
+    {
+      "question_id": "CN_PRE_Q044",
+      "test_id": "CN_PRE_001",
+      "question_number": 44,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "culture",
+      "topic": "เงินตราและสกุลเงิน",
+      "lesson": "LS6",
+      "question": "ชนิดราคาธนบัตรเงินหยวน (人民币) ในข้อใดมีภาพระบุในบทเรียน LS6? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "100块"
+        },
+        {
+          "id": "B",
+          "text": "50块"
+        },
+        {
+          "id": "C",
+          "text": "20块"
+        },
+        {
+          "id": "D",
+          "text": "10块"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "score": 2,
+      "explanation": "บทเรียน LS6 มีภาพธนบัตรเงินหยวนชนิด 100, 50, 20, 10, 5, 1 หยวน",
+      "learning_objective": "ระบุชนิดราคาธนบัตรเงินหยวนที่มีในบทเรียนได้ทั้งหมด",
+      "pre_post_pair": "CN_POST_Q044"
+    },
+    {
+      "question_id": "CN_PRE_Q045",
+      "test_id": "CN_PRE_001",
+      "question_number": 45,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "conversation",
+      "topic": "บทสนทนาการซื้อขาย",
+      "lesson": "LS6",
+      "question": "ประโยคในข้อใดที่ “ผู้ซื้อ” สามารถใช้พูดกับพ่อค้าแม่ค้าในร้านค้าได้? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "这个多少钱？"
+        },
+        {
+          "id": "B",
+          "text": "太贵了！"
+        },
+        {
+          "id": "C",
+          "text": "给您钱。"
+        },
+        {
+          "id": "D",
+          "text": "给你筷子。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "A(ถามราคา), B(รำพึงว่าแพง), C(ยื่นเงินให้) เป็นประโยคผู้ซื้อ ส่วน D เป็นประโยคส่งตะเกียบ",
+      "learning_objective": "เลือกประโยคภาษาจีนที่ผู้ซื้อสามารถใช้พูดในร้านค้าได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q045"
+    },
+    {
+      "question_id": "CN_PRE_Q046",
+      "test_id": "CN_PRE_001",
+      "question_number": 46,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "ประโยคปฏิเสธ",
+      "lesson": "LS5",
+      "question": "ประโยคในข้อใดมีความหมายเชิงปฏิเสธหรือไม่มีสิ่งของ? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "没有果汁了"
+        },
+        {
+          "id": "B",
+          "text": "太贵了，我没买"
+        },
+        {
+          "id": "C",
+          "text": "我只有十块"
+        },
+        {
+          "id": "D",
+          "text": "一共十六块"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "A(ไม่มีน้ำผลไม้แล้ว), B(แพงไปไม่ได้ซื้อ), C(มีแค่10หยวน/ไม่พอ) เป็นเชิงปฏิเสธ/จำกัด ส่วน D เป็นการสรุปรวมราคา",
+      "learning_objective": "จำแนกประโยคที่มีความหมายเชิงปฏิเสธหรือไม่มีสิ่งของได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q046"
+    },
+    {
+      "question_id": "CN_PRE_Q047",
+      "test_id": "CN_PRE_001",
+      "question_number": 47,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "character",
+      "topic": "หมวดอักษรจีน",
+      "lesson": "LS6",
+      "question": "ตัวอักษรจีนในข้อใดมีหมวดอักษร “钅” (โลหะ/เงิน) ประกอบอยู่? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "钱 (qián)"
+        },
+        {
+          "id": "B",
+          "text": "镜 (jìng)"
+        },
+        {
+          "id": "C",
+          "text": "铅 (qiān)"
+        },
+        {
+          "id": "D",
+          "text": "杯 (bēi)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "钱 (เงิน), 镜 (กระจก), 铅 (ตะกั่ว/ดินสอ) มีหมวด 钅 ส่วน 杯 มีหมวด 木",
+      "learning_objective": "จำแนกตัวอักษรจีนที่มีหมวดอักษร 钅 (金字旁) ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q047"
+    },
+    {
+      "question_id": "CN_PRE_Q048",
+      "test_id": "CN_PRE_001",
+      "question_number": 48,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "การอ่านจับใจความ",
+      "lesson": "LS5",
+      "question": "ข้อความในข้อใดถูกต้องตามบทอ่านเรื่องวันเกิดน้องสาว (LS5)? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "น้องสาวมีอายุ 7 ขวบ เรียนชั้น ป.1"
+        },
+        {
+          "id": "B",
+          "text": "วันเกิดน้องสาวคือวันที่ 15 สิงหาคม"
+        },
+        {
+          "id": "C",
+          "text": "น้องสาวได้รับของขวัญเป็นหนังสือและปากกา"
+        },
+        {
+          "id": "D",
+          "text": "น้องสาวได้รับเค้กวันเกิด 10 ก้อน"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "บทอ่านระบุว่าน้องสาวอายุ 7 ขวบ ป.1 เกิด 15 ส.ค. ได้รับรองเท้าจากพ่อ เสื้อจากแม่ หนังสือและปากกาจากพี่",
+      "learning_objective": "วิเคราะห์ข้อเท็จจริงจากบทอ่านเรื่องวันเกิดน้องสาวได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q048"
+    },
+    {
+      "question_id": "CN_PRE_Q049",
+      "test_id": "CN_PRE_001",
+      "question_number": 49,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "การอ่านจับใจความ",
+      "lesson": "LS6",
+      "question": "ข้อความในข้อใดถูกต้องตามบทอ่านเรื่องเที่ยวร้านหมีแพนด้า (LS6)? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "ผู้เขียนเดินทางไปปักกิ่งกับพ่อแม่ในเดือนเมษายน"
+        },
+        {
+          "id": "B",
+          "text": "ผู้เขียนซื้อยางลบหมีแพนด้า 2 ก้อน ราคารวม 5 หยวน"
+        },
+        {
+          "id": "C",
+          "text": "ผู้เขียนไม่ได้ซื้อปากกาหมึกซึมเพราะราคา 250 หยวน แพงเกินไป"
+        },
+        {
+          "id": "D",
+          "text": "ผู้เขียนซื้อรองเท้าหมีแพนด้า 5 คู่"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "บทอ่านระบุว่าไปปักกิ่ง เม.ย. ซื้อยางลบแพนด้า 2 ก้อน (ก้อนละ 2.5 หยวน = 5 หยวน) และไม่ได้ซื้อปากกา 250 หยวน",
+      "learning_objective": "วิเคราะห์ข้อเท็จจริงจากบทอ่านเรื่องเที่ยวร้านหมีแพนด้าได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q049"
+    },
+    {
+      "question_id": "CN_PRE_Q050",
+      "test_id": "CN_PRE_001",
+      "question_number": 50,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "conversation",
+      "topic": "การใช้งานในชีวิตประจำวัน",
+      "lesson": "LS5",
+      "question": "ประโยคในข้อใดเป็นรูปประโยคขออุปกรณ์ทานอาหารหรือเครื่องดื่มอย่างสุภาพ? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "给我一双筷子，谢谢！"
+        },
+        {
+          "id": "B",
+          "text": "给我一杯果汁，谢谢！"
+        },
+        {
+          "id": "C",
+          "text": "给你一块面包。"
+        },
+        {
+          "id": "D",
+          "text": "多少钱一个？"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "โครงสร้าง “给我 + [จำนวน+ลักษณนาม] + [สิ่งของ], 谢谢！” ใช้ขอของ/สั่งอาหารอย่างสุภาพ",
+      "learning_objective": "ประยุกต์ใช้รูปประโยคสุภาพในการขออุปกรณ์และสั่งอาหารได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q050"
+    },
+    {
+      "question_id": "CN_POST_Q001",
+      "test_id": "CN_POST_001",
+      "question_number": 1,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "อุปกรณ์ทานอาหาร",
+      "lesson": "LS5",
+      "question": "คำศัพท์ภาษาจีนว่า “勺子” (sháozi) มีความหมายตรงกับข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ช้อน"
+        },
+        {
+          "id": "B",
+          "text": "ส้อม"
+        },
+        {
+          "id": "C",
+          "text": "ตะเกียบ"
+        },
+        {
+          "id": "D",
+          "text": "ถ้วย"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "“勺子” (sháozi) แปลว่า ช้อน ซึ่งเป็นอุปกรณ์ทานอาหารหลักในบทเรียน LS5",
+      "learning_objective": "ระบุความหมายคำศัพท์อุปกรณ์ทานอาหารได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q001"
+    },
+    {
+      "question_id": "CN_POST_Q002",
+      "test_id": "CN_POST_001",
+      "question_number": 2,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "เครื่องดื่ม",
+      "lesson": "LS5",
+      "question": "คำศัพท์ภาษาจีนที่หมายถึง “นม” คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "可乐 (kělè)"
+        },
+        {
+          "id": "B",
+          "text": "牛奶 (niúnǎi)"
+        },
+        {
+          "id": "C",
+          "text": "果汁 (guǒzhī)"
+        },
+        {
+          "id": "D",
+          "text": "冰水 (bīngshuǐ)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "“牛奶” (niúnǎi) แปลว่า นม (ส่วน A=โค้ก, C=น้ำผลไม้, D=น้ำเย็น)",
+      "learning_objective": "ระบุคำศัพท์ภาษาจีนของหมวดเครื่องดื่มได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q002"
+    },
+    {
+      "question_id": "CN_POST_Q003",
+      "test_id": "CN_POST_001",
+      "question_number": 3,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "เครื่องเขียน",
+      "lesson": "LS6",
+      "question": "คำว่า “书包” (shūbāo) มีความหมายตรงกับข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "กระเป๋านักเรียน"
+        },
+        {
+          "id": "B",
+          "text": "กล่องดินสอ"
+        },
+        {
+          "id": "C",
+          "text": "หนังสือภาษาจีน"
+        },
+        {
+          "id": "D",
+          "text": "สมุดบันทึก"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "“书包” (shūbāo) แปลว่า กระเป๋านักเรียน ในบทเรียน LS6",
+      "learning_objective": "ระบุความหมายคำศัพท์หมวดเครื่องเขียนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q003"
+    },
+    {
+      "question_id": "CN_POST_Q004",
+      "test_id": "CN_POST_001",
+      "question_number": 4,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "pinyin",
+      "topic": "เครื่องแต่งกาย",
+      "lesson": "LS6",
+      "question": "Pinyin ที่ถูกต้องของคำว่า “裤子” (กางเกง) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "shàngyī"
+        },
+        {
+          "id": "B",
+          "text": "kùzi"
+        },
+        {
+          "id": "C",
+          "text": "qúnzi"
+        },
+        {
+          "id": "D",
+          "text": "xié"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "“裤子” ออกเสียงว่า kùzi แปลว่า กางเกง",
+      "learning_objective": "จับคู่คำศัพท์เครื่องแต่งกายกับ Pinyin ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q004"
+    },
+    {
+      "question_id": "CN_POST_Q005",
+      "test_id": "CN_POST_001",
+      "question_number": 5,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "culture",
+      "topic": "เงินตราและสกุลเงิน",
+      "lesson": "LS6",
+      "question": "สกุลเงินประจำชาติของประเทศไทยเรียกว่าอะไรในภาษาจีน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "人民币 (Rénmínbì)"
+        },
+        {
+          "id": "B",
+          "text": "泰铢 (Tàizhū)"
+        },
+        {
+          "id": "C",
+          "text": "美元 (Měihuán)"
+        },
+        {
+          "id": "D",
+          "text": "英镑 (Yīngbàng)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "“泰铢” (Tàizhū) คือ สกุลเงินบาทของไทย",
+      "learning_objective": "บอกชื่อสกุลเงินของประเทศไทยเป็นภาษาจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q005"
+    },
+    {
+      "question_id": "CN_POST_Q006",
+      "test_id": "CN_POST_001",
+      "question_number": 6,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "คำลักษณนาม",
+      "lesson": "LS5",
+      "question": "คำนามในข้อใดต้องใช้คำลักษณนามว่า “双” (shuāng)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "盘子 (จาน)"
+        },
+        {
+          "id": "B",
+          "text": "筷子 (ตะเกียบ)"
+        },
+        {
+          "id": "C",
+          "text": "杯子 (แก้ว)"
+        },
+        {
+          "id": "D",
+          "text": "面包 (ขนมปัง)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "“双” ใช้กับสิ่งของที่เป็นคู่ เช่น 筷子 (ตะเกียบ) และ 鞋 (รองเท้า)",
+      "learning_objective": "เลือกใช้คำลักษณนาม 双 กับสิ่งของที่เป็นคู่ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q006"
+    },
+    {
+      "question_id": "CN_POST_Q007",
+      "test_id": "CN_POST_001",
+      "question_number": 7,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "คำลักษณนาม",
+      "lesson": "LS5",
+      "question": "วลีในข้อใดใช้คำลักษณนาม “杯” (bēi) ได้ถูกต้องตามบริบท?",
+      "options": [
+        {
+          "id": "A",
+          "text": "一杯冰水"
+        },
+        {
+          "id": "B",
+          "text": "一杯面包"
+        },
+        {
+          "id": "C",
+          "text": "一杯勺子"
+        },
+        {
+          "id": "D",
+          "text": "一杯书包"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "“杯” (แก้ว) ใช้กับเครื่องดื่ม เช่น 冰水 (น้ำเย็น) หรือ 可乐 (โค้ก)",
+      "learning_objective": "เลือกใช้คำลักษณนาม 杯 กับภาชนะบรรจุเครื่องดื่มได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q007"
+    },
+    {
+      "question_id": "CN_POST_Q008",
+      "test_id": "CN_POST_001",
+      "question_number": 8,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "คำลักษณนาม",
+      "lesson": "LS6",
+      "question": "คำว่า “汉语书” (หนังสือภาษาจีน) ต้องใช้คำลักษณนามในข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "个 (gè)"
+        },
+        {
+          "id": "B",
+          "text": "支 (zhī)"
+        },
+        {
+          "id": "C",
+          "text": "本 (běn)"
+        },
+        {
+          "id": "D",
+          "text": "块 (kuài)"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "“本” ใช้เป็นลักษณนามของสมุดและหนังสือ เช่น 一本汉语书 (หนังสือภาษาจีน 1 เล่ม)",
+      "learning_objective": "เลือกใช้คำลักษณนาม 本 กับหนังสือและสมุดได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q008"
+    },
+    {
+      "question_id": "CN_POST_Q009",
+      "test_id": "CN_POST_001",
+      "question_number": 9,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "sentence_pattern",
+      "topic": "รูปประโยค",
+      "lesson": "LS5",
+      "question": "รูปประโยค “ส่ง...ให้เธอ / ยื่น...ให้เธอ” ตรงกับโครงสร้างภาษาจีนในข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "给你..."
+        },
+        {
+          "id": "B",
+          "text": "给我..."
+        },
+        {
+          "id": "C",
+          "text": "没有...了"
+        },
+        {
+          "id": "D",
+          "text": "太...了"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "“给你 + [สิ่งของ]” แปลว่า ยื่น...ให้เธอ (เช่น 给你筷子。)",
+      "learning_objective": "ระบุรูปประโยคสุภาพในการส่งมอบสิ่งของได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q009"
+    },
+    {
+      "question_id": "CN_POST_Q010",
+      "test_id": "CN_POST_001",
+      "question_number": 10,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "sentence_pattern",
+      "topic": "รูปประโยค",
+      "lesson": "LS6",
+      "question": "ประโยคถามราคา “กระเป๋านักเรียนใบนั้นราคาเท่าไร?” ในภาษาจีนคือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "那个书包多少钱？"
+        },
+        {
+          "id": "B",
+          "text": "那个书包很大。"
+        },
+        {
+          "id": "C",
+          "text": "只有十五块钱。"
+        },
+        {
+          "id": "D",
+          "text": "一共多少人？"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างถามราคาคือ 那个 + ลักษณนาม + คำนาม + 多少钱？",
+      "learning_objective": "ระบุประโยคถามราคาสินค้าพื้นฐานได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q010"
+    },
+    {
+      "question_id": "CN_POST_Q011",
+      "test_id": "CN_POST_001",
+      "question_number": 11,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "pinyin",
+      "topic": "Pinyin",
+      "lesson": "LS5",
+      "question": "เติมสระ Pinyin ที่หายไปของคำว่า “叉子” (ส้อม): ch __ zi",
+      "options": [],
+      "correct_answer": [
+        "ā"
+      ],
+      "score": 1,
+      "explanation": "“叉子” ออกเสียงวรรณยุกต์เสียงที่ 1 คือ chāzi",
+      "learning_objective": "เติมสระ Pinyin ที่ขาดหายไปของคำว่าส้อมได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q011"
+    },
+    {
+      "question_id": "CN_POST_Q012",
+      "test_id": "CN_POST_001",
+      "question_number": 12,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "pinyin",
+      "topic": "Pinyin",
+      "lesson": "LS6",
+      "question": "เติม Pinyin ที่ขาดหายไปของคำว่า “เงิน” (钱): __ ián",
+      "options": [],
+      "correct_answer": [
+        "q"
+      ],
+      "score": 1,
+      "explanation": "“钱” อ่านออกเสียงว่า qián แปลว่า เงิน",
+      "learning_objective": "เติม Pinyin ที่ขาดหายไปของคำว่าเงินได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q012"
+    },
+    {
+      "question_id": "CN_POST_Q013",
+      "test_id": "CN_POST_001",
+      "question_number": 13,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "คำลักษณนาม",
+      "lesson": "LS5",
+      "question": "เติมคำลักษณนามลงในช่องว่าง: “请给我一___面包。” (ขอขนมปังให้ฉัน 1 ชิ้น)",
+      "options": [],
+      "correct_answer": [
+        "块"
+      ],
+      "score": 1,
+      "explanation": "“块” ใช้เป็นลักษณนามของขนมปัง (面包) และเค้ก (蛋糕)",
+      "learning_objective": "เติมคำลักษณนาม 块 ในประโยคได้ถูกต้องตามบริบท",
+      "pre_post_pair": "CN_PRE_Q013"
+    },
+    {
+      "question_id": "CN_POST_Q014",
+      "test_id": "CN_POST_001",
+      "question_number": 14,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "คำลักษณนาม",
+      "lesson": "LS5",
+      "question": "เติมคำลักษณนามลงในช่องว่าง: “妈妈给我一___盘子。” (คุณแม่ให้จานฉัน 1 ใบ)",
+      "options": [],
+      "correct_answer": [
+        "个"
+      ],
+      "score": 1,
+      "explanation": "“盘子” (จาน) ใช้ลักษณนามทั่วไปคือ “个” (gè)",
+      "learning_objective": "เติมคำลักษณนาม 个 ในประโยคบอกจำนวนภาชนะได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q014"
+    },
+    {
+      "question_id": "CN_POST_Q015",
+      "test_id": "CN_POST_001",
+      "question_number": 15,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "ไวยากรณ์",
+      "lesson": "LS5",
+      "question": "เติมคำกริยาลงในช่องว่าง: “哥哥___我一块面包。” (พี่ชายให้ขนมปังฉัน 1 ชิ้น)",
+      "options": [],
+      "correct_answer": [
+        "给"
+      ],
+      "score": 1,
+      "explanation": "“给” ทำหน้าที่เป็นคำกริยา แปลว่า ให้/มอบให้",
+      "learning_objective": "เติมคำกริยา 给 แสดงการมอบสิ่งของในประโยคได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q015"
+    },
+    {
+      "question_id": "CN_POST_Q016",
+      "test_id": "CN_POST_001",
+      "question_number": 16,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "เงินตราและตัวเลข",
+      "lesson": "LS6",
+      "question": "คำว่า “五十块” คิดเป็นเงินจำนวนกี่หยวน? (ตอบเป็นตัวเลข)",
+      "options": [],
+      "correct_answer": [
+        "50"
+      ],
+      "score": 1,
+      "explanation": "“五十” (wǔshí) = 50 และ “块” (kuài) = หน่วยเงินหยวน ดังนั้น 五十块 = 50 หยวน",
+      "learning_objective": "แปลงคำอ่านราคาเงินหยวนเป็นตัวเลขจำนวนเงินได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q016"
+    },
+    {
+      "question_id": "CN_POST_Q017",
+      "test_id": "CN_POST_001",
+      "question_number": 17,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "character",
+      "topic": "หมวดอักษรจีน",
+      "lesson": "LS5",
+      "question": "ตัวอักษรจีนคำว่า “杯” (แก้ว) มีหมวดอักษรจีนใดประกอบอยู่ด้านซ้าย?",
+      "options": [],
+      "correct_answer": [
+        "木"
+      ],
+      "score": 1,
+      "explanation": "“杯” มีหมวดอักษร 木 (ไม้) ประกอบอยู่ด้านซ้าย",
+      "learning_objective": "ระบุหมวดอักษรจีนที่ประกอบอยู่ในคำว่าแก้วได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q017"
+    },
+    {
+      "question_id": "CN_POST_Q018",
+      "test_id": "CN_POST_001",
+      "question_number": 18,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "character",
+      "topic": "หมวดอักษรจีน",
+      "lesson": "LS6",
+      "question": "ตัวอักษรจีนคำว่า “钱” (เงิน) มีหมวดอักษรจีนใดประกอบอยู่ด้านซ้าย?",
+      "options": [],
+      "correct_answer": [
+        "钅"
+      ],
+      "score": 1,
+      "explanation": "“钱” มีหมวดอักษร 钅 (โลหะ/เงิน) ประกอบอยู่ด้านซ้าย",
+      "learning_objective": "ระบุหมวดอักษรจีนที่ประกอบอยู่ในคำว่าเงินได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q018"
+    },
+    {
+      "question_id": "CN_POST_Q019",
+      "test_id": "CN_POST_001",
+      "question_number": 19,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "กลุ่มคำศัพท์",
+      "lesson": "LS5",
+      "question": "คำศัพท์ในข้อใดจัดอยู่ในกลุ่ม “ภาชนะบรรจุอาหารและเครื่องดื่ม” ทั้งหมด? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "杯子 (bēizi)"
+        },
+        {
+          "id": "B",
+          "text": "盘子 (pánzi)"
+        },
+        {
+          "id": "C",
+          "text": "碗 (wǎn)"
+        },
+        {
+          "id": "D",
+          "text": "橡皮 (xiàngpí)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "A(แก้ว), B(จาน), C(ชาม) เป็นภาชนะใส่อาหาร/เครื่องดื่ม ส่วน D(ยางลบ) เป็นเครื่องเขียน",
+      "learning_objective": "จำแนกกลุ่มคำศัพท์ที่เป็นภาชนะใส่เครื่องดื่ม/อาหารได้ทั้งหมด",
+      "pre_post_pair": "CN_PRE_Q019"
+    },
+    {
+      "question_id": "CN_POST_Q020",
+      "test_id": "CN_POST_001",
+      "question_number": 20,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "กลุ่มคำศัพท์",
+      "lesson": "LS6",
+      "question": "คำศัพท์ในข้อใดจัดอยู่ในกลุ่ม “เครื่องเขียน” ทั้งหมด? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "钢笔 (gāngbǐ)"
+        },
+        {
+          "id": "B",
+          "text": "笔袋 (bǐdài)"
+        },
+        {
+          "id": "C",
+          "text": "书包 (shūbāo)"
+        },
+        {
+          "id": "D",
+          "text": "可乐 (kělè)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "A(ปากกาหมึกซึม), B(กระเป๋าดินสอ), C(กระเป๋านักเรียน) เป็นเครื่องเขียน ส่วน D เป็นเครื่องดื่ม",
+      "learning_objective": "จำแนกกลุ่มคำศัพท์ที่เป็นเครื่องเขียนได้ทั้งหมด",
+      "pre_post_pair": "CN_PRE_Q020"
+    },
+    {
+      "question_id": "CN_POST_Q021",
+      "test_id": "CN_POST_001",
+      "question_number": 21,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "คำลักษณนาม",
+      "lesson": "LS5",
+      "question": "สิ่งของในข้อใดสามารถใช้คำลักษณนาม “双” (shuāng) ได้? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "筷子 (ตะเกียบ)"
+        },
+        {
+          "id": "B",
+          "text": "鞋 (รองเท้า)"
+        },
+        {
+          "id": "C",
+          "text": "盘子 (จาน)"
+        },
+        {
+          "id": "D",
+          "text": "面包 (ขนมปัง)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "สิ่งของที่เป็นคู่ เช่น 筷子 (ตะเกียบ) และ 鞋 (รองเท้า) ใช้ “双”",
+      "learning_objective": "เลือกสิ่งของที่สามารถใช้คำลักษณนาม 双 ได้ถูกต้องทั้งหมด",
+      "pre_post_pair": "CN_PRE_Q021"
+    },
+    {
+      "question_id": "CN_POST_Q022",
+      "test_id": "CN_POST_001",
+      "question_number": 22,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "คำลักษณนาม",
+      "lesson": "LS6",
+      "question": "สิ่งของในข้อใดสามารถใช้คำลักษณนาม “支” (zhī) ได้? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "铅笔 (ดินสอ)"
+        },
+        {
+          "id": "B",
+          "text": "钢笔 (ปากกาหมึกซึม)"
+        },
+        {
+          "id": "C",
+          "text": "蛋糕 (เค้ก)"
+        },
+        {
+          "id": "D",
+          "text": "裙子 (กระโปรง)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "สิ่งของที่เป็นแท่ง/ด้าม เช่น 铅笔 (ดินสอ) และ 钢笔 (ปากกาหมึกซึม) ใช้ “支”",
+      "learning_objective": "เลือกสิ่งของที่สามารถใช้คำลักษณนาม 支 ได้ถูกต้องทั้งหมด",
+      "pre_post_pair": "CN_PRE_Q022"
+    },
+    {
+      "question_id": "CN_POST_Q023",
+      "test_id": "CN_POST_001",
+      "question_number": 23,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "pinyin",
+      "topic": "Pinyin และการอ่านราคา",
+      "lesson": "LS6",
+      "question": "ข้อใดเป็นคำอ่าน Pinyin ที่ถูกต้องของราคา “100.00 หยวน” (100 块)? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "yìbǎi kuài"
+        },
+        {
+          "id": "B",
+          "text": "yìbǎi yuán"
+        },
+        {
+          "id": "C",
+          "text": "èrshí kuài"
+        },
+        {
+          "id": "D",
+          "text": "yìbǎi máo"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ราคา 100 หยวน อ่านว่า yìbǎi kuài (ภาษาพูด) หรือ yìbǎi yuán (ภาษาทางการ)",
+      "learning_objective": "เลือกคำอ่าน Pinyin ของราคาเงินหยวนที่ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q023"
+    },
+    {
+      "question_id": "CN_POST_Q024",
+      "test_id": "CN_POST_001",
+      "question_number": 24,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "character",
+      "topic": "หมวดอักษรจีน",
+      "lesson": "LS5",
+      "question": "ตัวอักษรจีนในข้อใดมีหมวดอักษร “木” (หมวดไม้) ประกอบอยู่? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "杯"
+        },
+        {
+          "id": "B",
+          "text": "楼"
+        },
+        {
+          "id": "C",
+          "text": "柜"
+        },
+        {
+          "id": "D",
+          "text": "钱"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "杯 (แก้ว), 楼 (ตึกไม้/อาคาร), 柜 (ตู้) มีหมวด 木 ส่วน 钱 มีหมวด 钅",
+      "learning_objective": "ระบุตัวอักษรจีนที่มีหมวดอักษร 木 ประกอบอยู่ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q024"
+    },
+    {
+      "question_id": "CN_POST_Q025",
+      "test_id": "CN_POST_001",
+      "question_number": 25,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "culture",
+      "topic": "เงินตราและสกุลเงิน",
+      "lesson": "LS6",
+      "question": "สกุลเงินต่างประเทศในข้อใดมีระบุอยู่ในบทเรียน LS6? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "英镑 (เงินปอนด์)"
+        },
+        {
+          "id": "B",
+          "text": "日元 (เงินเยน)"
+        },
+        {
+          "id": "C",
+          "text": "泰铢 (เงินบาท)"
+        },
+        {
+          "id": "D",
+          "text": "美元 (เงินดอลลาร์)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "score": 2,
+      "explanation": "บทเรียน LS6 สรุปสกุลเงินหลัก ได้แก่ 英镑, 日元, 泰铢, 美元, 人民币",
+      "learning_objective": "เลือกชื่อสกุลเงินต่างประเทศที่มีในบทเรียนได้ทั้งหมด",
+      "pre_post_pair": "CN_PRE_Q025"
+    },
+    {
+      "question_id": "CN_POST_Q026",
+      "test_id": "CN_POST_001",
+      "question_number": 26,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "ไวยากรณ์",
+      "lesson": "LS5",
+      "question": "ประโยค “没有冰水了，你喝牛奶吗？” มีความหมายตรงกับข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "น้ำเย็นหมดแล้ว คุณจะดื่มนมไหม?"
+        },
+        {
+          "id": "B",
+          "text": "น้ำเย็นอร่อยมาก คุณดื่มนมไหม?"
+        },
+        {
+          "id": "C",
+          "text": "มีน้ำเย็นเยอะแยะ คุณดื่มนมไหม?"
+        },
+        {
+          "id": "D",
+          "text": "ห้ามดื่มน้ำเย็นและนม"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "“没有...了” แสดงการเปลี่ยนแปลงสถานะว่าสิ่งของหมดแล้ว",
+      "learning_objective": "วิเคราะห์ความหมายของประโยคที่มีโครงสร้าง 没有...了 ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q026"
+    },
+    {
+      "question_id": "CN_POST_Q027",
+      "test_id": "CN_POST_001",
+      "question_number": 27,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "sentence_pattern",
+      "topic": "รูปประโยค",
+      "lesson": "LS6",
+      "question": "หากต้องการอุทานว่า “ยางลบหมีแพนด้าน่ารักจังเลย!” ควรพูดอย่างไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "熊猫橡皮真可爱！"
+        },
+        {
+          "id": "B",
+          "text": "熊猫橡皮太贵了！"
+        },
+        {
+          "id": "C",
+          "text": "熊猫橡皮多少钱？"
+        },
+        {
+          "id": "D",
+          "text": "给我熊猫橡皮。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้าง “真 + Adj” ใช้แสดงการอุทานชื่นชม (真可爱 = น่ารักจังเลย)",
+      "learning_objective": "เลือกใช้โครงสร้างคำอุทานบอกระดับ 真... ได้ตรงบริบท",
+      "pre_post_pair": "CN_PRE_Q027"
+    },
+    {
+      "question_id": "CN_POST_Q028",
+      "test_id": "CN_POST_001",
+      "question_number": 28,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "sentence_pattern",
+      "topic": "รูปประโยค",
+      "lesson": "LS6",
+      "question": "ประโยคในข้อใดใช้โครงสร้าง “太...了” แสดงความรู้สึกว่าสินค้าแพงเกินไปได้ถูกต้อง?",
+      "options": [
+        {
+          "id": "A",
+          "text": "太贵了！"
+        },
+        {
+          "id": "B",
+          "text": "太便宜了！"
+        },
+        {
+          "id": "C",
+          "text": "真可爱啊！"
+        },
+        {
+          "id": "D",
+          "text": "一共十五块。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "“太贵了！” แปลว่า แพงเกินไปแล้ว! ใช้แสดงระดับขั้นเกิน",
+      "learning_objective": "ใช้โครงสร้าง 太...了 แสดงความรู้สึกราคาสูงเกินไป",
+      "pre_post_pair": "CN_PRE_Q028"
+    },
+    {
+      "question_id": "CN_POST_Q029",
+      "test_id": "CN_POST_001",
+      "question_number": 29,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "conversation",
+      "topic": "บทสนทนาการซื้อขาย",
+      "lesson": "LS6",
+      "question": "ในบริบทซื้อขาย หากแม่ค้าพูดว่า “送给你” ผู้ซื้อต้องจ่ายเงินกี่หยวน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "0 หยวน (ไม่ต้องจ่าย)"
+        },
+        {
+          "id": "B",
+          "text": "10 หยวน"
+        },
+        {
+          "id": "C",
+          "text": "จ่ายครึ่งราคา"
+        },
+        {
+          "id": "D",
+          "text": "จ่ายเต็มราคา"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า “送” (sòng) ในบริบทซื้อขายหมายถึง แถมให้ฟรี ดังนั้นไม่ต้องจ่ายเงิน (0 หยวน)",
+      "learning_objective": "วิเคราะห์ความหมายของคำกริยา 送 ในบทสนทนาซื้อขายได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q029"
+    },
+    {
+      "question_id": "CN_POST_Q030",
+      "test_id": "CN_POST_001",
+      "question_number": 30,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "vocabulary",
+      "topic": "เงินตราและการคำนวณ",
+      "lesson": "LS6",
+      "question": "ขนมปังราคา 5.8 หยวน (五块八) และนมราคา 3.5 หยวน (三块五) รวมเป็นเงินกี่หยวน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "九块三 (9.3 หยวน)"
+        },
+        {
+          "id": "B",
+          "text": "八块三 (8.3 หยวน)"
+        },
+        {
+          "id": "C",
+          "text": "九块五 (9.5 หยวน)"
+        },
+        {
+          "id": "D",
+          "text": "十块 (10 หยวน)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "5.8 + 3.5 = 9.3 หยวน ภาษาจีนพูดว่า “九块三” (jiǔ kuài sān)",
+      "learning_objective": "คำนวณราคารวมเงินหยวนจากบริบทสินค้า 2 ชิ้นได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q030"
+    },
+    {
+      "question_id": "CN_POST_Q031",
+      "test_id": "CN_POST_001",
+      "question_number": 31,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "sentence_pattern",
+      "topic": "โครงสร้างประโยค",
+      "lesson": "LS6",
+      "question": "เรียงขยายประโยค: 笔袋 -> 大象笔袋 -> ? ข้อใดสมบูรณ์ที่สุด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "这个大象笔袋真贵！"
+        },
+        {
+          "id": "B",
+          "text": "笔袋多少钱？"
+        },
+        {
+          "id": "C",
+          "text": "给我笔袋。"
+        },
+        {
+          "id": "D",
+          "text": "笔袋很好看。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ลำดับขยายความ: คำนาม (笔袋) -> นามระบุลักษณะ (大象笔袋) -> ประโยคสมบูรณ์ (这个大象笔袋真贵！)",
+      "learning_objective": "วิเคราะห์การเรียงลำดับขยายวลีภาษาจีนให้เป็นประโยคสมบูรณ์",
+      "pre_post_pair": "CN_PRE_Q031"
+    },
+    {
+      "question_id": "CN_POST_Q032",
+      "test_id": "CN_POST_001",
+      "question_number": 32,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "การอ่านจับใจความ",
+      "lesson": "LS5",
+      "question": "จากบทอ่านเรื่องวันเกิดน้องสาว (LS5) คุณแม่ให้อะไรเป็นของขวัญแก่น้องสาว?",
+      "options": [
+        {
+          "id": "A",
+          "text": "เสื้อ T-shirt 1 ตัว (一件T恤)"
+        },
+        {
+          "id": "B",
+          "text": "รองเท้า 1 คู่ (一双鞋)"
+        },
+        {
+          "id": "C",
+          "text": "สมุดบันทึก 1 เล่ม (一本笔记本)"
+        },
+        {
+          "id": "D",
+          "text": "ปากกา 1 ด้าม (一支笔)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "บทอ่านระบุว่า: 妈妈送给妹妹一件T恤 (คุณแม่ให้เสื้อ T-shirt 1 ตัว)",
+      "learning_objective": "จับใจความและสรุปรายละเอียดจากบทอ่านเรื่องวันเกิดน้องสาว",
+      "pre_post_pair": "CN_PRE_Q032"
+    },
+    {
+      "question_id": "CN_POST_Q033",
+      "test_id": "CN_POST_001",
+      "question_number": 33,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "การอ่านจับใจความ",
+      "lesson": "LS6",
+      "question": "จากบทอ่านเที่ยวปักกิ่ง (LS6) ผู้เขียนซื้อยางลบหมีแพนด้ามากี่ก้อน และราคารวมกี่หยวน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ซื้อ 2 ก้อน ราคารวม 5 หยวน"
+        },
+        {
+          "id": "B",
+          "text": "ซื้อ 1 ก้อน ราคา 2.5 หยวน"
+        },
+        {
+          "id": "C",
+          "text": "ซื้อ 3 ก้อน ราคารวม 10 หยวน"
+        },
+        {
+          "id": "D",
+          "text": "ไม่ได้ซื้อยางลบ"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "บทอ่านระบุว่าซื้อยางลบแพนด้า 2 ก้อน ก้อนละ 2.5 หยวน (两块五) รวมเป็น 5 หยวน (五块钱)",
+      "learning_objective": "สรุปรายละเอียดจำนวนและราคาสินค้าจากบทอ่านเรื่องเที่ยวร้านหมีแพนด้า",
+      "pre_post_pair": "CN_PRE_Q033"
+    },
+    {
+      "question_id": "CN_POST_Q034",
+      "test_id": "CN_POST_001",
+      "question_number": 34,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "culture",
+      "topic": "อัตราแลกเปลี่ยน",
+      "lesson": "LS6",
+      "question": "ประโยค “一百泰铢是二十块人民币” หมายถึงอะไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "เงิน 100 บาท เท่ากับเงิน 20 หยวน"
+        },
+        {
+          "id": "B",
+          "text": "เงิน 100 หยวน เท่ากับเงิน 20 บาท"
+        },
+        {
+          "id": "C",
+          "text": "เงิน 20 บาท ซื้อสินค้าได้ 100 ชิ้น"
+        },
+        {
+          "id": "D",
+          "text": "เงิน 100 บาท ทอนเงิน 20 หยวน"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "一百泰铢 (100 บาท) 是 (คือ/เท่ากับ) 二十块人民币 (20 หยวน)",
+      "learning_objective": "แปลความหมายประโยคเปรียบเทียบอัตราแลกเปลี่ยนเงินบาทและหยวน",
+      "pre_post_pair": "CN_PRE_Q034"
+    },
+    {
+      "question_id": "CN_POST_Q035",
+      "test_id": "CN_POST_001",
+      "question_number": 35,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "culture",
+      "topic": "วัฒนธรรมและตัวอักษร",
+      "lesson": "LS6",
+      "question": "คำว่า “毛” ในคำว่า “毛笔” (พู่กันจีน) หมายถึงวัสดุชนิดใดที่ใช้ทำหัวพู่กัน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ขนสัตว์"
+        },
+        {
+          "id": "B",
+          "text": "เส้นใยไม้ไผ่"
+        },
+        {
+          "id": "C",
+          "text": "เส้นด้ายไหม"
+        },
+        {
+          "id": "D",
+          "text": "พลาสติก"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า “毛” (máo) หมายถึง ขนสัตว์ ซึ่งใช้ทำส่วนหัวพู่กันจีนโบราณ",
+      "learning_objective": "อธิบายองค์ประกอบของคำว่า 毛笔 และวัสดุทำขนพู่กันจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q035"
+    },
+    {
+      "question_id": "CN_POST_Q036",
+      "test_id": "CN_POST_001",
+      "question_number": 36,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "ไวยากรณ์",
+      "lesson": "LS6",
+      "question": "เติมคำวิเศษณ์ลงในช่องว่าง: “面包和果汁，__十块钱。” (ขนมปังและน้ำผลไม้ รวมทั้งหมด 10 หยวน)",
+      "options": [],
+      "correct_answer": [
+        "一共"
+      ],
+      "score": 1,
+      "explanation": "“一共” แปลว่า รวมทั้งหมด ใช้สรุปรวมจำนวนเงิน",
+      "learning_objective": "เติมคำวิเศษณ์สรุปรวมราคา 一共 ในประโยคได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q036"
+    },
+    {
+      "question_id": "CN_POST_Q037",
+      "test_id": "CN_POST_001",
+      "question_number": 37,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "ไวยากรณ์",
+      "lesson": "LS6",
+      "question": "เติมคำในช่องว่าง: “这个笔袋一百块，但他__五十块钱。” (กระเป๋าดินสอนี้ 100 หยวน แต่เขาเจิ์มีแค่ 50 หยวน)",
+      "options": [],
+      "correct_answer": [
+        "只有"
+      ],
+      "score": 1,
+      "explanation": "“只有” แปลว่า มีแค่/มีเพียง แสดงข้อจำกัดของจำนวนเงิน",
+      "learning_objective": "เติมคำบอกข้อจำกัด 只有 ในประโยคได้ถูกบริบท",
+      "pre_post_pair": "CN_PRE_Q037"
+    },
+    {
+      "question_id": "CN_POST_Q038",
+      "test_id": "CN_POST_001",
+      "question_number": 38,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "vocabulary",
+      "topic": "Pinyin และการอ่านราคา",
+      "lesson": "LS6",
+      "question": "เติม Pinyin ของราคา 10.50 หยวน: shí kuài __",
+      "options": [],
+      "correct_answer": [
+        "wǔ"
+      ],
+      "score": 1,
+      "explanation": "10.50 หยวน พูดแบบละคำว่า 毛 ได้เป็น shí kuài wǔ",
+      "learning_objective": "เติมคำอ่าน Pinyin หน่วยเศษเงินหยวน (毛) ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q038"
+    },
+    {
+      "question_id": "CN_POST_Q039",
+      "test_id": "CN_POST_001",
+      "question_number": 39,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "คำลักษณนาม",
+      "lesson": "LS6",
+      "question": "เติมคำลักษณนามลงในช่องว่าง: “这__裤子一百九十九块。” (กางเกงตัวนี้ราคา 199 หยวน)",
+      "options": [],
+      "correct_answer": [
+        "条"
+      ],
+      "score": 1,
+      "explanation": "“条” ใช้เป็นลักษณนามของสิ่งของสายยาว/กางเกง/กระโปรง เช่น 裤子, 裙子",
+      "learning_objective": "เติมคำลักษณนามของกางเกง 条 ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q039"
+    },
+    {
+      "question_id": "CN_POST_Q040",
+      "test_id": "CN_POST_001",
+      "question_number": 40,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "คำลักษณนาม",
+      "lesson": "LS5",
+      "question": "เติมคำลักษณนามในประโยค: “哥哥给我一__面包。” (พี่ชายให้ขนมปังฉัน 1 ชิ้น)",
+      "options": [],
+      "correct_answer": [
+        "块"
+      ],
+      "score": 1,
+      "explanation": "“面包” (ขนมปัง) ใช้ลักษณนามว่า “块” (kuài)",
+      "learning_objective": "เติมคำลักษณนามของขนมปังในประโยคย้อนกลับได้สมบูรณ์",
+      "pre_post_pair": "CN_PRE_Q040"
+    },
+    {
+      "question_id": "CN_POST_Q041",
+      "test_id": "CN_POST_001",
+      "question_number": 41,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "character",
+      "topic": "โครงสร้างอักษรจีน",
+      "lesson": "LS6",
+      "question": "ตัวอักษร “块” (ชิ้น/หยวน) ประกอบด้วยหมวด 土 (土字旁) รวมกับส่วนประกอบใดด้านขวา?",
+      "options": [],
+      "correct_answer": [
+        "快",
+        "夬"
+      ],
+      "score": 1,
+      "explanation": "อักษร 块 เกิดจากหมวด 土 (ดิน) + 快/夬",
+      "learning_objective": "ระบุองค์ประกอบอักษรจีนของคำว่า 块 ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q041"
+    },
+    {
+      "question_id": "CN_POST_Q042",
+      "test_id": "CN_POST_001",
+      "question_number": 42,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "culture",
+      "topic": "วัฒนธรรมและตัวอักษร",
+      "lesson": "LS6",
+      "question": "การฝึกเขียนพู่กันจีนอักษรตั้งมงคล “福” นิยมเขียนบนกระดาษสีใด?",
+      "options": [],
+      "correct_answer": [
+        "สีแดง",
+        "红色"
+      ],
+      "score": 1,
+      "explanation": "อักษร 福 นิยมเขียนบนกระดาษสีแดงเพื่อความเป็นสิริมงคลช่วงตรุษจีน",
+      "learning_objective": "ระบุสีของกระดาษมงคลที่ใช้เขียนอักษร 福 ด้วยพู่กันจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q042"
+    },
+    {
+      "question_id": "CN_POST_Q043",
+      "test_id": "CN_POST_001",
+      "question_number": 43,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "คำลักษณนาม",
+      "lesson": "LS6",
+      "question": "วลีบอกจำนวนเครื่องแต่งกายในข้อใดจับคู่คำนามและลักษณนามได้ถูกต้อง? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "一件上衣"
+        },
+        {
+          "id": "B",
+          "text": "一条裤子"
+        },
+        {
+          "id": "C",
+          "text": "一双鞋"
+        },
+        {
+          "id": "D",
+          "text": "一块裙子"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "A(เสื้อ1ตัว), B(กางเกง1ตัว), C(รองเท้า1คู่) ถูกต้อง ส่วน D ต้องใช้ 一条裙子",
+      "learning_objective": "จับคู่คำนามเครื่องแต่งกายกับคำลักษณนามที่ถูกต้องได้ทุกข้อ",
+      "pre_post_pair": "CN_PRE_Q043"
+    },
+    {
+      "question_id": "CN_POST_Q044",
+      "test_id": "CN_POST_001",
+      "question_number": 44,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "culture",
+      "topic": "เงินตราและสกุลเงิน",
+      "lesson": "LS6",
+      "question": "ชนิดราคาเหรียญและธนบัตรย่อยเงินหยวนในข้อใดมีในบทเรียน LS6? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "5块"
+        },
+        {
+          "id": "B",
+          "text": "1块"
+        },
+        {
+          "id": "C",
+          "text": "5毛"
+        },
+        {
+          "id": "D",
+          "text": "1毛"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "score": 2,
+      "explanation": "บทเรียน LS6 สรุปชนิดราคาหยวนย่อย ได้แก่ 5块, 1块, 5毛 (5 Jiao), 1毛 (1 Jiao)",
+      "learning_objective": "ระบุชนิดเหรียญและธนบัตรย่อยเงินหยวนที่มีในบทเรียนได้ทั้งหมด",
+      "pre_post_pair": "CN_PRE_Q044"
+    },
+    {
+      "question_id": "CN_POST_Q045",
+      "test_id": "CN_POST_001",
+      "question_number": 45,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "conversation",
+      "topic": "บทสนทนาการซื้อขาย",
+      "lesson": "LS6",
+      "question": "ประโยคในข้อใดที่ “ผู้ซื้อ” สามารถใช้พูดถามราคาและซื้อของในร้านค้าได้? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "请问，一块橡皮多少钱？"
+        },
+        {
+          "id": "B",
+          "text": "一共多少钱？"
+        },
+        {
+          "id": "C",
+          "text": "便宜一点儿"
+        },
+        {
+          "id": "D",
+          "text": "找您四块"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "A(ถามราขายางลบ), B(ถามราคารวม), C(ขอต่อราคา) เป็นประโยคผู้ซื้อ ส่วน D เป็นประโยคผู้ขาย (ทอนเงิน)",
+      "learning_objective": "เลือกประโยคภาษาจีนที่ผู้ซื้อสามารถใช้พูดในร้านค้าได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q045"
+    },
+    {
+      "question_id": "CN_POST_Q046",
+      "test_id": "CN_POST_001",
+      "question_number": 46,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "ประโยคปฏิเสธ",
+      "lesson": "LS5",
+      "question": "ประโยคในข้อใดมีความหมายเชิงปฏิเสธหรือไม่มีสิ่งของ? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "没有冰水了"
+        },
+        {
+          "id": "B",
+          "text": "太贵了，我没买"
+        },
+        {
+          "id": "C",
+          "text": "我只有五十块"
+        },
+        {
+          "id": "D",
+          "text": "一共二十块"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "A(ไม่มีน้ำเย็นแล้ว), B(แพงไปไม่ได้ซื้อ), C(มีแค่50หยวน/จำกัด) เป็นเชิงปฏิเสธ/จำกัด ส่วน D เป็นสรุปรวมราคา",
+      "learning_objective": "จำแนกประโยคที่มีความหมายเชิงปฏิเสธหรือไม่มีสิ่งของได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q046"
+    },
+    {
+      "question_id": "CN_POST_Q047",
+      "test_id": "CN_POST_001",
+      "question_number": 47,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "character",
+      "topic": "หมวดอักษรจีน",
+      "lesson": "LS6",
+      "question": "ตัวอักษรจีนในข้อใดมีหมวดอักษร “钅” (โลหะ/เงิน) ประกอบอยู่? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "钱 (qián)"
+        },
+        {
+          "id": "B",
+          "text": "铅 (qiān)"
+        },
+        {
+          "id": "C",
+          "text": "钢 (gāng)"
+        },
+        {
+          "id": "D",
+          "text": "盘 (pán)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "钱 (เงิน), 铅 (ตะกั่ว/ดินสอ), 钢 (เหล็ก/ปากกาหมึกซึม) มีหมวด 钅 ส่วน 盘 มีหมวด 皿",
+      "learning_objective": "จำแนกตัวอักษรจีนที่มีหมวดอักษร 钅 (金字旁) ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q047"
+    },
+    {
+      "question_id": "CN_POST_Q048",
+      "test_id": "CN_POST_001",
+      "question_number": 48,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "การอ่านจับใจความ",
+      "lesson": "LS5",
+      "question": "ข้อความในข้อใดถูกต้องตามบทอ่านเรื่องวันเกิดน้องสาว (LS5)? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "น้องสาวเรียนชั้น ป.1"
+        },
+        {
+          "id": "B",
+          "text": "น้องสาวได้รับรองเท้า 1 คู่จากคุณพ่อ"
+        },
+        {
+          "id": "C",
+          "text": "น้องสาวได้รับเสื้อ T-shirt 1 ตัวจากคุณแม่"
+        },
+        {
+          "id": "D",
+          "text": "น้องสาวได้รับเค้กวันเกิด 50 ก้อน"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "บทอ่านระบุว่าน้องสาวเรียน ป.1 พ่อให้รองเท้า 1 คู่ แม่ให้เสื้อ T-shirt 1 ตัว",
+      "learning_objective": "วิเคราะห์ข้อเท็จจริงจากบทอ่านเรื่องวันเกิดน้องสาวได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q048"
+    },
+    {
+      "question_id": "CN_POST_Q049",
+      "test_id": "CN_POST_001",
+      "question_number": 49,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "การอ่านจับใจความ",
+      "lesson": "LS6",
+      "question": "ข้อความในข้อใดถูกต้องตามบทอ่านเรื่องเที่ยวร้านหมีแพนด้า (LS6)? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "ผู้เขียนไปเที่ยวปักกิ่งในเดือนเมษายน"
+        },
+        {
+          "id": "B",
+          "text": "ในร้านหมีแพนด้ามีสินค้าน่าสนใจหลายอย่าง"
+        },
+        {
+          "id": "C",
+          "text": "ปากกาหมึกซึมราคาด้ามละ 250 หยวน"
+        },
+        {
+          "id": "D",
+          "text": "ผู้เขียนซื้อกระเป๋านักเรียน 10 ใบ"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "บทอ่านระบุว่าไปปักกิ่ง เม.ย. ร้านหมีแพนด้ามีของเยอะ และปากกาหมึกซึมราคา 250 หยวน",
+      "learning_objective": "วิเคราะห์ข้อเท็จจริงจากบทอ่านเรื่องเที่ยวร้านหมีแพนด้าได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q049"
+    },
+    {
+      "question_id": "CN_POST_Q050",
+      "test_id": "CN_POST_001",
+      "question_number": 50,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "conversation",
+      "topic": "การใช้งานในชีวิตประจำวัน",
+      "lesson": "LS5",
+      "question": "ประโยคในข้อใดเป็นประโยคที่ใช้ถามราคาและรับเงิน/ทอนเงินในชีวิตประจำวัน? (เลือกได้หลายข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "请问，这个多少钱？"
+        },
+        {
+          "id": "B",
+          "text": "一共十六块钱。"
+        },
+        {
+          "id": "C",
+          "text": "找您四块。"
+        },
+        {
+          "id": "D",
+          "text": "我不喜欢果汁。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "A(ถามราคา), B(บอกราคารวม), C(ทอนเงิน4หยวน) เป็นประโยคการช้อปปิ้งในชีวิตประจำวัน",
+      "learning_objective": "ประยุกต์ใช้รูปประโยคถามราคาและชำระเงินในชีวิตประจำวันได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q050"
+    }
+  ]

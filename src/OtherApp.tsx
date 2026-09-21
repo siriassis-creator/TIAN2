@@ -1,6 +1,6 @@
 // src/OtherApp.tsx
 import React, { useState } from 'react';
-import { ArrowLeft, Play, ChevronRight, BookOpen, Bot } from 'lucide-react';
+import { ArrowLeft, Play, ChevronRight, BookOpen, Bot, ClipboardList } from 'lucide-react';
 import Settings2 from './Settings2';
 
 import LessonPattern1 from './components/LessonPattern1';
@@ -77,6 +77,16 @@ import OtherLesson6_17 from './components/Other_lesson6-17';
 import OtherLesson6_18 from './components/Other_lesson6-18';
 
 import ChatBot from './components/ChatBot';
+import QuizContainer from './components/quiz/QuizContainer';
+import mockQuizData from './data/quizData.json';
+
+// 🎯 Helper Function: สุ่มข้อสอบตามจำนวนที่ต้องการ
+const getRandomQuestions = (questions: any[], count: number) => {
+  // ใช้สูตรสุ่มสลับตำแหน่ง (Shuffle)
+  const shuffled = [...questions].sort(() => 0.5 - Math.random());
+  // ตัดมาแค่จำนวนที่ต้องการ (เช่น 10 ข้อ)
+  return shuffled.slice(0, count);
+};
 
 interface OtherAppProps {
   currentView: string;
@@ -186,6 +196,9 @@ export default function OtherApp({
 }: OtherAppProps) {
   
   const [activeSectionId, setActiveSectionId] = useState<string | null>(null);
+  
+  // 🎯 State สำหรับจัดการแบบทดสอบ
+  const [activeQuizData, setActiveQuizData] = useState<any[] | null>(null);
   
   // 🎯 AI ChatBot States
   const [showChatBot, setShowChatBot] = useState(false);
@@ -333,7 +346,7 @@ export default function OtherApp({
       <div className="p-6 md:p-10 w-full relative z-10">
         
         {/* ===================== โหมด 1: หน้าสารบัญ (Table of Contents) ===================== */}
-        {activeSectionId === null && (
+        {activeSectionId === null && activeQuizData === null && (
           <div className="animate-fade-in">
             <div className="flex items-center justify-between mb-8">
               <button
@@ -418,7 +431,7 @@ export default function OtherApp({
                                  title="เริ่ม Slide Show เฉพาะหน้านี้"
                                >
                                   <Play size={14} fill="currentColor" /> Slide
-                               </button>
+                                </button>
                                <div className="w-10 h-10 rounded-full bg-slate-50 group-hover:bg-emerald-500 text-slate-400 group-hover:text-white flex items-center justify-center transition-colors">
                                   <ChevronRight size={20} />
                                </div>
@@ -429,6 +442,58 @@ export default function OtherApp({
                     </div>
                   </div>
                 ))}
+
+                {/* 🎯 ปุ่มทำข้อสอบ (Pre-test & Post-test แบบสุ่ม 10 ข้อ) */}
+                <div className="mt-8 pt-8 border-t-2 border-dashed border-slate-200 space-y-4">
+                  
+                  {/* ปุ่ม Pre-test */}
+                  <div 
+                    onClick={() => {
+                       // 1. กรองเอาเฉพาะ PRE
+                       const preTestQuestions = mockQuizData.filter((q: any) => q.question_id.includes('PRE'));
+                       // 2. สุ่มมา 10 ข้อ
+                       const randomPre = getRandomQuestions(preTestQuestions, 10);
+                       setActiveQuizData(randomPre as any); 
+                    }} 
+                    className="w-full bg-gradient-to-r from-amber-500 to-orange-500 p-6 rounded-2xl shadow-lg cursor-pointer flex items-center justify-between transition-transform hover:scale-[1.01]"
+                  >
+                    <div className="flex items-center gap-4 text-white">
+                      <ClipboardList size={32} />
+                      <div>
+                        <h4 className="text-2xl font-bold">แบบทดสอบก่อนเรียน (Pre-test)</h4>
+                        <p className="opacity-90 text-sm mt-1">ระบบจะสุ่มมาให้ทำรอบละ 10 ข้อ (จากคลัง 50 ข้อ)</p>
+                      </div>
+                    </div>
+                    <button className="px-6 py-3 bg-white text-orange-600 rounded-xl font-bold shadow-sm shrink-0">
+                      เริ่มสุ่มทำ 10 ข้อ
+                    </button>
+                  </div>
+
+                  {/* ปุ่ม Post-test */}
+                  <div 
+                    onClick={() => {
+                       // 1. กรองเอาเฉพาะ POST
+                       const postTestQuestions = mockQuizData.filter((q: any) => q.question_id.includes('POST'));
+                       // 2. สุ่มมา 10 ข้อ
+                       const randomPost = getRandomQuestions(postTestQuestions, 10);
+                       setActiveQuizData(randomPost as any); 
+                    }} 
+                    className="w-full bg-gradient-to-r from-emerald-500 to-teal-500 p-6 rounded-2xl shadow-lg cursor-pointer flex items-center justify-between transition-transform hover:scale-[1.01]"
+                  >
+                    <div className="flex items-center gap-4 text-white">
+                      <ClipboardList size={32} />
+                      <div>
+                        <h4 className="text-2xl font-bold">แบบทดสอบหลังเรียน (Post-test)</h4>
+                        <p className="opacity-90 text-sm mt-1">ระบบจะสุ่มมาให้ทำรอบละ 10 ข้อ (จากคลัง 50 ข้อ)</p>
+                      </div>
+                    </div>
+                    <button className="px-6 py-3 bg-white text-emerald-600 rounded-xl font-bold shadow-sm shrink-0">
+                      เริ่มสุ่มทำ 10 ข้อ
+                    </button>
+                  </div>
+
+                </div>
+
               </div>
             )}
           </div>
@@ -499,6 +564,26 @@ export default function OtherApp({
                  );
                })
              )}
+          </div>
+        )}
+
+        {/* ===================== โหมด 3: หน้าทำแบบทดสอบ (Quiz Container) ===================== */}
+        {activeQuizData !== null && (
+          <div className="animate-fade-in w-full">
+             <div className="flex items-center justify-between mb-6 bg-white p-4 rounded-2xl border border-slate-200 shadow-sm sticky top-0 z-50">
+               <button
+                 onClick={() => setActiveQuizData(null)}
+                 className="flex items-center gap-2 text-slate-500 hover:text-red-600 font-bold bg-slate-50 hover:bg-red-50 px-5 py-2 rounded-xl transition-colors"
+               >
+                 <ArrowLeft size={18} /> ออกจากแบบทดสอบ (ข้อมูลจะไม่บันทึก)
+               </button>
+             </div>
+             
+             {/* เรียกใช้ Component ข้อสอบ */}
+             <QuizContainer 
+                quizData={activeQuizData} 
+                onExit={() => setActiveQuizData(null)} 
+             />
           </div>
         )}
 
