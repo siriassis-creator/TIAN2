@@ -169,6 +169,7 @@ export default function App() {
   const [hskCards, setHskCards] = useState<HskCardData[]>([]);
   const [loading, setLoading] = useState(true);
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   
   const [menuNames, setMenuNames] = useState({
@@ -583,17 +584,14 @@ export default function App() {
                 >
                   ย้อนกลับ
                 </button>
-      
                 <button 
                   onClick={() => {
-                    // 🎯 1. อ่านค่าพารามิเตอร์จาก URL (เช่น ?view=quiz_home)
                     const params = new URLSearchParams(window.location.search);
                     const intendedView = params.get('view'); 
 
                     if (targetRole === 'student' && loginPinInput === globalStudentPin) {
                       setAppLoginRole('student');
                       setUserRole('student');
-                      // 🎯 2. ถ้ามีลิงก์แนบมา ให้พาไปหน้านั้น ถ้าไม่มีพาไปหน้า Home
                       setCurrentView(intendedView ? intendedView : (menuVisibility.student.home ? 'home' : 'other_home'));
                     } else if (targetRole === 'teacher' && loginPinInput === globalTeacherPin) {
                       setAppLoginRole('teacher');
@@ -614,8 +612,6 @@ export default function App() {
                 >
                   ปลดล็อก
                 </button>
-
-
               </div>
             </div>
           )}
@@ -626,8 +622,9 @@ export default function App() {
 
   return (
     <>
+      {/* 🎯 ซ่อน Join Modal ตอนสั่งพิมพ์ */}
       {showJoinModal && (
-        <div className="fixed inset-0 z-[9999] bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-[9999] bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4 print:hidden">
           <div className="bg-white p-8 rounded-3xl shadow-2xl w-full max-w-sm flex flex-col items-center transform transition-all">
             <div className="w-20 h-20 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center mb-6 shadow-sm">
               <Users size={40} />
@@ -650,12 +647,12 @@ export default function App() {
         </div>
       )}
 
-      {/* 🎯 เปลี่ยนโครงสร้างหลักเป็น flex-col แทน flex-row เพื่อให้เมนูอยู่ด้านบน */}
-      <div className="flex flex-col h-screen font-sans bg-[#f8fafc] overflow-hidden w-full relative">
+      {/* 🎯 ปลดล็อก Main Layout ให้ความสูงยืดตามเนื้อหากระดาษตอนพิมพ์ */}
+      <div className="flex flex-col h-screen font-sans bg-[#f8fafc] overflow-hidden w-full relative print:h-auto print:overflow-visible print:block">
         
-        {/* --- Presentation Overlay --- */}
+        {/* --- Presentation Overlay (ซ่อนตอนพิมพ์) --- */}
         {isPresenting && slides.length > 0 && (
-          <div className="fixed inset-0 z-[2000] bg-white flex flex-col w-full h-full overflow-hidden">
+          <div className="fixed inset-0 z-[2000] bg-white flex flex-col w-full h-full overflow-hidden print:hidden">
             <div className="h-16 bg-slate-900 text-white flex items-center justify-between px-6 shrink-0 z-[2001]">
               <div className="flex items-center gap-4">
                 {userRole === 'teacher' && roomPin && (
@@ -814,8 +811,8 @@ export default function App() {
           </div>
         )}
 
-        {/* 🎯 แถบเมนูด้านบน (Top Navigation Bar) */}
-        <header className="bg-white/95 backdrop-blur-md border-b flex-shrink-0 z-[50] shadow-sm">
+        {/* 🎯 แถบเมนูด้านบน (ซ่อนตอนพิมพ์) */}
+        <header className="bg-white/95 backdrop-blur-md border-b flex-shrink-0 z-[50] shadow-sm print:hidden">
           <div className="flex flex-col md:flex-row md:items-center justify-between">
             
             {/* Logo */}
@@ -831,7 +828,7 @@ export default function App() {
               </div>
             </div>
 
-            {/* Navigation Links (เลื่อนแนวนอนได้ในจอมือถือ) */}
+            {/* Navigation Links */}
             <nav className="flex items-center overflow-x-auto px-4 pb-3 md:pb-0 md:py-3 gap-2 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none'] md:flex-1 md:justify-center">
               
               {canSeeMenu('home') && (
@@ -862,7 +859,6 @@ export default function App() {
                 </button>
               )}
 
-              {/* เมนูแบบทดสอบ */}
               {canSeeMenu('quiz_home') && (
                 <button
                   onClick={() => setCurrentView('quiz_home')}
@@ -909,7 +905,6 @@ export default function App() {
                 </>
               )}
 
-              {/* 🎯 นำปุ่ม เข้าร่วมชั้น/ออกจากระบบ มารวมในแถบเมนู เพื่อให้รูปแบบเป็นหนึ่งเดียวกัน */}
               <div className="w-px h-6 bg-slate-200 mx-1 hidden md:block"></div>
               
               <button
@@ -930,8 +925,8 @@ export default function App() {
           </div>
         </header>
 
-        {/* 🎯 พื้นที่แสดงเนื้อหาหลัก (ได้พื้นที่กว้าง 100% แล้ว) */}
-        <main className="flex-1 relative overflow-y-auto w-full">
+        {/* 🎯 ปลดล็อก Main Content ให้ยืดล้นจอเวลาสั่งพิมพ์ (print:h-auto print:overflow-visible print:block) */}
+        <main className="flex-1 relative overflow-y-auto w-full print:h-auto print:overflow-visible print:block">
 
           {currentView === 'home' && canSeeMenu('home') && (
             <div className="p-6 md:p-10 w-full relative z-10">

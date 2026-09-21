@@ -278,18 +278,19 @@ export default function OtherApp({
   // =========================================================================
   if (currentView === 'quiz_home') {
     
-    // ถ้าผู้ใช้กดพิมพ์ A4 ให้เรนเดอร์คอมโพเนนต์ PrintableQuiz เต็มจอ
-    if (printQuizData !== null) {
-      return (
-        <div className="absolute inset-0 z-[9999] bg-white w-full h-full overflow-y-auto">
-          <PrintableQuiz 
-            data={printQuizData.data} 
-            title={printQuizData.title} 
-            onClose={() => setPrintQuizData(null)} 
-          />
-        </div>
-      );
-    }
+ // 🎯 โหมดพิมพ์ A4
+ if (printQuizData !== null) {
+  return (
+    // 🎯 สังเกตคลาส: print:static print:h-auto print:overflow-visible สำคัญมาก! ทำให้เอกสารเรียงลงมาหลายๆ หน้าได้
+    <div className="absolute inset-0 z-[9999] bg-slate-200 w-full h-full overflow-y-auto print:static print:h-auto print:overflow-visible print:bg-white print:block">
+      <PrintableQuiz 
+        data={printQuizData.data} 
+        title={printQuizData.title} 
+        onClose={() => setPrintQuizData(null)} 
+      />
+    </div>
+  );
+}
 
     return (
       <div className="p-4 md:p-10 w-full relative z-10 min-h-screen">

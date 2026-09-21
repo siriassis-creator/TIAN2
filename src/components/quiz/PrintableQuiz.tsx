@@ -25,12 +25,11 @@ export default function PrintableQuiz({ data, title, onClose }: Props) {
     generateQuiz(initialCount);
   }, [data]);
 
-  // 🎯 ดึง ID ข้อสอบที่สุ่มได้ไปต่อท้าย URL 
   const handleCopyLink = () => {
     const ids = questions.map(q => q.question_id).join(',');
     const realUrl = `https://laoshi-tian.vercel.app/?view=quiz_home&qIds=${ids}`;
     navigator.clipboard.writeText(realUrl);
-    alert(`คัดลอกลิงก์แบบทดสอบสำเร็จ!\n\n${realUrl}\n\nลิงก์นี้จะดึงข้อสอบ ${questions.length} ข้อ "ให้ตรงกับที่คุณเห็นบนหน้าจอเป๊ะๆ" เพื่อให้นักเรียนทำออนไลน์ครับ`);
+    alert(`คัดลอกลิงก์แบบทดสอบสำเร็จ!\n\n${realUrl}\n\nเมื่อส่งให้นักเรียน ระบบจะดึงข้อสอบชุดนี้มาให้ทำออนไลน์ครับ`);
   };
 
   const getAnswerDisplay = (q: QuestionType) => {
@@ -45,25 +44,29 @@ export default function PrintableQuiz({ data, title, onClose }: Props) {
   };
 
   return (
-    <div className="min-h-screen bg-slate-200 md:p-8 flex justify-center print:bg-white print:p-0">
+    // 🎯 ปลดล็อก Container ให้ยาวได้ไม่จำกัด (print:block print:min-h-0 print:bg-white)
+    <div className="min-h-screen bg-slate-200 md:p-8 flex justify-center print:bg-white print:p-0 print:block print:min-h-0">
       
+      {/* 🎯 สไตล์พิเศษ (CSS) สำหรับลบ Header/Footer ของ Browser ออกเวลาพิมพ์ (เอา URL/วันที่ ออกจากกระดาษ) */}
+      <style type="text/css" media="print">
+        {`
+          @page { size: A4; margin: 15mm; }
+          body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        `}
+      </style>
+
+      {/* 🎯 แถบเครื่องมือตั้งค่า (จะหายไปเวลาปริ้น) */}
       <div className="fixed top-4 left-1/2 -translate-x-1/2 flex flex-wrap justify-center gap-2 print:hidden z-50 bg-white/95 p-3 rounded-2xl shadow-xl backdrop-blur-md border border-slate-200 items-center w-[95%] md:w-auto">
-        
         <button onClick={onClose} className="px-3 py-2 bg-slate-100 hover:bg-red-50 hover:text-red-600 text-slate-600 rounded-xl flex items-center gap-2 font-bold transition-all text-sm">
           <ArrowLeft size={16} /> ปิด
         </button>
-
         <div className="w-px h-6 bg-slate-200 mx-1 hidden sm:block"></div>
-
         <div className="flex items-center gap-2 px-2">
           <span className="text-sm font-bold text-slate-700 flex items-center gap-1">
             <FileText size={16} className="text-indigo-500" /> จำนวนข้อ:
           </span>
           <input 
-            type="number" 
-            min={1} 
-            max={data.length} 
-            value={printCount}
+            type="number" min={1} max={data.length} value={printCount}
             onChange={(e) => {
               let val = Number(e.target.value);
               if (val > data.length) val = data.length;
@@ -73,27 +76,20 @@ export default function PrintableQuiz({ data, title, onClose }: Props) {
           />
           <span className="text-xs font-medium text-slate-400">/ {data.length}</span>
         </div>
-
-        <button 
-          onClick={() => generateQuiz(printCount)} 
-          className="px-3 py-2 bg-indigo-50 hover:bg-indigo-100 text-indigo-600 rounded-xl flex items-center gap-1.5 text-sm font-bold transition-all"
-        >
+        <button onClick={() => generateQuiz(printCount)} className="px-3 py-2 bg-indigo-50 hover:bg-indigo-100 text-indigo-600 rounded-xl flex items-center gap-1.5 text-sm font-bold transition-all">
           <RefreshCw size={16} /> สุ่มใหม่
         </button>
-
         <div className="w-px h-6 bg-slate-200 mx-1 hidden sm:block"></div>
-
         <button onClick={handleCopyLink} className="px-3 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl shadow-md flex items-center gap-1.5 font-bold transition-all text-sm">
           <LinkIcon size={16} /> <span className="hidden sm:inline">คัดลอกลิงก์</span>
         </button>
-        
         <button onClick={() => window.print()} className="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl shadow-md flex items-center gap-1.5 font-bold transition-all text-sm">
           <Printer size={16} /> พิมพ์ A4
         </button>
-
       </div>
 
-      <div className="bg-white w-full max-w-[210mm] min-h-[297mm] mt-24 md:mt-16 p-8 md:p-[20mm] shadow-2xl print:shadow-none print:max-w-none print:mt-0 print:p-0 text-black">
+      {/* 🎯 กระดาษข้อสอบ (ปลดล็อกความสูงให้ยาวได้เรื่อยๆ) */}
+      <div className="bg-white w-full max-w-[210mm] min-h-[297mm] mt-24 md:mt-16 p-8 md:p-[20mm] shadow-2xl print:shadow-none print:max-w-none print:w-full print:mt-0 print:p-0 text-black print:block print:min-h-0">
         
         <div className="text-center mb-10 pb-6 border-b-2 border-black">
           <h1 className="text-2xl md:text-3xl font-bold mb-4 leading-relaxed">{title}</h1>
@@ -111,7 +107,8 @@ export default function PrintableQuiz({ data, title, onClose }: Props) {
 
         <div className="space-y-8">
           {questions.map((q, idx) => (
-            <div key={q.question_id || idx} className="break-inside-avoid">
+            // 🎯 คลาส break-inside-avoid ป้องกันไม่ให้ข้อสอบโดนตัดครึ่งเวลาขึ้นหน้าใหม่
+            <div key={q.question_id || idx} className="break-inside-avoid print:mb-6">
               <p className="font-bold text-lg mb-3 leading-relaxed text-justify">
                 {idx + 1}. {q.question}
                 {q.type === 'multiple_select' && (
@@ -140,13 +137,14 @@ export default function PrintableQuiz({ data, title, onClose }: Props) {
           ))}
         </div>
 
-        <div className="break-before-page pt-10 mt-10 print:mt-0 print:border-t-0 border-t-2 border-dashed border-slate-300">
-          <h2 className="text-2xl font-bold mb-8 text-center bg-slate-100 py-3 rounded-lg print:bg-transparent print:border-b-2 print:border-black">
+        {/* 🎯 หน้าเฉลย (บังคับให้ขึ้นหน้าใหม่เสมอเมื่อพิมพ์ด้วย break-before-page) */}
+        <div className="break-before-page pt-10 mt-10 print:mt-0 print:pt-0 print:border-t-0 border-t-2 border-dashed border-slate-300">
+          <h2 className="text-2xl font-bold mb-8 text-center bg-slate-100 py-3 rounded-lg print:bg-transparent print:border-b-2 print:border-black print:pb-4">
             เฉลยแบบทดสอบ (Answer Key)
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8 bg-slate-50 p-6 rounded-xl print:bg-transparent print:p-0">
             {questions.map((q, idx) => (
-              <div key={`ans-${idx}`} className="text-base flex items-start border-b border-slate-200 print:border-slate-300 pb-2">
+              <div key={`ans-${idx}`} className="text-base flex items-start border-b border-slate-200 print:border-slate-300 pb-2 break-inside-avoid">
                 <span className="font-bold mr-3 text-indigo-700 print:text-black shrink-0">{idx + 1}.</span> 
                 <span className="font-medium text-slate-800 print:text-black leading-relaxed">
                   {getAnswerDisplay(q)}
