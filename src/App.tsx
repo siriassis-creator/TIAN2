@@ -43,7 +43,7 @@ import {
   Key,
   LogOut,
   Eye,
-  ClipboardList // 🎯 เพิ่มไอคอนสำหรับเมนูแบบทดสอบ
+  ClipboardList
 } from 'lucide-react';
 import { db } from './firebase';
 import { doc, setDoc, getDoc, updateDoc, onSnapshot } from 'firebase/firestore'; 
@@ -171,7 +171,6 @@ export default function App() {
 
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   
-  // 🎯 เพิ่ม quiz_home ในระบบจัดการชื่อเมนู
   const [menuNames, setMenuNames] = useState({
     home: 'หน้าหลัก HSK',
     other_home: 'คอร์สอื่นๆ',
@@ -180,7 +179,6 @@ export default function App() {
     settings_other: 'ตั้งค่า คอร์สอื่นๆ',
   });
 
-  // 🎯 เพิ่ม quiz_home ในระบบซ่อน/แสดงเมนู
   const [menuVisibility, setMenuVisibility] = useState({
     teacher: { home: true, other_home: true, quiz_home: true, settings: true, settings_other: true },
     student: { home: true, other_home: true, quiz_home: true }
@@ -516,7 +514,6 @@ export default function App() {
     }
   };
 
-  // 🎯 อัปเดต Type ให้รองรับ quiz_home
   const canSeeMenu = (menuKey: 'home' | 'other_home' | 'quiz_home' | 'settings' | 'settings_other') => {
     if (appLoginRole === 'admin') return true;
     if (appLoginRole === 'teacher') return menuVisibility.teacher[menuKey as keyof typeof menuVisibility.teacher] ?? true;
@@ -622,7 +619,7 @@ export default function App() {
   return (
     <>
       {showJoinModal && (
-        <div className="fixed inset-0 z-[9999] bg-slate-900/60 backdrop-blur-sm flex items-center justify-center">
+        <div className="fixed inset-0 z-[9999] bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4">
           <div className="bg-white p-8 rounded-3xl shadow-2xl w-full max-w-sm flex flex-col items-center transform transition-all">
             <div className="w-20 h-20 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center mb-6 shadow-sm">
               <Users size={40} />
@@ -645,7 +642,9 @@ export default function App() {
         </div>
       )}
 
-      <div className="flex h-screen font-sans bg-[#f8fafc] overflow-hidden w-full">
+      {/* 🎯 เปลี่ยนโครงสร้างหลักเป็น flex-col แทน flex-row เพื่อให้เมนูอยู่ด้านบน */}
+      <div className="flex flex-col h-screen font-sans bg-[#f8fafc] overflow-hidden w-full relative">
+        
         {/* --- Presentation Overlay --- */}
         {isPresenting && slides.length > 0 && (
           <div className="fixed inset-0 z-[2000] bg-white flex flex-col w-full h-full overflow-hidden">
@@ -807,162 +806,136 @@ export default function App() {
           </div>
         )}
 
-        {/* --- Sidebar --- */}
-        <aside
-          className={`transition-all duration-300 ease-in-out bg-white/85 border-r flex flex-col shrink-0 z-50 py-6 overflow-hidden ${
-            isSidebarOpen ? 'w-64 px-4 items-stretch' : 'w-16 md:w-20 px-0 items-center'
-          }`}
-        >
-          <button
-            onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-            className="p-2 mb-6 text-slate-500 hover:bg-slate-100 rounded-lg transition-colors flex items-center justify-center mx-auto"
-          >
-            <Menu size={24} />
-          </button>
-
-          <div
-            onClick={() => {
-              if (canSeeMenu('home')) setCurrentView('home');
-            }}
-            className={`bg-indigo-50 text-indigo-600 rounded-xl flex items-center justify-center mb-8 cursor-pointer shadow-sm shrink-0 transition-all mx-auto ${
-              isSidebarOpen ? 'w-full h-12 gap-3 px-4 justify-start' : 'w-12 h-12'
-            }`}
-          >
-            <OriginalGraduationCap size={28} className="shrink-0" />
-            {isSidebarOpen && <span className="font-bold whitespace-nowrap overflow-hidden">Learning Platform</span>}
-          </div>
-
-          <nav className={`flex flex-col gap-4 w-full h-full ${isSidebarOpen ? '' : 'items-center'}`}>
+        {/* 🎯 แถบเมนูด้านบน (Top Navigation Bar) */}
+        <header className="bg-white/95 backdrop-blur-md border-b flex-shrink-0 z-[50] shadow-sm">
+          <div className="flex flex-col md:flex-row md:items-center justify-between">
             
-            {canSeeMenu('home') && (
-              <button
-                onClick={() => setCurrentView('home')}
-                title={menuNames.home}
-                className={`flex items-center rounded-xl transition-all ${
-                  isSidebarOpen ? 'p-3 w-full justify-start gap-3' : 'p-3 justify-center'
-                } ${
-                  currentView === 'home' || currentView.startsWith('hsk')
-                    ? 'bg-indigo-600 text-white shadow-lg'
-                    : 'text-gray-400 hover:bg-indigo-50'
-                }`}
+            {/* Logo */}
+            <div className="flex items-center px-4 py-3 md:w-[280px]">
+              <div
+                onClick={() => { if (canSeeMenu('home')) setCurrentView('home'); }}
+                className="flex items-center gap-3 cursor-pointer"
               >
-                <Home className="shrink-0" />
-                {isSidebarOpen && <span className="whitespace-nowrap overflow-hidden font-medium">{menuNames.home}</span>}
-              </button>
-            )}
-            
-            {canSeeMenu('other_home') && (
-              <button
-                onClick={() => setCurrentView('other_home')}
-                title={menuNames.other_home}
-                className={`flex items-center rounded-xl transition-all ${
-                  isSidebarOpen ? 'p-3 w-full justify-start gap-3' : 'p-3 justify-center'
-                } ${
-                  currentView === 'other_home' || (!currentView.startsWith('hsk') && currentView !== 'home' && currentView !== 'settings' && currentView !== 'settings_other' && currentView !== 'quiz_home')
-                    ? 'bg-emerald-600 text-white shadow-lg'
-                    : 'text-gray-400 hover:bg-emerald-50'
-                }`}
-              >
-                <Compass className="shrink-0" />
-                {isSidebarOpen && <span className="whitespace-nowrap overflow-hidden font-medium">{menuNames.other_home}</span>}
-              </button>
-            )}
+                <div className="bg-indigo-50 text-indigo-600 p-2 rounded-xl flex items-center justify-center shadow-sm">
+                  <OriginalGraduationCap size={24} />
+                </div>
+                <span className="font-bold text-slate-800 text-lg md:text-xl">Learning Platform</span>
+              </div>
+            </div>
 
-            {/* 🎯 ปุ่มเมนูแบบทดสอบ */}
-            {canSeeMenu('quiz_home') && (
-              <button
-                onClick={() => setCurrentView('quiz_home')}
-                title={menuNames.quiz_home}
-                className={`flex items-center rounded-xl transition-all ${
-                  isSidebarOpen ? 'p-3 w-full justify-start gap-3' : 'p-3 justify-center'
-                } ${
-                  currentView === 'quiz_home'
-                    ? 'bg-amber-500 text-white shadow-lg'
-                    : 'text-gray-400 hover:bg-amber-50'
-                }`}
-              >
-                <ClipboardList className="shrink-0" />
-                {isSidebarOpen && <span className="whitespace-nowrap overflow-hidden font-medium">{menuNames.quiz_home}</span>}
-              </button>
-            )}
+            {/* Navigation Links (เลื่อนแนวนอนได้ในจอมือถือ) */}
+            <nav className="flex items-center overflow-x-auto px-4 pb-3 md:pb-0 md:py-3 gap-2 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none'] md:flex-1 md:justify-center">
+              
+              {canSeeMenu('home') && (
+                <button
+                  onClick={() => setCurrentView('home')}
+                  title={menuNames.home}
+                  className={`flex-shrink-0 flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition-all ${
+                    currentView === 'home' || currentView.startsWith('hsk')
+                      ? 'bg-indigo-600 text-white shadow-md'
+                      : 'text-slate-600 bg-slate-50 hover:bg-indigo-50'
+                  }`}
+                >
+                  <Home size={18} /> <span className="hidden sm:inline-block">{menuNames.home}</span><span className="sm:hidden">HSK</span>
+                </button>
+              )}
+              
+              {canSeeMenu('other_home') && (
+                <button
+                  onClick={() => setCurrentView('other_home')}
+                  title={menuNames.other_home}
+                  className={`flex-shrink-0 flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition-all ${
+                    currentView === 'other_home' || (!currentView.startsWith('hsk') && currentView !== 'home' && currentView !== 'settings' && currentView !== 'settings_other' && currentView !== 'quiz_home')
+                      ? 'bg-emerald-600 text-white shadow-md'
+                      : 'text-slate-600 bg-slate-50 hover:bg-emerald-50'
+                  }`}
+                >
+                  <Compass size={18} /> {menuNames.other_home}
+                </button>
+              )}
 
-            {(appLoginRole === 'teacher' || appLoginRole === 'admin') && (
-              <>
-                {canSeeMenu('settings') && (
-                  <button
-                    onClick={() => setCurrentView('settings')}
-                    title={menuNames.settings}
-                    className={`flex items-center rounded-xl transition-all ${
-                      isSidebarOpen ? 'p-3 w-full justify-start gap-3' : 'p-3 justify-center'
-                    } ${
-                      currentView === 'settings'
-                        ? 'bg-indigo-600 text-white shadow-lg'
-                        : 'text-gray-400 hover:bg-indigo-50'
-                    }`}
-                  >
-                    <Settings className="shrink-0" />
-                    {isSidebarOpen && <span className="whitespace-nowrap overflow-hidden font-medium">{menuNames.settings}</span>}
-                  </button>
-                )}
+              {/* เมนูแบบทดสอบ */}
+              {canSeeMenu('quiz_home') && (
+                <button
+                  onClick={() => setCurrentView('quiz_home')}
+                  title={menuNames.quiz_home}
+                  className={`flex-shrink-0 flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition-all ${
+                    currentView === 'quiz_home'
+                      ? 'bg-amber-500 text-white shadow-md'
+                      : 'text-slate-600 bg-slate-50 hover:bg-amber-50'
+                  }`}
+                >
+                  <ClipboardList size={18} /> {menuNames.quiz_home}
+                </button>
+              )}
 
-                {canSeeMenu('settings_other') && (
-                  <button
-                    onClick={() => setCurrentView('settings_other')}
-                    title={menuNames.settings_other}
-                    className={`flex items-center rounded-xl transition-all ${
-                      isSidebarOpen ? 'p-3 w-full justify-start gap-3' : 'p-3 justify-center'
-                    } ${
-                      currentView === 'settings_other'
-                        ? 'bg-emerald-600 text-white shadow-lg'
-                        : 'text-gray-400 hover:bg-emerald-50'
-                    }`}
-                  >
-                    <Wrench className="shrink-0" />
-                    {isSidebarOpen && <span className="whitespace-nowrap overflow-hidden font-medium">{menuNames.settings_other}</span>}
-                  </button>
-                )}
-              </>
-            )}
+              {(appLoginRole === 'teacher' || appLoginRole === 'admin') && (
+                <>
+                  {canSeeMenu('settings') && (
+                    <button
+                      onClick={() => setCurrentView('settings')}
+                      title={menuNames.settings}
+                      className={`flex-shrink-0 flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition-all ${
+                        currentView === 'settings'
+                          ? 'bg-indigo-600 text-white shadow-md'
+                          : 'text-slate-600 bg-slate-50 hover:bg-indigo-50'
+                      }`}
+                    >
+                      <Settings size={18} /> {menuNames.settings}
+                    </button>
+                  )}
 
-            <div className="mt-auto mb-4 w-full flex flex-col gap-3">
+                  {canSeeMenu('settings_other') && (
+                    <button
+                      onClick={() => setCurrentView('settings_other')}
+                      title={menuNames.settings_other}
+                      className={`flex-shrink-0 flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition-all ${
+                        currentView === 'settings_other'
+                          ? 'bg-emerald-600 text-white shadow-md'
+                          : 'text-slate-600 bg-slate-50 hover:bg-emerald-50'
+                      }`}
+                    >
+                      <Wrench size={18} /> {menuNames.settings_other}
+                    </button>
+                  )}
+                </>
+              )}
+
+              {/* 🎯 นำปุ่ม เข้าร่วมชั้น/ออกจากระบบ มารวมในแถบเมนู เพื่อให้รูปแบบเป็นหนึ่งเดียวกัน */}
+              <div className="w-px h-6 bg-slate-200 mx-1 hidden md:block"></div>
+              
               <button
                 onClick={() => setShowJoinModal(true)}
-                title="เข้าร่วมชั้นเรียน"
-                className={`flex items-center rounded-xl transition-all w-full ${
-                  isSidebarOpen ? 'p-3 justify-start gap-3 bg-orange-100 text-orange-700' : 'p-3 justify-center bg-orange-100 text-orange-700'
-                } hover:bg-orange-200 hover:shadow-md shadow-sm`}
+                className="flex-shrink-0 flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition-all text-slate-600 bg-slate-50 hover:bg-orange-50 hover:text-orange-600"
               >
-                <Users className="shrink-0" />
-                {isSidebarOpen && <span className="whitespace-nowrap overflow-hidden font-bold">เข้าร่วมชั้นเรียน</span>}
+                <Users size={18} /> เข้าร่วมชั้น
               </button>
-
+              
               <button 
                 onClick={handleLogout}
-                title="ออกจากระบบ"
-                className={`flex items-center rounded-xl transition-all w-full ${
-                  isSidebarOpen ? 'p-3 justify-start gap-3 bg-red-50 text-red-600' : 'p-3 justify-center bg-red-50 text-red-600'
-                } hover:bg-red-100 hover:shadow-md shadow-sm`}
+                className="flex-shrink-0 flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition-all text-slate-600 bg-slate-50 hover:bg-red-50 hover:text-red-600"
               >
-                <LogOut className="shrink-0" size={24} />
-                {isSidebarOpen && <span className="whitespace-nowrap overflow-hidden font-bold">ออกจากระบบ</span>}
+                <LogOut size={18} /> ออกจากระบบ
               </button>
-            </div>
-          </nav>
-        </aside>
 
+            </nav>
+          </div>
+        </header>
+
+        {/* 🎯 พื้นที่แสดงเนื้อหาหลัก (ได้พื้นที่กว้าง 100% แล้ว) */}
         <main className="flex-1 relative overflow-y-auto w-full">
 
           {currentView === 'home' && canSeeMenu('home') && (
             <div className="p-6 md:p-10 w-full relative z-10">
-              <header className="mb-12">
-                <h1 className="text-4xl font-extrabold text-slate-800 tracking-tight">
+              <header className="mb-12 text-center md:text-left">
+                <h1 className="text-3xl md:text-4xl font-extrabold text-slate-800 tracking-tight">
                   {menuNames.home}
                 </h1>
                 <p className="text-slate-500 mt-2">
                   เลือกคอร์สเพื่อเริ่มต้นการเรียนการสอน
                 </p>
               </header>
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-6 w-full">
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6 w-full">
                 {hskCards
                   .filter((c) => c.isEnabled && c.id.startsWith('hsk')) 
                   .map((card) => {
@@ -980,7 +953,7 @@ export default function App() {
                         </div>
                         <div className="relative z-10 w-full flex flex-col items-center h-full justify-between text-center">
                           <div className="flex flex-col items-center">
-                            <span className="text-lg font-bold">
+                            <span className="text-lg font-bold line-clamp-1">
                               {card.topTextZh}
                             </span>
                             <span className="text-[0.6rem] font-bold tracking-[0.15em] opacity-90 uppercase">
@@ -1030,7 +1003,7 @@ export default function App() {
                       </button>
                     )}
                   </div>
-                  <h2 className="text-4xl font-bold text-slate-700 mb-10 border-b-4 border-indigo-100 pb-4 inline-block">
+                  <h2 className="text-2xl md:text-4xl font-bold text-slate-700 mb-10 border-b-4 border-indigo-100 pb-4 inline-block">
                     คอร์ส {course?.mainText} {course?.level}
                   </h2>
 
@@ -1045,9 +1018,9 @@ export default function App() {
                           key={lesson.id}
                           className="w-full bg-white/40 p-4 md:p-10 rounded-3xl border border-white/60 shadow-sm"
                         >
-                          <h3 className="text-3xl font-bold text-indigo-700 mb-8 px-4">
+                          <h3 className="text-xl md:text-3xl font-bold text-indigo-700 mb-8 px-4 leading-relaxed">
                             第 {lesson.lessonNumber} 课: {lesson.titleCn}{' '}
-                            {lesson.titleEn && `(${lesson.titleEn})`}
+                            {lesson.titleEn && <span className="block text-lg md:text-2xl md:inline md:ml-2 opacity-80">({lesson.titleEn})</span>}
                           </h3>
                           <div className="space-y-10">
                             {lesson.sections.map((sec, sIdx) => {
@@ -1104,7 +1077,6 @@ export default function App() {
               
               <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6">
                 
-                {/* 1. จัดการรหัสคุณครู */}
                 <div className="bg-white p-6 rounded-3xl shadow-sm border border-slate-200 flex flex-col items-center text-center gap-4">
                   <div>
                     <h3 className="text-lg font-bold text-slate-800 mb-1 flex items-center justify-center gap-2">
@@ -1135,7 +1107,6 @@ export default function App() {
                   </div>
                 </div>
 
-                {/* 2. จัดการรหัสนักเรียน */}
                 <div className="bg-white p-6 rounded-3xl shadow-sm border border-slate-200 flex flex-col items-center text-center gap-4">
                   <div>
                     <h3 className="text-lg font-bold text-slate-800 mb-1 flex items-center justify-center gap-2">
@@ -1166,7 +1137,6 @@ export default function App() {
                   </div>
                 </div>
 
-                {/* 3. จัดการรหัสแอดมิน */}
                 <div className="bg-white p-6 rounded-3xl shadow-sm border border-slate-200 flex flex-col items-center text-center gap-4">
                   <div>
                     <h3 className="text-lg font-bold text-slate-800 mb-1 flex items-center justify-center gap-2">
@@ -1198,25 +1168,23 @@ export default function App() {
                 </div>
               </div>
 
-              {/* 4. จัดการการมองเห็นเมนู (เฉพาะ Admin) */}
               {appLoginRole === 'admin' && (
                 <div className="bg-white p-6 rounded-3xl shadow-sm border border-slate-200 col-span-1 md:col-span-2 lg:col-span-3 flex flex-col gap-4">
                   <div>
                     <h3 className="text-lg font-bold text-slate-800 mb-1 flex items-center gap-2">
                       <Eye className="text-blue-500" /> ตั้งค่าการมองเห็นเมนู (Menu Visibility)
                     </h3>
-                    <p className="text-slate-500 text-xs">กำหนดว่าครูและนักเรียนจะเห็นเมนูใดบ้างที่แถบด้านซ้าย</p>
+                    <p className="text-slate-500 text-xs">กำหนดว่าครูและนักเรียนจะเห็นเมนูใดบ้าง</p>
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     
-                    {/* Teacher Visibility */}
                     <div className="bg-indigo-50/50 p-5 rounded-2xl border border-indigo-100">
                       <h4 className="font-bold text-indigo-700 mb-4 flex items-center gap-2"><UserCircle size={18}/> โหมดคุณครู (Teacher)</h4>
                       <div className="flex flex-col gap-3">
                         {[
                           { key: 'home', label: menuNames.home },
                           { key: 'other_home', label: menuNames.other_home },
-                          { key: 'quiz_home', label: menuNames.quiz_home }, // 🎯 เพิ่ม Quiz
+                          { key: 'quiz_home', label: menuNames.quiz_home },
                           { key: 'settings', label: menuNames.settings },
                           { key: 'settings_other', label: menuNames.settings_other }
                         ].map(item => (
@@ -1237,14 +1205,13 @@ export default function App() {
                       </div>
                     </div>
 
-                    {/* Student Visibility */}
                     <div className="bg-orange-50/50 p-5 rounded-2xl border border-orange-100">
                       <h4 className="font-bold text-orange-700 mb-4 flex items-center gap-2"><Users size={18}/> โหมดนักเรียน (Student)</h4>
                       <div className="flex flex-col gap-3">
                         {[
                           { key: 'home', label: menuNames.home },
                           { key: 'other_home', label: menuNames.other_home },
-                          { key: 'quiz_home', label: menuNames.quiz_home } // 🎯 เพิ่ม Quiz
+                          { key: 'quiz_home', label: menuNames.quiz_home }
                         ].map(item => (
                           <label key={item.key} className="flex items-center gap-3 cursor-pointer">
                             <input 
@@ -1275,7 +1242,6 @@ export default function App() {
             </div>
           )}
 
-          {/* +++ ส่ง Traffic ทุกอย่างที่ไม่ใช่ HSK และหน้าหลัก ไปที่ OtherApp +++ */}
           {(() => {
             if (!currentView.startsWith('hsk') && currentView !== 'home' && currentView !== 'settings') {
               return (
@@ -1291,7 +1257,7 @@ export default function App() {
                   roomPin={roomPin}
                   userRole={userRole}
                   appLoginRole={appLoginRole} 
-                  canSeeMenu={canSeeMenu as any} // 🎯 รับ Type ที่กว้างขึ้น
+                  canSeeMenu={canSeeMenu as any} 
                 />
               );
             }
