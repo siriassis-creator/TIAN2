@@ -1,6 +1,6 @@
 // src/components/quiz/PrintableQuiz.tsx
 import React, { useState, useEffect } from 'react';
-import { Printer, ArrowLeft, Link as LinkIcon, RefreshCw, FileText } from 'lucide-react';
+import { Printer, ArrowLeft, Link as LinkIcon, RefreshCw, FileText, Download } from 'lucide-react'; // 🎯 เพิ่มไอคอน Download
 import type { QuestionType } from './QuestionCard';
 
 interface Props {
@@ -86,12 +86,17 @@ export default function PrintableQuiz({ data, title, onClose }: Props) {
         <button onClick={handleCopyLink} className="px-3 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl shadow-md flex items-center gap-1 font-bold transition-all text-sm">
           <LinkIcon size={16} /> <span className="hidden sm:inline">คัดลอกลิงก์</span><span className="sm:hidden">คัดลอก</span>
         </button>
-        <button onClick={() => window.print()} className="px-3 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl shadow-md flex items-center gap-1 font-bold transition-all text-sm">
-          <Printer size={16} /> <span className="hidden sm:inline">พิมพ์ A4</span><span className="sm:hidden">พิมพ์</span>
+        
+        {/* 🎯 ปุ่มปริ้น/ดาวน์โหลด แยกหน้าจอ */}
+        <button onClick={() => window.print()} className="px-3 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl shadow-md flex items-center gap-1.5 font-bold transition-all text-sm">
+          <Printer size={16} className="hidden sm:block" /> 
+          <Download size={16} className="sm:hidden" />
+          <span className="hidden sm:inline">พิมพ์ A4</span>
+          <span className="sm:hidden">Export PDF</span>
         </button>
       </div>
 
-      {/* 🎯 กระดาษข้อสอบ (เพิ่มระยะห่าง mt-32 เผื่อปุ่มในมือถือขึ้น 2 บรรทัด จะได้ไม่บังเนื้อหา) */}
+      {/* 🎯 กระดาษข้อสอบ */}
       <div className="bg-white w-full max-w-[210mm] min-h-[297mm] mt-28 md:mt-16 p-6 md:p-[20mm] shadow-2xl print:shadow-none print:max-w-none print:w-full print:mt-0 print:p-0 text-black print:block print:min-h-0">
         
         <div className="text-center mb-8 md:mb-10 pb-4 md:pb-6 border-b-2 border-black">
