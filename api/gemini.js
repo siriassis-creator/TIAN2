@@ -69,7 +69,7 @@ export default async function handler(req, res) {
         modelName = "gpt-4o-mini";
       } else if (isDeepseek) {
         apiUrl = "https://openrouter.ai/api/v1/chat/completions"; // Endpoint สำหรับ OpenRouter
-        modelName = "deepseek/deepseek-r1:free";
+        modelName = "deepseek/deepseek-chat:free";
       } else {
         apiUrl = "https://api.groq.com/openai/v1/chat/completions";
         modelName = "qwen/qwen3.8-27b";
