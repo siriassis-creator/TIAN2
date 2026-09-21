@@ -1,0 +1,3632 @@
+[
+    {
+      "question_id": "CN_PRE_Q001",
+      "test_id": "CN_PRE_001",
+      "question_number": 1,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Vocabulary Recognition",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "คำศัพท์ภาษาจีน “汉语” (Hànyǔ) และ “泰语” (Tàiyǔ) แปลความหมายเป็นภาษาไทยว่าอย่างไรตามลำดับ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ภาษาไทย, ภาษาจีน"
+        },
+        {
+          "id": "B",
+          "text": "ภาษาจีน, ภาษาไทย"
+        },
+        {
+          "id": "C",
+          "text": "ภาษาอังกฤษ, ภาษาจีน"
+        },
+        {
+          "id": "D",
+          "text": "ภาษาจีน, ภาษาฝรั่งเศส"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "“汉语” (Hànyǔ) แปลว่า ภาษาจีน และ “泰语” (Tàiyǔ) แปลว่า ภาษาไทย",
+      "learning_objective": "ระบุความหมายภาษาไทยและพินอินของชื่อภาษาต่าง ๆ ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q001"
+    },
+    {
+      "question_id": "CN_PRE_Q002",
+      "test_id": "CN_PRE_001",
+      "question_number": 2,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Phonetic Recognition",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "Pinyin ที่ถูกต้องของคำศัพท์ชื่อภาษา “德语” (ภาษาเยอรมัน) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Déyǔ"
+        },
+        {
+          "id": "B",
+          "text": "Téyǔ"
+        },
+        {
+          "id": "C",
+          "text": "Dàyǔ"
+        },
+        {
+          "id": "D",
+          "text": "Déyù"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า “德语” อ่านออกเสียง Pinyin ว่า Déyǔ (เสียง 2 และเสียง 3) แปลว่า ภาษาเยอรมัน",
+      "learning_objective": "ระบุ Pinyin และเสียงวรรณยุกต์ของคำศัพท์ชื่อภาษาได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q002"
+    },
+    {
+      "question_id": "CN_PRE_Q003",
+      "test_id": "CN_PRE_001",
+      "question_number": 3,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Phonetic Rule Application",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "ตามกฎการเปลี่ยนเสียงวรรณยุกต์ Pinyin ของคำว่า “不会” (ทำไม่เป็น/พูดไม่เป็น) อ่านออกเสียงอย่างไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "bù huì"
+        },
+        {
+          "id": "B",
+          "text": "bú huì"
+        },
+        {
+          "id": "C",
+          "text": "bù huí"
+        },
+        {
+          "id": "D",
+          "text": "bú huí"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำว่า “不” (bù) เมื่ออยู่หน้าคำที่เป็นเสียงวรรณยุกต์ที่ 4 เช่น “会” (huì) จะเปลี่ยนเสียงเป็นเสียงที่ 2 อ่านว่า “bú huì”",
+      "learning_objective": "ประยุกต์ใช้กฎการเปลี่ยนเสียงวรรณยุกต์ของคำว่า “不” (bù) เมื่ออยู่หน้าเสียง 4",
+      "pre_post_pair": "CN_POST_Q003"
+    },
+    {
+      "question_id": "CN_PRE_Q004",
+      "test_id": "CN_PRE_001",
+      "question_number": 4,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Vocabulary Matching",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "คำศัพท์เกี่ยวกับสมาชิกในครอบครัว “爸爸” (Bàba) และ “妈妈” (Māma) ตรงกับข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "คุณปู่, คุณย่า"
+        },
+        {
+          "id": "B",
+          "text": "พี่ชาย, พี่สาว"
+        },
+        {
+          "id": "C",
+          "text": "คุณพ่อ, คุณแม่"
+        },
+        {
+          "id": "D",
+          "text": "น้องชาย, น้องสาว"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "“爸爸” (Bàba) แปลว่า คุณพ่อ และ “妈妈” (Māma) แปลว่า คุณแม่",
+      "learning_objective": "ระบุคำศัพท์จีนเกี่ยวกับสมาชิกในครอบครัวได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q004"
+    },
+    {
+      "question_id": "CN_PRE_Q005",
+      "test_id": "CN_PRE_001",
+      "question_number": 5,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Grammar & Vocabulary",
+      "topic": "ไวยากรณ์และคำกริยา",
+      "lesson": "LS1",
+      "question": "หากต้องการบอกว่า \"ทำเป็น / พูดภาษาจีนเป็น\" ควรเลือกใช้คำกริยาช่วยในข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "想 (xiǎng)"
+        },
+        {
+          "id": "B",
+          "text": "不会 (bú huì)"
+        },
+        {
+          "id": "C",
+          "text": "会 (huì)"
+        },
+        {
+          "id": "D",
+          "text": "去 (qù)"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "“会” (huì) เป็นคำกริยาช่วย แปลว่า เป็น/ทำได้ สอดคล้องกับประโยคบอกความสามารถ เช่น “我会说汉语。”",
+      "learning_objective": "เลือกคำกริยาช่วย “会” (huì) หรือ “不会” (bú huì) สอดคล้องกับความหมายบอกความสามารถ",
+      "pre_post_pair": "CN_POST_Q005"
+    },
+    {
+      "question_id": "CN_PRE_Q006",
+      "test_id": "CN_PRE_001",
+      "question_number": 6,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Quantifier Recognition",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "Pinyin และความหมายภาษาไทยของคำบอกปริมาณ “一点儿” คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "yìdiǎnr — นิดหน่อย / เล็กน้อย"
+        },
+        {
+          "id": "B",
+          "text": "yīdiān — มากมาย"
+        },
+        {
+          "id": "C",
+          "text": "yìdiǎn — บ่อยๆ"
+        },
+        {
+          "id": "D",
+          "text": "yídiǎnr — ทุกวัน"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "“一点儿” อ่านว่า yìdiǎnr แปลว่า นิดหน่อย หรือ เล็กน้อย มักวางไว้หลังคำกริยา เช่น “说一点儿” (พูดได้นิดหน่อย)",
+      "learning_objective": "ระบุความหมายและ Pinyin ของคำบอกปริมาณ “一点儿” (yìdiǎnr)",
+      "pre_post_pair": "CN_POST_Q006"
+    },
+    {
+      "question_id": "CN_PRE_Q007",
+      "test_id": "CN_PRE_001",
+      "question_number": 7,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Verb Vocabulary",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "คำกริยา “说” (shuō) ในประโยค “我会说汉语” มีความหมายตรงกับข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "อ่าน"
+        },
+        {
+          "id": "B",
+          "text": "เขียน"
+        },
+        {
+          "id": "C",
+          "text": "พูด"
+        },
+        {
+          "id": "D",
+          "text": "ฟัง"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "คำกริยา “说” (shuō) แปลว่า พูด",
+      "learning_objective": "จำและระบุความหมายของคำกริยา “说” (shuō) และ “想” (xiǎng)",
+      "pre_post_pair": "CN_POST_Q007"
+    },
+    {
+      "question_id": "CN_PRE_Q008",
+      "test_id": "CN_PRE_001",
+      "question_number": 8,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Proper Noun Recognition",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "คำว่า “大皇宫” (Dàhuánggōng) แปลเป็นภาษาไทยว่าอย่างไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "วัดพระแก้ว"
+        },
+        {
+          "id": "B",
+          "text": "พระบรมมหาราชวัง"
+        },
+        {
+          "id": "C",
+          "text": "ตลาดน้ำ"
+        },
+        {
+          "id": "D",
+          "text": "สนามบิน"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "“大皇宫” (Dàhuánggōng) เป็นชื่อสถานที่ท่องเที่ยวสำคัญ หมายถึง พระบรมมหาราชวัง",
+      "learning_objective": "ระบุตัวอักษรจีนและ Pinyin ของสถานที่ท่องเที่ยว “大皇宫”",
+      "pre_post_pair": "CN_POST_Q008"
+    },
+    {
+      "question_id": "CN_PRE_Q009",
+      "test_id": "CN_PRE_001",
+      "question_number": 9,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "School Context Vocabulary",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "คำว่า “汉语课” (Hànyǔ kè) และ “英语课” (Yīngyǔ kè) หมายถึงวิชาอะไรตามลำดับ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "วิชาภาษาไทย, วิชาภาษาจีน"
+        },
+        {
+          "id": "B",
+          "text": "วิชาภาษาจีน, วิชาภาษาอังกฤษ"
+        },
+        {
+          "id": "C",
+          "text": "วิชาภาษาอังกฤษ, วิชาภาษาญี่ปุ่น"
+        },
+        {
+          "id": "D",
+          "text": "วิชาภาษาจีน, วิชาภาษาเยอรมัน"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "“汉语课” หมายถึง วิชาภาษาจีน และ “英语课” หมายถึง วิชาภาษาอังกฤษ",
+      "learning_objective": "ระบุคำศัพท์เกี่ยวกับวิชาเรียนและระดับชั้นเรียนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q009"
+    },
+    {
+      "question_id": "CN_PRE_Q010",
+      "test_id": "CN_PRE_001",
+      "question_number": 10,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Applied Everyday Vocabulary",
+      "topic": "เนื้อหาที่ใช้ในชีวิตประจำวัน",
+      "lesson": "LS1",
+      "question": "คำทักทายภาษาฝรั่งเศส “Bonjour” ตรงกับชื่อภาษาจีนในข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "德语 (Déyǔ)"
+        },
+        {
+          "id": "B",
+          "text": "法语 (Fǎyǔ)"
+        },
+        {
+          "id": "C",
+          "text": "西班牙语 (Xībānyáyǔ)"
+        },
+        {
+          "id": "D",
+          "text": "韩语 (Hányǔ)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "“Bonjour” เป็นคำทักทายภาษาฝรั่งเศส ซึ่งภาษาฝรั่งเศสในภาษาจีนคือ “法语” (Fǎyǔ)",
+      "learning_objective": "จับคู่คำทักทายภาษาต่างประเทศกับชื่อภาษาจีนที่สอดคล้องกัน",
+      "pre_post_pair": "CN_POST_Q010"
+    },
+    {
+      "question_id": "CN_PRE_Q011",
+      "test_id": "CN_PRE_001",
+      "question_number": 11,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Character Radical Identification",
+      "topic": "ตัวอักษรจีน",
+      "lesson": "LS1",
+      "question": "ตัวอักษรจีนคำว่า “红” (hóng - สีแดง) และ “级” (jí - ชั้น) มีหมวดอักษรจีนส่วนหน้า (Radical) คือส่วนประกอบใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "纟 (绞丝旁)"
+        },
+        {
+          "id": "B",
+          "text": "氵 (三点水)"
+        },
+        {
+          "id": "C",
+          "text": "讠 (言字旁)"
+        },
+        {
+          "id": "D",
+          "text": "亻 (单人旁)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 红 และ 级 มีหมวดอักษรจีนคือ “纟” (绞丝旁) ซึ่งเกี่ยวกับเส้นไหมหรือสิ่งทอ",
+      "learning_objective": "เติมหมวดอักษรจีน “绞丝旁” (纟) ในตัวอักษรเกี่ยวกับสีและระดับชั้นได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q011"
+    },
+    {
+      "question_id": "CN_PRE_Q012",
+      "test_id": "CN_PRE_001",
+      "question_number": 12,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Character Components",
+      "topic": "ตัวอักษรจีน",
+      "lesson": "LS1",
+      "question": "ตัวอักษรจีน “法” (Fǎ) ในคำว่า “法国” (ประเทศฝรั่งเศส) มีหมวดอักษรด้านซ้ายคือส่วนประกอบใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "氵 (三点水)"
+        },
+        {
+          "id": "B",
+          "text": "讠 (言字旁)"
+        },
+        {
+          "id": "C",
+          "text": "彳 (双人旁)"
+        },
+        {
+          "id": "D",
+          "text": "日 (日字旁)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ตัวอักษร “法” มีหมวดอักษรด้านซ้ายคือ “氵” (三点水)",
+      "learning_objective": "เติมส่วนประกอบหมวดอักษร “三点水” (氵) ของตัวอักษรจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q012"
+    },
+    {
+      "question_id": "CN_PRE_Q013",
+      "test_id": "CN_PRE_001",
+      "question_number": 13,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Character Components",
+      "topic": "ตัวอักษรจีน",
+      "lesson": "LS1",
+      "question": "ตัวอักษรจีนคำว่า “说” (shuō - พูด) และ “语” (yǔ - ภาษา) มีหมวดอักษรด้านซ้ายที่เกี่ยวกับภาษาและการสื่อสารเหมือนกันคืออะไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "讠 (言字旁)"
+        },
+        {
+          "id": "B",
+          "text": "纟 (绞丝旁)"
+        },
+        {
+          "id": "C",
+          "text": "亻 (单人旁)"
+        },
+        {
+          "id": "D",
+          "text": "彳 (双人旁)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ตัวอักษร 说 และ 语 ประกอบด้วยหมวดอักษร “讠” (言字旁) สื่อความหมายเกี่ยวกับคำพูดและการสื่อสาร",
+      "learning_objective": "เติมส่วนประกอบหมวดอักษร “言字旁” (讠) ที่เกี่ยวกับภาษาและการพูด",
+      "pre_post_pair": "CN_POST_Q013"
+    },
+    {
+      "question_id": "CN_PRE_Q014",
+      "test_id": "CN_PRE_001",
+      "question_number": 14,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Character Writing Structure",
+      "topic": "ตัวอักษรจีน",
+      "lesson": "LS1",
+      "question": "ตัวอักษรจีนคำว่า “会” (huì - เป็น/ทำได้) มีส่วนประกอบด้านบนสุดคือส่วนประกอบใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "人 (人字头)"
+        },
+        {
+          "id": "B",
+          "text": "大 (大字头)"
+        },
+        {
+          "id": "C",
+          "text": "日 (日字旁)"
+        },
+        {
+          "id": "D",
+          "text": "口 (口字旁)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ตัวอักษร “会” มีส่วนประกอบด้านบนเป็นหมวดอักษร “人” (人字头)",
+      "learning_objective": "เติมโครงสร้างส่วนบน “人” (人字头) ของตัวอักษรจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q014"
+    },
+    {
+      "question_id": "CN_PRE_Q015",
+      "test_id": "CN_PRE_001",
+      "question_number": 15,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Character Radical Writing",
+      "topic": "ตัวอักษรจีน",
+      "lesson": "LS1",
+      "question": "ตัวอักษรคำสรรพนาม “你” (nǐ - คุณ/เธอ) มีหมวดอักษรด้านซ้ายคือส่วนประกอบใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "亻 (单人旁)"
+        },
+        {
+          "id": "B",
+          "text": "讠 (言字旁)"
+        },
+        {
+          "id": "C",
+          "text": "氵 (三点水)"
+        },
+        {
+          "id": "D",
+          "text": "纟 (绞丝旁)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า “你” มีหมวดอักษรด้านซ้ายคือ “亻” (单人旁) สื่อถึงบุคคล",
+      "learning_objective": "เติมส่วนประกอบหมวดอักษรข้าง “单人旁” (亻) ของสรรพนามบุรุษ",
+      "pre_post_pair": "CN_POST_Q015"
+    },
+    {
+      "question_id": "CN_PRE_Q016",
+      "test_id": "CN_PRE_001",
+      "question_number": 16,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Vocabulary Spelling",
+      "topic": "ตัวอักษรจีน",
+      "lesson": "LS1",
+      "question": "จงเติมตัวอักษรจีนที่หายไปในคำว่า “泰___” (Tàiyǔ - ภาษาไทย) ให้ถูกต้อง",
+      "options": [
+        {
+          "id": "A",
+          "text": "语"
+        },
+        {
+          "id": "B",
+          "text": "国"
+        },
+        {
+          "id": "C",
+          "text": "人"
+        },
+        {
+          "id": "D",
+          "text": "课"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า ภาษาไทย ในภาษาจีนคือ “泰语” (Tàiyǔ) ตัวอักษรที่ขาดหายไปคือ “语”",
+      "learning_objective": "เติมตัวอักษรจีนที่หายไปในคำศัพท์ชื่อประเทศและชื่อภาษา",
+      "pre_post_pair": "CN_POST_Q016"
+    },
+    {
+      "question_id": "CN_PRE_Q017",
+      "test_id": "CN_PRE_001",
+      "question_number": 17,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Stroke Component Writing",
+      "topic": "ตัวอักษรจีน",
+      "lesson": "LS1",
+      "question": "ตัวอักษรจีน “点” (diǎn) ในวลี “一点儿” มีส่วนประกอบด้านล่างสุดเป็นขีดจุด 4 จุด ซึ่งเรียกว่าอะไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "灬 (四点底)"
+        },
+        {
+          "id": "B",
+          "text": "氵 (三点水)"
+        },
+        {
+          "id": "C",
+          "text": "讠 (言字旁)"
+        },
+        {
+          "id": "D",
+          "text": "木 (木字旁)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ด้านล่างของตัวอักษร “点” คือหมวดขีด “灬” (四点底)",
+      "learning_objective": "เติมส่วนประกอบขีดที่ถูกต้องของตัวอักษร “点” ในคำว่า “一点儿”",
+      "pre_post_pair": "CN_POST_Q017"
+    },
+    {
+      "question_id": "CN_PRE_Q018",
+      "test_id": "CN_PRE_001",
+      "question_number": 18,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Contextual Character Insertion",
+      "topic": "รูปประโยค",
+      "lesson": "LS1",
+      "question": "จงเติมตัวอักษรจีนคำกริยาที่หายไปในประโยค “我会___汉语。” (ฉันพูดภาษาจีนเป็น)",
+      "options": [
+        {
+          "id": "A",
+          "text": "说"
+        },
+        {
+          "id": "B",
+          "text": "去"
+        },
+        {
+          "id": "C",
+          "text": "想"
+        },
+        {
+          "id": "D",
+          "text": "读"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างประโยคบอกความสามารถคือ ประธาน + 会 + 说 + ภาษา คำที่ขาดคือ “说” (shuō - พูด)",
+      "learning_objective": "เติมตัวอักษรจีนคำกริยาลงในช่องว่างของประโยคบอกเล่าพื้นฐาน",
+      "pre_post_pair": "CN_POST_Q018"
+    },
+    {
+      "question_id": "CN_PRE_Q019",
+      "test_id": "CN_PRE_001",
+      "question_number": 19,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Pronoun Usage",
+      "topic": "ไวยากรณ์",
+      "lesson": "LS1",
+      "question": "คำสรรพนามจีนในข้อใดบ้างที่ใช้แทนบุคคลที่เป็น เพศชาย หรือ ใช้แสดงความสุภาพกับผู้ใหญ่? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "您 (nín)"
+        },
+        {
+          "id": "B",
+          "text": "她 (tā)"
+        },
+        {
+          "id": "C",
+          "text": "他 (tā)"
+        },
+        {
+          "id": "D",
+          "text": "妈妈 (māma)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "“您” ใช้เป็นสรรพนามแทนผู้ใหญ่ด้วยความสุภาพ และ “他” ใช้เป็นสรรพนามแทนเขาผู้ชาย",
+      "learning_objective": "จำแนกและเลือกคำสรรพนามแทนบุคคล (“你”, “您”, “他”, “她”) ให้เหมาะสมกับบริบท",
+      "pre_post_pair": "CN_POST_Q019"
+    },
+    {
+      "question_id": "CN_PRE_Q020",
+      "test_id": "CN_PRE_001",
+      "question_number": 20,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Data Reading & Grammar",
+      "topic": "ไวยากรณ์",
+      "lesson": "LS1",
+      "question": "จากตารางข้อมูลในแบบเรียน ภาษาใดบ้างที่ 泰坤 (Tàikūn) สามารถพูดได้ (会 หรือ 会一点儿)? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "泰语 (ภาษาไทย)"
+        },
+        {
+          "id": "B",
+          "text": "德语 (ภาษาเยอรมัน)"
+        },
+        {
+          "id": "C",
+          "text": "汉语 (ภาษาจีน)"
+        },
+        {
+          "id": "D",
+          "text": "日语 (ภาษาญี่ปุ่น)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "ตามตารางบทเรียน 泰坤 พูดภาษาไทยได้ (会) และพูดภาษาจีนได้นิดหน่อย (会一点儿) ส่วนภาษาเยอรมันและภาษาญี่ปุ่นพูดไม่เป็น (不会)",
+      "learning_objective": "เลือกภาษาที่บุคคลสามารถพูดได้ตามข้อมูลตารางบันทึกการพูดภาษา",
+      "pre_post_pair": "CN_POST_Q020"
+    },
+    {
+      "question_id": "CN_PRE_Q021",
+      "test_id": "CN_PRE_001",
+      "question_number": 21,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Word Order Identification",
+      "topic": "ไวยากรณ์",
+      "lesson": "LS1",
+      "question": "ประโยคใดบ้างที่มีการจัดเรียงลำดับคำถูกต้องตามหลักไวยากรณ์ภาษาจีน? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "我会说汉语。"
+        },
+        {
+          "id": "B",
+          "text": "我汉语说会。"
+        },
+        {
+          "id": "C",
+          "text": "他会说一点儿英语。"
+        },
+        {
+          "id": "D",
+          "text": "会说我一点儿汉语。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "ลำดับคำที่ถูกต้องคือ ประธาน + 会 + 说 + (一点儿) + ภาษา ข้อ A และ C จึงถูกต้อง",
+      "learning_objective": "วิเคราะห์และเลือกลำดับคำในประโยคบอกเล่ากริยาช่วย “会” ที่ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q021"
+    },
+    {
+      "question_id": "CN_PRE_Q022",
+      "test_id": "CN_PRE_001",
+      "question_number": 22,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Negative Sentence Structure",
+      "topic": "ไวยากรณ์",
+      "lesson": "LS1",
+      "question": "ข้อใดจัดเป็นประโยคปฏิเสธการพูดภาษาที่ถูกต้องตามหลักไวยากรณ์? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "我不会说泰语。"
+        },
+        {
+          "id": "B",
+          "text": "我说不会泰语。"
+        },
+        {
+          "id": "C",
+          "text": "爷爷不会说法语。"
+        },
+        {
+          "id": "D",
+          "text": "不会我说德语。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "โครงสร้างประโยคปฏิเสธคือ ประธาน + 不会 + 说 + ภาษา ข้อ A และ C ถูกต้อง",
+      "learning_objective": "เลือกลำดับคำในประโยคปฏิเสธการพูดภาษาด้วย “不会” ที่ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q022"
+    },
+    {
+      "question_id": "CN_PRE_Q023",
+      "test_id": "CN_PRE_001",
+      "question_number": 23,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Interrogative Sentence Structure",
+      "topic": "ไวยากรณ์",
+      "lesson": "LS1",
+      "question": "คำศัพท์และส่วนประกอบใดบ้างที่จำเป็นต้องมีในการสร้างประโยคคำถามว่า \"คุณพูดภาษาจีนเป็นไหม?\" (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "吗 (ma)"
+        },
+        {
+          "id": "B",
+          "text": "会 (huì)"
+        },
+        {
+          "id": "C",
+          "text": "不 (bù)"
+        },
+        {
+          "id": "D",
+          "text": "想 (xiǎng)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ประโยคคำถามคือ 你 + 会 + 说 + 汉语 + 吗？ คำว่า 会 และ 吗 จึงเป็นองค์ประกอบสำคัญ",
+      "learning_objective": "เลือกองค์ประกอบที่จำเป็นในการสร้างประโยคคำถาม ใช่/ไม่ใช่ ด้วยคำว่า “吗”",
+      "pre_post_pair": "CN_POST_Q023"
+    },
+    {
+      "question_id": "CN_PRE_Q024",
+      "test_id": "CN_PRE_001",
+      "question_number": 24,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Sentence Composition",
+      "topic": "รูปประโยค",
+      "lesson": "LS1",
+      "question": "ข้อใดบ้างเป็นคำศัพท์ที่ใช้บอกระดับชั้นเรียนและวิชาเรียนของเด็กประถม? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "读五年级 (dú wǔ niánjí)"
+        },
+        {
+          "id": "B",
+          "text": "大皇宫 (Dàhuánggōng)"
+        },
+        {
+          "id": "C",
+          "text": "有汉语课 (yǒu Hànyǔ kè)"
+        },
+        {
+          "id": "D",
+          "text": "西瓜 (xīguā)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "“读五年级” (เรียนชั้น ป.5) และ “有汉语课” (มีวิชาภาษาจีน) เป็นวลีบอกการศึกษาและวิชาเรียน",
+      "learning_objective": "เลือกคำกริยาและคำนามที่ใช้บอกการศึกษาและรายวิชาที่เรียน",
+      "pre_post_pair": "CN_POST_Q024"
+    },
+    {
+      "question_id": "CN_PRE_Q025",
+      "test_id": "CN_PRE_001",
+      "question_number": 25,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Cultural Classification",
+      "topic": "เนื้อหาที่ใช้ในชีวิตประจำวัน",
+      "lesson": "LS1",
+      "question": "ชื่อภาษาจีนในข้อใดบ้างที่เป็น ภาษาในทวีปเอเชีย ที่ปรากฏในบทเรียน? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "泰语 (Tàiyǔ)"
+        },
+        {
+          "id": "B",
+          "text": "德语 (Déyǔ)"
+        },
+        {
+          "id": "C",
+          "text": "日语 (Rìyǔ)"
+        },
+        {
+          "id": "D",
+          "text": "法语 (Fǎyǔ)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "泰语 (ภาษาไทย) และ 日语 (ภาษาญี่ปุ่น) เป็นภาษาในทวีปเอเชีย ส่วน 德语 และ 法语 เป็นภาษาในทวีปยุโรป",
+      "learning_objective": "จำแนกหมวดหมู่ภาษาเอเชียและภาษายุโรปตามเนื้อหาในบทเรียน",
+      "pre_post_pair": "CN_POST_Q025"
+    },
+    {
+      "question_id": "CN_PRE_Q026",
+      "test_id": "CN_PRE_001",
+      "question_number": 26,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Advanced Grammar Differentiation",
+      "topic": "ไวยากรณ์ขั้นสูง",
+      "lesson": "LS1",
+      "question": "ประโยคใดต่อไปนี้สื่อความหมายว่า \"ประธานสามารถพูดภาษาจีนได้เพียงเล็กน้อย/นิดหน่อยเท่านั้น\"?",
+      "options": [
+        {
+          "id": "A",
+          "text": "我会说汉语。"
+        },
+        {
+          "id": "B",
+          "text": "我不会说汉语。"
+        },
+        {
+          "id": "C",
+          "text": "我会说一点儿汉语。"
+        },
+        {
+          "id": "D",
+          "text": "我想说汉语。"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "การเติม “一点儿” (yìdiǎnr) วางไว้หลังคำกริยา 说 สื่อระบุระดับความสามารถว่า ได้เพียงเล็กน้อย/นิดหน่อย",
+      "learning_objective": "วิเคราะห์ระดับความแตกต่างระหว่างการใช้ “会” และ “会一点儿” ในประโยคความสามารถ",
+      "pre_post_pair": "CN_POST_Q026"
+    },
+    {
+      "question_id": "CN_PRE_Q027",
+      "test_id": "CN_PRE_001",
+      "question_number": 27,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Advanced Syntax Application",
+      "topic": "ไวยากรณ์ขั้นสูง",
+      "lesson": "LS1",
+      "question": "หากนักท่องเที่ยวชาวต่างชาติถามเด็กนักเรียนว่า “您想去哪儿？” (คุณอยากไปไหนครับ) ประโยคตอบรับที่ถูกต้องและสอดคล้องกับบทเรียนคือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "我想去大皇宫。"
+        },
+        {
+          "id": "B",
+          "text": "我会说一点儿汉语。"
+        },
+        {
+          "id": "C",
+          "text": "我不会说泰语。"
+        },
+        {
+          "id": "D",
+          "text": "我读小学五年级。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำถามถามสถานที่ด้วย “想去哪儿” คำตอบต้องใช้โครงสร้าง 我想去 + สถานที่ ซึ่งตรงกับ “我想去大皇宫。” (ฉันอยากไปพระบรมมหาราชวัง)",
+      "learning_objective": "เลือกรูปประโยคตอบรับการเดินทางไปสถานที่ท่องเที่ยว “想去” + สถานที่",
+      "pre_post_pair": "CN_POST_Q027"
+    },
+    {
+      "question_id": "CN_PRE_Q028",
+      "test_id": "CN_PRE_001",
+      "question_number": 28,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Pragmatic Competence",
+      "topic": "บทสนทนา",
+      "lesson": "LS1",
+      "question": "ในบทสนทนา เมื่อเด็กนักเรียนต้องการถามผู้ใหญ่ชาวต่างชาติว่า \"คุณพูดภาษาไทยเป็นไหมครับ/ค่ะ\" ควรใช้ประโยคใดจึงจะถูกต้องและสุภาพที่สุด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "你想去大皇宫吗？"
+        },
+        {
+          "id": "B",
+          "text": "您会说泰语吗？"
+        },
+        {
+          "id": "C",
+          "text": "他会说泰语吗？"
+        },
+        {
+          "id": "D",
+          "text": "您想去哪儿？"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "สรรพนาม “您” (nín) ใช้แทนผู้ใหญ่ด้วยความสุภาพ และใช้โครงสร้างถามความสามารถภาษาด้วย “会说...吗？”",
+      "learning_objective": "ประยุกต์ใช้ระดับความสุภาพของสรรพนาม “您” สอดคล้องกับสถานการณ์สนทนากับผู้ใหญ่",
+      "pre_post_pair": "CN_POST_Q028"
+    },
+    {
+      "question_id": "CN_PRE_Q029",
+      "test_id": "CN_PRE_001",
+      "question_number": 29,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Sentence Linking",
+      "topic": "ไวยากรณ์ขั้นสูง",
+      "lesson": "LS1",
+      "question": "จงเลือกประโยคที่รวมประโยค “我会说一点儿汉语” และ “我会说一点儿英语” โดยใช้คำว่า “也” (yě - ก็...ด้วย) ได้ถูกต้อง",
+      "options": [
+        {
+          "id": "A",
+          "text": "我会说一点儿汉语，也会说一点儿英语。"
+        },
+        {
+          "id": "B",
+          "text": "我也会说一点儿汉语，会说一点儿英语。"
+        },
+        {
+          "id": "C",
+          "text": "我会说一点儿汉语，也英语会说一点儿。"
+        },
+        {
+          "id": "D",
+          "text": "我会说一点儿汉语，英语也会一点儿说。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำกริยาวิเศษณ์ “也” (yě) ต้องวางไว้หน้าคำกริยา/กริยาช่วยในประโยคหลัง: ..., 也 + 会说 + 一点儿 + ภาษา",
+      "learning_objective": "เชื่อมประโยคบอกความสามารถ 2 ประโยคเข้าด้วยกันโดยใช้คำสันธาน “也” (yě)",
+      "pre_post_pair": "CN_POST_Q029"
+    },
+    {
+      "question_id": "CN_PRE_Q030",
+      "test_id": "CN_PRE_001",
+      "question_number": 30,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Discourse Analysis",
+      "topic": "บทสนทนา",
+      "lesson": "LS1",
+      "question": "ในบทสนทนา เมื่อเด็กนักเรียนถามนักท่องเที่ยวว่า “您会说泰语吗？” นักท่องเที่ยวที่ไม่สามารถพูดภาษาไทยได้เลย จะตอบว่าอย่างไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "我想去大皇宫。"
+        },
+        {
+          "id": "B",
+          "text": "我不会说泰语。"
+        },
+        {
+          "id": "C",
+          "text": "我会说一点儿汉语。"
+        },
+        {
+          "id": "D",
+          "text": "我读五年级。"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำตอบปฏิเสธคำถาม “会...吗？” คือ “不会...” ประโยคตอบปฏิเสธเต็มคือ “我不会说泰语。” (ฉันพูดภาษาไทยไม่เป็น)",
+      "learning_objective": "วิเคราะห์คำตอบปฏิเสธ “我不会说...” ในบทสนทนาโต้ตอบ",
+      "pre_post_pair": "CN_POST_Q030"
+    },
+    {
+      "question_id": "CN_PRE_Q031",
+      "test_id": "CN_PRE_001",
+      "question_number": 31,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Syntax Verification",
+      "topic": "ไวยากรณ์ขั้นสูง",
+      "lesson": "LS1",
+      "question": "ประโยคบอกสถานะนักเรียนประถมและระดับชั้นเรียนข้อใดเรียงลำดับคำได้ถูกต้องสมบูรณ์ตามบทเรียน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "我是小学生，读小学五年级。"
+        },
+        {
+          "id": "B",
+          "text": "我小学生是，五年级小学读。"
+        },
+        {
+          "id": "C",
+          "text": "我读小学生，是小学五年级。"
+        },
+        {
+          "id": "D",
+          "text": "我是五年级，读小学生小学。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างประโยคแนะนำตัวในบทเรียนคือ 我是 + นักเรียนประถม (小学生)，读 + ชั้นเรียน (小学五年级)",
+      "learning_objective": "วิเคราะห์ความถูกต้องตามหลักไวยากรณ์ของประโยคบอกระดับชั้นและสถานะนักเรียน",
+      "pre_post_pair": "CN_POST_Q031"
+    },
+    {
+      "question_id": "CN_PRE_Q032",
+      "test_id": "CN_PRE_001",
+      "question_number": 32,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Question-Answer Alignment",
+      "topic": "บทสนทนา",
+      "lesson": "LS1",
+      "question": "หากมีคนถามว่า “你想去哪儿？” (คุณอยากไปไหน) ข้อใดเป็นคำตอบที่ไม่เข้าพวกหรือไม่ตรงกับคำถาม?",
+      "options": [
+        {
+          "id": "A",
+          "text": "我想去大皇宫。"
+        },
+        {
+          "id": "B",
+          "text": "我想去学校。"
+        },
+        {
+          "id": "C",
+          "text": "我会说一点儿汉语。"
+        },
+        {
+          "id": "D",
+          "text": "我想去法国。"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "ประโยคคำถามถามสถานที่ (“哪儿”) คำตอบ A, B, D เป็นการบอกสถานที่ แต่ข้อ C เป็นการบอกความสามารถทางภาษา ซึ่งไม่ตรงกับคำถาม",
+      "learning_objective": "เลือกคำตอบที่สัมพันธ์กับประโยคคำถามสรรพนามถามสถานที่ “哪儿” (nǎr)",
+      "pre_post_pair": "CN_POST_Q032"
+    },
+    {
+      "question_id": "CN_PRE_Q033",
+      "test_id": "CN_PRE_001",
+      "question_number": 33,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Applied Lexical Logic",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "จงวิเคราะห์ความสัมพันธ์: 法国 (ประเทศฝรั่งเศส) ➔ 法语 (ภาษาฝรั่งเศส) ดังนั้น 德国 (ประเทศเยอรมนี) ➔ ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "德语 (Déyǔ)"
+        },
+        {
+          "id": "B",
+          "text": "泰语 (Tàiyǔ)"
+        },
+        {
+          "id": "C",
+          "text": "韩语 (Hányǔ)"
+        },
+        {
+          "id": "D",
+          "text": "日语 (Rìyǔ)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ความสัมพันธ์คือ ชื่อประเทศ เปลี่ยนเป็น ชื่อภาษา โดยเปลี่ยนตัวอักษรหลังเป็น “语” ดังเช่น 德国 (Déguó) คู่กับ 德语 (Déyǔ)",
+      "learning_objective": "วิเคราะห์ความสัมพันธ์เชิงตรรกะระหว่างชื่อประเทศ (国家) และชื่อภาษา (语言)",
+      "pre_post_pair": "CN_POST_Q033"
+    },
+    {
+      "question_id": "CN_PRE_Q034",
+      "test_id": "CN_PRE_001",
+      "question_number": 34,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Self-Introduction Analysis",
+      "topic": "การอ่าน",
+      "lesson": "LS1",
+      "question": "จากบทอ่านเรื่องตัวละคร “娜林” (Nǎlín) ข้อใดคือประโยคระบุอายุและระดับชั้นเรียนที่ถูกต้องตรงตามเนื้อหา?",
+      "options": [
+        {
+          "id": "A",
+          "text": "娜林今年十岁，读小学四年级。"
+        },
+        {
+          "id": "B",
+          "text": "娜林今年十一岁，读小学五年级。"
+        },
+        {
+          "id": "C",
+          "text": "娜林今年十二岁，读小学六年级。"
+        },
+        {
+          "id": "D",
+          "text": "娜林今年九岁，读小学三年级。"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "บทอ่านระบุว่า 我叫娜林，我今年十一岁。我是小学生，读小学五年级。 (หนูชื่อนาริน อายุ 11 ขวบ เรียนชั้น ป.5)",
+      "learning_objective": "วิเคราะห์ประโยคบอกอายุและชั้นเรียนเพื่อระบุข้อความที่สมบูรณ์",
+      "pre_post_pair": "CN_POST_Q034"
+    },
+    {
+      "question_id": "CN_PRE_Q035",
+      "test_id": "CN_PRE_001",
+      "question_number": 35,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Phonetic Error Analysis",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "ประโยคภาษาจีน “คุณอยากไปไหนครับ/ค่ะ” มีกำกับ Pinyin และเครื่องหมายวรรณยุกต์ที่ถูกต้องตามข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nǐ xiǎng qù nǎr?"
+        },
+        {
+          "id": "B",
+          "text": "Nín xiǎng qù nǎr?"
+        },
+        {
+          "id": "C",
+          "text": "Nín xiāng qù nàr?"
+        },
+        {
+          "id": "D",
+          "text": "Nǐ xiàng qù náer?"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ประโยคสุภาพ “您想去哪儿？” กำกับ Pinyin ได้เป็น Nín (เสียง 2) xiǎng (เสียง 3) qù (เสียง 4) nǎr (เสียง 3 ม้วนลิ้น)",
+      "learning_objective": "ตรวจสอบความถูกต้องของ Pinyin และวรรณยุกต์ในประโยคสื่อสารความยาวปานกลาง",
+      "pre_post_pair": "CN_POST_Q035"
+    },
+    {
+      "question_id": "CN_PRE_Q036",
+      "test_id": "CN_PRE_001",
+      "question_number": 36,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Dialogue Completion",
+      "topic": "บทสนทนา",
+      "lesson": "LS1",
+      "question": "จงเติมคำลงในช่องว่างของบทสนทนาให้สมบูรณ์: A: 你会说汉语吗？ B: 我会说______汉语。 (ฉันพูดภาษาจีนเป็นนิดหน่อย)",
+      "options": [
+        {
+          "id": "A",
+          "text": "一点儿 (yìdiǎnr)"
+        },
+        {
+          "id": "B",
+          "text": "不 (bù)"
+        },
+        {
+          "id": "C",
+          "text": "想 (xiǎng)"
+        },
+        {
+          "id": "D",
+          "text": "吗 (ma)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ประโยคตอบรับการพูดภาษาได้เล็กน้อยใช้คำบอกปริมาณ “一点儿” วางไว้หลังกริยา 说",
+      "learning_objective": "เติมคำกริยา/คำบอกปริมาณที่หายไปในบทสนทนาถามความสามารถภาษา",
+      "pre_post_pair": "CN_POST_Q036"
+    },
+    {
+      "question_id": "CN_PRE_Q037",
+      "test_id": "CN_PRE_001",
+      "question_number": 37,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Practical Dialogue Writing",
+      "topic": "บทสนทนา",
+      "lesson": "LS1",
+      "question": "จงเติมคำศัพท์สถานที่ในช่องว่างของบทสนทนาให้ถูกต้องสอดคล้องกับบทเรียน: A: 您想去哪儿？ B: 我想去______。 (ฉันอยากไปพระบรมมหาราชวัง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "大皇宫"
+        },
+        {
+          "id": "B",
+          "text": "小学生"
+        },
+        {
+          "id": "C",
+          "text": "汉语课"
+        },
+        {
+          "id": "D",
+          "text": "五年级"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า พระบรมมหาราชวัง ในภาษาจีนคือ “大皇宫”",
+      "learning_objective": "เติมคำนามสถานที่/คำกริยาแสดงความปรารถนาในบทสนทนาถามทาง",
+      "pre_post_pair": "CN_POST_Q037"
+    },
+    {
+      "question_id": "CN_PRE_Q038",
+      "test_id": "CN_PRE_001",
+      "question_number": 38,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Communication Logic",
+      "topic": "บทสนทนา",
+      "lesson": "LS1",
+      "question": "จงเติมคำปฏิเสธลงในช่องว่างของบทสนทนา: A: 您会说泰语吗？ B: 我______会说泰语。 (ฉันพูดภาษาไทยไม่เป็น)",
+      "options": [
+        {
+          "id": "A",
+          "text": "不 (bú)"
+        },
+        {
+          "id": "B",
+          "text": "很 (hěn)"
+        },
+        {
+          "id": "C",
+          "text": "也 (yě)"
+        },
+        {
+          "id": "D",
+          "text": "一 (yì)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำปฏิเสธกริยาช่วย 会 คือ “不会” (bú huì)",
+      "learning_objective": "เติมคำปฏิเสธ “不” ในบทสนทนาตอบปฏิเสธความสามารถภาษาไทย/ภาษาอื่น",
+      "pre_post_pair": "CN_POST_Q038"
+    },
+    {
+      "question_id": "CN_PRE_Q039",
+      "test_id": "CN_PRE_001",
+      "question_number": 39,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Data-to-Text Transcodification",
+      "topic": "รูปประโยค",
+      "lesson": "LS1",
+      "question": "จากตารางข้อมูล สัญลักษณ์สไมลีย์สีเหลือง (😐) หมายถึง 会一点儿 จงเติมคำลงในประโยคสรุปข้อมูลของ 娜林 (Nǎlín): 娜林会说泰语，______说汉语。 (นารินพูดภาษาไทยเป็น และก็พูดภาษาจีนเป็นนิดหน่อย)",
+      "options": [
+        {
+          "id": "A",
+          "text": "也会一点儿"
+        },
+        {
+          "id": "B",
+          "text": "不会"
+        },
+        {
+          "id": "C",
+          "text": "想去"
+        },
+        {
+          "id": "D",
+          "text": "没"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "นารินพูดภาษาไทยเป็น (会) และพูดภาษาจีนได้นิดหน่อย (会一点儿) เมื่อเชื่อมประโยคใช้ 也会一点儿",
+      "learning_objective": "เติมประโยคภาษาจีนโดยตีความจากสัญลักษณ์ในตารางบันทึกการพูดภาษา",
+      "pre_post_pair": "CN_POST_Q039"
+    },
+    {
+      "question_id": "CN_PRE_Q040",
+      "test_id": "CN_PRE_001",
+      "question_number": 40,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Applied Sentence Building",
+      "topic": "รูปประโยค",
+      "lesson": "LS1",
+      "question": "ในกิจกรรมแต่งประโยค เมื่อครูชูป้ายคำว่า “马来语” (ภาษามาเลย์) นักเรียนแต่งประโยคปฏิเสธว่า \"ฉันพูดภาษามาเลย์ไม่เป็น\" จงเติมคำในช่องว่าง: 我不会说______。",
+      "options": [
+        {
+          "id": "A",
+          "text": "马来语"
+        },
+        {
+          "id": "B",
+          "text": "泰语"
+        },
+        {
+          "id": "C",
+          "text": "德语"
+        },
+        {
+          "id": "D",
+          "text": "英语"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ประโยคตามตัวอย่างกิจกรรมในบทเรียนคือ 我不会说马来语。",
+      "learning_objective": "เติมคำศัพท์ในกิจกรรมแต่งประโยคแข่งกัน (组句竞赛) ให้เป็นประโยคที่สมบูรณ์",
+      "pre_post_pair": "CN_POST_Q040"
+    },
+    {
+      "question_id": "CN_PRE_Q041",
+      "test_id": "CN_PRE_001",
+      "question_number": 41,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Cross-Cultural Lexical Matching",
+      "topic": "เนื้อหาที่ใช้ในชีวิตประจำวัน",
+      "lesson": "LS1",
+      "question": "คำทักทายภาษาญี่ปุ่น \"こんにちは\" (Konnichiwa) ตรงกับชื่อภาษาจีนที่มีตัวอักษรหน้าขาดหายไป จงเติมตัวอักษรจีน: ______语 (Rìyǔ - ภาษาญี่ปุ่น)",
+      "options": [
+        {
+          "id": "A",
+          "text": "日"
+        },
+        {
+          "id": "B",
+          "text": "韩"
+        },
+        {
+          "id": "C",
+          "text": "德"
+        },
+        {
+          "id": "D",
+          "text": "法"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "\"こんにちは\" เป็นคำทักทายภาษาญี่ปุ่น ตรงกับภาษาจีนว่า “日语” (Rìyǔ) ตัวอักษรที่ขาดคือ “日”",
+      "learning_objective": "เติมตัวอักษรจีนชื่อภาษาให้สอดคล้องกับคำทักทายภาษาต่างประเทศในชีวิตประจำวัน",
+      "pre_post_pair": "CN_POST_Q041"
+    },
+    {
+      "question_id": "CN_PRE_Q042",
+      "test_id": "CN_PRE_001",
+      "question_number": 42,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Guided Composition",
+      "topic": "การอ่าน",
+      "lesson": "LS1",
+      "question": "จงเติมตัวอักษรจีนแสดงจำนวนตัวเลขชั้นเรียนในโครงสร้างบทแนะนำตนเองชั้น ป.5: 我是小学生，读小学______年级。",
+      "options": [
+        {
+          "id": "A",
+          "text": "五"
+        },
+        {
+          "id": "B",
+          "text": "四"
+        },
+        {
+          "id": "C",
+          "text": "三"
+        },
+        {
+          "id": "D",
+          "text": "六"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ชั้นประถมศึกษาปีที่ 5 ในภาษาจีนคือ “小学五年级” ตัวอักษรแสดงเลข 5 คือ “五”",
+      "learning_objective": "เติมข้อมูลลงในแบบฟอร์มโครงสร้างบทแนะนำตนเอง (仿照活动1)",
+      "pre_post_pair": "CN_POST_Q042"
+    },
+    {
+      "question_id": "CN_PRE_Q043",
+      "test_id": "CN_PRE_001",
+      "question_number": 43,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Literal Comprehension",
+      "topic": "การอ่าน",
+      "lesson": "LS1",
+      "question": "อ่านบทอ่านแนะนำตนเองของ 娜林 (Nǎlín) แล้วเลือกข้อความที่เป็น จริง (True) เกี่ยวกับตัวเธอ? (บทอ่าน: 我叫娜林，我今年十一岁。我是小学生，读小学五年级。五年级有汉语课和英语课。) (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "娜林今年十一岁 (นารินอายุ 11 ขวบ)"
+        },
+        {
+          "id": "B",
+          "text": "娜林读小学六年级 (นารินเรียนชั้น ป.6)"
+        },
+        {
+          "id": "C",
+          "text": "娜林是小学生 (นารินเป็นนักเรียนประถม)"
+        },
+        {
+          "id": "D",
+          "text": "娜林今年十岁 (นารินอายุ 10 ขวบ)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "จากบทอ่าน นารินระบุว่าอายุ 11 ขวบ (十一岁) และเป็นนักเรียนประถม (我是小学生)",
+      "learning_objective": "วิเคราะห์บทอ่านแนะนำตนเองของ “娜林” แล้วเลือกข้อความที่เป็นจริงเกี่ยวกับตัวละคร",
+      "pre_post_pair": "CN_POST_Q043"
+    },
+    {
+      "question_id": "CN_PRE_Q044",
+      "test_id": "CN_PRE_001",
+      "question_number": 44,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Reading Inference",
+      "topic": "การอ่าน",
+      "lesson": "LS1",
+      "question": "จากบทอ่านเรื่องทักษะภาษาของ 娜林: 我会说一点儿汉语，也会说一点儿英语。 ข้อความใดบ้างอธิบายความสามารถภาษาของนารินได้ถูกต้อง? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "พูดภาษาจีนได้นิดหน่อย"
+        },
+        {
+          "id": "B",
+          "text": "พูดภาษาฝรั่งเศสได้คล่องแคล่ว"
+        },
+        {
+          "id": "C",
+          "text": "พูดภาษาอังกฤษได้นิดหน่อย"
+        },
+        {
+          "id": "D",
+          "text": "พูดภาษาเยอรมันไม่ได้เลย"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "บทอ่านระบุชัดเจนว่า พูดภาษาจีนได้นิดหน่อย (我会说一点儿汉语) และพูดภาษาอังกฤษได้นิดหน่อยด้วย (也会说一点儿英语)",
+      "learning_objective": "ประเมินทักษะภาษาของ “娜林” จากบทอ่านเรื่องการอ่านจับใจความ",
+      "pre_post_pair": "CN_POST_Q044"
+    },
+    {
+      "question_id": "CN_PRE_Q045",
+      "test_id": "CN_PRE_001",
+      "question_number": 45,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Critical Reading Evaluation",
+      "topic": "การอ่าน",
+      "lesson": "LS1",
+      "question": "จากแบบฝึกหัดพิจารณาความถูกผิด (判断对错) ในบทอ่าน ข้อความใดบ้างที่เป็น เท็จ (False / 错)? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "娜林今年十岁。(นารินอายุ 10 ขวบ)"
+        },
+        {
+          "id": "B",
+          "text": "她读五年级。(เธอเรียนชั้น ป.5)"
+        },
+        {
+          "id": "C",
+          "text": "五年级没有汉语课。(ชั้น ป.5 ไม่มีวิชาภาษาจีน)"
+        },
+        {
+          "id": "D",
+          "text": "她会说一点儿汉语。(เธอพูดภาษาจีนได้นิดหน่อย)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "ข้อ A เป็นเท็จเพราะนารินอายุ 11 ขวบ และข้อ C เป็นเท็จเพราะชั้น ป.5 มีวิชาภาษาจีน (五年级有汉语课)",
+      "learning_objective": "ประเมินความถูกต้อง (判断对错) ของข้อความ 4 ข้อจากบทอ่าน",
+      "pre_post_pair": "CN_POST_Q045"
+    },
+    {
+      "question_id": "CN_PRE_Q046",
+      "test_id": "CN_PRE_001",
+      "question_number": 46,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Dialogue Synthesis",
+      "topic": "บทสนทนา",
+      "lesson": "LS1",
+      "question": "จากบทสนทนาระหว่างเด็กนักเรียนไทยและนักท่องเที่ยวต่างชาติ ข้อความใดบ้างสรุปสาระสำคัญได้ถูกต้อง? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "นักท่องเที่ยวต้องการเดินทางไปพระบรมมหาราชวัง (大皇宫)"
+        },
+        {
+          "id": "B",
+          "text": "เด็กนักเรียนปฏิเสธไม่ยอมคุยกับนักท่องเที่ยว"
+        },
+        {
+          "id": "C",
+          "text": "นักท่องเที่ยวพูดภาษาไทยไม่เป็น (不会说泰语)"
+        },
+        {
+          "id": "D",
+          "text": "เด็กนักเรียนพูดภาษาจีนไม่ได้เลย"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "บทสนทนาระบุว่านักท่องเที่ยวพูดว่า 我想去大皇宫 และตอบคำถามว่า 我不会说泰语",
+      "learning_objective": "สรุปสาระสำคัญและความต้องการของตัวละครจากบทสนทนาระหว่างเด็กนักเรียนและนักท่องเที่ยว",
+      "pre_post_pair": "CN_POST_Q046"
+    },
+    {
+      "question_id": "CN_PRE_Q047",
+      "test_id": "CN_PRE_001",
+      "question_number": 47,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Comparative Data Analysis",
+      "topic": "รูปประโยค",
+      "lesson": "LS1",
+      "question": "จากตารางบันทึกการพูดภาษาในบทเรียน บุคคลใดบ้างที่พูดภาษาจีนได้ในระดับ คล่องแคล่ว/ทำได้ (会 - สัญลักษณ์สไมลีย์สีเขียว 😊)? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "孙浩 (Sūn Hào)"
+        },
+        {
+          "id": "B",
+          "text": "泰坤 (Tàikūn)"
+        },
+        {
+          "id": "C",
+          "text": "王冬冬 (Wáng Dōngdōng)"
+        },
+        {
+          "id": "D",
+          "text": "娜林 (Nǎlín)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "ในตารางข้อมูล 孙浩 และ 王冬冬 ช่องภาษาจีน (汉语) เป็นสัญลักษณ์สีเขียว 会 ส่วน 泰坤 และ 娜林 เป็นสีเหลือง 会一点儿",
+      "learning_objective": "เปรียบเทียบข้อมูลความสามารถทางภาษาของบุคคลต่าง ๆ จากตารางข้อมูลในบทเรียน",
+      "pre_post_pair": "CN_POST_Q047"
+    },
+    {
+      "question_id": "CN_PRE_Q048",
+      "test_id": "CN_PRE_001",
+      "question_number": 48,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Multi-Variable Matching",
+      "topic": "เนื้อหาที่ใช้ในชีวิตประจำวัน",
+      "lesson": "LS1",
+      "question": "จับคู่คำทักทายกับชื่อภาษาจีน ข้อใดบ้างเป็นการจับคู่ที่ ถูกต้อง? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hallo — 德语 (Déyǔ)"
+        },
+        {
+          "id": "B",
+          "text": "Hello — 韩语 (Hányǔ)"
+        },
+        {
+          "id": "C",
+          "text": "Apa kabar — 马来语 (Mǎláiyǔ)"
+        },
+        {
+          "id": "D",
+          "text": "Bonjour — 日语 (Rìyǔ)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "“Hallo” คือภาษาเยอรมัน (德语) และ “Apa kabar” คือภาษามาเลย์ (马来语)",
+      "learning_objective": "วิเคราะห์และเลือกชุดความสัมพันธ์ระหว่างภาษา คำทักทาย และตัวอักษรจีนที่ถูกต้อง 3 ชุด",
+      "pre_post_pair": "CN_POST_Q048"
+    },
+    {
+      "question_id": "CN_PRE_Q049",
+      "test_id": "CN_PRE_001",
+      "question_number": 49,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Character Classification",
+      "topic": "ตัวอักษรจีน",
+      "lesson": "LS1",
+      "question": "ตัวอักษรจีนในข้อใดบ้างที่มีส่วนประกอบหมวดอักษร “讠” (言字旁 - yánzìpáng)? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "说 (shuō)"
+        },
+        {
+          "id": "B",
+          "text": "法 (Fǎ)"
+        },
+        {
+          "id": "C",
+          "text": "语 (yǔ)"
+        },
+        {
+          "id": "D",
+          "text": "汉 (Hàn)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "ตัวอักษร “说” และ “语” มีหมวดอักษรด้านซ้ายคือ “讠” ส่วน “法” และ “汉” มีหมวดอักษรด้านซ้ายคือ “氵” (三点水)",
+      "learning_objective": "จำแนกกลุ่มตัวอักษรจีนตามหมวดอักษร (Radicals) และส่วนประกอบอักษรที่กำหนด",
+      "pre_post_pair": "CN_POST_Q049"
+    },
+    {
+      "question_id": "CN_PRE_Q050",
+      "test_id": "CN_PRE_001",
+      "question_number": 50,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Real-World Application",
+      "topic": "เนื้อหาที่ใช้ในชีวิตประจำวัน",
+      "lesson": "LS1",
+      "question": "ในสถานการณ์จริง เมื่อคุณต้องการแนะนำความสามารถทางภาษาของตนเองให้ชาวต่างชาติทราบว่า \"ฉันพูดภาษาจีนเป็นนิดหน่อย และก็พูดภาษาอังกฤษเป็นนิดหน่อยด้วย\" ควรใช้ประโยคใดบ้าง? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "我会说一点儿汉语。"
+        },
+        {
+          "id": "B",
+          "text": "我不会说英语。"
+        },
+        {
+          "id": "C",
+          "text": "我也会说一点儿英语。"
+        },
+        {
+          "id": "D",
+          "text": "我想去大皇宫。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "ประโยคบอกความสามารถภาษาตามโจทย์คือ 我会说一点儿汉语 (ฉันพูดภาษาจีนเป็นนิดหน่อย) และเชื่อมประโยคหลังด้วย 我也会说一点儿英语 (และก็พูดภาษาอังกฤษเป็นนิดหน่อยด้วย)",
+      "learning_objective": "ประยุกต์ใช้ความรู้ประโยคภาษาจีนในบทเรียนเพื่อเลือกประโยคสื่อสารในสถานการณ์จริง",
+      "pre_post_pair": "CN_POST_Q050"
+    },
+    {
+      "question_id": "CN_POST_Q001",
+      "test_id": "CN_POST_001",
+      "question_number": 1,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Vocabulary Recognition",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "คำศัพท์ภาษาจีน “英语” (Yīngyǔ) และ “法语” (Fǎyǔ) แปลความหมายเป็นภาษาไทยว่าอย่างไรตามลำดับ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ภาษาฝรั่งเศส, ภาษาอังกฤษ"
+        },
+        {
+          "id": "B",
+          "text": "ภาษาอังกฤษ, ภาษาฝรั่งเศส"
+        },
+        {
+          "id": "C",
+          "text": "ภาษาเยอรมัน, ภาษาอังกฤษ"
+        },
+        {
+          "id": "D",
+          "text": "ภาษาอังกฤษ, ภาษาจีน"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "“英语” (Yīngyǔ) แปลว่า ภาษาอังกฤษ และ “法语” (Fǎyǔ) แปลว่า ภาษาฝรั่งเศส",
+      "learning_objective": "ระบุความหมายภาษาไทยและพินอินของชื่อภาษาต่าง ๆ ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q001"
+    },
+    {
+      "question_id": "CN_POST_Q002",
+      "test_id": "CN_POST_001",
+      "question_number": 2,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Phonetic Recognition",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "Pinyin ที่ถูกต้องของคำศัพท์ชื่อภาษา “日语” (ภาษาญี่ปุ่น) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rìyǔ"
+        },
+        {
+          "id": "B",
+          "text": "Rìyù"
+        },
+        {
+          "id": "C",
+          "text": "Rìyú"
+        },
+        {
+          "id": "D",
+          "text": "Rīyǔ"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า “日语” (ภาษาญี่ปุ่น) อ่านออกเสียง Pinyin ว่า Rìyǔ (เสียง 4 และเสียง 3)",
+      "learning_objective": "ระบุ Pinyin และเสียงวรรณยุกต์ของคำศัพท์ชื่อภาษาได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q002"
+    },
+    {
+      "question_id": "CN_POST_Q003",
+      "test_id": "CN_POST_001",
+      "question_number": 3,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Phonetic Rule Application",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "ตามกฎการเปลี่ยนเสียงวรรณยุกต์ Pinyin ของวลี “不会说” (พูดไม่เป็น) อ่านออกเสียงคำว่า “不” เป็นเสียงวรรณยุกต์ใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "เสียง 4 (bù)"
+        },
+        {
+          "id": "B",
+          "text": "เสียง 2 (bú)"
+        },
+        {
+          "id": "C",
+          "text": "เสียง 1 (bū)"
+        },
+        {
+          "id": "D",
+          "text": "เสียง 3 (bǔ)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำว่า “不” (bù) เมื่ออยู่หน้าคำที่เป็นเสียง 4 เช่น “会” (huì) จะเปลี่ยนเสียงเป็นเสียง 2 อ่านว่า “bú huì shuō”",
+      "learning_objective": "ประยุกต์ใช้กฎการเปลี่ยนเสียงวรรณยุกต์ของคำว่า “不” (bù) เมื่ออยู่หน้าเสียง 4",
+      "pre_post_pair": "CN_PRE_Q003"
+    },
+    {
+      "question_id": "CN_POST_Q004",
+      "test_id": "CN_POST_001",
+      "question_number": 4,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Vocabulary Matching",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "คำศัพท์เกี่ยวกับสมาชิกในครอบครัว “爷爷” (Yéye), “哥哥” (Gēge) และ “姐姐” (Jiějie) ตรงกับข้อใดตามลำดับ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "คุณปู่, พี่ชาย, พี่สาว"
+        },
+        {
+          "id": "B",
+          "text": "คุณตา, น้องชาย, น้องสาว"
+        },
+        {
+          "id": "C",
+          "text": "คุณพ่อ, พี่ชาย, พี่สาว"
+        },
+        {
+          "id": "D",
+          "text": "คุณปู่, น้องชาย, พี่สาว"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "“爷爷” = คุณปู่, “哥哥” = พี่ชาย, “姐姐” = พี่สาว",
+      "learning_objective": "ระบุคำศัพท์จีนเกี่ยวกับสมาชิกในครอบครัวได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q004"
+    },
+    {
+      "question_id": "CN_POST_Q005",
+      "test_id": "CN_POST_001",
+      "question_number": 5,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Grammar & Vocabulary",
+      "topic": "ไวยากรณ์และคำกริยา",
+      "lesson": "LS1",
+      "question": "หากต้องการบอกประโยคปฏิเสธว่า \"พูดไม่เป็น / ทำไม่ได้\" ควรเลือกใช้คำกริยาช่วยในข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "会 (huì)"
+        },
+        {
+          "id": "B",
+          "text": "不会 (bú huì)"
+        },
+        {
+          "id": "C",
+          "text": "想 (xiǎng)"
+        },
+        {
+          "id": "D",
+          "text": "去 (qù)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "“不会” (bú huì) เป็นคำกริยาช่วยปฏิเสธ แปลว่า ไม่เป็น/ทำไม่ได้ เช่น “我不会说德语。”",
+      "learning_objective": "เลือกคำกริยาช่วย “会” (huì) หรือ “不会” (bú huì) สอดคล้องกับความหมายบอกความสามารถ",
+      "pre_post_pair": "CN_PRE_Q005"
+    },
+    {
+      "question_id": "CN_POST_Q006",
+      "test_id": "CN_POST_001",
+      "question_number": 6,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Quantifier Recognition",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "คำบอกปริมาณ “一点儿” (yìdiǎnr) ควรวางไว้ที่ตำแหน่งใดในประโยคบอกความสามารถ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "วางไว้หน้าประธาน"
+        },
+        {
+          "id": "B",
+          "text": "วางไว้หลังคำกริยา “说”"
+        },
+        {
+          "id": "C",
+          "text": "วางไว้ท้ายประโยคหลังคำถาม “吗”"
+        },
+        {
+          "id": "D",
+          "text": "วางไว้หน้าคำกริยาช่วย “会”"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างประโยคคือ ประธาน + 会 + 说 + 一点儿 + ภาษา คำว่า “一点儿” วางไว้หลังคำกริยา “说” เช่น “我会说一点儿汉语。”",
+      "learning_objective": "ระบุความหมายและ Pinyin ของคำบอกปริมาณ “一点儿” (yìdiǎnr)",
+      "pre_post_pair": "CN_PRE_Q006"
+    },
+    {
+      "question_id": "CN_POST_Q007",
+      "test_id": "CN_POST_001",
+      "question_number": 7,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Verb Vocabulary",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "คำกริยา “想” (xiǎng) ในประโยค “我想去大皇宫” มีความหมายตรงกับข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "พูด"
+        },
+        {
+          "id": "B",
+          "text": "อยาก / ปรารถนา"
+        },
+        {
+          "id": "C",
+          "text": "เรียน / อ่าน"
+        },
+        {
+          "id": "D",
+          "text": "มี"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำกริยา “想” (xiǎng) แปลว่า อยาก หรือ ปรารถนา เช่น “我想去...” (ฉันอยากไป...)",
+      "learning_objective": "จำและระบุความหมายของคำกริยา “说” (shuō) และ “想” (xiǎng)",
+      "pre_post_pair": "CN_PRE_Q007"
+    },
+    {
+      "question_id": "CN_POST_Q008",
+      "test_id": "CN_POST_001",
+      "question_number": 8,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Proper Noun Recognition",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "คำว่า \"พระบรมมหาราชวัง\" มีตัวอักษรจีนและ Pinyin ตรงกับข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "大皇宫 (Dàhuánggōng)"
+        },
+        {
+          "id": "B",
+          "text": "小学校 (Xiǎoxuéxiào)"
+        },
+        {
+          "id": "C",
+          "text": "汉语课 (Hànyǔ kè)"
+        },
+        {
+          "id": "D",
+          "text": "泰语课 (Tàiyǔ kè)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "พระบรมมหาราชวัง ภาษาจีนคือ “大皇宫” อ่านว่า Dàhuánggōng",
+      "learning_objective": "ระบุตัวอักษรจีนและ Pinyin ของสถานที่ท่องเที่ยว “大皇宫”",
+      "pre_post_pair": "CN_PRE_Q008"
+    },
+    {
+      "question_id": "CN_POST_Q009",
+      "test_id": "CN_POST_001",
+      "question_number": 9,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "School Context Vocabulary",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "คำว่า “小学生” (xiǎoxuéshēng) และ “五年级” (wǔ niánjí) หมายถึงอะไรตามลำดับ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "นักเรียนประถม, ชั้นปีที่ 5 (ป.5)"
+        },
+        {
+          "id": "B",
+          "text": "นักเรียนมัธยม, 5 ขวบ"
+        },
+        {
+          "id": "C",
+          "text": "คุณครูประถม, ชั้นปีที่ 4 (ป.4)"
+        },
+        {
+          "id": "D",
+          "text": "นักเรียนประถม, 5 คน"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "“小学生” แปลว่า นักเรียนประถม และ “五年级” แปลว่า ชั้นปีที่ 5 (ชั้น ป.5)",
+      "learning_objective": "ระบุคำศัพท์เกี่ยวกับวิชาเรียนและระดับชั้นเรียนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q009"
+    },
+    {
+      "question_id": "CN_POST_Q010",
+      "test_id": "CN_POST_001",
+      "question_number": 10,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Applied Everyday Vocabulary",
+      "topic": "เนื้อหาที่ใช้ในชีวิตประจำวัน",
+      "lesson": "LS1",
+      "question": "คำทักทายภาษาสเปน “Hola” ตรงกับชื่อภาษาจีนในข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "法语 (Fǎyǔ)"
+        },
+        {
+          "id": "B",
+          "text": "德语 (Déyǔ)"
+        },
+        {
+          "id": "C",
+          "text": "西班牙语 (Xībānyáyǔ)"
+        },
+        {
+          "id": "D",
+          "text": "印尼语 (Yìníyǔ)"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "“Hola” เป็นคำทักทายภาษาสเปน ซึ่งภาษาสเปนในภาษาจีนคือ “西班牙语” (Xībānyáyǔ)",
+      "learning_objective": "จับคู่คำทักทายภาษาต่างประเทศกับชื่อภาษาจีนที่สอดคล้องกัน",
+      "pre_post_pair": "CN_PRE_Q010"
+    },
+    {
+      "question_id": "CN_POST_Q011",
+      "test_id": "CN_POST_001",
+      "question_number": 11,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Character Radical Identification",
+      "topic": "ตัวอักษรจีน",
+      "lesson": "LS1",
+      "question": "ตัวอักษรจีนคำว่า “级” (jí) ในคำว่า “年级” (ชั้นปี) มีหมวดอักษรจีนด้านซ้าย (Radical) คือส่วนประกอบใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "纟 (绞丝旁)"
+        },
+        {
+          "id": "B",
+          "text": "氵 (三点水)"
+        },
+        {
+          "id": "C",
+          "text": "讠 (言字旁)"
+        },
+        {
+          "id": "D",
+          "text": "亻 (单人旁)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ตัวอักษร “级” ประกอบด้วยหมวดอักษรด้านซ้ายคือ “纟” (绞丝旁)",
+      "learning_objective": "เติมหมวดอักษรจีน “绞丝旁” (纟) ในตัวอักษรเกี่ยวกับสีและระดับชั้นได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q011"
+    },
+    {
+      "question_id": "CN_POST_Q012",
+      "test_id": "CN_POST_001",
+      "question_number": 12,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Character Components",
+      "topic": "ตัวอักษรจีน",
+      "lesson": "LS1",
+      "question": "ตัวอักษรจีน “汉” (Hàn) ในคำว่า “汉语” (ภาษาจีน) มีหมวดอักษรด้านซ้ายคือส่วนประกอบใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "氵 (三点水)"
+        },
+        {
+          "id": "B",
+          "text": "讠 (言字旁)"
+        },
+        {
+          "id": "C",
+          "text": "彳 (双人旁)"
+        },
+        {
+          "id": "D",
+          "text": "人 (人字头)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ตัวอักษร “汉” มีหมวดอักษรด้านซ้ายคือ “氵” (三点水)",
+      "learning_objective": "เติมส่วนประกอบหมวดอักษร “三点水” (氵) ของตัวอักษรจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q012"
+    },
+    {
+      "question_id": "CN_POST_Q013",
+      "test_id": "CN_POST_001",
+      "question_number": 13,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Character Components",
+      "topic": "ตัวอักษรจีน",
+      "lesson": "LS1",
+      "question": "ตัวอักษรจีนคำว่า “语” (yǔ) ในคำว่า “汉语 / 泰语” มีหมวดอักษรด้านซ้ายที่เกี่ยวข้องกับคำพูดคืออะไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "讠 (言字旁)"
+        },
+        {
+          "id": "B",
+          "text": "纟 (绞丝旁)"
+        },
+        {
+          "id": "C",
+          "text": "亻 (单人旁)"
+        },
+        {
+          "id": "D",
+          "text": "彳 (双人旁)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ตัวอักษร “语” มีหมวดอักษรด้านซ้ายคือ “讠” (言字旁)",
+      "learning_objective": "เติมส่วนประกอบหมวดอักษร “言字旁” (讠) ที่เกี่ยวกับภาษาและการพูด",
+      "pre_post_pair": "CN_PRE_Q013"
+    },
+    {
+      "question_id": "CN_POST_Q014",
+      "test_id": "CN_POST_001",
+      "question_number": 14,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Character Writing Structure",
+      "topic": "ตัวอักษรจีน",
+      "lesson": "LS1",
+      "question": "ตัวอักษรจีนคำว่า “个” (gè - คำลักษณนาม) มีส่วนประกอบด้านบนสุดคือส่วนประกอบใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "人 (人字头)"
+        },
+        {
+          "id": "B",
+          "text": "大 (大字头)"
+        },
+        {
+          "id": "C",
+          "text": "日 (日字旁)"
+        },
+        {
+          "id": "D",
+          "text": "口 (口字旁)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ด้านบนของตัวอักษร “个” คือหมวดอักษร “人” (人字头)",
+      "learning_objective": "เติมโครงสร้างส่วนบน “人” (人字头) ของตัวอักษรจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q014"
+    },
+    {
+      "question_id": "CN_POST_Q015",
+      "test_id": "CN_POST_001",
+      "question_number": 15,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Character Radical Writing",
+      "topic": "ตัวอักษรจีน",
+      "lesson": "LS1",
+      "question": "ตัวอักษรคำสรรพนามแสดงความสุภาพ “您” (nín - ท่าน/คุณ) มีส่วนประกอบด้านบนซ้ายคือส่วนประกอบใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "亻 (单人旁)"
+        },
+        {
+          "id": "B",
+          "text": "讠 (言字旁)"
+        },
+        {
+          "id": "C",
+          "text": "氵 (三点水)"
+        },
+        {
+          "id": "D",
+          "text": "纟 (绞丝旁)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ด้านบนของตัวอักษร “您” ประกอบด้วยตัวอักษร “你” ซึ่งมีหมวดอักษรข้างคือ “亻” (单人旁)",
+      "learning_objective": "เติมส่วนประกอบหมวดอักษรข้าง “单人旁” (亻) ของสรรพนามบุรุษ",
+      "pre_post_pair": "CN_PRE_Q015"
+    },
+    {
+      "question_id": "CN_POST_Q016",
+      "test_id": "CN_POST_001",
+      "question_number": 16,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Vocabulary Spelling",
+      "topic": "ตัวอักษรจีน",
+      "lesson": "LS1",
+      "question": "จงเติมตัวอักษรจีนที่หายไปในคำว่า “法___” (Fǎguó - ประเทศฝรั่งเศส) ให้ถูกต้อง",
+      "options": [
+        {
+          "id": "A",
+          "text": "国"
+        },
+        {
+          "id": "B",
+          "text": "语"
+        },
+        {
+          "id": "C",
+          "text": "人"
+        },
+        {
+          "id": "D",
+          "text": "课"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า ประเทศฝรั่งเศส ในภาษาจีนคือ “法国” (Fǎguó) ตัวอักษรที่ขาดหายไปคือ “国”",
+      "learning_objective": "เติมตัวอักษรจีนที่หายไปในคำศัพท์ชื่อประเทศและชื่อภาษา",
+      "pre_post_pair": "CN_PRE_Q016"
+    },
+    {
+      "question_id": "CN_POST_Q017",
+      "test_id": "CN_POST_001",
+      "question_number": 17,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Stroke Component Writing",
+      "topic": "ตัวอักษรจีน",
+      "lesson": "LS1",
+      "question": "ตัวอักษรจีน “点” (diǎn) มีส่วนประกอบด้านบนเป็นขีดส่วนใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "卜"
+        },
+        {
+          "id": "B",
+          "text": "人"
+        },
+        {
+          "id": "C",
+          "text": "口"
+        },
+        {
+          "id": "D",
+          "text": "日"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ส่วนประกอบด้านบนของตัวอักษร “点” คือส่วนประกอบ “卜”",
+      "learning_objective": "เติมส่วนประกอบขีดที่ถูกต้องของตัวอักษร “点” ในคำว่า “一点儿”",
+      "pre_post_pair": "CN_PRE_Q017"
+    },
+    {
+      "question_id": "CN_POST_Q018",
+      "test_id": "CN_POST_001",
+      "question_number": 18,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Contextual Character Insertion",
+      "topic": "รูปประโยค",
+      "lesson": "LS1",
+      "question": "จงเติมตัวอักษรจีนคำกริยาที่หายไปในประโยค “我___去大皇宫。” (ฉันอยากไปพระบรมมหาราชวัง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "想"
+        },
+        {
+          "id": "B",
+          "text": "说"
+        },
+        {
+          "id": "C",
+          "text": "读"
+        },
+        {
+          "id": "D",
+          "text": "有"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ประโยคแสดงความปรารถนาในการเดินทางคือ ประธาน + 想 + 去 + สถานที่ คำที่ขาดคือ “想” (xiǎng - อยาก)",
+      "learning_objective": "เติมตัวอักษรจีนคำกริยาลงในช่องว่างของประโยคบอกเล่าพื้นฐาน",
+      "pre_post_pair": "CN_PRE_Q018"
+    },
+    {
+      "question_id": "CN_POST_Q019",
+      "test_id": "CN_POST_001",
+      "question_number": 19,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Pronoun Usage",
+      "topic": "ไวยากรณ์",
+      "lesson": "LS1",
+      "question": "คำสรรพนามจีนในข้อใดบ้างที่ใช้แทนบุคคลที่เป็น เพศหญิง หรือ ใช้ทักทายเพื่อน/คนเสมอกัน? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "你 (nǐ)"
+        },
+        {
+          "id": "B",
+          "text": "他 (tā)"
+        },
+        {
+          "id": "C",
+          "text": "她 (tā)"
+        },
+        {
+          "id": "D",
+          "text": "您 (nín)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "“你” ใช้แทนเพื่อนหรือคนรุ่นเดียวกัน และ “她” ใช้แทนเขาผู้หญิง",
+      "learning_objective": "จำแนกและเลือกคำสรรพนามแทนบุคคล (“你”, “您”, “他”, “她”) ให้เหมาะสมกับบริบท",
+      "pre_post_pair": "CN_PRE_Q019"
+    },
+    {
+      "question_id": "CN_POST_Q020",
+      "test_id": "CN_POST_001",
+      "question_number": 20,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Data Reading & Grammar",
+      "topic": "ไวยากรณ์",
+      "lesson": "LS1",
+      "question": "จากตารางข้อมูลในแบบเรียน ภาษาใดบ้างที่ 孙浩 (Sūn Hào) สามารถพูดได้คล่องแคล่ว (会)? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "泰语 (ภาษาไทย)"
+        },
+        {
+          "id": "B",
+          "text": "汉语 (ภาษาจีน)"
+        },
+        {
+          "id": "C",
+          "text": "德语 (ภาษาเยอรมัน)"
+        },
+        {
+          "id": "D",
+          "text": "法语 (ภาษาฝรั่งเศส)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ในตารางบันทึกการพูดภาษา 孙浩 พูดภาษาไทยได้ (会) และพูดภาษาจีนได้ (会)",
+      "learning_objective": "เลือกภาษาที่บุคคลสามารถพูดได้ตามข้อมูลตารางบันทึกการพูดภาษา",
+      "pre_post_pair": "CN_PRE_Q020"
+    },
+    {
+      "question_id": "CN_POST_Q021",
+      "test_id": "CN_POST_001",
+      "question_number": 21,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Word Order Identification",
+      "topic": "ไวยากรณ์",
+      "lesson": "LS1",
+      "question": "ประโยคใดบ้างที่มีคำว่า “一点儿” วางในตำแหน่งที่ถูกต้องตามหลักไวยากรณ์ภาษาจีน? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "我会说一点儿英语。"
+        },
+        {
+          "id": "B",
+          "text": "我一点儿会说英语。"
+        },
+        {
+          "id": "C",
+          "text": "娜林会说一点儿汉语。"
+        },
+        {
+          "id": "D",
+          "text": "我会一点儿说汉语。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "ตำแหน่งของ “一点儿” ต้องวางไว้หลังคำกริยา 说 สื่อถึงการทำได้นิดหน่อย: 会 + 说 + 一点儿 + ภาษา",
+      "learning_objective": "วิเคราะห์และเลือกลำดับคำในประโยคบอกเล่ากริยาช่วย “会” ที่ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q021"
+    },
+    {
+      "question_id": "CN_POST_Q022",
+      "test_id": "CN_POST_001",
+      "question_number": 22,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Negative Sentence Structure",
+      "topic": "ไวยากรณ์",
+      "lesson": "LS1",
+      "question": "ข้อใดจัดเป็นประโยคปฏิเสธการพูดภาษาด้วยคำว่า “不会” ที่ถูกต้องตามหลักไวยากรณ์? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "我不会说马来语。"
+        },
+        {
+          "id": "B",
+          "text": "凯特不会说德语。"
+        },
+        {
+          "id": "C",
+          "text": "我说马来语不会。"
+        },
+        {
+          "id": "D",
+          "text": "不会我德语说。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "โครงสร้างประโยคปฏิเสธคือ ประธาน + 不会 + 说 + ภาษา ข้อ A และ B จึงถูกต้อง",
+      "learning_objective": "เลือกลำดับคำในประโยคปฏิเสธการพูดภาษาด้วย “不会” ที่ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q022"
+    },
+    {
+      "question_id": "CN_POST_Q023",
+      "test_id": "CN_POST_001",
+      "question_number": 23,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Interrogative Sentence Structure",
+      "topic": "ไวยากรณ์",
+      "lesson": "LS1",
+      "question": "ส่วนประกอบคำศัพท์ใดบ้างที่รวมกันแล้วสามารถสร้างประโยคคำถามว่า \"มาร์คพูดภาษาเยอรมันเป็นไหม?\" ได้ถูกต้อง? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "马克会说德语吗？"
+        },
+        {
+          "id": "B",
+          "text": "吗 (ma)"
+        },
+        {
+          "id": "C",
+          "text": "会 (huì)"
+        },
+        {
+          "id": "D",
+          "text": "不 (bù)"
+        }
+      ],
+      "correct_answer": [
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "การตั้งประโยคคำถามความสามารถ ต้องใช้กริยาช่วย “会” และเสริมคำถาม “吗” ท้ายประโยค",
+      "learning_objective": "เลือกองค์ประกอบที่จำเป็นในการสร้างประโยคคำถาม ใช่/ไม่ใช่ ด้วยคำว่า “吗”",
+      "pre_post_pair": "CN_PRE_Q023"
+    },
+    {
+      "question_id": "CN_POST_Q024",
+      "test_id": "CN_POST_001",
+      "question_number": 24,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Sentence Composition",
+      "topic": "รูปประโยค",
+      "lesson": "LS1",
+      "question": "วลีใดบ้างที่ใช้บอกการศึกษาและรายวิชาที่เรียนของนักเรียนประถมในบทเรียน? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "读小学 (dú xiǎoxué)"
+        },
+        {
+          "id": "B",
+          "text": "有英语课 (yǒu Yīngyǔ kè)"
+        },
+        {
+          "id": "C",
+          "text": "去大皇宫 (qù Dàhuánggōng)"
+        },
+        {
+          "id": "D",
+          "text": "吃西瓜 (chī xīguā)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "“读小学” (เรียนโรงเรียนประถม) และ “有英语课” (มีวิชาภาษาอังกฤษ) เกี่ยวข้องกับการศึกษาและวิชาเรียน",
+      "learning_objective": "เลือกคำกริยาและคำนามที่ใช้บอกการศึกษาและรายวิชาที่เรียน",
+      "pre_post_pair": "CN_PRE_Q024"
+    },
+    {
+      "question_id": "CN_POST_Q025",
+      "test_id": "CN_POST_001",
+      "question_number": 25,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Cultural Classification",
+      "topic": "เนื้อหาที่ใช้ในชีวิตประจำวัน",
+      "lesson": "LS1",
+      "question": "ชื่อภาษาจีนในข้อใดบ้างที่เป็น ภาษาในทวีปยุโรป ที่ปรากฏในบทเรียน? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "德语 (Déyǔ)"
+        },
+        {
+          "id": "B",
+          "text": "法语 (Fǎyǔ)"
+        },
+        {
+          "id": "C",
+          "text": "泰语 (Tàiyǔ)"
+        },
+        {
+          "id": "D",
+          "text": "印尼语 (Yìníyǔ)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "德语 (ภาษาเยอรมัน) และ 法语 (ภาษาฝรั่งเศส) เป็นภาษาในทวีปยุโรป ส่วน 泰语 และ 印尼语 เป็นภาษาในทวีปเอเชีย",
+      "learning_objective": "จำแนกหมวดหมู่ภาษาเอเชียและภาษายุโรปตามเนื้อหาในบทเรียน",
+      "pre_post_pair": "CN_PRE_Q025"
+    },
+    {
+      "question_id": "CN_POST_Q026",
+      "test_id": "CN_POST_001",
+      "question_number": 26,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Advanced Grammar Differentiation",
+      "topic": "ไวยากรณ์ขั้นสูง",
+      "lesson": "LS1",
+      "question": "ประโยคใดต่อไปนี้สื่อความหมายว่า \"ประธานสามารถพูดภาษาอังกฤษได้เพียงเล็กน้อย/นิดหน่อยเท่านั้น\"?",
+      "options": [
+        {
+          "id": "A",
+          "text": "我会说一点儿英语。"
+        },
+        {
+          "id": "B",
+          "text": "我不会说英语。"
+        },
+        {
+          "id": "C",
+          "text": "我想说英语。"
+        },
+        {
+          "id": "D",
+          "text": "我会说英语。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "การใช้ “一点儿” หลังคำกริยา 说 ใน “我会说一点儿英语” หมายถึง พูดภาษาอังกฤษเป็นนิดหน่อย",
+      "learning_objective": "วิเคราะห์ระดับความแตกต่างระหว่างการใช้ “会” และ “会一点儿” ในประโยคความสามารถ",
+      "pre_post_pair": "CN_PRE_Q026"
+    },
+    {
+      "question_id": "CN_POST_Q027",
+      "test_id": "CN_POST_001",
+      "question_number": 27,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Advanced Syntax Application",
+      "topic": "ไวยากรณ์ขั้นสูง",
+      "lesson": "LS1",
+      "question": "หากนักเรียนต้องการบอกปฏิเสธหรือไม่เปลี่ยนสถานที่เดินทางเมื่อมีคนถามว่า “你想去哪儿？” ข้อใดเป็นประโยคที่ปฏิเสธหรือไม่ไปสถานที่นั้นตามหลักไวยากรณ์?",
+      "options": [
+        {
+          "id": "A",
+          "text": "我不想去大皇宫。"
+        },
+        {
+          "id": "B",
+          "text": "我会说一点儿ภาษาไทย。"
+        },
+        {
+          "id": "C",
+          "text": "我是小学生。"
+        },
+        {
+          "id": "D",
+          "text": "我有汉语课。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ปฏิเสธความต้องการเดินทางใช้ ไม่อยากไป + สถานที่ -> “我不想去大皇宫。” (ฉันไม่อยากไปพระบรมมหาราชวัง)",
+      "learning_objective": "เลือกรูปประโยคตอบรับการเดินทางไปสถานที่ท่องเที่ยว “想去” + สถานที่",
+      "pre_post_pair": "CN_PRE_Q027"
+    },
+    {
+      "question_id": "CN_POST_Q028",
+      "test_id": "CN_POST_001",
+      "question_number": 28,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Pragmatic Competence",
+      "topic": "บทสนทนา",
+      "lesson": "LS1",
+      "question": "ในบทสนทนา เมื่อเด็กนักเรียนต้องการถามนักท่องเที่ยวชาวต่างชาติด้วยความสุภาพว่า \"ท่านอยากไปเที่ยวที่ไหนครับ/ค่ะ\" ควรเลือกใช้ประโยคใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "您想去哪儿？"
+        },
+        {
+          "id": "B",
+          "text": "你想去哪儿？"
+        },
+        {
+          "id": "C",
+          "text": "他想去哪儿？"
+        },
+        {
+          "id": "D",
+          "text": "您年会说汉语吗？"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "การถามผู้ใหญ่ชาวต่างชาติใช้สรรพนามสุภาพ “您” (nín) รวมเป็น “您想去哪儿？”",
+      "learning_objective": "ประยุกต์ใช้ระดับความสุภาพของสรรพนาม “您” สอดคล้องกับสถานการณ์สนทนากับผู้ใหญ่",
+      "pre_post_pair": "CN_PRE_Q028"
+    },
+    {
+      "question_id": "CN_POST_Q029",
+      "test_id": "CN_POST_001",
+      "question_number": 29,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Sentence Linking",
+      "topic": "ไวยากรณ์ขั้นสูง",
+      "lesson": "LS1",
+      "question": "จงเลือกประโยคที่รวมประโยค “爸爸会说法语” (คุณพ่อพูดภาษาฝรั่งเศสเป็น) และ “妈妈会说法语” (คุณแม่พูดภาษาฝรั่งเศสเป็น) โดยใช้คำว่า “也” ได้ถูกต้อง",
+      "options": [
+        {
+          "id": "A",
+          "text": "爸爸会说法语，妈妈也会说法语。"
+        },
+        {
+          "id": "B",
+          "text": "爸爸也会说法语，妈妈会说法语。"
+        },
+        {
+          "id": "C",
+          "text": "爸爸会说法语，也妈妈会说法语。"
+        },
+        {
+          "id": "D",
+          "text": "爸爸会说法语，妈妈会说也法语。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า “也” (yě) วางไว้หน้ากริยาช่วย 会 ในประโยคหลัง: 妈妈 + 也 + 会说 + 法语",
+      "learning_objective": "เชื่อมประโยคบอกความสามารถ 2 ประโยคเข้าด้วยกันโดยใช้คำสันธาน “也” (yě)",
+      "pre_post_pair": "CN_PRE_Q029"
+    },
+    {
+      "question_id": "CN_POST_Q030",
+      "test_id": "CN_POST_001",
+      "question_number": 30,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Discourse Analysis",
+      "topic": "บทสนทนา",
+      "lesson": "LS1",
+      "question": "ในบทสนทนา เมื่อครูถามนักเรียนว่า “你会说马来语吗？” นักเรียนที่ไม่สามารถพูดภาษามาเลย์ได้เลย ควรตอบว่าอย่างไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "我不会说马来语。"
+        },
+        {
+          "id": "B",
+          "text": "我想去大皇宫。"
+        },
+        {
+          "id": "C",
+          "text": "我读五年级。"
+        },
+        {
+          "id": "D",
+          "text": "我会说一点儿汉语。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำตอบปฏิเสธการพูดภาษามาเลย์คือ “我不会说马来语。” (ฉันพูดภาษามาเลย์ไม่เป็น)",
+      "learning_objective": "วิเคราะห์คำตอบปฏิเสธ “我不会说...” ในบทสนทนาโต้ตอบ",
+      "pre_post_pair": "CN_PRE_Q030"
+    },
+    {
+      "question_id": "CN_POST_Q031",
+      "test_id": "CN_POST_001",
+      "question_number": 31,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Syntax Verification",
+      "topic": "ไวยากรณ์ขั้นสูง",
+      "lesson": "LS1",
+      "question": "ประโยคระบุรายวิชาเรียนในระดับชั้นประถมศึกษาปีที่ 5 ข้อใดเรียงลำดับคำได้ถูกต้องตามหลักไวยากรณ์ภาษาจีน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "五年级有汉语课和英语课。"
+        },
+        {
+          "id": "B",
+          "text": "有汉语课五年级和英语课。"
+        },
+        {
+          "id": "C",
+          "text": "五年级汉语课有英语课和。"
+        },
+        {
+          "id": "D",
+          "text": "汉语课和英语课五年级有。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างประโยคบอกรายวิชาประจำชั้นเรียนคือ ชั้นเรียน (五年级) + 有 + วิชา (汉语课和英语课)",
+      "learning_objective": "วิเคราะห์ความถูกต้องตามหลักไวยากรณ์ของประโยคบอกระดับชั้นและสถานะนักเรียน",
+      "pre_post_pair": "CN_PRE_Q031"
+    },
+    {
+      "question_id": "CN_POST_Q032",
+      "test_id": "CN_POST_001",
+      "question_number": 32,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Question-Answer Alignment",
+      "topic": "บทสนทนา",
+      "lesson": "LS1",
+      "question": "หากมีคนถามว่า “您想去哪儿？” (ท่านอยากไปไหน) ข้อใดเป็นคำตอบที่ตรงคำถามและสอดคล้องตามหลักไวยากรณ์?",
+      "options": [
+        {
+          "id": "A",
+          "text": "我想去学校。"
+        },
+        {
+          "id": "B",
+          "text": "我是小学生。"
+        },
+        {
+          "id": "C",
+          "text": "我今年十一岁。"
+        },
+        {
+          "id": "D",
+          "text": "我不会说德语。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำถามถามสถานที่ (“哪儿”) คำตอบข้อ A “我想去学校” (ฉันอยากไปโรงเรียน) เป็นคำตอบที่ระบุสถานที่ตรงกับคำถาม",
+      "learning_objective": "เลือกคำตอบที่สัมพันธ์กับประโยคคำถามสรรพนามถามสถานที่ “哪儿” (nǎr)",
+      "pre_post_pair": "CN_PRE_Q032"
+    },
+    {
+      "question_id": "CN_POST_Q033",
+      "test_id": "CN_POST_001",
+      "question_number": 33,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Applied Lexical Logic",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "จงวิเคราะห์ความสัมพันธ์: 泰国 (ประเทศไทย) ➔ 泰语 (ภาษาไทย) ดังนั้น 西班牙 (ประเทศสเปน) ➔ ?",
+      "options": [
+        {
+          "id": "A",
+          "text": "西班牙语 (Xībānyáyǔ)"
+        },
+        {
+          "id": "B",
+          "text": "德语 (Déyǔ)"
+        },
+        {
+          "id": "C",
+          "text": "法语 (Fǎyǔ)"
+        },
+        {
+          "id": "D",
+          "text": "日语 (Rìyǔ)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ความสัมพันธ์ระหว่างประเทศและภาษาคือ เติม “语” ท้ายชื่อประเทศ สเปน (西班牙) จึงตรงกับ ภาษาสเปน (西班牙语)",
+      "learning_objective": "วิเคราะห์ความสัมพันธ์เชิงตรรกะระหว่างชื่อประเทศ (国家) และชื่อภาษา (语言)",
+      "pre_post_pair": "CN_PRE_Q033"
+    },
+    {
+      "question_id": "CN_POST_Q034",
+      "test_id": "CN_POST_001",
+      "question_number": 34,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Self-Introduction Analysis",
+      "topic": "การอ่าน",
+      "lesson": "LS1",
+      "question": "จากบทอ่านแนะนำตัว ประโยคใดสื่อความหมายว่า \"นารินอายุ 11 ขวบ และเป็นนักเรียนประถม\"?",
+      "options": [
+        {
+          "id": "A",
+          "text": "娜林今年十一岁，是小学生。"
+        },
+        {
+          "id": "B",
+          "text": "娜林今年十岁，是小学生。"
+        },
+        {
+          "id": "C",
+          "text": "娜林读五年级，不是小学生。"
+        },
+        {
+          "id": "D",
+          "text": "娜林今年十二岁，读初中。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ตรงตามบทอ่านที่ระบุว่า นารินอายุ 11 ขวบ (十一岁) และเป็นนักเรียนประถม (小学生)",
+      "learning_objective": "วิเคราะห์ประโยคบอกอายุและชั้นเรียนเพื่อระบุข้อความที่สมบูรณ์",
+      "pre_post_pair": "CN_PRE_Q034"
+    },
+    {
+      "question_id": "CN_POST_Q035",
+      "test_id": "CN_POST_001",
+      "question_number": 35,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Phonetic Error Analysis",
+      "topic": "คำศัพท์และพินอิน",
+      "lesson": "LS1",
+      "question": "ประโยคภาษาจีน “ฉันพูดภาษาจีนเป็นนิดหน่อย” มีกำกับ Pinyin และเครื่องหมายวรรณยุกต์ที่ถูกต้องตามข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Wǒ huì shuō yìdiǎnr Hànyǔ."
+        },
+        {
+          "id": "B",
+          "text": "Wǒ huì shuō yīdiǎn Hànyǔ."
+        },
+        {
+          "id": "C",
+          "text": "Wǒ huí shuō yídiǎnr Hànyǔ."
+        },
+        {
+          "id": "D",
+          "text": "Wǒ huì suō yìdiǎnr Hànyǔ."
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "Pinyin ที่ถูกต้องของ “我会说一点儿汉语。” คือ Wǒ huì shuō yìdiǎnr Hànyǔ.",
+      "learning_objective": "ตรวจสอบความถูกต้องของ Pinyin และวรรณยุกต์ในประโยคสื่อสารความยาวปานกลาง",
+      "pre_post_pair": "CN_PRE_Q035"
+    },
+    {
+      "question_id": "CN_POST_Q036",
+      "test_id": "CN_POST_001",
+      "question_number": 36,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Dialogue Completion",
+      "topic": "บทสนทนา",
+      "lesson": "LS1",
+      "question": "จงเติมคำกริยาช่วยลงในช่องว่างของบทสนทนาให้สมบูรณ์: A: 马里奥会说德语吗？ B: 他______说德语。 (เขาพูดภาษาเยอรมันเป็น)",
+      "options": [
+        {
+          "id": "A",
+          "text": "会 (huì)"
+        },
+        {
+          "id": "B",
+          "text": "不 (bù)"
+        },
+        {
+          "id": "C",
+          "text": "想 (xiǎng)"
+        },
+        {
+          "id": "D",
+          "text": "吗 (ma)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำตอบรับการพูดภาษาเป็น ใช้คำกริยาช่วย “会” (huì)",
+      "learning_objective": "เติมคำกริยา/คำบอกปริมาณที่หายไปในบทสนทนาถามความสามารถภาษา",
+      "pre_post_pair": "CN_PRE_Q036"
+    },
+    {
+      "question_id": "CN_POST_Q037",
+      "test_id": "CN_POST_001",
+      "question_number": 37,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Practical Dialogue Writing",
+      "topic": "บทสนทนา",
+      "lesson": "LS1",
+      "question": "จงเติมคำกริยาแสดงความปรารถนาลงในช่องว่างของบทสนทนา: A: 您______去哪儿？ B: 我想去大皇宫。",
+      "options": [
+        {
+          "id": "A",
+          "text": "想 (xiǎng)"
+        },
+        {
+          "id": "B",
+          "text": "会 (huì)"
+        },
+        {
+          "id": "C",
+          "text": "说 (shuō)"
+        },
+        {
+          "id": "D",
+          "text": "读 (dú)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ประโยคถามความปรารถนาการเดินทางใช้คำกริยา “想” (xiǎng)",
+      "learning_objective": "เติมคำนามสถานที่/คำกริยาแสดงความปรารถนาในบทสนทนาถามทาง",
+      "pre_post_pair": "CN_PRE_Q037"
+    },
+    {
+      "question_id": "CN_POST_Q038",
+      "test_id": "CN_POST_001",
+      "question_number": 38,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Communication Logic",
+      "topic": "บทสนทนา",
+      "lesson": "LS1",
+      "question": "จงเติมคำปฏิเสธลงในช่องว่างของบทสนทนาตอบปฏิเสธภาษามาเลย์: A: 你会说马来语吗？ B: 我______会说马来语。 (ฉันพูดภาษามาเลย์ไม่เป็น)",
+      "options": [
+        {
+          "id": "A",
+          "text": "不 (bú)"
+        },
+        {
+          "id": "B",
+          "text": "也 (yě)"
+        },
+        {
+          "id": "C",
+          "text": "很 (hěn)"
+        },
+        {
+          "id": "D",
+          "text": "有 (yǒu)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำตอบปฏิเสธความสามารถภาษาคือ “不会” (bú huì)",
+      "learning_objective": "เติมคำปฏิเสธ “不” ในบทสนทนาตอบปฏิเสธความสามารถภาษาไทย/ภาษาอื่น",
+      "pre_post_pair": "CN_PRE_Q038"
+    },
+    {
+      "question_id": "CN_POST_Q039",
+      "test_id": "CN_POST_001",
+      "question_number": 39,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Data-to-Text Transcodification",
+      "topic": "รูปประโยค",
+      "lesson": "LS1",
+      "question": "จากตารางข้อมูล สัญลักษณ์สไมลีย์สีแดง (😞) หมายถึง 不会 จงเติมชื่อภาษาจีนในช่องว่าง: 凯特不会说德语，也不会说______语。 (เคทพูดภาษาเยอรมันไม่เป็น และก็พูดภาษาอินโดนีเซียไม่เป็นด้วย)",
+      "options": [
+        {
+          "id": "A",
+          "text": "印尼"
+        },
+        {
+          "id": "B",
+          "text": "泰"
+        },
+        {
+          "id": "C",
+          "text": "汉"
+        },
+        {
+          "id": "D",
+          "text": "英"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ในตารางบันทึก 凯特 พูดภาษาเยอรมันและภาษาอินโดนีเซียไม่เป็น (不会) ภาษาอินโดนีเซียคือ “印尼语”",
+      "learning_objective": "เติมประโยคภาษาจีนโดยตีความจากสัญลักษณ์ในตารางบันทึกการพูดภาษา",
+      "pre_post_pair": "CN_PRE_Q039"
+    },
+    {
+      "question_id": "CN_POST_Q040",
+      "test_id": "CN_POST_001",
+      "question_number": 40,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Applied Sentence Building",
+      "topic": "รูปประโยค",
+      "lesson": "LS1",
+      "question": "จงเติมคำบอกปริมาณลงในช่องว่างของประโยคตามโจทย์ \"ฉันพูดภาษาจีนเป็นนิดหน่อย\": 我会说______汉语。",
+      "options": [
+        {
+          "id": "A",
+          "text": "一点儿 (yìdiǎnr)"
+        },
+        {
+          "id": "B",
+          "text": "不 (bù)"
+        },
+        {
+          "id": "C",
+          "text": "想 (xiǎng)"
+        },
+        {
+          "id": "D",
+          "text": "吗 (ma)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำบอกปริมาณ \"นิดหน่อย\" คือ “一点儿”",
+      "learning_objective": "เติมคำศัพท์ในกิจกรรมแต่งประโยคแข่งกัน (组句竞赛) ให้เป็นประโยคที่สมบูรณ์",
+      "pre_post_pair": "CN_PRE_Q040"
+    },
+    {
+      "question_id": "CN_POST_Q041",
+      "test_id": "CN_POST_001",
+      "question_number": 41,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Cross-Cultural Lexical Matching",
+      "topic": "เนื้อหาที่ใช้ในชีวิตประจำวัน",
+      "lesson": "LS1",
+      "question": "คำทักทายภาษาเกาหลี \"안녕하세요\" (Annyeonghaseyo) ตรงกับชื่อภาษาจีนที่มีตัวอักษรหน้าขาดหายไป จงเติมตัวอักษรจีน: ______语 (Hányǔ - ภาษาเกาหลี)",
+      "options": [
+        {
+          "id": "A",
+          "text": "韩"
+        },
+        {
+          "id": "B",
+          "text": "日"
+        },
+        {
+          "id": "C",
+          "text": "德"
+        },
+        {
+          "id": "D",
+          "text": "法"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "\"안녕하세요\" เป็นคำทักทายภาษาเกาหลี ตรงกับภาษาจีนว่า “韩语” (Hányǔ) ตัวอักษรที่ขาดคือ “韩”",
+      "learning_objective": "เติมตัวอักษรจีนชื่อภาษาให้สอดคล้องกับคำทักทายภาษาต่างประเทศในชีวิตประจำวัน",
+      "pre_post_pair": "CN_PRE_Q041"
+    },
+    {
+      "question_id": "CN_POST_Q042",
+      "test_id": "CN_POST_001",
+      "question_number": 42,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Guided Composition",
+      "topic": "การอ่าน",
+      "lesson": "LS1",
+      "question": "จงเติมตัวอักษรจีนวิชาเรียนในช่องว่างของโครงสร้างประโยครายวิชาชั้น ป.5: 五年级有______课和英语课。",
+      "options": [
+        {
+          "id": "A",
+          "text": "汉语"
+        },
+        {
+          "id": "B",
+          "text": "泰语"
+        },
+        {
+          "id": "C",
+          "text": "德语"
+        },
+        {
+          "id": "D",
+          "text": "法语"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ในบทเรียนระบุว่าชั้น ป.5 มีวิชาภาษาจีนและวิชาภาษาอังกฤษ (汉语课和英语课)",
+      "learning_objective": "เติมข้อมูลลงในแบบฟอร์มโครงสร้างบทแนะนำตนเอง (仿照活动1)",
+      "pre_post_pair": "CN_PRE_Q042"
+    },
+    {
+      "question_id": "CN_POST_Q043",
+      "test_id": "CN_POST_001",
+      "question_number": 43,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Literal Comprehension",
+      "topic": "การอ่าน",
+      "lesson": "LS1",
+      "question": "อ่านบทอ่านแนะนำตนเองของ 娜林 (Nǎlín) แล้วเลือกข้อความที่เป็น จริง (True) เกี่ยวกับรายวิชาและชั้นเรียนของเธอ? (บทอ่าน: 我叫娜林，我今年十一岁。我是小学生，读小学五年级。五年级有汉语课和英语课。) (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "五年级有汉语课 (ชั้น ป.5 มีวิชาภาษาจีน)"
+        },
+        {
+          "id": "B",
+          "text": "五年级有英语课 (ชั้น ป.5 มีวิชาภาษาอังกฤษ)"
+        },
+        {
+          "id": "C",
+          "text": "五年级有德语课 (ชั้น ป.5 มีวิชาภาษาเยอรมัน)"
+        },
+        {
+          "id": "D",
+          "text": "五年级没有英语课 (ชั้น ป.5 ไม่มีวิชาภาษาอังกฤษ)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "จากบทอ่าน ชั้น ป.5 มีทั้งวิชาภาษาจีน (汉语课) และวิชาภาษาอังกฤษ (英语课)",
+      "learning_objective": "วิเคราะห์บทอ่านแนะนำตนเองของ “娜林” แล้วเลือกข้อความที่เป็นจริงเกี่ยวกับตัวละคร",
+      "pre_post_pair": "CN_PRE_Q043"
+    },
+    {
+      "question_id": "CN_POST_Q044",
+      "test_id": "CN_POST_001",
+      "question_number": 44,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Reading Inference",
+      "topic": "การอ่าน",
+      "lesson": "LS1",
+      "question": "จากบทอ่านทักษะภาษาของ 娜林: 我会说一点儿汉语，也会说一点儿英语。 ข้อความใดบ้างเป็น เท็จ (False) เกี่ยวกับภาษาของนาริน? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "นารินพูดภาษาจีนไม่เป็นเลย"
+        },
+        {
+          "id": "B",
+          "text": "นารินพูดภาษาอังกฤษไม่ได้เลย"
+        },
+        {
+          "id": "C",
+          "text": "นารินพูดภาษาจีนได้นิดหน่อย"
+        },
+        {
+          "id": "D",
+          "text": "นารินพูดภาษาอังกฤษได้นิดหน่อย"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "นารินพูดได้ทั้งภาษาจีนและภาษาอังกฤษนิดหน่อย ดังนั้นข้อความที่ว่าพูดไม่ได้เลยจึงเป็นเท็จ",
+      "learning_objective": "ประเมินทักษะภาษาของ “娜林” จากบทอ่านเรื่องการอ่านจับใจความ",
+      "pre_post_pair": "CN_POST_Q044"
+    },
+    {
+      "question_id": "CN_POST_Q045",
+      "test_id": "CN_POST_001",
+      "question_number": 45,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Critical Reading Evaluation",
+      "topic": "การอ่าน",
+      "lesson": "LS1",
+      "question": "จากแบบฝึกหัดพิจารณาความถูกผิด (判断对错) ข้อความใดบ้างที่เป็น จริง (True / 对) ตามเนื้อหาบทอ่าน? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "她读五年级。(เธอเรียนชั้น ป.5)"
+        },
+        {
+          "id": "B",
+          "text": "她会说一点儿汉语。(เธอพูดภาษาจีนได้นิดหน่อย)"
+        },
+        {
+          "id": "C",
+          "text": "娜林今年十岁。(นารินอายุ 10 ขวบ)"
+        },
+        {
+          "id": "D",
+          "text": "五年级没有汉语课。(ชั้น ป.5 ไม่มีวิชาภาษาจีน)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ข้อ A และ B เป็นจริงตามบทอ่าน แต่นารินอายุ 11 ขวบและมีวิชาภาษาจีน",
+      "learning_objective": "ประเมินความถูกต้อง (判断对错) ของข้อความ 4 ข้อจากบทอ่าน",
+      "pre_post_pair": "CN_PRE_Q045"
+    },
+    {
+      "question_id": "CN_POST_Q046",
+      "test_id": "CN_POST_001",
+      "question_number": 46,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Dialogue Synthesis",
+      "topic": "บทสนทนา",
+      "lesson": "LS1",
+      "question": "จากบทสนทนาระหว่างเด็กนักเรียนและนักท่องเที่ยว ข้อความใดบ้างสรุปความสามารถทางภาษาของตัวละครได้ถูกต้อง? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "เด็กนักเรียนพูดภาษาจีนได้นิดหน่อย (我会说一点儿汉语)"
+        },
+        {
+          "id": "B",
+          "text": "นักท่องเที่ยวพูดภาษาไทยไม่เป็น (我不会说泰语)"
+        },
+        {
+          "id": "C",
+          "text": "นักท่องเที่ยวพูดภาษาจีนได้คล่องแคล่ว"
+        },
+        {
+          "id": "D",
+          "text": "เด็กนักเรียนพูดภาษาอังกฤษได้คล่องแคล่ว"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "เด็กนักเรียนพูดภาษาจีนได้นิดหน่อย และนักท่องเที่ยวระบุว่าพูดภาษาไทยไม่เป็น",
+      "learning_objective": "สรุปสาระสำคัญและความต้องการของตัวละครจากบทสนทนาระหว่างเด็กนักเรียนและนักท่องเที่ยว",
+      "pre_post_pair": "CN_PRE_Q046"
+    },
+    {
+      "question_id": "CN_POST_Q047",
+      "test_id": "CN_POST_001",
+      "question_number": 47,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Comparative Data Analysis",
+      "topic": "รูปประโยค",
+      "lesson": "LS1",
+      "question": "จากตารางบันทึกการพูดภาษาในบทเรียน บุคคลใดบ้างที่พูดภาษาจีนได้ในระดับ นิดหน่อย (会一点儿 - สัญลักษณ์สไมลีย์สีเหลือง 😐)? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "泰坤 (Tàikūn)"
+        },
+        {
+          "id": "B",
+          "text": "娜林 (Nǎlín)"
+        },
+        {
+          "id": "C",
+          "text": "孙浩 (Sūn Hào)"
+        },
+        {
+          "id": "D",
+          "text": "王冬冬 (Wáng Dōngdōng)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ในตารางข้อมูล 泰坤 และ 娜林 พูดภาษาจีนได้นิดหน่อย (会一点儿) ส่วน 孙浩 และ 王冬冬 พูดได้คล่อง (会)",
+      "learning_objective": "เปรียบเทียบข้อมูลความสามารถทางภาษาของบุคคลต่าง ๆ จากตารางข้อมูลในบทเรียน",
+      "pre_post_pair": "CN_PRE_Q047"
+    },
+    {
+      "question_id": "CN_POST_Q048",
+      "test_id": "CN_POST_001",
+      "question_number": 48,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Multi-Variable Matching",
+      "topic": "เนื้อหาที่ใช้ในชีวิตประจำวัน",
+      "lesson": "LS1",
+      "question": "จับคู่คำทักทายกับชื่อภาษาจีน ข้อใดบ้างเป็นการจับคู่ที่ ถูกต้อง? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Halo — 印尼语 (Yìníyǔ)"
+        },
+        {
+          "id": "B",
+          "text": "こんにちは — 日语 (Rìyǔ)"
+        },
+        {
+          "id": "C",
+          "text": "Hello — 法语 (Fǎyǔ)"
+        },
+        {
+          "id": "D",
+          "text": "Bonjour — 德语 (Déyǔ)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "“Halo” คือภาษาอินโดนีเซีย (印尼语) และ “こんにちは” คือภาษาญี่ปุ่น (日语)",
+      "learning_objective": "วิเคราะห์และเลือกชุดความสัมพันธ์ระหว่างภาษา คำทักทาย และตัวอักษรจีนที่ถูกต้อง 3 ชุด",
+      "pre_post_pair": "CN_PRE_Q048"
+    },
+    {
+      "question_id": "CN_POST_Q049",
+      "test_id": "CN_POST_001",
+      "question_number": 49,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Character Classification",
+      "topic": "ตัวอักษรจีน",
+      "lesson": "LS1",
+      "question": "ตัวอักษรจีนในข้อใดบ้างที่มีส่วนประกอบหมวดอักษร “氵” (三点水 - sāndiǎnshuǐ)? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "法 (Fǎ)"
+        },
+        {
+          "id": "B",
+          "text": "汉 (Hàn)"
+        },
+        {
+          "id": "C",
+          "text": "说 (shuō)"
+        },
+        {
+          "id": "D",
+          "text": "语 (yǔ)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ตัวอักษร “法” และ “汉” มีหมวดอักษรด้านซ้ายคือ “氵” (三点水) ส่วน “说” และ “语” มีหมวดอักษรด้านซ้ายคือ “讠” (言字旁)",
+      "learning_objective": "จำแนกกลุ่มตัวอักษรจีนตามหมวดอักษร (Radicals) และส่วนประกอบอักษรที่กำหนด",
+      "pre_post_pair": "CN_PRE_Q049"
+    },
+    {
+      "question_id": "CN_POST_Q050",
+      "test_id": "CN_POST_001",
+      "question_number": 50,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Real-World Application",
+      "topic": "เนื้อหาที่ใช้ในชีวิตประจำวัน",
+      "lesson": "LS1",
+      "question": "ในสถานการณ์จริง เมื่อต้องการแนะนำตนเองว่าเป็นนักเรียนประถมและบอกสถานที่ที่ต้องการเดินทางไป ควรใช้ประโยคใดบ้าง? (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "我是小学生。"
+        },
+        {
+          "id": "B",
+          "text": "我想去大皇宫。"
+        },
+        {
+          "id": "C",
+          "text": "我不会说汉语。"
+        },
+        {
+          "id": "D",
+          "text": "我没有英语课。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ประโยคแนะนำตัวคือ “我是小学生。” (ฉันเป็นนักเรียนประถม) และประโยคบอกสถานที่ที่อยากไปคือ “我想去大皇宫。” (ฉันอยากไปพระบรมมหาราชวัง)",
+      "learning_objective": "ประยุกต์ใช้ความรู้ประโยคภาษาจีนในบทเรียนเพื่อเลือกประโยคสื่อสารในสถานการณ์จริง",
+      "pre_post_pair": "CN_PRE_Q050"
+    }
+  ]

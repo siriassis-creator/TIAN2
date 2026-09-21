@@ -1,0 +1,3128 @@
+[
+    {
+      "question_id": "CN_PRE_Q001",
+      "test_id": "CN_PRE_001",
+      "question_number": 1,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำลักษณนามที่ถูกต้องของคำว่า \"漫画书\" (หนังสือการ์ตูน) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "本 (běn)"
+        },
+        {
+          "id": "B",
+          "text": "支 (zhī)"
+        },
+        {
+          "id": "C",
+          "text": "件 (jiàn)"
+        },
+        {
+          "id": "D",
+          "text": "只 (zhī)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า \"漫画书\" (หนังสือการ์ตูน) เป็นหนังสือ ต้องใช้คำลักษณนามว่า \"本\" (เล่ม) เช่น 五本漫画书 (หนังสือการ์ตูน 5 เล่ม)",
+      "learning_objective": "ระบุคำลักษณนามของหนังสือ/สมุดได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q001"
+    },
+    {
+      "question_id": "CN_PRE_Q002",
+      "test_id": "CN_PRE_001",
+      "question_number": 2,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำลักษณนามที่ถูกต้องของคำว่า \"铅笔\" (ดินสอ) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "本 (běn)"
+        },
+        {
+          "id": "B",
+          "text": "支 (zhī)"
+        },
+        {
+          "id": "C",
+          "text": "条 (tiáo)"
+        },
+        {
+          "id": "D",
+          "text": "个 (gè)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "สิ่งของที่มีลักษณะเป็นด้ามหรือแท่ง เช่น ดินสอ (铅笔) หรือปากกา (笔) ใช้คำลักษณนามว่า \"支\" (แท่ง/ด้าม)",
+      "learning_objective": "ระบุคำลักษณนามของแท่ง/ดินสอ/ปากกาได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q002"
+    },
+    {
+      "question_id": "CN_PRE_Q003",
+      "test_id": "CN_PRE_001",
+      "question_number": 3,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำลักษณนามที่ถูกต้องของคำว่า \"上衣\" (เสื้อท่อนบน) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "件 (jiàn)"
+        },
+        {
+          "id": "B",
+          "text": "条 (tiáo)"
+        },
+        {
+          "id": "C",
+          "text": "只 (zhī)"
+        },
+        {
+          "id": "D",
+          "text": "本 (běn)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "เสื้อผ้าท่อนบน เช่น \"上衣\" (เสื้อ) ใช้คำลักษณนามว่า \"件\" (ตัว)",
+      "learning_objective": "ระบุคำลักษณนามของเสื้อท่อนบนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q003"
+    },
+    {
+      "question_id": "CN_PRE_Q004",
+      "test_id": "CN_PRE_001",
+      "question_number": 4,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำลักษณนามที่ถูกต้องของคำว่า \"熊猫\" (หมีแพนด้า) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "个 (gè)"
+        },
+        {
+          "id": "B",
+          "text": "本 (běn)"
+        },
+        {
+          "id": "C",
+          "text": "只 (zhī)"
+        },
+        {
+          "id": "D",
+          "text": "支 (zhī)"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "สัตว์เลี้ยงหรือสัตว์ขนาดเล็ก เช่น แพนด้า (熊猫), กระต่าย (兔子), เต่า (乌龟), แมว (小猫) ใช้คำลักษณนามว่า \"只\" (ตัว)",
+      "learning_objective": "ระบุคำลักษณนามของสัตว์เล็กได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q004"
+    },
+    {
+      "question_id": "CN_PRE_Q005",
+      "test_id": "CN_PRE_001",
+      "question_number": 5,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำลักษณนามที่ถูกต้องของคำว่า \"裙子\" (กระโปรง) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "条 (tiáo)"
+        },
+        {
+          "id": "B",
+          "text": "件 (jiàn)"
+        },
+        {
+          "id": "C",
+          "text": "本 (běn)"
+        },
+        {
+          "id": "D",
+          "text": "支 (zhī)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "กระโปรง (裙子), กางเกง (裤子), ปลา (鱼) หรือแม่น้ำ (河) มีลักษณะเป็นสาย/เส้นยาว ใช้คำลักษณนามว่า \"条\" (ตัว/สาย)",
+      "learning_objective": "ระบุคำลักษณนามของกระโปรง/สิ่งของสายยาวได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q005"
+    },
+    {
+      "question_id": "CN_PRE_Q006",
+      "test_id": "CN_PRE_001",
+      "question_number": 6,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "phonetics",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "Pinyin ที่ถูกต้องของคำว่า \"裙子\" (กระโปรง) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "qúnzi"
+        },
+        {
+          "id": "B",
+          "text": "qúnzhǐ"
+        },
+        {
+          "id": "C",
+          "text": "qūzi"
+        },
+        {
+          "id": "D",
+          "text": "qúnzǐ"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 裙子 สะกด Pinyin ว่า qúnzi (พยัญชนะ q- สระ -ún เสียง 2 และ zi เสียงเบา)",
+      "learning_objective": "ระบุ Pinyin ของคำศัพท์เครื่องแต่งกายได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q006"
+    },
+    {
+      "question_id": "CN_PRE_Q007",
+      "test_id": "CN_PRE_001",
+      "question_number": 7,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "phonetics",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "Pinyin ที่ถูกต้องของคำว่า \"笔记本\" (สมุดบันทึก) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "bǐjìběn"
+        },
+        {
+          "id": "B",
+          "text": "bǐjìběng"
+        },
+        {
+          "id": "C",
+          "text": "píjìběn"
+        },
+        {
+          "id": "D",
+          "text": "bǐjīběn"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 笔记本 ออกเสียง Pinyin ว่า bǐjìběn (bǐ เสียง 3, jì เสียง 4, běn เสียง 3)",
+      "learning_objective": "ระบุ Pinyin ของคำศัพท์อุปกรณ์การเรียนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q007"
+    },
+    {
+      "question_id": "CN_PRE_Q008",
+      "test_id": "CN_PRE_001",
+      "question_number": 8,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ควรเติมคำใดลงในช่องว่างของประโยค \"我有____本漫画书。\" (ฉันมีหนังสือการ์ตูน 2 เล่ม)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "两 (liǎng)"
+        },
+        {
+          "id": "B",
+          "text": "二 (èr)"
+        },
+        {
+          "id": "C",
+          "text": "双 (shuāng)"
+        },
+        {
+          "id": "D",
+          "text": "几 (jǐ)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "การบอกจำนวน \"2\" เมื่อวางหน้าคำลักษณนาม (เช่น 本) ต้องใช้คำว่า \"两\" (liǎng) เสมอ ห้ามใช้ 二 (èr)",
+      "learning_objective": "เลือกคำบอกจำนวน \"2\" หน้าคำลักษณนามได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q008"
+    },
+    {
+      "question_id": "CN_PRE_Q009",
+      "test_id": "CN_PRE_001",
+      "question_number": 9,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ควรเติมคำกริยาใดลงในช่องว่างของประโยค \"我____五本漫画书。\" (ฉันมีหนังสือการ์ตูน 5 เล่ม)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "有 (yǒu)"
+        },
+        {
+          "id": "B",
+          "text": "是 (shì)"
+        },
+        {
+          "id": "C",
+          "text": "在 (zài)"
+        },
+        {
+          "id": "D",
+          "text": "用 (yòng)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ประโยคบอกการครอบครองใช้คำกริยา \"有\" (yǒu) แปลว่า \"มี\" (โครงสร้าง: ประธาน + 有 + จำนวน + คำลักษณนาม + คำนาม)",
+      "learning_objective": "ใช้คำกริยา 有 ในประโยคครอบครองพื้นฐานได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q009"
+    },
+    {
+      "question_id": "CN_PRE_Q010",
+      "test_id": "CN_PRE_001",
+      "question_number": 10,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "sentence_pattern",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ประโยคตอบคือ \"我有三支铅笔。\" (ฉันมีดินสอ 3 แท่ง) ประโยคคำถามที่ถูกต้องคือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "你有几支铅笔？"
+        },
+        {
+          "id": "B",
+          "text": "这是谁的铅笔？"
+        },
+        {
+          "id": "C",
+          "text": "你用什么笔？"
+        },
+        {
+          "id": "D",
+          "text": "你喜欢铅笔吗？"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำถามถามจำนวนสิ่งของใช้โครงสร้าง \"ประธาน + 有 + 几 + คำลักษณนาม + คำนาม？\" ดังนั้นจึงต้องถามว่า 你有几支铅笔？ (คุณมีดินสอกี่แท่ง?)",
+      "learning_objective": "เลือกประโยคคำถามที่สอดคล้องกับประโยคตอบได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q010"
+    },
+    {
+      "question_id": "CN_PRE_Q011",
+      "test_id": "CN_PRE_001",
+      "question_number": 11,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมคำลักษณนามที่ถูกต้องลงในวลี: \"一个书包\" (กระเป๋านักเรียน 1 ใบ) -> 一____书包",
+      "options": [],
+      "correct_answer": [
+        "个"
+      ],
+      "score": 1,
+      "explanation": "กระเป๋านักเรียน (书包) ใช้คำลักษณนามทั่วไปคือ \"个\" (gè)",
+      "learning_objective": "เติมคำลักษณนามของกระเป๋านักเรียนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q011"
+    },
+    {
+      "question_id": "CN_PRE_Q012",
+      "test_id": "CN_PRE_001",
+      "question_number": 12,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมคำลักษณนามที่ถูกต้องลงในวลี: \"เต่า 1 ตัว\" -> 一____乌龟",
+      "options": [],
+      "correct_answer": [
+        "只"
+      ],
+      "score": 1,
+      "explanation": "เต่า (乌龟) เป็นสัตว์ขนาดเล็ก ใช้คำลักษณนามว่า \"只\" (zhī)",
+      "learning_objective": "เติมคำลักษณนามของสัตว์เล็ก (เต่า) ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q012"
+    },
+    {
+      "question_id": "CN_PRE_Q013",
+      "test_id": "CN_PRE_001",
+      "question_number": 13,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "phonetics",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมพินอินส่วนที่ขาดหายไปของคำว่า \"漫画书\" (หนังสือการ์ตูน): màn____ shū",
+      "options": [],
+      "correct_answer": [
+        "huà"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 漫画书 อ่านว่า mànhuà shū ตัวอักษร 画 ออกเสียงพินอินว่า huà",
+      "learning_objective": "เติมส่วนประกอบ Pinyin ที่ขาดหายไปได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q013"
+    },
+    {
+      "question_id": "CN_PRE_Q014",
+      "test_id": "CN_PRE_001",
+      "question_number": 14,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "phonetics",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมสระ Pinyin ของคำว่า \"有\" (มี) ให้ถูกต้อง: y____",
+      "options": [],
+      "correct_answer": [
+        "ǒu"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 有 สะกด Pinyin คือ yǒu มีสระผสมคือ ǒu",
+      "learning_objective": "เติมสระ Pinyin ของคำกริยา 有 ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q014"
+    },
+    {
+      "question_id": "CN_PRE_Q015",
+      "test_id": "CN_PRE_001",
+      "question_number": 15,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "character_analysis",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ตัวอักษรจีนคำว่า \"笔\" (ปากกา/ดินสอ) มีหมวดอักษรจีนด้านบน (Radical) คือหมวดใด?",
+      "options": [],
+      "correct_answer": [
+        "竹字头"
+      ],
+      "score": 1,
+      "explanation": "ตัวอักษร 笔 มีหมวดอักษรด้านบนคือ 竹字头 (⺮) ซึ่งเกี่ยวกับไม้ไผ่ (เนื่องจากด้ามพู่กัน/ปากกาในสมัยโบราณทำจากไม้ไผ่)",
+      "learning_objective": "ระบุชื่อหมวดตัวอักษรจีนของคำว่า 笔 ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q015"
+    },
+    {
+      "question_id": "CN_PRE_Q016",
+      "test_id": "CN_PRE_001",
+      "question_number": 16,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมอักษรจีนของคำว่า \"สีดำ\" ลงในช่องว่าง: ____色",
+      "options": [],
+      "correct_answer": [
+        "黑"
+      ],
+      "score": 1,
+      "explanation": "คำว่า \"สีดำ\" ในภาษาจีนคือ \"黑色\" (hēisè) ดังนั้นอักษรจีนที่ขาดหายไปคือ 黑",
+      "learning_objective": "เติมคำศัพท์อักษรจีนหมวดสีจากคำแปลภาษาไทยได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q016"
+    },
+    {
+      "question_id": "CN_PRE_Q017",
+      "test_id": "CN_PRE_001",
+      "question_number": 17,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "structure",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมคำสรรพนามคำถามแสดงความเป็นเจ้าของลงในประโยค: \"这是____的裙子？\" (นี่คือกระโปรงของใคร?)",
+      "options": [],
+      "correct_answer": [
+        "谁"
+      ],
+      "score": 1,
+      "explanation": "การถามความเป็นเจ้าของ (\"ของใคร\") ใช้คำสรรพนามคำถามว่า \"谁的\" (shéi de) แปลว่า ของใคร",
+      "learning_objective": "เติมคำสรรพนามคำถามแสดงความเป็นเจ้าของได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q017"
+    },
+    {
+      "question_id": "CN_PRE_Q018",
+      "test_id": "CN_PRE_001",
+      "question_number": 18,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมคำปฏิเสธลงในประโยค: \"ฉันไม่มีกระโปรงสีแดง\" -> 我____有红裙子。",
+      "options": [],
+      "correct_answer": [
+        "没"
+      ],
+      "score": 1,
+      "explanation": "ประโยคปฏิเสธการครอบครองของคำกริยา 有 ต้องใช้คำปฏิเสธ \"没\" (méi) คู่กันเป็น \"没有\" (ไม่มี) ห้ามใช้ 不",
+      "learning_objective": "เติมคำปฏิเสธในประโยคแสดงการไม่มีสิ่งของได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q018"
+    },
+    {
+      "question_id": "CN_PRE_Q019",
+      "test_id": "CN_PRE_001",
+      "question_number": 19,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "classification",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำนามในข้อใดใช้คำลักษณนามว่า \"本\" (เล่ม) ได้ถูกต้อง? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "漫画书 (หนังสือการ์ตูน)"
+        },
+        {
+          "id": "B",
+          "text": "笔记本 (สมุดบันทึก)"
+        },
+        {
+          "id": "C",
+          "text": "铅笔 (ดินสอ)"
+        },
+        {
+          "id": "D",
+          "text": "上衣 (เสื้อ)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "คำลักษณนาม \"本\" ใช้กับสิ่งพิมพ์/หนังสือ ได้แก่ 漫画书 (หนังสือการ์ตูน) และ 笔记本 (สมุดบันทึก) ส่วน 铅笔 ใช้ 支 และ 上衣 ใช้ 件",
+      "learning_objective": "เลือกคำนามทั้งหมดที่ใช้คำลักษณนาม 本 ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q019"
+    },
+    {
+      "question_id": "CN_PRE_Q020",
+      "test_id": "CN_PRE_001",
+      "question_number": 20,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "classification",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำนามในข้อใดใช้คำลักษณนามว่า \"支\" (แท่ง/ด้าม) ได้ถูกต้อง? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "笔 (ปากกา)"
+        },
+        {
+          "id": "B",
+          "text": "铅笔 (ดินสอ)"
+        },
+        {
+          "id": "C",
+          "text": "书包 (กระเป๋านักเรียน)"
+        },
+        {
+          "id": "D",
+          "text": "裤子 (กางเกง)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "คำลักษณนาม \"支\" ใช้กับสิ่งของที่เป็นแท่ง/ด้าม ได้แก่ 笔 (ปากกา) และ 铅笔 (ดินสอ)",
+      "learning_objective": "เลือกคำนามทั้งหมดที่ใช้คำลักษณนาม 支 ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q020"
+    },
+    {
+      "question_id": "CN_PRE_Q021",
+      "test_id": "CN_PRE_001",
+      "question_number": 21,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำศัพท์ในข้อใดเป็นชื่อสัตว์? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "熊猫 (หมีแพนด้า)"
+        },
+        {
+          "id": "B",
+          "text": "乌龟 (เต่า)"
+        },
+        {
+          "id": "C",
+          "text": "上衣 (เสื้อ)"
+        },
+        {
+          "id": "D",
+          "text": "笔袋 (กระเป๋าดินสอ)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "熊猫 (หมีแพนด้า) และ 乌龟 (เต่า) เป็นคำศัพท์หมวดสัตว์ ส่วน 上衣 เป็นหมวดเสื้อผ้า และ 笔袋 เป็นหมวดอุปกรณ์การเรียน",
+      "learning_objective": "เลือกคำศัพท์ที่เป็นชื่อสัตว์ในบทเรียนได้ถูกต้องทุกข้อ",
+      "pre_post_pair": "CN_POST_Q021"
+    },
+    {
+      "question_id": "CN_PRE_Q022",
+      "test_id": "CN_PRE_001",
+      "question_number": 22,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำศัพท์ในข้อใดจัดอยู่ในหมวดเครื่องแต่งกาย? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "上衣 (เสื้อ)"
+        },
+        {
+          "id": "B",
+          "text": "裙子 (กระโปรง)"
+        },
+        {
+          "id": "C",
+          "text": "裤子 (กางเกง)"
+        },
+        {
+          "id": "D",
+          "text": "书包 (กระเป๋านักเรียน)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "上衣 (เสื้อ), 裙子 (กระโปรง) และ 裤子 (กางเกง) เป็นคำศัพท์หมวดเครื่องแต่งกาย ส่วน 书包 คือกระเป๋านักเรียน",
+      "learning_objective": "เลือกคำศัพท์หมวดเครื่องแต่งกายได้ถูกต้องทุกข้อ",
+      "pre_post_pair": "CN_POST_Q022"
+    },
+    {
+      "question_id": "CN_PRE_Q023",
+      "test_id": "CN_PRE_001",
+      "question_number": 23,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำศัพท์ในข้อใดคือชื่อสี? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "黑色 (สีดำ)"
+        },
+        {
+          "id": "B",
+          "text": "蓝色 (สีฟ้า/น้ำเงิน)"
+        },
+        {
+          "id": "C",
+          "text": "绿色 (สีเขียว)"
+        },
+        {
+          "id": "D",
+          "text": "画 (วาด)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "黑色 (สีดำ), 蓝色 (สีฟ้า/น้ำเงิน) และ 绿色 (สีเขียว) เป็นคำศัพท์บอกสี ส่วน 画 เป็นคำกริยาแปลว่า วาด",
+      "learning_objective": "เลือกคำศัพท์ที่เป็นชื่อสีได้ถูกต้องทุกข้อ",
+      "pre_post_pair": "CN_POST_Q023"
+    },
+    {
+      "question_id": "CN_PRE_Q024",
+      "test_id": "CN_PRE_001",
+      "question_number": 24,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "character_structure",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ตัวอักษรจีนในข้อใดมีหมวดอักษรจีน \"竹字头\" (⺮ หมวดไม้ไผ่) ประกอบอยู่? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "笔"
+        },
+        {
+          "id": "B",
+          "text": "篮"
+        },
+        {
+          "id": "C",
+          "text": "件"
+        },
+        {
+          "id": "D",
+          "text": "漫"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ตัวอักษร 笔 (ดินสอ/ปากกา) และ 篮 (ตะกร้า) มีหมวดอักษร 竹字头 (⺮) อยู่ด้านบน ส่วน 件 มีหมวด 亻 และ 漫 มีหมวด 氵",
+      "learning_objective": "เลือกตัวอักษรจีนที่มีหมวดอักษร 竹字头 ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q024"
+    },
+    {
+      "question_id": "CN_PRE_Q025",
+      "test_id": "CN_PRE_001",
+      "question_number": 25,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ประโยคในข้อใดถูกต้องตามหลักไวยากรณ์ภาษาจีน? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "我有两本漫画书。"
+        },
+        {
+          "id": "B",
+          "text": "我有只熊猫。"
+        },
+        {
+          "id": "C",
+          "text": "我有二本漫画书。"
+        },
+        {
+          "id": "D",
+          "text": "我有两只漫画书。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ข้อ A และ B ถูกต้อง (ใช้ 两 หน้าคำลักษณนาม 本 และใช้ 只 กับสัตว์ 熊猫) ส่วนข้อ C ผิดเพราะใช้ 二 หน้าคำลักษณนาม และข้อ D ผิดเพราะใช้คำลักษณนาม 只 กับหนังสือ",
+      "learning_objective": "เลือกประโยคที่มีการใช้คำลักษณนามและตัวเลขถูกต้องตามหลักไวยากรณ์",
+      "pre_post_pair": "CN_POST_Q025"
+    },
+    {
+      "question_id": "CN_PRE_Q026",
+      "test_id": "CN_PRE_001",
+      "question_number": 26,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "syntax_analysis",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ประโยคในข้อใดแปลว่า \"นารินใช้ปากกาสีดำวาดรูปน้องสาว\" ได้ถูกต้องตามโครงสร้างไวยากรณ์?",
+      "options": [
+        {
+          "id": "A",
+          "text": "娜林用黑色的笔画妹妹。"
+        },
+        {
+          "id": "B",
+          "text": "娜林用画黑色的笔妹妹。"
+        },
+        {
+          "id": "C",
+          "text": "娜林黑色的笔用画妹妹。"
+        },
+        {
+          "id": "D",
+          "text": "娜林画妹妹用黑色的笔。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างประโยคบอกเครื่องมือในการกระทำคือ \"ประธาน + 用 + [เครื่องมือ/สี] + 的笔 + 画 + [วัตถุ/คนที่วาด]\" ดังนั้นข้อ A จึงถูกต้องที่สุด",
+      "learning_objective": "วิเคราะห์และเลือกประโยคสื่อความหมายการใช้อุปกรณ์สีวาดรูปได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q026"
+    },
+    {
+      "question_id": "CN_PRE_Q027",
+      "test_id": "CN_PRE_001",
+      "question_number": 27,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "reading_comprehension",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จากบทอ่านในบทเรียน: \"娜林用绿色的笔画什么？\" (นารินใช้ปากกาสีเขียววาดรูปอะไร?)",
+      "options": [
+        {
+          "id": "A",
+          "text": "上衣 (เสื้อ)"
+        },
+        {
+          "id": "B",
+          "text": "妹妹 (น้องสาว)"
+        },
+        {
+          "id": "C",
+          "text": "裙子 (กระโปรง)"
+        },
+        {
+          "id": "D",
+          "text": "小猫 (ลูกแมว)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ในบทอ่านระบุว่า นารินใช้ปากกาสีดำวาดน้องสาว สีฟ้าและสีแดงวาดกระโปรง สีเขียววาดเสื้อ (件绿色的上衣) และสีเหลืองวาดลูกแมว",
+      "learning_objective": "จับใจความรายละเอียดเฉพาะจากบทอ่าน Nalin วาดภาพ",
+      "pre_post_pair": "CN_POST_Q027"
+    },
+    {
+      "question_id": "CN_PRE_Q028",
+      "test_id": "CN_PRE_001",
+      "question_number": 28,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "reading_analysis",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จากบทอ่านความรู้เสริมเรื่องแม่น้ำในประเทศจีน: \"中国最长的河是哪一条？\" (แม่น้ำที่ยาวที่สุดในประเทศจีนคือสายใด?)",
+      "options": [
+        {
+          "id": "A",
+          "text": "长江 (แม่น้ำแยงซี)"
+        },
+        {
+          "id": "B",
+          "text": "黄河 (แม่น้ำหวงเหอ)"
+        },
+        {
+          "id": "C",
+          "text": "珠江 (แม่น้ำจูเจียง)"
+        },
+        {
+          "id": "D",
+          "text": "黑龙江 (แม่น้ำเฮย์หลงเจียง)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ในบทอ่านระบุว่า \"中国有很多条河。长江是最长的河。\" (ประเทศจีนมีแม่น้ำหลายสาย แม่น้ำแยงซีเป็นแม่น้ำที่ยาวที่สุด)",
+      "learning_objective": "วิเคราะห์ข้อเท็จจริงเกี่ยวกับแม่น้ำจากบทอ่านความรู้เสริม",
+      "pre_post_pair": "CN_POST_Q028"
+    },
+    {
+      "question_id": "CN_PRE_Q029",
+      "test_id": "CN_PRE_001",
+      "question_number": 29,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "pragmatics",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "หากมีคนถามคุณว่า \"这是谁的裙子？\" (นี่คือกระโปรงของใคร?) และกระโปรงตัวนี้เป็นของคุณเอง คุณควรตอบอย่างไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "这是我的裙子。"
+        },
+        {
+          "id": "B",
+          "text": "我有两条裙子。"
+        },
+        {
+          "id": "C",
+          "text": "裙子很漂亮。"
+        },
+        {
+          "id": "D",
+          "text": "这是谁的裙子。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "เมื่อถูกถามความเป็นเจ้าของด้วย \"这是谁的...？\" การตอบว่ากระโปรงเป็นของตนเองต้องใช้ประโยค \"这是我的裙子。\" (นี่คือกระโปรงของฉัน)",
+      "learning_objective": "เลือกคำตอบโต้ตอบในบทสนทนาได้สอดคล้องกับบริบทแสดงความเป็นเจ้าของ",
+      "pre_post_pair": "CN_POST_Q029"
+    },
+    {
+      "question_id": "CN_PRE_Q030",
+      "test_id": "CN_PRE_001",
+      "question_number": 30,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "sentence_building",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ข้อใดเรียงลำดับคำในประโยค \"ฉันมีกระโปรงสีแดง 2 ตัว\" ได้ถูกต้องตามหลักไวยากรณ์ภาษาจีน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "我有两条红裙子。"
+        },
+        {
+          "id": "B",
+          "text": "我有红裙子两条。"
+        },
+        {
+          "id": "C",
+          "text": "我有红两条裙子。"
+        },
+        {
+          "id": "D",
+          "text": "我红裙子有两条。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "การเรียงลำดับคำในประโยคบอกจำนวนและลักษณะคือ \"ประธาน + กริยา (有) + จำนวน + คำลักษณนาม + (คำคุณศัพท์/สี) + คำนาม\" -> 我有两条红裙子。",
+      "learning_objective": "เรียงลำดับคำคุณศัพท์ สี และคำลักษณนามในประโยคขยายได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q030"
+    },
+    {
+      "question_id": "CN_PRE_Q031",
+      "test_id": "CN_PRE_001",
+      "question_number": 31,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "text_synthesis",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "อ่านข้อความ: \"泰坤的书包里有两本笔记本，三支铅笔和一个笔袋。\" ถามว่า \"泰坤有几支铅笔？\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "三支 (3 แท่ง)"
+        },
+        {
+          "id": "B",
+          "text": "两支 (2 แท่ง)"
+        },
+        {
+          "id": "C",
+          "text": "一支 (1 แท่ง)"
+        },
+        {
+          "id": "D",
+          "text": "四支 (4 แท่ง)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "จากข้อความระบุชัดเจนว่า \"三支铅笔\" (ดินสอ 3 แท่ง) ดังนั้น ไท่คุนมีดินสอ 3 แท่ง",
+      "learning_objective": "คำนวณ/นับจำนวนสิ่งของเฉพาะจากบทอ่านบรรยายกระเป๋านักเรียน",
+      "pre_post_pair": "CN_POST_Q031"
+    },
+    {
+      "question_id": "CN_PRE_Q032",
+      "test_id": "CN_PRE_001",
+      "question_number": 32,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "context_interpretation",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ประโยคอุทาน \"看！一个可爱的女孩！\" ในบทอ่าน สื่อถึงสถานการณ์ใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "นารินอุทานด้วยความพึงพอใจหลังจากวาดรูปน้องสาวเสร็จ"
+        },
+        {
+          "id": "B",
+          "text": "นารินตะโกนเรียกเด็กผู้หญิงที่เดินผ่านไปมา"
+        },
+        {
+          "id": "C",
+          "text": "นารินกำลังถามแม่ว่าใครคือเด็กผู้หญิงคนนี้"
+        },
+        {
+          "id": "D",
+          "text": "นารินกำลังชวนน้องสาวไปซื้อของ"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ในบทอ่าน นารินใช้ปากกาสีดำวาดรูปน้องสาว เมื่อวาดเสร็จจึงชูภาพขึ้นและอุทานว่า \"ดูสิ! เด็กผู้หญิงที่น่ารักคนหนึ่ง!\" เพื่อแสดงความพึงพอใจในผลงาน",
+      "learning_objective": "ตีความเจตนาของประโยคอุทานบรรยายลักษณะในบทอ่าน",
+      "pre_post_pair": "CN_POST_Q032"
+    },
+    {
+      "question_id": "CN_PRE_Q033",
+      "test_id": "CN_PRE_001",
+      "question_number": 33,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "practical_reasoning",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "หากต้องการพูดบอกว่า \"ดินสอ 2 แท่ง และ หนังสือการ์ตูน 3 เล่ม\" เป็นภาษาจีน ข้อใดถูกต้องที่สุด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "两支铅笔和三本漫画书"
+        },
+        {
+          "id": "B",
+          "text": "二支铅笔和三张漫画书"
+        },
+        {
+          "id": "C",
+          "text": "两本铅笔和三支漫画书"
+        },
+        {
+          "id": "D",
+          "text": "二本铅笔和三本漫画书"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ดินสอ 2 แท่ง = 两支铅笔 (ใช้ 两 และ 支) / หนังสือการ์ตูน 3 เล่ม = 三本漫画书 (ใช้ 本) เชื่อมด้วยคำว่า 和 (และ)",
+      "learning_objective": "ระบุจำนวนสิ่งของต่างประเภทพร้อมคำลักษณนามที่ถูกต้องจากสถานการณ์จำลอง",
+      "pre_post_pair": "CN_POST_Q033"
+    },
+    {
+      "question_id": "CN_PRE_Q034",
+      "test_id": "CN_PRE_001",
+      "question_number": 34,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "character_analysis",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ควรเลือกตัวอักษรจีนใดเติมลงในช่องว่างของคำว่า \"漫画书\" (หนังสือการ์ตูน): 三本____画书?",
+      "options": [
+        {
+          "id": "A",
+          "text": "漫 (màn - มีหมวด 氵)"
+        },
+        {
+          "id": "B",
+          "text": "慢 (màn - มีหมวด 忄)"
+        },
+        {
+          "id": "C",
+          "text": "笔 (bǐ)"
+        },
+        {
+          "id": "D",
+          "text": "件 (jiàn)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า \"漫画\" (มังงะ/การ์ตูน) ใช้ตัวอักษร 漫 (ม่าน มีหมวดน้ำ 氵) ส่วน 慢 (ม่าน มีหมวดหัวใจ 忄) แปลว่า ช้า",
+      "learning_objective": "จำแนกและเลือกตัวอักษรจีนที่มีส่วนประกอบคล้ายกันแต่อักษรข้างต่างกัน",
+      "pre_post_pair": "CN_POST_Q034"
+    },
+    {
+      "question_id": "CN_PRE_Q035",
+      "test_id": "CN_PRE_001",
+      "question_number": 35,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "phonetics",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำว่า \"一件\" (เสื้อ 1 ตัว) ตัวอักษร \"一\" (yī) ออกเสียงวรรณยุกต์เปลี่ยนเป็นเสียงใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "เสียง 2 (yí)"
+        },
+        {
+          "id": "B",
+          "text": "เสียง 4 (yì)"
+        },
+        {
+          "id": "C",
+          "text": "เสียง 1 (yī)"
+        },
+        {
+          "id": "D",
+          "text": "เสียง 3 (yǐ)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "กฎการเปลี่ยนเสียงของ 一 (yī): เมื่ออยู่หน้าคำลักษณนามเสียง 4 (件 - jiàn) ตัวอักษร 一 จะเปลี่ยนเป็นเสียง 2 (yí) ออกเสียงว่า yí jiàn",
+      "learning_objective": "วิเคราะห์เสียงวรรณยุกต์ Pinyin ที่ถูกต้องของ 一 เมื่อประสมกับคำลักษณนาม",
+      "pre_post_pair": "CN_POST_Q035"
+    },
+    {
+      "question_id": "CN_PRE_Q036",
+      "test_id": "CN_PRE_001",
+      "question_number": 36,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "writing_syntax",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมคำกริยาที่แปลว่า \"ใช้\" ลงในช่องว่าง: \"娜林____黑色的笔画妹妹。\"",
+      "options": [],
+      "correct_answer": [
+        "用"
+      ],
+      "score": 1,
+      "explanation": "คำกริยาที่แปลว่า \"ใช้\" (เครื่องมือในการทำอะไร) คือคำว่า \"用\" (yòng)",
+      "learning_objective": "เติมคำกริยา 用 ให้ประโยคบอกเล่าสมบูรณ์ตามบริบท",
+      "pre_post_pair": "CN_POST_Q036"
+    },
+    {
+      "question_id": "CN_PRE_Q037",
+      "test_id": "CN_PRE_001",
+      "question_number": 37,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "syntax_grammar",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมคำลักษณนามของเสื้อลงในประโยคคำถาม: \"妈妈有几____白色的上衣？\"",
+      "options": [],
+      "correct_answer": [
+        "件"
+      ],
+      "score": 1,
+      "explanation": "เสื้อท่อนบน (上衣) ใช้คำลักษณนามว่า \"件\" (jiàn) แม้จะมีคำขยายสี (白色的) แทรกอยู่ก็ยังคงใช้ 件",
+      "learning_objective": "เติมคำลักษณนามในประโยคถามจำนวนเสื้อผ้าที่มีสีขยาย",
+      "pre_post_pair": "CN_POST_Q037"
+    },
+    {
+      "question_id": "CN_PRE_Q038",
+      "test_id": "CN_PRE_001",
+      "question_number": 38,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "character_morphology",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ส่วนประกอบหมวดอักษรจีน (Radical) ที่เหมือนกันของตัวอักษร \"笔\" (ปากกา) และ \"篮\" (ตะกร้า) คือหมวดใด?",
+      "options": [],
+      "correct_answer": [
+        "竹字头"
+      ],
+      "score": 1,
+      "explanation": "ทั้ง 笔 และ 篮 มีหมวดอักษรด้านบนเป็นหมวดไม้ไผ่ เรียกว่า 竹字头 (⺮)",
+      "learning_objective": "ระบุส่วนประกอบตัวอักษรจีนที่เหมือนกันของตัวอักษรสองตัว",
+      "pre_post_pair": "CN_POST_Q038"
+    },
+    {
+      "question_id": "CN_PRE_Q039",
+      "test_id": "CN_PRE_001",
+      "question_number": 39,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "content_writing",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมคำที่แปลว่า \"ที่สุด\" จากบทอ่านเรื่องแม่น้ำในจีน: \"长江是____长的河。\"",
+      "options": [],
+      "correct_answer": [
+        "最"
+      ],
+      "score": 1,
+      "explanation": "คำว่า \"ที่สุด\" ในภาษาจีนคือคำว่า \"最\" (zuì) วางไว้หน้าคำคุณศัพท์ เช่น 最长 (ยาวที่สุด)",
+      "learning_objective": "เติมคำบอกขั้นที่สุดจากบทอ่านภูมิศาสตร์จีน",
+      "pre_post_pair": "CN_POST_Q039"
+    },
+    {
+      "question_id": "CN_PRE_Q040",
+      "test_id": "CN_PRE_001",
+      "question_number": 40,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "conversation_writing",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมคำกริยาลงในบทสนทนา: A: 你有五本漫画书吗？ B: 我没有五本，我只____三本。",
+      "options": [],
+      "correct_answer": [
+        "有"
+      ],
+      "score": 1,
+      "explanation": "บริบทประโยค B ตอบว่า \"ฉันไม่มี 5 เล่ม ฉันมีแค่ 3 เล่ม\" คำว่า มี คือคำว่า \"有\" (yǒu) -> 我只有三本。",
+      "learning_objective": "เติมคำกริยาตอบรับ/ปฏิเสธการครอบครองให้สมบูรณ์ตามบริบท",
+      "pre_post_pair": "CN_POST_Q040"
+    },
+    {
+      "question_id": "CN_PRE_Q041",
+      "test_id": "CN_PRE_001",
+      "question_number": 41,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "text_structure",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมคำลักษณนามของกระโปรงในประโยคอุทาน: \"看！一____蓝色的裙子！\"",
+      "options": [],
+      "correct_answer": [
+        "条"
+      ],
+      "score": 1,
+      "explanation": "กระโปรง (裙子) ใช้คำลักษณนามว่า \"条\" (tiáo) ในประโยคอุทาน 一条蓝色的裙子 (กระโปรงสีฟ้า 1 ตัว)",
+      "learning_objective": "เติมคำลักษณนามในประโยคอุทานบรรยายภาพตามบทอ่าน",
+      "pre_post_pair": "CN_POST_Q041"
+    },
+    {
+      "question_id": "CN_PRE_Q042",
+      "test_id": "CN_PRE_001",
+      "question_number": 42,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "vocabulary_building",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมตัวอักษรจีนให้ได้คำศัพท์ที่แปลว่า \"ดินสอ\": 铅____",
+      "options": [],
+      "correct_answer": [
+        "笔"
+      ],
+      "score": 1,
+      "explanation": "คำว่า \"ดินสอ\" ในภาษาจีนประกอบด้วยอักษร 铅 (qiān) + 笔 (bǐ) = 铅笔 (qiānbǐ)",
+      "learning_objective": "สร้างคำศัพท์ใหม่ในบทเรียนจากอักษรตั้งต้น",
+      "pre_post_pair": "CN_POST_Q042"
+    },
+    {
+      "question_id": "CN_PRE_Q043",
+      "test_id": "CN_PRE_001",
+      "question_number": 43,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "grammar_evaluation",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ประโยคในข้อใดมีความถูกต้องสมบูรณ์ตามหลักไวยากรณ์ภาษาจีน? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "娜林有一支黑色的笔。"
+        },
+        {
+          "id": "B",
+          "text": "我有两本漫画书。"
+        },
+        {
+          "id": "C",
+          "text": "我有二本漫画书。"
+        },
+        {
+          "id": "D",
+          "text": "娜林有黑色的笔一支。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ข้อ A และ B ถูกต้องตามหลักไวยากรณ์ (จำนวน+คำลักษณนาม+คำคุณศัพท์+的+คำนาม) ส่วนข้อ C ผิดที่ใช้ 二 และข้อ D เรียงลำดับคำผิด",
+      "learning_objective": "วิเคราะห์และเลือกประโยคที่มีโครงสร้างไวยากรณ์ถูกต้องตามกฎทั้งหมด",
+      "pre_post_pair": "CN_POST_Q043"
+    },
+    {
+      "question_id": "CN_PRE_Q044",
+      "test_id": "CN_PRE_001",
+      "question_number": 44,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "reading_evaluation",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ข้อความใดเป็นจริงตามเนื้อหาในบทอ่านเรื่อง Nalin วาดภาพ? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "娜林用黑色的笔画妹妹 (นารินใช้ปากกาสีดำวาดน้องสาว)"
+        },
+        {
+          "id": "B",
+          "text": "娜林画了一只黄色的小猫 (นารินวาดลูกแมวสีเหลือง 1 ตัว)"
+        },
+        {
+          "id": "C",
+          "text": "娜林用红色的笔画裙子 (นารินใช้ปากกาสีแดงวาดกระโปรง)"
+        },
+        {
+          "id": "D",
+          "text": "娜林画了一条绿色的裙子 (นารินวาดกระโปรงสีเขียว 1 ตัว)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "จากบทอ่าน นารินใช้ปากกาสีดำวาดน้องสาว (ข้อ A ถูก) และวาดลูกแมวสีเหลือง (ข้อ B ถูก) ส่วนกระโปรงนารินวาดด้วยสีฟ้าและสีแดง ไม่ใช่สีเขียว (เสื้อต่างหากที่เป็นสีเขียว)",
+      "learning_objective": "ประเมินและเลือกข้อความสรุปความที่เป็นจริงตามบทอ่าน Nalin",
+      "pre_post_pair": "CN_POST_Q044"
+    },
+    {
+      "question_id": "CN_PRE_Q045",
+      "test_id": "CN_PRE_001",
+      "question_number": 45,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "collocation_analysis",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "การจับคู่ [คำลักษณนาม + คำนาม] ในข้อใดถูกต้องตามหลักภาษาจีน? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "两条裙子 (กระโปรง 2 ตัว)"
+        },
+        {
+          "id": "B",
+          "text": "三件上衣 (เสื้อ 3 ตัว)"
+        },
+        {
+          "id": "C",
+          "text": "五只笔 (ปากกา 5 ด้าม)"
+        },
+        {
+          "id": "D",
+          "text": "一本鱼 (ปลา 1 ตัว)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ข้อ A (裙子 ใช้ 条) และข้อ B (上衣 ใช้ 件) จับคู่ถูกต้อง ส่วนข้อ C ผิดเพราะ 笔 ต้องใช้ 支 และข้อ D ผิดเพราะ 鱼 ต้องใช้ 条",
+      "learning_objective": "วิเคราะห์และเลือกคู่ [คำลักษณนาม + คำนาม] ที่ถูกต้องตามหลักภาษา",
+      "pre_post_pair": "CN_POST_Q045"
+    },
+    {
+      "question_id": "CN_PRE_Q046",
+      "test_id": "CN_PRE_001",
+      "question_number": 46,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "content_evaluation",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จากบทอ่านเรื่องแม่น้ำในประเทศจีน ข้อความใดถูกต้อง? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "中国有很多条河 (ประเทศจีนมีแม่น้ำหลายสาย)"
+        },
+        {
+          "id": "B",
+          "text": "长江是最长的河 (แม่น้ำแยงซีเป็นแม่น้ำที่ยาวที่สุด)"
+        },
+        {
+          "id": "C",
+          "text": "黄河是最长的河 (แม่น้ำหวงเหอเป็นแม่น้ำที่ยาวที่สุด)"
+        },
+        {
+          "id": "D",
+          "text": "长江是第二长河 (แม่น้ำแยงซีเป็นแม่น้ำที่ยาวเป็นอันดับสอง)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ในบทอ่านระบุชัดเจนว่า 中国有很多条河 (จีนมีแม่น้ำหลายสาย) และ 长江是最长的河 (แม่น้ำแยงซียาวที่สุด) ส่วนแม่น้ำหวงเหอเป็นอันดับสอง (黄河是第二长河)",
+      "learning_objective": "เลือกข้อความถูกต้องเกี่ยวกับแม่น้ำในจีนจากบทอ่านความรู้เสริม",
+      "pre_post_pair": "CN_POST_Q046"
+    },
+    {
+      "question_id": "CN_PRE_Q047",
+      "test_id": "CN_PRE_001",
+      "question_number": 47,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "character_morphology",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำศัพท์ในข้อใดมีตัวอักษรจีน \"笔\" (bǐ) ประกอบอยู่? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "铅笔 (ดินสอ)"
+        },
+        {
+          "id": "B",
+          "text": "笔记本 (สมุดบันทึก)"
+        },
+        {
+          "id": "C",
+          "text": "笔袋 (กระเป๋าดินสอ)"
+        },
+        {
+          "id": "D",
+          "text": "漫画书 (หนังสือการ์ตูน)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "铅笔 (ดินสอ), 笔记本 (สมุดบันทึก) และ 笔袋 (กระเป๋าดินสอ) สามคำนี้มีอักษร 笔 ประกอบอยู่ทั้งหมด ส่วน 漫画书 ไม่มี",
+      "learning_objective": "จำแนกคำศัพท์ที่มีตัวอักษร 笔 เป็นส่วนประกอบ",
+      "pre_post_pair": "CN_POST_Q047"
+    },
+    {
+      "question_id": "CN_PRE_Q048",
+      "test_id": "CN_PRE_001",
+      "question_number": 48,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "practical_application",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "หากต้องการพูดแนะนำสิ่งของที่อยู่ในกระเป๋านักเรียนของคุณ ประโยคใดสามารถนำไปใช้ได้สอดคล้องกับบทเรียน? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "我有一本笔记本。(ฉันมีสมุดบันทึก 1 เล่ม)"
+        },
+        {
+          "id": "B",
+          "text": "我有两支铅笔。(ฉันมีดินสอ 2 แท่ง)"
+        },
+        {
+          "id": "C",
+          "text": "长江是最长的河。(แม่น้ำแยงซีเป็นแม่น้ำที่ยาวที่สุด)"
+        },
+        {
+          "id": "D",
+          "text": "娜林用黑色的笔画妹妹。(นารินใช้ปากกาสีดำวาดน้องสาว)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ประโยค A และ B ใช้พูดบอกสิ่งของในกระเป๋านักเรียนของตนเองได้สอดคล้องกับชีวิตจริง ส่วน C เป็นความรู้ภูมิศาสตร์ และ D เป็นประโยคเล่าเรื่องบุคคลอื่น",
+      "learning_objective": "เลือกประโยคภาษาจีนที่นำไปใช้ปฏิสัมพันธ์ในสถานการณ์จัดสิ่งของได้",
+      "pre_post_pair": "CN_POST_Q048"
+    },
+    {
+      "question_id": "CN_PRE_Q049",
+      "test_id": "CN_PRE_001",
+      "question_number": 49,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "phonetic_evaluation",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำศัพท์และ Pinyin ในข้อใดจับคู่ได้อย่างถูกต้อง? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "裙子 - qúnzi"
+        },
+        {
+          "id": "B",
+          "text": "漫画书 - mànhuà shū"
+        },
+        {
+          "id": "C",
+          "text": "笔记本 - bǐjíběn"
+        },
+        {
+          "id": "D",
+          "text": "上衣 - shàngyí"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ข้อ A (裙子 - qúnzi) และข้อ B (漫画书 - mànhuà shū) ถูกต้อง ส่วนข้อ C ผิดตรง jì (ไม่ใช่ jí) และข้อ D ผิดตรง yī (ไม่ใช่ yí)",
+      "learning_objective": "วิเคราะห์และเลือกคำศัพท์ที่มี Pinyin และการลงเครื่องหมายวรรณยุกต์ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q049"
+    },
+    {
+      "question_id": "CN_PRE_Q050",
+      "test_id": "CN_PRE_001",
+      "question_number": 50,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "integrated_evaluation",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ประโยคในข้อใดมีความถูกต้องสมบูรณ์แบบทั้งคำลักษณนาม คำบอกสี และโครงสร้างไวยากรณ์? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "娜林有一支黑色的笔。(นารินมีปากกาสีดำ 1 ด้าม)"
+        },
+        {
+          "id": "B",
+          "text": "娜林有两条红色的裙子。(นารินมีกระโปรงสีแดง 2 ตัว)"
+        },
+        {
+          "id": "C",
+          "text": "娜林有二支黑色的笔。(นารินมีปากกาสีดำ 2 ด้าม)"
+        },
+        {
+          "id": "D",
+          "text": "娜林有一只黑色的裙子。(นารินมีกระโปรงสีดำ 1 ตัว)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ข้อ A และ B สมบูรณ์ถูกต้องทุกส่วน ส่วนข้อ C ผิดที่ใช้ 二 หน้าคำลักษณนาม และข้อ D ผิดที่ใช้คำลักษณนาม 只 กับกระโปรง (ต้องใช้ 条)",
+      "learning_objective": "ประเมินประโยคที่มีความถูกต้องสมบูรณ์ทั้งคำลักษณนาม สี และโครงสร้างไวยากรณ์",
+      "pre_post_pair": "CN_POST_Q050"
+    },
+    {
+      "question_id": "CN_POST_Q001",
+      "test_id": "CN_POST_001",
+      "question_number": 1,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำลักษณนามที่ถูกต้องของคำว่า \"笔记本\" (สมุดบันทึก) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "本 (běn)"
+        },
+        {
+          "id": "B",
+          "text": "支 (zhī)"
+        },
+        {
+          "id": "C",
+          "text": "件 (jiàn)"
+        },
+        {
+          "id": "D",
+          "text": "条 (tiáo)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า \"笔记本\" (สมุดบันทึก) เป็นสมุด/หนังสือ ต้องใช้คำลักษณนามว่า \"本\" (เล่ม) เช่น 两本笔记本 (สมุดบันทึก 2 เล่ม)",
+      "learning_objective": "ระบุคำลักษณนามของหนังสือ/สมุดได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q001"
+    },
+    {
+      "question_id": "CN_POST_Q002",
+      "test_id": "CN_POST_001",
+      "question_number": 2,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำลักษณนามที่ถูกต้องของคำว่า \"笔\" (ปากกา) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "本 (běn)"
+        },
+        {
+          "id": "B",
+          "text": "支 (zhī)"
+        },
+        {
+          "id": "C",
+          "text": "个 (gè)"
+        },
+        {
+          "id": "D",
+          "text": "只 (zhī)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "สิ่งของทรงแท่ง/ด้าม เช่น ปากกา (笔) หรือดินสอ (铅笔) ใช้คำลักษณนามว่า \"支\" (แท่ง/ด้าม)",
+      "learning_objective": "ระบุคำลักษณนามของแท่ง/ดินสอ/ปากกาได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q002"
+    },
+    {
+      "question_id": "CN_POST_Q003",
+      "test_id": "CN_POST_001",
+      "question_number": 3,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำลักษณนามที่ถูกต้องของคำว่า \"白上衣\" (เสื้อสีขาว) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "件 (jiàn)"
+        },
+        {
+          "id": "B",
+          "text": "条 (tiáo)"
+        },
+        {
+          "id": "C",
+          "text": "本 (běn)"
+        },
+        {
+          "id": "D",
+          "text": "个 (gè)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "เสื้อผ้าท่อนบน เช่น \"上衣\" (เสื้อ) หรือ \"白上衣\" (เสื้อสีขาว) ใช้คำลักษณนามว่า \"件\" (ตัว)",
+      "learning_objective": "ระบุคำลักษณนามของเสื้อท่อนบนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q003"
+    },
+    {
+      "question_id": "CN_POST_Q004",
+      "test_id": "CN_POST_001",
+      "question_number": 4,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำลักษณนามที่ถูกต้องของคำว่า \"小猫\" (ลูกแมว) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "本 (běn)"
+        },
+        {
+          "id": "B",
+          "text": "支 (zhī)"
+        },
+        {
+          "id": "C",
+          "text": "只 (zhī)"
+        },
+        {
+          "id": "D",
+          "text": "条 (tiáo)"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "สัตว์เลี้ยงหรือสัตว์ขนาดเล็ก เช่น ลูกแมว (小猫), แพนด้า (熊猫), กระต่าย (兔子), เต่า (乌龟) ใช้คำลักษณนามว่า \"只\" (ตัว)",
+      "learning_objective": "ระบุคำลักษณนามของสัตว์เล็กได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q004"
+    },
+    {
+      "question_id": "CN_POST_Q005",
+      "test_id": "CN_POST_001",
+      "question_number": 5,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำลักษณนามที่ถูกต้องของคำว่า \"裤子\" (กางเกง) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "条 (tiáo)"
+        },
+        {
+          "id": "B",
+          "text": "件 (jiàn)"
+        },
+        {
+          "id": "C",
+          "text": "本 (běn)"
+        },
+        {
+          "id": "D",
+          "text": "支 (zhī)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "กางเกง (裤子), กระโปรง (裙子), ปลา (鱼) มีลักษณะเป็นเส้น/สายยาว สวมใส่ท่อนล่าง ใช้คำลักษณนามว่า \"条\" (ตัว/สาย)",
+      "learning_objective": "ระบุคำลักษณนามของกางเกง/สิ่งของสายยาวได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q005"
+    },
+    {
+      "question_id": "CN_POST_Q006",
+      "test_id": "CN_POST_001",
+      "question_number": 6,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "phonetics",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "Pinyin ที่ถูกต้องของคำว่า \"上衣\" (เสื้อ) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "shàngyī"
+        },
+        {
+          "id": "B",
+          "text": "shāngyī"
+        },
+        {
+          "id": "C",
+          "text": "shàngyí"
+        },
+        {
+          "id": "D",
+          "text": "shāngyí"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 上衣 สะกด Pinyin ว่า shàngyī (shàng เสียง 4 และ yī เสียง 1)",
+      "learning_objective": "ระบุ Pinyin ของคำศัพท์เครื่องแต่งกายได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q006"
+    },
+    {
+      "question_id": "CN_POST_Q007",
+      "test_id": "CN_POST_001",
+      "question_number": 7,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "phonetics",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "Pinyin ที่ถูกต้องของคำว่า \"书包\" (กระเป๋านักเรียน) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "shūbāo"
+        },
+        {
+          "id": "B",
+          "text": "shūpāo"
+        },
+        {
+          "id": "C",
+          "text": "sūbāo"
+        },
+        {
+          "id": "D",
+          "text": "shúbāo"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 书包 ออกเสียง Pinyin ว่า shūbāo (shū เสียง 1, bāo เสียง 1)",
+      "learning_objective": "ระบุ Pinyin ของคำศัพท์อุปกรณ์การเรียนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q007"
+    },
+    {
+      "question_id": "CN_POST_Q008",
+      "test_id": "CN_POST_001",
+      "question_number": 8,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ควรเติมคำใดลงในช่องว่างของประโยค \"娜林有____条裙子。\" (นารินมีกระโปรง 2 ตัว)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "两 (liǎng)"
+        },
+        {
+          "id": "B",
+          "text": "二 (èr)"
+        },
+        {
+          "id": "C",
+          "text": "双 (shuāng)"
+        },
+        {
+          "id": "D",
+          "text": "几 (jǐ)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "การบอกจำนวน \"2\" เมื่อวางหน้าคำลักษณนาม (เช่น 条) ต้องใช้คำว่า \"两\" (liǎng) เสมอ ห้ามใช้ 二 (èr)",
+      "learning_objective": "เลือกคำบอกจำนวน \"2\" หน้าคำลักษณนามได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q008"
+    },
+    {
+      "question_id": "CN_POST_Q009",
+      "test_id": "CN_POST_001",
+      "question_number": 9,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ควรเติมคำกริยาใดลงในช่องว่างของประโยค \"妹妹____两只小猫。\" (น้องสาวมีลูกแมว 2 ตัว)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "有 (yǒu)"
+        },
+        {
+          "id": "B",
+          "text": "是 (shì)"
+        },
+        {
+          "id": "C",
+          "text": "在 (zài)"
+        },
+        {
+          "id": "D",
+          "text": "用 (yòng)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ประโยคบอกการครอบครองใช้คำกริยา \"有\" (yǒu) แปลว่า \"มี\" (โครงสร้าง: ประธาน + 有 + จำนวน + คำลักษณนาม + คำนาม)",
+      "learning_objective": "ใช้คำกริยา 有 ในประโยคครอบครองพื้นฐานได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q009"
+    },
+    {
+      "question_id": "CN_POST_Q010",
+      "test_id": "CN_POST_001",
+      "question_number": 10,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "sentence_pattern",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ประโยคตอบคือ \"我有两件上衣。\" (ฉันมีเสื้อ 2 ตัว) ประโยคคำถามที่ถูกต้องคือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "你有几件上衣？"
+        },
+        {
+          "id": "B",
+          "text": "这是谁的上衣？"
+        },
+        {
+          "id": "C",
+          "text": "你穿什么上衣？"
+        },
+        {
+          "id": "D",
+          "text": "上衣好看吗？"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำถามถามจำนวนเสื้อผ้าใช้โครงสร้าง \"ประธาน + 有 + 几 + คำลักษณนาม + คำนาม？\" ดังนั้นจึงต้องถามว่า 你有几件上衣？ (คุณมีเสื้อกี่ตัว?)",
+      "learning_objective": "เลือกประโยคคำถามที่สอดคล้องกับประโยคตอบได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q010"
+    },
+    {
+      "question_id": "CN_POST_Q011",
+      "test_id": "CN_POST_001",
+      "question_number": 11,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมคำลักษณนามที่ถูกต้องลงในวลี: \"กระเป๋าดินสอ 1 ใบ\" -> 一____笔袋",
+      "options": [],
+      "correct_answer": [
+        "个"
+      ],
+      "score": 1,
+      "explanation": "กระเป๋าดินสอ (笔袋) หรือกระเป๋านักเรียน (书包) ใช้คำลักษณนามทั่วไปคือ \"个\" (gè)",
+      "learning_objective": "เติมคำลักษณนามของกระเป๋าได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q011"
+    },
+    {
+      "question_id": "CN_POST_Q012",
+      "test_id": "CN_POST_001",
+      "question_number": 12,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมคำลักษณนามที่ถูกต้องลงในวลี: \"กระต่าย 1 ตัว\" -> 一____兔子",
+      "options": [],
+      "correct_answer": [
+        "只"
+      ],
+      "score": 1,
+      "explanation": "กระต่าย (兔子) เป็นสัตว์ขนาดเล็ก ใช้คำลักษณนามว่า \"只\" (zhī)",
+      "learning_objective": "เติมคำลักษณนามของสัตว์กระต่าย/สัตว์เล็กได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q012"
+    },
+    {
+      "question_id": "CN_POST_Q013",
+      "test_id": "CN_POST_001",
+      "question_number": 13,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "phonetics",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมพินอินส่วนที่ขาดหายไปของคำว่า \"裙子\" (กระโปรง): qún____",
+      "options": [],
+      "correct_answer": [
+        "zi"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 裙子 อ่านว่า qúnzi ตัวอักษร 子 ออกเสียงพินอินว่า zi (เสียงเบา)",
+      "learning_objective": "เติมส่วนประกอบ Pinyin ที่ขาดหายไปได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q013"
+    },
+    {
+      "question_id": "CN_POST_Q014",
+      "test_id": "CN_POST_001",
+      "question_number": 14,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "phonetics",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมสระ Pinyin ของคำว่า \"本\" (เล่ม): b____",
+      "options": [],
+      "correct_answer": [
+        "ěn"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 本 สะกด Pinyin คือ běn มีสระคือ ěn",
+      "learning_objective": "เติมสระ Pinyin ของคำลักษณนาม 本 ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q014"
+    },
+    {
+      "question_id": "CN_POST_Q015",
+      "test_id": "CN_POST_001",
+      "question_number": 15,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "character_analysis",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ตัวอักษรจีนคำว่า \"筷\" (ตะเกียบ) มีหมวดอักษรจีนด้านบน (Radical) คือหมวดใด?",
+      "options": [],
+      "correct_answer": [
+        "竹字头"
+      ],
+      "score": 1,
+      "explanation": "ตัวอักษร 筷 มีหมวดอักษรด้านบนคือ 竹字头 (⺮) ซึ่งเกี่ยวกับไม้ไผ่ (เนื่องจากตะเกียบในสมัยโบราณทำจากไม้ไผ่)",
+      "learning_objective": "ระบุชื่อหมวดตัวอักษรจีนของคำศัพท์ที่มีหมวดไม้ไผ่ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q015"
+    },
+    {
+      "question_id": "CN_POST_Q016",
+      "test_id": "CN_POST_001",
+      "question_number": 16,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมอักษรจีนของคำว่า \"สีฟ้า/สีน้ำเงิน\" ลงในช่องว่าง: ____色",
+      "options": [],
+      "correct_answer": [
+        "蓝"
+      ],
+      "score": 1,
+      "explanation": "คำว่า \"สีฟ้า/สีน้ำเงิน\" ในภาษาจีนคือ \"蓝色\" (lánsè) ดังนั้นอักษรจีนที่ขาดหายไปคือ 蓝",
+      "learning_objective": "เติมคำศัพท์อักษรจีนหมวดสีจากคำแปลภาษาไทยได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q016"
+    },
+    {
+      "question_id": "CN_POST_Q017",
+      "test_id": "CN_POST_001",
+      "question_number": 17,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "structure",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมคำสรรพนามคำถามแสดงความเป็นเจ้าของลงในประโยค: \"这是____的书包？\" (นี่คือกระเป๋านักเรียนของใคร?)",
+      "options": [],
+      "correct_answer": [
+        "谁"
+      ],
+      "score": 1,
+      "explanation": "การถามความเป็นเจ้าของ (\"ของใคร\") ใช้คำสรรพนามคำถามว่า \"谁的\" (shéi de) แปลว่า ของใคร",
+      "learning_objective": "เติมคำสรรพนามคำถามแสดงความเป็นเจ้าของได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q017"
+    },
+    {
+      "question_id": "CN_POST_Q018",
+      "test_id": "CN_POST_001",
+      "question_number": 18,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมคำปฏิเสธลงในประโยค: \"น้องชายไม่มีหนังสือการ์ตูน\" -> 弟弟____有漫画书。",
+      "options": [],
+      "correct_answer": [
+        "没"
+      ],
+      "score": 1,
+      "explanation": "ประโยคปฏิเสธการครอบครองของคำกริยา 有 ต้องใช้คำปฏิเสธ \"没\" (méi) คู่กันเป็น \"没有\" (ไม่มี) ห้ามใช้ 不",
+      "learning_objective": "เติมคำปฏิเสธในประโยคแสดงการไม่มีสิ่งของได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q018"
+    },
+    {
+      "question_id": "CN_POST_Q019",
+      "test_id": "CN_POST_001",
+      "question_number": 19,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "classification",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำนามในข้อใดใช้คำลักษณนามว่า \"本\" (เล่ม) ได้ถูกต้อง? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "书 (หนังสือ)"
+        },
+        {
+          "id": "B",
+          "text": "词典 (พจนานุกรม)"
+        },
+        {
+          "id": "C",
+          "text": "裙子 (กระโปรง)"
+        },
+        {
+          "id": "D",
+          "text": "鱼 (ปลา)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "คำลักษณนาม \"本\" ใช้กับหนังสือและสิ่งพิมพ์ ได้แก่ 书 (หนังสือ) และ 词典 (พจนานุกรม) ส่วน 裙子 และ 鱼 ใช้ 条",
+      "learning_objective": "เลือกคำนามทั้งหมดที่ใช้คำลักษณนาม 本 ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q019"
+    },
+    {
+      "question_id": "CN_POST_Q020",
+      "test_id": "CN_POST_001",
+      "question_number": 20,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "classification",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำนามในข้อใดใช้คำลักษณนามว่า \"支\" (แท่ง/ด้าม) ได้ถูกต้อง? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "毛笔 (พู่กัน)"
+        },
+        {
+          "id": "B",
+          "text": "铅笔 (ดินสอ)"
+        },
+        {
+          "id": "C",
+          "text": "漫画书 (หนังสือการ์ตูน)"
+        },
+        {
+          "id": "D",
+          "text": "乌龟 (เต่า)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "คำลักษณนาม \"支\" ใช้กับสิ่งของที่เป็นด้าม/แท่ง ได้แก่ 毛笔 (พู่กัน) และ 铅笔 (ดินสอ)",
+      "learning_objective": "เลือกคำนามทั้งหมดที่ใช้คำลักษณนาม 支 ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q020"
+    },
+    {
+      "question_id": "CN_POST_Q021",
+      "test_id": "CN_POST_001",
+      "question_number": 21,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำศัพท์ในข้อใดเป็นชื่อสัตว์? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "兔子 (กระต่าย)"
+        },
+        {
+          "id": "B",
+          "text": "金鱼 (ปลาทอง)"
+        },
+        {
+          "id": "C",
+          "text": "裙子 (กระโปรง)"
+        },
+        {
+          "id": "D",
+          "text": "笔记本 (สมุดบันทึก)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "兔子 (กระต่าย) และ 金鱼 (ปลาทอง) เป็นคำศัพท์หมวดสัตว์ ส่วน 裙子 เป็นหมวดเสื้อผ้า และ 笔记本 เป็นหมวดอุปกรณ์การเรียน",
+      "learning_objective": "เลือกคำศัพท์ที่เป็นชื่อสัตว์ในบทเรียนได้ถูกต้องทุกข้อ",
+      "pre_post_pair": "CN_PRE_Q021"
+    },
+    {
+      "question_id": "CN_POST_Q022",
+      "test_id": "CN_POST_001",
+      "question_number": 22,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำศัพท์ในข้อใดจัดอยู่ในหมวดเครื่องแต่งกาย? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "红裙子 (กระโปรงสีแดง)"
+        },
+        {
+          "id": "B",
+          "text": "白上衣 (เสื้อสีขาว)"
+        },
+        {
+          "id": "C",
+          "text": "裤子 (กางเกง)"
+        },
+        {
+          "id": "D",
+          "text": "铅笔 (ดินสอ)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "红裙子 (กระโปรงสีแดง), 白上衣 (เสื้อสีขาว) และ 裤子 (กางเกง) เป็นคำศัพท์หมวดเครื่องแต่งกาย ส่วน 铅笔 คือดินสอ",
+      "learning_objective": "เลือกคำศัพท์หมวดเครื่องแต่งกายได้ถูกต้องทุกข้อ",
+      "pre_post_pair": "CN_PRE_Q022"
+    },
+    {
+      "question_id": "CN_POST_Q023",
+      "test_id": "CN_POST_001",
+      "question_number": 23,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำศัพท์ในข้อใดคือชื่อสี? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "黄色 (สีเหลือง)"
+        },
+        {
+          "id": "B",
+          "text": "红色 (สีแดง)"
+        },
+        {
+          "id": "C",
+          "text": "白色 (สีขาว)"
+        },
+        {
+          "id": "D",
+          "text": "用 (ใช้)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "黄色 (สีเหลือง), 红色 (สีแดง) และ 白色 (สีขาว) เป็นคำศัพท์บอกสี ส่วน 用 เป็นคำกริยาแปลว่า ใช้",
+      "learning_objective": "เลือกคำศัพท์ที่เป็นชื่อสีได้ถูกต้องทุกข้อ",
+      "pre_post_pair": "CN_PRE_Q023"
+    },
+    {
+      "question_id": "CN_POST_Q024",
+      "test_id": "CN_POST_001",
+      "question_number": 24,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "character_structure",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ตัวอักษรจีนในข้อใดมีหมวดอักษรจีน \"竹字头\" (⺮ หมวดไม้ไผ่) ประกอบอยู่? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "笔"
+        },
+        {
+          "id": "B",
+          "text": "筷"
+        },
+        {
+          "id": "C",
+          "text": "慢"
+        },
+        {
+          "id": "D",
+          "text": "牛"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ตัวอักษร 笔 (ดินสอ/ปากกา) และ 筷 (ตะเกียบ) มีหมวดอักษร 竹字头 (⺮) อยู่ด้านบน ส่วน 慢 มีหมวด 忄 และ 牛 เป็นหมวดวัว",
+      "learning_objective": "เลือกคู่ตัวอักษรจีนที่มีหมวดอักษร 竹字头 ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q024"
+    },
+    {
+      "question_id": "CN_POST_Q025",
+      "test_id": "CN_POST_001",
+      "question_number": 25,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ประโยคในข้อใดถูกต้องตามหลักไวยากรณ์ภาษาจีน? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "娜林有三条裙子。"
+        },
+        {
+          "id": "B",
+          "text": "他有一支笔。"
+        },
+        {
+          "id": "C",
+          "text": "他有二支笔。"
+        },
+        {
+          "id": "D",
+          "text": "娜林有三件裙子。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ข้อ A และ B ถูกต้อง (ใช้ 条 กับ 裙子 และใช้ 一支笔) ส่วนข้อ C ผิดเพราะใช้ 二 หน้าคำลักษณนาม และข้อ D ผิดเพราะใช้คำลักษณนาม 件 กับกระโปรง",
+      "learning_objective": "เลือกประโยคที่มีการใช้คำลักษณนามและตัวเลขถูกต้องตามหลักไวยากรณ์",
+      "pre_post_pair": "CN_PRE_Q025"
+    },
+    {
+      "question_id": "CN_POST_Q026",
+      "test_id": "CN_POST_001",
+      "question_number": 26,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "syntax_analysis",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ประโยคในข้อใดแปลว่า \"นารินใช้ปากกาสีฟ้าวาดรูปกระโปรง\" ได้ถูกต้องตามโครงสร้างไวยากรณ์?",
+      "options": [
+        {
+          "id": "A",
+          "text": "娜林用蓝色的笔画裙子。"
+        },
+        {
+          "id": "B",
+          "text": "娜林用画蓝色的笔裙子。"
+        },
+        {
+          "id": "C",
+          "text": "娜林蓝色的笔用画裙子。"
+        },
+        {
+          "id": "D",
+          "text": "娜林画裙子用蓝色的笔。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างประโยคบอกเครื่องมือในการกระทำคือ \"ประธาน + 用 + [เครื่องมือ/สี] + 的笔 + 画 + [สิ่งที่วาด]\" ดังนั้นข้อ A จึงถูกต้องที่สุด",
+      "learning_objective": "วิเคราะห์และเลือกประโยคสื่อความหมายการใช้อุปกรณ์สีวาดรูปได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q026"
+    },
+    {
+      "question_id": "CN_POST_Q027",
+      "test_id": "CN_POST_001",
+      "question_number": 27,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "reading_comprehension",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จากบทอ่านในบทเรียน: \"娜林用黄色的笔画什么？\" (นารินใช้ปากกาสีเหลืองวาดรูปอะไร?)",
+      "options": [
+        {
+          "id": "A",
+          "text": "小猫 (ลูกแมว)"
+        },
+        {
+          "id": "B",
+          "text": "上衣 (เสื้อ)"
+        },
+        {
+          "id": "C",
+          "text": "裙子 (กระโปรง)"
+        },
+        {
+          "id": "D",
+          "text": "妹妹 (น้องสาว)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ในบทอ่านระบุว่า \"娜林用黄色的笔画小猫。\" (นารินใช้ปากกาสีเหลืองวาดรูปแมว/ลูกแมว)",
+      "learning_objective": "จับใจความรายละเอียดเฉพาะจากบทอ่าน Nalin วาดภาพ",
+      "pre_post_pair": "CN_PRE_Q027"
+    },
+    {
+      "question_id": "CN_POST_Q028",
+      "test_id": "CN_POST_001",
+      "question_number": 28,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "reading_analysis",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จากบทอ่านความรู้เสริมเรื่องแม่น้ำในประเทศจีน: \"黄河在中国是第几长的河？\" (แม่น้ำหวงเหอเป็นแม่น้ำที่ยาวเป็นอันดับที่เท่าไรของประเทศจีน?)",
+      "options": [
+        {
+          "id": "A",
+          "text": "第二长河 (ยาวเป็นอันดับสอง)"
+        },
+        {
+          "id": "B",
+          "text": "第一长河 (ยาวที่สุด)"
+        },
+        {
+          "id": "C",
+          "text": "第三长河 (ยาวเป็นอันดับสาม)"
+        },
+        {
+          "id": "D",
+          "text": "第四长河 (ยาวเป็นอันดับสี่)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ในบทอ่านระบุว่า \"长江是最长的河。黄河是第二长河。\" (แม่น้ำแยงซียาวที่สุด แม่น้ำหวงเหอเป็นแม่น้ำที่ยาวเป็นอันดับสอง)",
+      "learning_objective": "วิเคราะห์ข้อเท็จจริงเกี่ยวกับแม่น้ำจากบทอ่านความรู้เสริม",
+      "pre_post_pair": "CN_PRE_Q028"
+    },
+    {
+      "question_id": "CN_POST_Q029",
+      "test_id": "CN_POST_001",
+      "question_number": 29,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "pragmatics",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "หากมีคนถามคุณว่า \"这是泰坤的书包吗？\" (นี่คือกะเป๋านักเรียนของไท่คุนใช่ไหม?) และกระเป๋าใบนี้ไม่ใช่ของไท่คุนแต่เป็นของคุณเอง คุณควรตอบอย่างไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "不是，这是我的书包。"
+        },
+        {
+          "id": "B",
+          "text": "是的，这是泰坤的书包。"
+        },
+        {
+          "id": "C",
+          "text": "我有一个书包。"
+        },
+        {
+          "id": "D",
+          "text": "这是谁的书包。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "เมื่อปฏิเสธและแจ้งความเป็นเจ้าของที่ถูกต้อง ต้องตอบว่า \"ไม่ใช่ นี่คือกะเป๋านักเรียนของฉัน\" -> 不是，这是我的书包。",
+      "learning_objective": "เลือกคำตอบโต้ตอบในบทสนทนาได้สอดคล้องกับบริบทแสดงความเป็นเจ้าของ",
+      "pre_post_pair": "CN_PRE_Q029"
+    },
+    {
+      "question_id": "CN_POST_Q030",
+      "test_id": "CN_POST_001",
+      "question_number": 30,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "sentence_building",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ข้อใดเรียงลำดับคำในประโยค \"คุณแม่มีเสื้อสีขาว 3 ตัว\" ได้ถูกต้องตามหลักไวยากรณ์ภาษาจีน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "妈妈有三件白上衣。"
+        },
+        {
+          "id": "B",
+          "text": "妈妈有白上衣三件。"
+        },
+        {
+          "id": "C",
+          "text": "妈妈白上衣有三件。"
+        },
+        {
+          "id": "D",
+          "text": "妈妈有三条白上衣。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "การเรียงลำดับคำในประโยคบอกจำนวนและลักษณะคือ \"ประธาน + กริยา (有) + จำนวน + คำลักษณนาม + (คำคุณศัพท์/สี) + คำนาม\" -> 妈妈有三件白上衣。",
+      "learning_objective": "เรียงลำดับคำคุณศัพท์ สี และคำลักษณนามในประโยคขยายได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q030"
+    },
+    {
+      "question_id": "CN_POST_Q031",
+      "test_id": "CN_POST_001",
+      "question_number": 31,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "text_synthesis",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "อ่านข้อความ: \"我的书包里有三本笔记本，两支笔和一个笔袋。\" ถามว่า \"我有几本笔记本？\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "三本 (3 เล่ม)"
+        },
+        {
+          "id": "B",
+          "text": "两本 (2 เล่ม)"
+        },
+        {
+          "id": "C",
+          "text": "一本 (1 เล่ม)"
+        },
+        {
+          "id": "D",
+          "text": "四本 (4 เล่ม)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "จากข้อความระบุชัดเจนว่า \"三本笔记本\" (สมุดบันทึก 3 เล่ม) ดังนั้น ตอบ 三本",
+      "learning_objective": "คำนวณ/นับจำนวนสิ่งของเฉพาะจากบทอ่านบรรยายกระเป๋านักเรียน",
+      "pre_post_pair": "CN_PRE_Q031"
+    },
+    {
+      "question_id": "CN_POST_Q032",
+      "test_id": "CN_POST_001",
+      "question_number": 32,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "context_interpretation",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ประโยคอุทาน \"看！一条蓝色的裙子！\" ในบทอ่าน สื่อถึงสถานการณ์ใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "นารินอุทานด้วยความพึงพอใจหลังจากใช้ปากกาสีฟ้าวาดรูปกระโปรงเสร็จ"
+        },
+        {
+          "id": "B",
+          "text": "นารินชี้ให้เพื่อนดูกระโปรงสีฟ้าที่ร้านค้า"
+        },
+        {
+          "id": "C",
+          "text": "นารินถามแม่ว่ากระโปรงตัวนี้สีฟ้าใช่ไหม"
+        },
+        {
+          "id": "D",
+          "text": "นารินอุทานเมื่อเห็นกระโปรงสีฟ้าหล่นอยู่"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ในบทอ่าน นารินใช้ปากกาสีฟ้าวาดกระโปรง เมื่อวาดเสร็จจึงอุทานว่า \"ดูสิ! กระโปรงสีฟ้า 1 ตัว!\" เพื่อแสดงความภูมิใจในผลงานวาดภาพ",
+      "learning_objective": "ตีความเจตนาของประโยคอุทานบรรยายลักษณะในบทอ่าน",
+      "pre_post_pair": "CN_PRE_Q032"
+    },
+    {
+      "question_id": "CN_POST_Q033",
+      "test_id": "CN_POST_001",
+      "question_number": 33,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "practical_reasoning",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "หากต้องการพูดบอกว่า \"เสื้อ 1 ตัว และ กระโปรง 2 ตัว\" เป็นภาษาจีน ข้อใดถูกต้องที่สุด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "一件上衣和两条裙子"
+        },
+        {
+          "id": "B",
+          "text": "一条上衣和两件裙子"
+        },
+        {
+          "id": "C",
+          "text": "一本上衣和二条裙子"
+        },
+        {
+          "id": "D",
+          "text": "一只上衣和两只裙子"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "เสื้อ 1 ตัว = 一件上衣 (ใช้ 件) / กระโปรง 2 ตัว = 两条裙子 (ใช้ 两 และ 条) เชื่อมด้วย 和 (และ)",
+      "learning_objective": "ระบุจำนวนสิ่งของต่างประเภทพร้อมคำลักษณนามที่ถูกต้องจากสถานการณ์จำลอง",
+      "pre_post_pair": "CN_PRE_Q033"
+    },
+    {
+      "question_id": "CN_POST_Q034",
+      "test_id": "CN_POST_001",
+      "question_number": 34,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "character_analysis",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ควรเลือกตัวอักษรจีนใดเติมลงในช่องว่างของประโยค \"เดินช้ามาก\": 走路很____",
+      "options": [
+        {
+          "id": "A",
+          "text": "慢 (màn - มีหมวด 忄)"
+        },
+        {
+          "id": "B",
+          "text": "漫 (màn - มีหมวด 氵)"
+        },
+        {
+          "id": "C",
+          "text": "笔 (bǐ)"
+        },
+        {
+          "id": "D",
+          "text": "本 (běn)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า \"ช้า\" ในภาษาจีนคือ 慢 (ม่าน มีหมวดหัวใจ 忄) ส่วน 漫 (ม่าน มีหมวดน้ำ 氵) ใช้ในคำว่า 漫画 (การ์ตูน)",
+      "learning_objective": "จำแนกและเลือกตัวอักษรจีนที่มีส่วนประกอบคล้ายกันแต่อักษรข้างต่างกัน",
+      "pre_post_pair": "CN_PRE_Q034"
+    },
+    {
+      "question_id": "CN_POST_Q035",
+      "test_id": "CN_POST_001",
+      "question_number": 35,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "phonetics",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำว่า \"一本\" (หนังสือ 1 เล่ม) ตัวอักษร \"一\" (yī) ออกเสียงวรรณยุกต์เปลี่ยนเป็นเสียงใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "เสียง 4 (yì)"
+        },
+        {
+          "id": "B",
+          "text": "เสียง 2 (yí)"
+        },
+        {
+          "id": "C",
+          "text": "เสียง 1 (yī)"
+        },
+        {
+          "id": "D",
+          "text": "เสียง 3 (yǐ)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "กฎการเปลี่ยนเสียงของ 一 (yī): เมื่ออยู่หน้าคำลักษณนามเสียง 3 (本 - běn) ตัวอักษร 一 จะเปลี่ยนเป็นเสียง 4 (yì) ออกเสียงว่า yì běn",
+      "learning_objective": "วิเคราะห์เสียงวรรณยุกต์ Pinyin ที่ถูกต้องของ 一 เมื่อประสมกับคำลักษณนาม",
+      "pre_post_pair": "CN_PRE_Q035"
+    },
+    {
+      "question_id": "CN_POST_Q036",
+      "test_id": "CN_POST_001",
+      "question_number": 36,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "writing_syntax",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมคำกริยาที่แปลว่า \"วาด\" ลงในช่องว่าง: \"娜林用蓝色的笔____裙子。\"",
+      "options": [],
+      "correct_answer": [
+        "画"
+      ],
+      "score": 1,
+      "explanation": "คำกริยาที่แปลว่า \"วาด\" คือคำว่า \"画\" (huà) ในโครงสร้าง 用...笔画...",
+      "learning_objective": "เติมคำกริยา 画 ให้ประโยคบอกเล่าสมบูรณ์ตามบริบท",
+      "pre_post_pair": "CN_PRE_Q036"
+    },
+    {
+      "question_id": "CN_POST_Q037",
+      "test_id": "CN_POST_001",
+      "question_number": 37,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "syntax_grammar",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมคำลักษณนามของกระโปรงลงในประโยคคำถาม: \"姐姐有几____红色的裙子？\"",
+      "options": [],
+      "correct_answer": [
+        "条"
+      ],
+      "score": 1,
+      "explanation": "กระโปรง (裙子) ใช้คำลักษณนามว่า \"条\" (tiáo) แม้จะมีคำขยายสี (红色的) แทรกอยู่ก็ยังคงใช้ 条",
+      "learning_objective": "เติมคำลักษณนามในประโยคถามจำนวนเสื้อผ้าที่มีสีขยาย",
+      "pre_post_pair": "CN_PRE_Q037"
+    },
+    {
+      "question_id": "CN_POST_Q038",
+      "test_id": "CN_POST_001",
+      "question_number": 38,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "character_morphology",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ส่วนประกอบหมวดอักษรจีน (Radical) ที่เหมือนกันของตัวอักษร \"件\" (ตัว - เสื้อ) และ \"牛\" (วัว) คือหมวดใด?",
+      "options": [],
+      "correct_answer": [
+        "牛"
+      ],
+      "score": 1,
+      "explanation": "ตัวอักษร 件 มีส่วนประกอบขวาเป็น 牛 และตัวอักษร 牛 มีส่วนประกอบร่วมกันคือหมวดตัวอักษร 牛",
+      "learning_objective": "ระบุส่วนประกอบตัวอักษรจีนที่เหมือนกันของตัวอักษรสองตัว",
+      "pre_post_pair": "CN_PRE_Q038"
+    },
+    {
+      "question_id": "CN_POST_Q039",
+      "test_id": "CN_POST_001",
+      "question_number": 39,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "content_writing",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมคำบอกลำดับที่แปลว่า \"อันดับสอง\" จากบทอ่านเรื่องแม่น้ำในจีน: \"黄河是第____长河。\"",
+      "options": [],
+      "correct_answer": [
+        "二"
+      ],
+      "score": 1,
+      "explanation": "ในบทอ่านระบุว่า แม่น้ำหวงเหอเป็นแม่น้ำที่ยาวเป็นอันดับสอง -> 黄河是第二长河。 เติมตัวเลข 二",
+      "learning_objective": "เติมคำบอกลำดับที่จากบทอ่านภูมิศาสตร์จีน",
+      "pre_post_pair": "CN_PRE_Q039"
+    },
+    {
+      "question_id": "CN_POST_Q040",
+      "test_id": "CN_POST_001",
+      "question_number": 40,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "conversation_writing",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมคำกริยาลงในบทสนทนา: A: 你有两条红裙子吗？ B: 我没有红裙子，我____一条蓝裙子。",
+      "options": [],
+      "correct_answer": [
+        "有"
+      ],
+      "score": 1,
+      "explanation": "บริบทประโยค B ตอบว่า \"ฉันไม่มีกระโปรงสีแดง ฉันมีกระโปรงสีฟ้า 1 ตัว\" คำว่า มี คือคำว่า \"有\" (yǒu)",
+      "learning_objective": "เติมคำกริยาตอบรับ/ปฏิเสธการครอบครองให้สมบูรณ์ตามบริบท",
+      "pre_post_pair": "CN_PRE_Q040"
+    },
+    {
+      "question_id": "CN_POST_Q041",
+      "test_id": "CN_POST_001",
+      "question_number": 41,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "text_structure",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมคำลักษณนามของแมวในประโยคอุทาน: \"看！一____黄色的小猫！\"",
+      "options": [],
+      "correct_answer": [
+        "只"
+      ],
+      "score": 1,
+      "explanation": "แมว/ลูกแมว (小猫) ใช้คำลักษณนามว่า \"只\" (zhī) ในประโยคอุทาน 一只黄色的小猫 (ลูกแมวสีเหลือง 1 ตัว)",
+      "learning_objective": "เติมคำลักษณนามในประโยคอุทานบรรยายภาพตามบทอ่าน",
+      "pre_post_pair": "CN_PRE_Q041"
+    },
+    {
+      "question_id": "CN_POST_Q042",
+      "test_id": "CN_POST_001",
+      "question_number": 42,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "vocabulary_building",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จงเติมตัวอักษรจีนให้ได้คำศัพท์ที่แปลว่า \"หนังสือการ์ตูน\": 漫画____",
+      "options": [],
+      "correct_answer": [
+        "书"
+      ],
+      "score": 1,
+      "explanation": "คำว่า \"หนังสือการ์ตูน\" ในภาษาจีนประกอบด้วยอักษร 漫画 (mànhuà) + 书 (shū) = 漫画书",
+      "learning_objective": "สร้างคำศัพท์ใหม่ในบทเรียนจากอักษรตั้งต้น",
+      "pre_post_pair": "CN_PRE_Q042"
+    },
+    {
+      "question_id": "CN_POST_Q043",
+      "test_id": "CN_POST_001",
+      "question_number": 43,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "grammar_evaluation",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ประโยคในข้อใดมีความถูกต้องสมบูรณ์ตามหลักไวยากรณ์ภาษาจีน? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "娜林用绿色的笔画上衣。"
+        },
+        {
+          "id": "B",
+          "text": "妈妈有三件白色的上衣。"
+        },
+        {
+          "id": "C",
+          "text": "娜林用笔绿色的画上衣。"
+        },
+        {
+          "id": "D",
+          "text": "妈妈有三条白色的上衣。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ข้อ A และ B ถูกต้องตามหลักไวยากรณ์ ส่วนข้อ C เรียงลำดับคำขยายผิด และข้อ D ผิดที่ใช้คำลักษณนาม 条 กับเสื้อ (ต้องใช้ 件)",
+      "learning_objective": "วิเคราะห์และเลือกประโยคที่มีโครงสร้างไวยากรณ์ถูกต้องตามกฎทั้งหมด",
+      "pre_post_pair": "CN_PRE_Q043"
+    },
+    {
+      "question_id": "CN_POST_Q044",
+      "test_id": "CN_POST_001",
+      "question_number": 44,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "reading_evaluation",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ข้อความใดเป็นจริงตามเนื้อหาในบทอ่านเรื่อง Nalin วาดภาพ? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "娜林用蓝色的笔画裙子 (นารินใช้ปากกาสีฟ้าวาดกระโปรง)"
+        },
+        {
+          "id": "B",
+          "text": "娜林用绿色的笔画上衣 (นารินใช้ปากกาสีเขียววาดเสื้อ)"
+        },
+        {
+          "id": "C",
+          "text": "娜林用黑色的笔画小猫 (นารินใช้ปากกาสีดำวาดลูกแมว)"
+        },
+        {
+          "id": "D",
+          "text": "娜林画了白色的上衣 (นารินวาดเสื้อสีขาว)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "จากบทอ่าน นารินใช้ปากกาสีฟ้าวาดกระโปรง (ข้อ A ถูก) และสีเขียววาดเสื้อ (ข้อ B ถูก) ส่วนสีดำนารินใช้วาดน้องสาว (ไม่ใช่แมว) และเสื้อที่วาดเป็นสีเขียว (ไม่ใช่สีขาว)",
+      "learning_objective": "ประเมินและเลือกข้อความสรุปความที่เป็นจริงตามบทอ่าน Nalin",
+      "pre_post_pair": "CN_PRE_Q044"
+    },
+    {
+      "question_id": "CN_POST_Q045",
+      "test_id": "CN_POST_001",
+      "question_number": 45,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "collocation_analysis",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "การจับคู่ [คำลักษณนาม + คำนาม] ในข้อใดถูกต้องตามหลักภาษาจีน? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "一条鱼 (ปลา 1 ตัว)"
+        },
+        {
+          "id": "B",
+          "text": "四支笔 (ปากกา 4 ด้าม)"
+        },
+        {
+          "id": "C",
+          "text": "两本裤子 (กางเกง 2 ตัว)"
+        },
+        {
+          "id": "D",
+          "text": "三只上衣 (เสื้อ 3 ตัว)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ข้อ A (鱼 ใช้ 条) และข้อ B (笔 ใช้ 支) จับคู่ถูกต้อง ส่วนข้อ C ผิดเพราะ 裤子 ต้องใช้ 条 และข้อ D ผิดเพราะ 上衣 ต้องใช้ 件",
+      "learning_objective": "วิเคราะห์และเลือกคู่ [คำลักษณนาม + คำนาม] ที่ถูกต้องตามหลักภาษา",
+      "pre_post_pair": "CN_PRE_Q045"
+    },
+    {
+      "question_id": "CN_POST_Q046",
+      "test_id": "CN_POST_001",
+      "question_number": 46,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "content_evaluation",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "จากบทอ่านเรื่องแม่น้ำในประเทศจีน ข้อความใดถูกต้อง? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "长江比黄河长 (แม่น้ำแยงซียาวกว่าแม่น้ำหวงเหอ)"
+        },
+        {
+          "id": "B",
+          "text": "黄河是第二长河 (แม่น้ำหวงเหอเป็นแม่น้ำที่ยาวเป็นอันดับสอง)"
+        },
+        {
+          "id": "C",
+          "text": "中国只有两条河 (ประเทศจีนมีแม่น้ำแค่ 2 สาย)"
+        },
+        {
+          "id": "D",
+          "text": "黄河是最长的河 (แม่น้ำหวงเหอเป็นแม่น้ำที่ยาวที่สุด)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ในบทอ่านระบุว่า แม่น้ำแยงซียาวที่สุด และแม่น้ำหวงเหอยาวเป็นอันดับสอง แสดงว่าแม่น้ำแยงซียาวกว่าแม่น้ำหวงเหอ (ข้อ A และ B ถูกต้อง) ส่วนข้อ C ผิดเพราะบทอ่านระบุว่า 中国有很多条河",
+      "learning_objective": "เลือกข้อความถูกต้องเกี่ยวกับแม่น้ำในจีนจากบทอ่านความรู้เสริม",
+      "pre_post_pair": "CN_PRE_Q046"
+    },
+    {
+      "question_id": "CN_POST_Q047",
+      "test_id": "CN_POST_001",
+      "question_number": 47,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "character_morphology",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำศัพท์ในข้อใดมีตัวอักษรจีน \"本\" (běn) ประกอบอยู่? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "笔记本 (สมุดบันทึก)"
+        },
+        {
+          "id": "B",
+          "text": "本子 (สมุด)"
+        },
+        {
+          "id": "C",
+          "text": "日本 (ประเทศญี่ปุ่น)"
+        },
+        {
+          "id": "D",
+          "text": "铅笔 (ดินสอ)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "笔记本 (สมุดบันทึก), 本子 (สมุด) และ 日本 (ประเทศญี่ปุ่น) ทั้งสามคำนี้มีตัวอักษร 本 ประกอบอยู่ทั้งหมด ส่วน 铅笔 ไม่มี",
+      "learning_objective": "จำแนกคำศัพท์ที่มีตัวอักษรจีนกำหนดให้เป็นส่วนประกอบ",
+      "pre_post_pair": "CN_PRE_Q047"
+    },
+    {
+      "question_id": "CN_POST_Q048",
+      "test_id": "CN_POST_001",
+      "question_number": 48,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "practical_application",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "หากต้องการพูดบอกจำนวนเสื้อผ้าในตู้เสื้อผ้าของคุณ ประโยคใดสามารถนำไปใช้ได้สอดคล้องกับบทเรียน? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "我有三件上衣。(ฉันมีเสื้อ 3 ตัว)"
+        },
+        {
+          "id": "B",
+          "text": "我有一条红裙子。(ฉันมีกระโปรงสีแดง 1 ตัว)"
+        },
+        {
+          "id": "C",
+          "text": "黄河是第二长河。(แม่น้ำหวงเหอเป็นแม่น้ำที่ยาวเป็นอันดับสอง)"
+        },
+        {
+          "id": "D",
+          "text": "我看一个可爱的女孩。(ฉันดูเด็กผู้หญิงน่ารักคนหนึ่ง)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ประโยค A และ B ใช้พูดบอกจำนวนเสื้อผ้าของตนเองได้สอดคล้องกับชีวิตจริง",
+      "learning_objective": "เลือกประโยคภาษาจีนที่นำไปใช้ปฏิสัมพันธ์ในสถานการณ์ชีวิตจริงได้",
+      "pre_post_pair": "CN_PRE_Q048"
+    },
+    {
+      "question_id": "CN_POST_Q049",
+      "test_id": "CN_POST_001",
+      "question_number": 49,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "phonetic_evaluation",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "คำศัพท์และ Pinyin ในข้อใดจับคู่ได้อย่างถูกต้อง? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "书包 - shūbāo"
+        },
+        {
+          "id": "B",
+          "text": "熊猫 - xióngmāo"
+        },
+        {
+          "id": "C",
+          "text": "乌龟 - wūguǐ"
+        },
+        {
+          "id": "D",
+          "text": "兔子 - tùzǐ"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ข้อ A (书包 - shūbāo) และข้อ B (熊猫 - xióngmāo) ถูกต้อง ส่วนข้อ C ผิดตรง guī (ไม่ใช่ guǐ) และข้อ D ผิดตรง zi (เสียงเบา ไม่ใช่ zǐ)",
+      "learning_objective": "วิเคราะห์และเลือกคำศัพท์ที่มี Pinyin และการลงเครื่องหมายวรรณยุกต์ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q049"
+    },
+    {
+      "question_id": "CN_POST_Q050",
+      "test_id": "CN_POST_001",
+      "question_number": 50,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "integrated_evaluation",
+      "topic": "第4课 我有五本漫画书",
+      "lesson": "Lesson 4",
+      "question": "ประโยคในข้อใดมีความถูกต้องสมบูรณ์แบบทั้งคำลักษณนาม คำบอกสี และโครงสร้างไวยากรณ์? (เลือกได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "我有一件白色的上衣。(ฉันมีเสื้อสีขาว 1 ตัว)"
+        },
+        {
+          "id": "B",
+          "text": "弟弟有一只黄色的小猫。(น้องชายมีลูกแมวสีเหลือง 1 ตัว)"
+        },
+        {
+          "id": "C",
+          "text": "我有一条白色的上衣。(ฉันมีเสื้อสีขาว 1 ตัว)"
+        },
+        {
+          "id": "D",
+          "text": "弟弟有一件黄色的小猫。(น้องชายมีลูกแมวสีเหลือง 1 ตัว)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ข้อ A (上衣 ใช้ 件) และข้อ B (小猫 ใช้ 只) สมบูรณ์ถูกต้องทุกส่วน ส่วนข้อ C ผิดที่ใช้ 条 กับเสื้อ และข้อ D ผิดที่ใช้ 件 กับแมว",
+      "learning_objective": "ประเมินประโยคที่มีความถูกต้องสมบูรณ์ทั้งคำลักษณนาม สี และโครงสร้างไวยากรณ์",
+      "pre_post_pair": "CN_PRE_Q050"
+    }
+  ]

@@ -1,0 +1,3639 @@
+[
+    {
+      "question_id": "CN_PRE_Q001",
+      "test_id": "CN_PRE_001",
+      "question_number": 1,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Phonetics",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "Pinyin ที่ถูกต้องของคำว่า “烤鸭” (เป็ดย่าง) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "kǎoyā"
+        },
+        {
+          "id": "B",
+          "text": "kāoyá"
+        },
+        {
+          "id": "C",
+          "text": "kǎoyá"
+        },
+        {
+          "id": "D",
+          "text": "kāoyā"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 烤鸭 (เป็ดย่าง) ประกอบด้วย 烤 (kǎo - เสียง 3) และ 鸭 (yā - เสียง 1) รวมเป็น kǎoyā",
+      "learning_objective": "ระบุ Pinyin และวรรณยุกต์ของคำศัพท์อาหารได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q001"
+    },
+    {
+      "question_id": "CN_PRE_Q002",
+      "test_id": "CN_PRE_001",
+      "question_number": 2,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Phonetics",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "Pinyin ที่ถูกต้องของคำว่า “北京” (ปักกิ่ง) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Běijīng"
+        },
+        {
+          "id": "B",
+          "text": "Bèijīng"
+        },
+        {
+          "id": "C",
+          "text": "Běijǐng"
+        },
+        {
+          "id": "D",
+          "text": "Bēijīng"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 北京 (ปักกิ่ง) เป็นชื่อเฉพาะ ขึ้นต้นด้วยตัวพิมพ์ใหญ่ ออกเสียงว่า Běijīng (เสียง 3 และเสียง 1)",
+      "learning_objective": "ระบุ Pinyin ของคำศัพท์สถานที่ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q002"
+    },
+    {
+      "question_id": "CN_PRE_Q003",
+      "test_id": "CN_PRE_001",
+      "question_number": 3,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Character Analysis",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ตัวอักษรจีนในข้อใดมีหมวดอักษร ⻌ (辶) เป็นส่วนประกอบทั้งหมด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "过, 远, 近"
+        },
+        {
+          "id": "B",
+          "text": "鸡, 鸭, 城"
+        },
+        {
+          "id": "C",
+          "text": "国, 京, 场"
+        },
+        {
+          "id": "D",
+          "text": "吃, 看, 去"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ตัวอักษร 过 (guò), 远 (yuǎn), 近 (jìn) มีหมวดอักษร ⻌ (辶 zǒuzhīpáng) ซึ่งเกี่ยวข้องกับการเดินหรือระยะทาง",
+      "learning_objective": "จำแนกหมวดอักษรจีน (Radical) ⻌ ได้",
+      "pre_post_pair": "CN_POST_Q003"
+    },
+    {
+      "question_id": "CN_PRE_Q004",
+      "test_id": "CN_PRE_001",
+      "question_number": 4,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Vocabulary",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "คำศัพท์ว่า “看动画片” หมายถึงกิจกรรมใดในภาษาไทย?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ดูงิ้ว"
+        },
+        {
+          "id": "B",
+          "text": "ดูการ์ตูน"
+        },
+        {
+          "id": "C",
+          "text": "ดูหมีแพนด้า"
+        },
+        {
+          "id": "D",
+          "text": "ดูภาพยนตร์จีน"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "看 (kàn - ดู) + 动画片 (dònghuàpiàn - การ์ตูน/แอนิเมชัน) แปลว่า \"ดูการ์ตูน\"",
+      "learning_objective": "บอกความหมายภาษาไทยของคำศัพท์กิจกรรมได้",
+      "pre_post_pair": "CN_POST_Q004"
+    },
+    {
+      "question_id": "CN_PRE_Q005",
+      "test_id": "CN_PRE_001",
+      "question_number": 5,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Vocabulary",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "คำศัพท์ว่า “寺庙” (sìmiào) ตรงกับความหมายในภาษาไทยข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "พระราชวัง"
+        },
+        {
+          "id": "B",
+          "text": "กำแพงเมืองจีน"
+        },
+        {
+          "id": "C",
+          "text": "วัด"
+        },
+        {
+          "id": "D",
+          "text": "พิพิธภัณฑ์"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 寺庙 (sìmiào) ในบทเรียนแปลว่า \"วัด\"",
+      "learning_objective": "จับคู่คำศัพท์สถานที่กับความหมายได้",
+      "pre_post_pair": "CN_POST_Q005"
+    },
+    {
+      "question_id": "CN_PRE_Q006",
+      "test_id": "CN_PRE_001",
+      "question_number": 6,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Grammar",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ในประโยคบอกเล่าประสบการณ์ คำบอกประสบการณ์ “过” (guò) ต้องวางไว้ ณ ตำแหน่งใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "หน้าประธาน"
+        },
+        {
+          "id": "B",
+          "text": "หลังคำกริยา"
+        },
+        {
+          "id": "C",
+          "text": "หลังคำนามกรรม"
+        },
+        {
+          "id": "D",
+          "text": "หน้าคำกริยา"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำแสดงประสบการณ์ 过 ต้องวางไว้หลังคำกริยาหลัก เช่น 去过 (qùguo - เคยไป), 吃过 (chīguo - เคยทาน)",
+      "learning_objective": "ระบุตำแหน่งการวางโครงสร้างคำบอกประสบการณ์ 过",
+      "pre_post_pair": "CN_POST_Q006"
+    },
+    {
+      "question_id": "CN_PRE_Q007",
+      "test_id": "CN_PRE_001",
+      "question_number": 7,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Grammar",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "หากต้องการปฏิเสธประโยคประสบการณ์ที่มีคำว่า “过” จะต้องใช้คำปฏิเสธใดวางไว้หน้าคำกริยา?",
+      "options": [
+        {
+          "id": "A",
+          "text": "不 (bù)"
+        },
+        {
+          "id": "B",
+          "text": "没 (méi)"
+        },
+        {
+          "id": "C",
+          "text": "别 (bié)"
+        },
+        {
+          "id": "D",
+          "text": "无 (wú)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "รูปปฏิเสธของประโยคแสดงประสบการณ์ 过 ต้องใช้คำว่า 没 เติมหน้าคำกริยาเท่านั้น (ห้ามใช้ 不 หน้า 过)",
+      "learning_objective": "เลือกคำปฏิเสธสำหรับประโยคประสบการณ์ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q007"
+    },
+    {
+      "question_id": "CN_PRE_Q008",
+      "test_id": "CN_PRE_001",
+      "question_number": 8,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Sentence Structure",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "นำกลุ่มคำต่อไปนี้มาเรียงเป็นประโยคบอกเล่าประสบการณ์ที่ถูกต้อง: “北京 / 去 / 过 / 我”",
+      "options": [
+        {
+          "id": "A",
+          "text": "我去北京过。"
+        },
+        {
+          "id": "B",
+          "text": "我去过北京。"
+        },
+        {
+          "id": "C",
+          "text": "我过去北京。"
+        },
+        {
+          "id": "D",
+          "text": "去过北京我。"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างประโยคบอกเล่าประสบการณ์คือ ประธาน (我) + กริยา (去) + 过 + กรรม (北京)",
+      "learning_objective": "เรียงลำดับประโยคบอกเล่าประสบการณ์ได้",
+      "pre_post_pair": "CN_POST_Q008"
+    },
+    {
+      "question_id": "CN_PRE_Q009",
+      "test_id": "CN_PRE_001",
+      "question_number": 9,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Dialogue",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "สถานการณ์: A ถามว่า “你去过长城吗？” (คุณเคยไปกำแพงเมืองจีนไหม?) หาก B เคยไป B ควรตอบอย่างไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "我没去过长城。"
+        },
+        {
+          "id": "B",
+          "text": "我不去长城。"
+        },
+        {
+          "id": "C",
+          "text": "我去过长城。"
+        },
+        {
+          "id": "D",
+          "text": "我想去长城。"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "เมื่อถามด้วย 你去过...吗？ การตอบรับแบบเคยไปต้องใช้รูปประโยคบอกเล่าประสบการณ์ 我去过长城。",
+      "learning_objective": "เลือกประโยคตอบรับคำถามประสบการณ์แบบบอกเล่า",
+      "pre_post_pair": "CN_POST_Q009"
+    },
+    {
+      "question_id": "CN_PRE_Q010",
+      "test_id": "CN_PRE_001",
+      "question_number": 10,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Context Usage",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ประโยค “我想去看熊猫。” คำว่า “想” (xiǎng) มีความหมายและการใช้งานตรงกับข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "คิดถึง"
+        },
+        {
+          "id": "B",
+          "text": "อยาก/ปรารถนา"
+        },
+        {
+          "id": "C",
+          "text": "เคย"
+        },
+        {
+          "id": "D",
+          "text": "ชอบ"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 想 ในประโยคนี้ทำหน้าที่เป็นกริยานุเคราะห์ วางไว้หน้าคำกริยา 看 แปลว่า \"อยาก/ปรารถนา\" (อยากไปดูหมีแพนด้า)",
+      "learning_objective": "เลือกคำกริยาแสดงความปรารถนาได้เหมาะสม",
+      "pre_post_pair": "CN_POST_Q010"
+    },
+    {
+      "question_id": "CN_PRE_Q011",
+      "test_id": "CN_PRE_001",
+      "question_number": 11,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Phonetics",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "การออกเสียง Pinyin และวรรณยุกต์ของคำว่า “朋友” (เพื่อน) ข้อใดถูกต้อง?",
+      "options": [
+        {
+          "id": "A",
+          "text": "péngyǒu (เสียง 2 + เสียง 3)"
+        },
+        {
+          "id": "B",
+          "text": "péngyou (เสียง 2 + เสียงเบา)"
+        },
+        {
+          "id": "C",
+          "text": "pēngyǒu (เสียง 1 + เสียง 3)"
+        },
+        {
+          "id": "D",
+          "text": "pèngyōu (เสียง 4 + เสียง 1)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 朋友 (péngyou) พยางค์หลัง 友 ออกเสียงเป็นเสียงเบา (Neutral tone)",
+      "learning_objective": "วิเคราะห์พินอินคำศัพท์ประสมที่มีเสียงเบา",
+      "pre_post_pair": "CN_POST_Q011"
+    },
+    {
+      "question_id": "CN_PRE_Q012",
+      "test_id": "CN_PRE_001",
+      "question_number": 12,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Character Construction",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "คำศัพท์ในข้อใดประกอบด้วยอักษรจีน “京” (jīng) ทั้งหมด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "中国, 泰国"
+        },
+        {
+          "id": "B",
+          "text": "北京, 京剧"
+        },
+        {
+          "id": "C",
+          "text": "长城, 故宫"
+        },
+        {
+          "id": "D",
+          "text": "烤鸭, 火锅"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ตัวอักษร 京 สามารถนำมาประสมเป็นคำศัพท์ในบทเรียนได้แก่ 北京 (Běijīng - ปักกิ่ง) และ 京剧 (Jīngjù - งิ้วปักกิ่ง)",
+      "learning_objective": "ระบุคำประสมอักษรจีนจากอักษร 京",
+      "pre_post_pair": "CN_POST_Q012"
+    },
+    {
+      "question_id": "CN_PRE_Q013",
+      "test_id": "CN_PRE_001",
+      "question_number": 13,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Error Analysis",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ประโยคภาษาจีนในข้อใด ใช้ไวยากรณ์ไม่ถูกต้อง?",
+      "options": [
+        {
+          "id": "A",
+          "text": "我没吃过烤鸭。"
+        },
+        {
+          "id": "B",
+          "text": "我不去过北京。"
+        },
+        {
+          "id": "C",
+          "text": "泰坤去过中国。"
+        },
+        {
+          "id": "D",
+          "text": "妈妈没看过京剧。"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ข้อ B ผิดไวยากรณ์ เนื่องจากประโยคที่มีคำแสดงประสบการณ์ 过 ห้ามใช้ 不 ในการปฏิเสธ ต้องใช้ 没 หน้ากริยาเท่านั้น (ต้องแก้ไขเป็น 我没去过北京。)",
+      "learning_objective": "วินิจฉัยข้อผิดพลาดทางไวยากรณ์ในการใช้ 不 กับ 过",
+      "pre_post_pair": "CN_POST_Q013"
+    },
+    {
+      "question_id": "CN_PRE_Q014",
+      "test_id": "CN_PRE_001",
+      "question_number": 14,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Grammar",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ประโยคคำถาม “你吃过火锅没有？” (nǐ chīguo huǒguō méiyǒu?) มีความหมายสอดคล้องกับประโยคใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "你想吃火锅吗？"
+        },
+        {
+          "id": "B",
+          "text": "你吃过火锅吗？"
+        },
+        {
+          "id": "C",
+          "text": "你喜欢吃火锅吗？"
+        },
+        {
+          "id": "D",
+          "text": "你吃不吃火锅？"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างประโยคคำถามถามประสบการณ์ สามารถใช้ ...过...没有？ ซึ่งมีความหมายเดียวกับ ...过...吗？ (คุณเคยทานหม้อไฟไหม?)",
+      "learning_objective": "เลือกรูปแบบประโยคคำถามปลายเปิดแบบบวก-ลบ",
+      "pre_post_pair": "CN_POST_Q014"
+    },
+    {
+      "question_id": "CN_PRE_Q015",
+      "test_id": "CN_PRE_001",
+      "question_number": 15,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Sentence Transformation",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "หากต้องการเปลี่ยนประโยคบอกเล่า “哥哥去过上海。” ให้เป็นประโยคปฏิเสธ ข้อใดถูกต้อง?",
+      "options": [
+        {
+          "id": "A",
+          "text": "哥哥不去过上海。"
+        },
+        {
+          "id": "B",
+          "text": "哥哥去没过上海。"
+        },
+        {
+          "id": "C",
+          "text": "哥哥没去过上海。"
+        },
+        {
+          "id": "D",
+          "text": "哥哥去过没上海。"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "การแปลงเป็นประโยคปฏิเสธ ต้องเติมคำว่า 没 ไว้หน้าคำกริยา 去 กลายเป็น 哥哥没去过上海。 (พี่ชายไม่เคยไปเซี่ยงไฮ้)",
+      "learning_objective": "แปลงประโยคบอกเล่าเป็นประโยคปฏิเสธได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q015"
+    },
+    {
+      "question_id": "CN_PRE_Q016",
+      "test_id": "CN_PRE_001",
+      "question_number": 16,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Dialogue Pragmatics",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "สถานการณ์: คุณต้องการสอบถามเพื่อนคนจีนว่า \"เป็ดย่างอร่อยไหม?\" ควรเลือกใช้ประโยคใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "烤鸭好吃吗？"
+        },
+        {
+          "id": "B",
+          "text": "烤鸭可爱吗？"
+        },
+        {
+          "id": "C",
+          "text": "你吃过烤鸭吗？"
+        },
+        {
+          "id": "D",
+          "text": "烤鸭怎么吃？"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "烤鸭 (เป็ดย่าง) + 好吃吗 (อร่อยไหม?) เป็นประโยคถามความเห็นเกี่ยวกับรสชาติอาหาร",
+      "learning_objective": "เลือกประโยคถามความเห็นเกี่ยวกับรสชาติอาหาร",
+      "pre_post_pair": "CN_POST_Q016"
+    },
+    {
+      "question_id": "CN_PRE_Q017",
+      "test_id": "CN_PRE_001",
+      "question_number": 17,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Reading Comprehension",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "อ่านข้อความต่อไปนี้แล้วตอบคำถาม:\n“今年假期，我想和爸爸去北京。我没去过北京...”\nจากข้อความ นาริน (娜林) มีแผนจะเดินทางไปที่ใดในวันหยุดนี้?",
+      "options": [
+        {
+          "id": "A",
+          "text": "上海 (เซี่ยงไฮ้)"
+        },
+        {
+          "id": "B",
+          "text": "北京 (ปักกิ่ง)"
+        },
+        {
+          "id": "C",
+          "text": "泰国 (ประเทศไทย)"
+        },
+        {
+          "id": "D",
+          "text": "广州 (กวางโจว)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ข้อความระบุชัดเจนว่า “我想和爸爸去北京” (ฉันอยากไปปักกิ่งกับพ่อ)",
+      "learning_objective": "จับใจความสำคัญจากบทอ่าน",
+      "pre_post_pair": "CN_POST_Q017"
+    },
+    {
+      "question_id": "CN_PRE_Q018",
+      "test_id": "CN_PRE_001",
+      "question_number": 18,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Reading Comprehension",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "อ่านข้อความต่อไปนี้แล้วตอบคำถาม:\n“爸爸想去长城和故宫，我想去看熊猫。”\nใครเป็นคนที่ต้องการไปกำแพงเมืองจีน (长城) และพระราชวังต้องห้าม (故宫)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "娜林 (นาริน)"
+        },
+        {
+          "id": "B",
+          "text": "小红 (เสี่ยวหง)"
+        },
+        {
+          "id": "C",
+          "text": "娜林的爸爸 (พ่อของนาริน)"
+        },
+        {
+          "id": "D",
+          "text": "泰坤 (แทนคุณ)"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "บทอ่านระบุว่า “爸爸想去长城和故宫” สื่อถึงพ่อของนารินอยากไปกำแพงเมืองจีนและกู้กง ส่วนนารินอยากไปดูหมีแพนด้า",
+      "learning_objective": "วิเคราะห์รายละเอียดผู้แสดงความต้องการในบทอ่าน",
+      "pre_post_pair": "CN_POST_Q018"
+    },
+    {
+      "question_id": "CN_PRE_Q019",
+      "test_id": "CN_PRE_001",
+      "question_number": 19,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Pragmatics",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "สถานการณ์: เมื่อเพื่อนชาวจีนเดินทางมาเที่ยวประเทศไทย คุณต้องการกล่าวต้อนรับเป็นภาษาจีน ควรพูดอย่างไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "你去过泰国吗？"
+        },
+        {
+          "id": "B",
+          "text": "欢迎你来泰国。"
+        },
+        {
+          "id": "C",
+          "text": "泰国很好玩吗？"
+        },
+        {
+          "id": "D",
+          "text": "你喜欢泰国吗？"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "欢迎你来泰国。 (huānyíng nǐ lái Tàiguó) แปลว่า \"ยินดีต้อนรับคุณมาประเทศไทย\"",
+      "learning_objective": "เลือกประโยคกล่าวต้อนรับเพื่อนต่างชาติ",
+      "pre_post_pair": "CN_POST_Q019"
+    },
+    {
+      "question_id": "CN_PRE_Q020",
+      "test_id": "CN_PRE_001",
+      "question_number": 20,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Collocation",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "การจับคู่คำกริยากับคำนามในข้อใด ไม่ถูกต้อง ตามหลักภาษาจีนในบทเรียน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "吃烤鸭"
+        },
+        {
+          "id": "B",
+          "text": "去上海"
+        },
+        {
+          "id": "C",
+          "text": "看京剧"
+        },
+        {
+          "id": "D",
+          "text": "吃动画片"
+        }
+      ],
+      "correct_answer": [
+        "D"
+      ],
+      "score": 1,
+      "explanation": "动画片 (การ์ตูน) เป็นสื่อบันเทิง ต้องใช้คำกริยา 看 (ดู) เป็น 看动画片 การใช้ 吃 (กิน) จึงไม่ถูกต้อง",
+      "learning_objective": "วิเคราะห์คำกริยาที่ใช้คู่กับคำนามอาหาร/สถานที่/กิจกรรม",
+      "pre_post_pair": "CN_POST_Q020"
+    },
+    {
+      "question_id": "CN_PRE_Q021",
+      "test_id": "CN_PRE_001",
+      "question_number": 21,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Vocabulary Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำกริยาที่ถูกต้องลงในช่องว่าง: “我想____上海。” (ฉันอยาก...เซี่ยงไฮ้)",
+      "options": [
+        {
+          "id": "A",
+          "text": "去"
+        },
+        {
+          "id": "B",
+          "text": "吃"
+        },
+        {
+          "id": "C",
+          "text": "看"
+        },
+        {
+          "id": "D",
+          "text": "好"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "上海 เป็นชื่อสถานที่ ต้องใช้คำกริยา 去 (qù - ไป)",
+      "learning_objective": "เติมคำกริยาเดินทางให้สอดคล้องกับสถานที่",
+      "pre_post_pair": "CN_POST_Q021"
+    },
+    {
+      "question_id": "CN_PRE_Q022",
+      "test_id": "CN_PRE_001",
+      "question_number": 22,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Vocabulary Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำกริยาที่ถูกต้องลงในช่องว่าง: “爸爸喜欢____火锅。” (พ่อชอบ...หม้อไฟ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "看"
+        },
+        {
+          "id": "B",
+          "text": "去"
+        },
+        {
+          "id": "C",
+          "text": "吃"
+        },
+        {
+          "id": "D",
+          "text": "想"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "火锅 (หม้อไฟ) เป็นอาหาร ต้องใช้คำกริยา 吃 (chī - กิน/ทาน)",
+      "learning_objective": "เติมคำกริยารับประทานให้สอดคล้องกับอาหาร",
+      "pre_post_pair": "CN_POST_Q022"
+    },
+    {
+      "question_id": "CN_PRE_Q023",
+      "test_id": "CN_PRE_001",
+      "question_number": 23,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Vocabulary Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำกริยาที่ถูกต้องลงในช่องว่าง: “爷爷喜欢____京剧。” (คุณตาชอบ...งิ้วปักกิ่ง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "吃"
+        },
+        {
+          "id": "B",
+          "text": "看"
+        },
+        {
+          "id": "C",
+          "text": "去"
+        },
+        {
+          "id": "D",
+          "text": "没"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "京剧 (งิ้วปักกิ่ง) เป็นการแสดง ต้องใช้คำกริยา 看 (kàn - ดู/รับชม)",
+      "learning_objective": "เติมคำกริยาการรับชมให้สอดคล้องกับความบันเทิง",
+      "pre_post_pair": "CN_POST_Q023"
+    },
+    {
+      "question_id": "CN_PRE_Q024",
+      "test_id": "CN_PRE_001",
+      "question_number": 24,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Pinyin Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "คำศัพท์ “烤鸭” มี Pinyin คือ “kǎo y___” สระและเสียงวรรณยุกต์ที่หายไปคือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ā"
+        },
+        {
+          "id": "B",
+          "text": "à"
+        },
+        {
+          "id": "C",
+          "text": "ō"
+        },
+        {
+          "id": "D",
+          "text": "é"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "鸭 (yā) ผสมสระ a เสียงวรรณยุกต์เสียงที่ 1 เติมเป็น ā",
+      "learning_objective": "เติมเสียงพินอินสระที่หายไป",
+      "pre_post_pair": "CN_POST_Q024"
+    },
+    {
+      "question_id": "CN_PRE_Q025",
+      "test_id": "CN_PRE_001",
+      "question_number": 25,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Character Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมตัวอักษรจีนที่หายไปให้ได้คำศัพท์ที่มีความหมายว่า \"ประเทศจีน\": “中____”",
+      "options": [
+        {
+          "id": "A",
+          "text": "京"
+        },
+        {
+          "id": "B",
+          "text": "国"
+        },
+        {
+          "id": "C",
+          "text": "城"
+        },
+        {
+          "id": "D",
+          "text": "场"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "中 (zhōng) + 国 (guó) = 中国 (ประเทศจีน)",
+      "learning_objective": "เติมตัวอักษรจีนรูปประสมที่หายไป",
+      "pre_post_pair": "CN_POST_Q025"
+    },
+    {
+      "question_id": "CN_PRE_Q026",
+      "test_id": "CN_PRE_001",
+      "question_number": 26,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Grammar Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำบอกประสบการณ์ที่ถูกต้องลงในช่องว่าง: “姐姐吃____榴莲。” (พี่สาวเคยทานทุเรียน)",
+      "options": [
+        {
+          "id": "A",
+          "text": "没"
+        },
+        {
+          "id": "B",
+          "text": "过"
+        },
+        {
+          "id": "C",
+          "text": "不"
+        },
+        {
+          "id": "D",
+          "text": "吗"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำแสดงประสบการณ์ 过 วางไว้หลังคำกริยา 吃 เป็น 吃过 (เคยทาน)",
+      "learning_objective": "เติมคำบอกประสบการณ์ 过 ในตำแหน่งที่ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q026"
+    },
+    {
+      "question_id": "CN_PRE_Q027",
+      "test_id": "CN_PRE_001",
+      "question_number": 27,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Grammar Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำปฏิเสธประโยคประสบการณ์ลงในช่องว่าง: “我____看过熊猫。” (ฉันไม่เคยดูหมีแพนด้า)",
+      "options": [
+        {
+          "id": "A",
+          "text": "不"
+        },
+        {
+          "id": "B",
+          "text": "没"
+        },
+        {
+          "id": "C",
+          "text": "很"
+        },
+        {
+          "id": "D",
+          "text": "别"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "รูปปฏิเสธประโยคประสบการณ์ที่มี 看过 ต้องเติมคำว่า 没 หน้าคำกริยา",
+      "learning_objective": "เติมปฏิเสธ 没 ในประโยคประสบการณ์",
+      "pre_post_pair": "CN_POST_Q027"
+    },
+    {
+      "question_id": "CN_PRE_Q028",
+      "test_id": "CN_PRE_001",
+      "question_number": 28,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Sentence Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำลงท้ายประโยคคำถาม: “你去过寺庙____？” (คุณเคยไปวัดไหม?)",
+      "options": [
+        {
+          "id": "A",
+          "text": "呢"
+        },
+        {
+          "id": "B",
+          "text": "吗"
+        },
+        {
+          "id": "C",
+          "text": "过"
+        },
+        {
+          "id": "D",
+          "text": "没"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำเสริมสรีรภาพถาม (Modal particle) ในประโยคคำถามใช่/ไม่ใช่ ใช้ 吗 ลงท้ายประโยค",
+      "learning_objective": "เติมคำเสริมสรีรภาพถาม 吗 ในประโยคคำถาม",
+      "pre_post_pair": "CN_POST_Q028"
+    },
+    {
+      "question_id": "CN_PRE_Q029",
+      "test_id": "CN_PRE_001",
+      "question_number": 29,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Grammar Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำสันธนาการเชื่อมคำนามให้ถูกต้อง: “我想____爸爸去北京。” (ฉันอยากไปปักกิ่ง...พ่อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "和"
+        },
+        {
+          "id": "B",
+          "text": "过"
+        },
+        {
+          "id": "C",
+          "text": "没"
+        },
+        {
+          "id": "D",
+          "text": "也"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 和 (hé) ใช้เชื่อมคำนาม/สรรพนาม แปลว่า \"และ/กับ\" (กับพ่อ)",
+      "learning_objective": "เติมคำสันธนาการเชื่อมบุคคล 和 ในประโยค",
+      "pre_post_pair": "CN_POST_Q029"
+    },
+    {
+      "question_id": "CN_PRE_Q030",
+      "test_id": "CN_PRE_001",
+      "question_number": 30,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Sentence Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำคุณศัพท์ที่เหมาะสมลงในช่องว่าง: “熊猫很____。” (หมีแพนด้า...มาก)",
+      "options": [
+        {
+          "id": "A",
+          "text": "好吃"
+        },
+        {
+          "id": "B",
+          "text": "可爱"
+        },
+        {
+          "id": "C",
+          "text": "假期"
+        },
+        {
+          "id": "D",
+          "text": "欢迎"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "熊猫 (หมีแพนด้า) เหมาะสมกับการใช้คำคุณศัพท์ 可爱 (kě'ài - น่ารัก)",
+      "learning_objective": "เติมคำคุณศัพท์อธิบายลักษณะสัตว์เลี้ยง",
+      "pre_post_pair": "CN_POST_Q030"
+    },
+    {
+      "question_id": "CN_PRE_Q031",
+      "test_id": "CN_PRE_001",
+      "question_number": 31,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Transformation Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เปลี่ยนประโยค “李老师吃过榴莲。” เป็นรูปปฏิเสธ: “李老师____吃过榴莲。”",
+      "options": [
+        {
+          "id": "A",
+          "text": "不"
+        },
+        {
+          "id": "B",
+          "text": "没"
+        },
+        {
+          "id": "C",
+          "text": "别"
+        },
+        {
+          "id": "D",
+          "text": "没是"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "เติม 没 หน้าคำกริยา 吃过 ได้ประโยคปฏิเสธที่ถูกต้อง",
+      "learning_objective": "เติมคำในประโยคปฏิเสธจากโครงสร้างเดิม",
+      "pre_post_pair": "CN_POST_Q031"
+    },
+    {
+      "question_id": "CN_PRE_Q032",
+      "test_id": "CN_PRE_001",
+      "question_number": 32,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Dialogue Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำถามลงในช่องว่างบทสนทนา:\nA: “你在北京____？” (คุณอยู่ที่ปักกิ่งเป็นอย่างไรบ้าง?)\nB: “很好！”",
+      "options": [
+        {
+          "id": "A",
+          "text": "怎么样"
+        },
+        {
+          "id": "B",
+          "text": "什么"
+        },
+        {
+          "id": "C",
+          "text": "谁"
+        },
+        {
+          "id": "D",
+          "text": "多少"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "怎么样 (zěnmeyàng) ใช้ถามสภาพความเป็นอยู่ สารพัดสุข หรือความคิดเห็น",
+      "learning_objective": "เติมคำถามสารพัดสุขในบทสนทนา",
+      "pre_post_pair": "CN_POST_Q032"
+    },
+    {
+      "question_id": "CN_PRE_Q033",
+      "test_id": "CN_PRE_001",
+      "question_number": 33,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Reading Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำคุณศัพท์อธิบายสภาพอากาศฤดูร้อนในปักกิ่งจากบทอ่าน: “北京的夏天____吗？”",
+      "options": [
+        {
+          "id": "A",
+          "text": "热"
+        },
+        {
+          "id": "B",
+          "text": "好吃"
+        },
+        {
+          "id": "C",
+          "text": "可爱"
+        },
+        {
+          "id": "D",
+          "text": "远"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "夏天 (ฤดูร้อน) คู่กับคำคุณศัพท์ 热 (rè - ร้อน)",
+      "learning_objective": "เติมข้อมูลอุณหภูมิฤดูกาลจากเนื้อเรื่อง",
+      "pre_post_pair": "CN_POST_Q033"
+    },
+    {
+      "question_id": "CN_PRE_Q034",
+      "test_id": "CN_PRE_001",
+      "question_number": 34,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Pragmatics Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำลงในช่องว่างประโยคกล่าวต้อนรับ: “____你来泰国。” (...คุณมาประเทศไทย)",
+      "options": [
+        {
+          "id": "A",
+          "text": "朋友"
+        },
+        {
+          "id": "B",
+          "text": "欢迎"
+        },
+        {
+          "id": "C",
+          "text": "假期"
+        },
+        {
+          "id": "D",
+          "text": "喜欢"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "欢迎 (huānyíng) แปลว่า ยินดีต้อนรับ",
+      "learning_objective": "เติมคำกล่าวแสดงความยินดีต้อนรับ",
+      "pre_post_pair": "CN_POST_Q034"
+    },
+    {
+      "question_id": "CN_PRE_Q035",
+      "test_id": "CN_PRE_001",
+      "question_number": 35,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Character Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมตัวอักษรจีนที่หายไปให้ได้คำว่า \"งิ้วปักกิ่ง\": “____剧”",
+      "options": [
+        {
+          "id": "A",
+          "text": "北"
+        },
+        {
+          "id": "B",
+          "text": "京"
+        },
+        {
+          "id": "C",
+          "text": "国"
+        },
+        {
+          "id": "D",
+          "text": "场"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "京 (jīng) + 剧 (jù) = 京剧 (งิ้วปักกิ่ง)",
+      "learning_objective": "เติมคำประสมอักษร 京 ให้สมบูรณ์",
+      "pre_post_pair": "CN_POST_Q035"
+    },
+    {
+      "question_id": "CN_PRE_Q036",
+      "test_id": "CN_PRE_001",
+      "question_number": 36,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Classification",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "คำศัพท์ในข้อใดจัดอยู่ในกลุ่มประเภท “อาหาร/เครื่องดื่ม” (เลือก 3 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "烤鸭"
+        },
+        {
+          "id": "B",
+          "text": "火锅"
+        },
+        {
+          "id": "C",
+          "text": "榴莲"
+        },
+        {
+          "id": "D",
+          "text": "北京"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "烤鸭 (เป็ดย่าง), 火锅 (หม้อไฟ) และ 榴莲 (ทุเรียน) เป็นประเภทอาหาร/ผลไม้ ส่วน 北京 เป็นชื่อเมือง",
+      "learning_objective": "เลือกคำศัพท์กลุ่มประเภทอาหารทั้งหมด",
+      "pre_post_pair": "CN_POST_Q036"
+    },
+    {
+      "question_id": "CN_PRE_Q037",
+      "test_id": "CN_PRE_001",
+      "question_number": 37,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Classification",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "คำศัพท์ในข้อใดจัดอยู่ในกลุ่มประเภท “สถานที่” (เลือก 3 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "北京"
+        },
+        {
+          "id": "B",
+          "text": "长城"
+        },
+        {
+          "id": "C",
+          "text": "寺庙"
+        },
+        {
+          "id": "D",
+          "text": "熊猫"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "北京 (ปักกิ่ง), 长城 (กำแพงเมืองจีน) และ 寺庙 (วัด) เป็นประเภทสถานที่ ส่วน 熊猫 เป็นสัตว์",
+      "learning_objective": "เลือกคำศัพท์กลุ่มประเภทสถานที่ทั้งหมด",
+      "pre_post_pair": "CN_POST_Q037"
+    },
+    {
+      "question_id": "CN_PRE_Q038",
+      "test_id": "CN_PRE_001",
+      "question_number": 38,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Collocation",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "กิจกรรมในข้อใดต้องใช้คำกริยา “看” (ดู/ชม) นำหน้า (เลือก 3 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "动画片"
+        },
+        {
+          "id": "B",
+          "text": "京剧"
+        },
+        {
+          "id": "C",
+          "text": "熊猫"
+        },
+        {
+          "id": "D",
+          "text": "火锅"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "看动画片 (ดูการ์ตูน), 看京剧 (ดูงิ้ว) และ 看熊猫 (ดูหมีแพนด้า) ใช้คำกริยา 看 ส่วน 火锅 ใช้กริยา 吃",
+      "learning_objective": "เลือกคำศัพท์กิจกรรมที่ใช้กริยา 看",
+      "pre_post_pair": "CN_POST_Q038"
+    },
+    {
+      "question_id": "CN_PRE_Q039",
+      "test_id": "CN_PRE_001",
+      "question_number": 39,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Phonetics",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "คำศัพท์ภาษาจีนในข้อใดพยางค์แรกออกเสียงวรรณยุกต์ เสียงที่ 1 (阴平 - ˉ ) (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "吃 (chī)"
+        },
+        {
+          "id": "B",
+          "text": "鸭 (yā)"
+        },
+        {
+          "id": "C",
+          "text": "烤 (kǎo)"
+        },
+        {
+          "id": "D",
+          "text": "国 (guó)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "吃 (chī) และ 鸭 (yā) เป็นวรรณยุกต์เสียงที่ 1 ส่วน 烤 เป็นเสียง 3 และ 国 เป็นเสียง 2",
+      "learning_objective": "เลือกคำศัพท์ที่มี Pinyin วรรณยุกต์เสียงที่ 1",
+      "pre_post_pair": "CN_POST_Q039"
+    },
+    {
+      "question_id": "CN_PRE_Q040",
+      "test_id": "CN_PRE_001",
+      "question_number": 40,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Radicals",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ตัวอักษรจีนในข้อใดมีหมวดอักษร 土 (títǔpáng) เป็นส่วนประกอบ (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "城"
+        },
+        {
+          "id": "B",
+          "text": "场"
+        },
+        {
+          "id": "C",
+          "text": "过"
+        },
+        {
+          "id": "D",
+          "text": "鸡"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ตัวอักษร 城 (chéng) และ 场 (chǎng) มีหมวดอักษร 土 อยู่ด้านซ้าย",
+      "learning_objective": "เลือกอักษรจีนที่มีหมวดอักษร 土",
+      "pre_post_pair": "CN_POST_Q040"
+    },
+    {
+      "question_id": "CN_PRE_Q041",
+      "test_id": "CN_PRE_001",
+      "question_number": 41,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Syntax Analysis",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ประโยคในข้อใดใช้ไวยากรณ์บอกเล่าประสบการณ์ได้ ถูกต้อง (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "我去过北京。"
+        },
+        {
+          "id": "B",
+          "text": "爸爸吃过烤鸭。"
+        },
+        {
+          "id": "C",
+          "text": "我去北京过。"
+        },
+        {
+          "id": "D",
+          "text": "爸爸过吃烤鸭。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ประโยค A และ B ถูกต้องตามไวยากรณ์โดยวาง 过 ไว้หลังคำกริยา (去过, 吃过)",
+      "learning_objective": "เลือกประโยคบอกเล่าประสบการณ์ที่ถูกต้องตามไวยากรณ์",
+      "pre_post_pair": "CN_POST_Q041"
+    },
+    {
+      "question_id": "CN_PRE_Q042",
+      "test_id": "CN_PRE_001",
+      "question_number": 42,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Syntax Analysis",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ประโยคปฏิเสธในข้อใด ถูกต้อง ตามหลักไวยากรณ์ (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "我没去过上海。"
+        },
+        {
+          "id": "B",
+          "text": "哥哥没看过京剧。"
+        },
+        {
+          "id": "C",
+          "text": "我不去过上海。"
+        },
+        {
+          "id": "D",
+          "text": "哥哥没看京剧过。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "รูปปฏิเสธประโยคประสบการณ์ต้องใช้ 没 + กริยา + 过 (没去过, 没看过)",
+      "learning_objective": "เลือกประโยคปฏิเสธประสบการณ์ที่ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q042"
+    },
+    {
+      "question_id": "CN_PRE_Q043",
+      "test_id": "CN_PRE_001",
+      "question_number": 43,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Radicals",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ตัวอักษรจีนในข้อใดมีหมวดอักษร ⻌ (辶) เป็นส่วนประกอบทั้งหมด (เลือก 3 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "过"
+        },
+        {
+          "id": "B",
+          "text": "远"
+        },
+        {
+          "id": "C",
+          "text": "近"
+        },
+        {
+          "id": "D",
+          "text": "鸭"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "ตัวอักษร 过, 远, 近 มีหมวดอักษร ⻌ (辶) ส่วน 鸭 มีหมวดอักษร 鸟",
+      "learning_objective": "เลือกอักษรจีนที่มีหมวดอักษร ⻌ (辶) ทั้งหมด",
+      "pre_post_pair": "CN_POST_Q043"
+    },
+    {
+      "question_id": "CN_PRE_Q044",
+      "test_id": "CN_PRE_001",
+      "question_number": 44,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Error Identification",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ประโยคในข้อใด ใช้ไวยากรณ์ไม่ถูกต้อง (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "我不去过北京。"
+        },
+        {
+          "id": "B",
+          "text": "我吃过不烤鸭。"
+        },
+        {
+          "id": "C",
+          "text": "我没去过北京。"
+        },
+        {
+          "id": "D",
+          "text": "我没吃过烤鸭。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ข้อ A ผิดเพราะใช้ 不 ปฏิเสธประโยคที่มี 过; ข้อ B ผิดเพราะวาง 不 ไว้ผิดตำแหน่งและใช้ 不 ไม่ถูกต้องกับ 过",
+      "learning_objective": "วิเคราะห์และเลือกประโยคที่ใช้ไวยากรณ์ผิด",
+      "pre_post_pair": "CN_POST_Q044"
+    },
+    {
+      "question_id": "CN_PRE_Q045",
+      "test_id": "CN_PRE_001",
+      "question_number": 45,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Syntax Analysis",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "รูปปฏิเสธของประโยค “凯特去过娜林家。” ข้อใดถูกต้องตามหลักไวยากรณ์ (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "凯特没去过娜林家。"
+        },
+        {
+          "id": "B",
+          "text": "凯特没有去过娜林家。"
+        },
+        {
+          "id": "C",
+          "text": "凯特不去过娜林家。"
+        },
+        {
+          "id": "D",
+          "text": "凯特去没过娜林家。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "รูปปฏิเสธสามารถใช้ 没 หรือ 没有 วางไว้หน้าคำกริยา 去过 ได้ทั้งสองแบบ",
+      "learning_objective": "เลือกรูปแบบการแปลงประโยคปฏิเสธที่ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q045"
+    },
+    {
+      "question_id": "CN_PRE_Q046",
+      "test_id": "CN_PRE_001",
+      "question_number": 46,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Pragmatics",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เมื่อมีคนถามว่า “你吃过烤鸭吗？” คำตอบในข้อใดเป็นคำตอบที่ถูกต้องและเป็นธรรมชาติในภาษาจีน (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "我吃过。"
+        },
+        {
+          "id": "B",
+          "text": "我没吃过。"
+        },
+        {
+          "id": "C",
+          "text": "我不吃。"
+        },
+        {
+          "id": "D",
+          "text": "我吃不过。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "คำตอบรับสั้นสามารถตอบได้ว่า เคยทาน (我吃过。) หรือ ไม่เคยทาน (我没吃过。)",
+      "learning_objective": "เลือกคำตอบรับที่เหมาะสมสำหรับคำถาม 你吃过烤鸭吗？",
+      "pre_post_pair": "CN_POST_Q046"
+    },
+    {
+      "question_id": "CN_PRE_Q047",
+      "test_id": "CN_PRE_001",
+      "question_number": 47,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Comprehensive Analysis",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "อ่านจดหมายของนาริน แล้วเลือกข้อความที่เป็น ความจริง (True) (เลือก 2 คำตอบ):\n“小红：你好！你在北京怎么样？今年假期，我想和爸爸去北京。我没去过北京... 我想去看熊猫。我没看过熊猫...”",
+      "options": [
+        {
+          "id": "A",
+          "text": "娜林没去过北京。"
+        },
+        {
+          "id": "B",
+          "text": "娜林没看过熊猫。"
+        },
+        {
+          "id": "C",
+          "text": "娜林去过北京。"
+        },
+        {
+          "id": "D",
+          "text": "娜林看过熊猫。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ในบทอ่าน นารินเขียนระบุว่า “我没去过北京” (ฉันไม่เคยไปปักกิ่ง) และ “我没看过熊猫” (ฉันไม่เคยดูหมีแพนด้า)",
+      "learning_objective": "วิเคราะห์ข้อความที่เป็นจริงจากบทอ่าน",
+      "pre_post_pair": "CN_POST_Q047"
+    },
+    {
+      "question_id": "CN_PRE_Q048",
+      "test_id": "CN_PRE_001",
+      "question_number": 48,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Comprehensive Analysis",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "อ่านจดหมายของนาริน แล้วเลือกข้อความที่ ไม่ถูกต้อง (False) (เลือก 2 คำตอบ):\n“爸爸想去长城和故宫，我想去看熊猫。”",
+      "options": [
+        {
+          "id": "A",
+          "text": "娜林想去长城和故宫。"
+        },
+        {
+          "id": "B",
+          "text": "娜林的爸爸想去看熊猫。"
+        },
+        {
+          "id": "C",
+          "text": "娜林的爸爸想去长城和故宫。"
+        },
+        {
+          "id": "D",
+          "text": "娜林想去看熊猫。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ข้อ A และ B เป็นเท็จ เนื่องจากในบทอ่านสลับบุคคลกัน (คนที่อยากไปกำแพงเมืองจีนและกู้กงคือพ่อ ส่วนคนที่อยากดูแพนด้าคือนาริน)",
+      "learning_objective": "วิเคราะห์ข้อความที่เป็นเท็จจากบทอ่าน",
+      "pre_post_pair": "CN_POST_Q048"
+    },
+    {
+      "question_id": "CN_PRE_Q049",
+      "test_id": "CN_PRE_001",
+      "question_number": 49,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Writing Applications",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ในการเขียนจดหมายทักทายและชวนเพื่อนต่างชาติมาเที่ยว ประโยคในข้อใดเหมาะสมที่สุด (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "你在北京怎么样？"
+        },
+        {
+          "id": "B",
+          "text": "欢迎你来泰国。"
+        },
+        {
+          "id": "C",
+          "text": "我不认识你。"
+        },
+        {
+          "id": "D",
+          "text": "你去过哪里？"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ประโยค 你在北京怎么样？ (ถามสารพัดสุข) และ 欢迎你来泰国。 (ต้อนรับชวนเที่ยวไทย) เป็นประโยคที่ใช้จริงในจดหมายของบทเรียน",
+      "learning_objective": "เลือกประโยคที่ใช้ในการเขียนจดหมายทักทายและชวนเพื่อน",
+      "pre_post_pair": "CN_POST_Q049"
+    },
+    {
+      "question_id": "CN_PRE_Q050",
+      "test_id": "CN_PRE_001",
+      "question_number": 50,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Integrated Skill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ประโยคภาษาจีนในข้อใดมีความหมายสมบูรณ์และถูกต้องตามเนื้อหาบทเรียน (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "烤鸭很好吃。"
+        },
+        {
+          "id": "B",
+          "text": "熊猫很可爱。"
+        },
+        {
+          "id": "C",
+          "text": "烤鸭很可爱。"
+        },
+        {
+          "id": "D",
+          "text": "熊猫很好吃。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "烤鸭 (เป็ดย่าง) จับคู่กับคำคุณศัพท์ 好吃 (อร่อย) และ 熊猫 (หมีแพนด้า) จับคู่กับ 可爱 (น่ารัก)",
+      "learning_objective": "เลือกประโยคแสดงประสบการณ์และความเห็นต่อรสชาติ/ลักษณะ",
+      "pre_post_pair": "CN_POST_Q050"
+    },
+    {
+      "question_id": "CN_POST_Q001",
+      "test_id": "CN_POST_001",
+      "question_number": 1,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Phonetics",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "Pinyin ที่ถูกต้องของคำว่า “火锅” (หม้อไฟ) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "huǒguō"
+        },
+        {
+          "id": "B",
+          "text": "huóguō"
+        },
+        {
+          "id": "C",
+          "text": "huǒguó"
+        },
+        {
+          "id": "D",
+          "text": "huōguō"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 火锅 (หม้อไฟ) ประกอบด้วย 火 (huǒ - เสียง 3) และ 锅 (guō - เสียง 1) รวมเป็น huǒguō",
+      "learning_objective": "ระบุ Pinyin และวรรณยุกต์ของคำศัพท์อาหารได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q001"
+    },
+    {
+      "question_id": "CN_POST_Q002",
+      "test_id": "CN_POST_001",
+      "question_number": 2,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Phonetics",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "Pinyin ที่ถูกต้องของคำว่า “长城” (กำแพงเมืองจีน) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chángchéng"
+        },
+        {
+          "id": "B",
+          "text": "Chǎngchéng"
+        },
+        {
+          "id": "C",
+          "text": "Chángchěng"
+        },
+        {
+          "id": "D",
+          "text": "Chāngchéng"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 长城 (กำแพงเมืองจีน) เป็นชื่อเฉพาะ ขึ้นต้นด้วยตัวพิมพ์ใหญ่ ออกเสียงว่า Chángchéng (เสียง 2 และเสียง 2)",
+      "learning_objective": "ระบุ Pinyin ของคำศัพท์สถานที่ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q002"
+    },
+    {
+      "question_id": "CN_POST_Q003",
+      "test_id": "CN_POST_001",
+      "question_number": 3,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Character Analysis",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ตัวอักษรจีนในข้อใดมีหมวดอักษร 鸟 (niǎozìpáng) เป็นส่วนประกอบทั้งหมด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "鸡, 鸭"
+        },
+        {
+          "id": "B",
+          "text": "城, 场"
+        },
+        {
+          "id": "C",
+          "text": "过, 远"
+        },
+        {
+          "id": "D",
+          "text": "国, 京"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ตัวอักษร 鸡 (jī - ไก่) และ 鸭 (yā - เป็ด) มีหมวดอักษร 鸟 (niǎo) อยู่ส่วนขวาของคำ ซึ่งเกี่ยวข้องกับสัตว์ปีก",
+      "learning_objective": "จำแนกหมวดอักษรจีน (Radical) 鸟 ได้",
+      "pre_post_pair": "CN_PRE_Q003"
+    },
+    {
+      "question_id": "CN_POST_Q004",
+      "test_id": "CN_POST_001",
+      "question_number": 4,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Vocabulary",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "คำศัพท์ว่า “看京剧” หมายถึงกิจกรรมใดในภาษาไทย?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ดูการ์ตูน"
+        },
+        {
+          "id": "B",
+          "text": "ดูงิ้ว"
+        },
+        {
+          "id": "C",
+          "text": "ดูหมีแพนด้า"
+        },
+        {
+          "id": "D",
+          "text": "ดูภาพยนตร์"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "看 (kàn - ดู) + 京剧 (Jīngjù - งิ้วปักกิ่ง) แปลว่า \"ดูงิ้ว\"",
+      "learning_objective": "บอกความหมายภาษาไทยของคำศัพท์กิจกรรมได้",
+      "pre_post_pair": "CN_PRE_Q004"
+    },
+    {
+      "question_id": "CN_POST_Q005",
+      "test_id": "CN_POST_001",
+      "question_number": 5,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Vocabulary",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "คำศัพท์ว่า “故宫” (Gùgōng) ตรงกับความหมายในภาษาไทยข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "วัด"
+        },
+        {
+          "id": "B",
+          "text": "กำแพงเมืองจีน"
+        },
+        {
+          "id": "C",
+          "text": "พระราชวังต้องห้าม"
+        },
+        {
+          "id": "D",
+          "text": "พระบรมมหาราชวัง"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 故宫 (Gùgōng) ในบทเรียนแปลว่า \"พระราชวังต้องห้าม\" (กู้กง)",
+      "learning_objective": "จับคู่คำศัพท์สถานที่กับความหมายได้",
+      "pre_post_pair": "CN_PRE_Q005"
+    },
+    {
+      "question_id": "CN_POST_Q006",
+      "test_id": "CN_POST_001",
+      "question_number": 6,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Grammar",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ในประโยค “爸爸____吃____烤鸭。” หากต้องการใส่คำแสดงประสบการณ์ “过” ต้องวางไว้ ณ ตำแหน่งใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "หน้าประธาน (หน้า 爸爸)"
+        },
+        {
+          "id": "B",
+          "text": "หน้าคำกริยา (หน้า 吃)"
+        },
+        {
+          "id": "C",
+          "text": "หลังคำกริยา (หลัง 吃)"
+        },
+        {
+          "id": "D",
+          "text": "หลังคำนามกรรม (หลัง 烤鸭)"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "คำแสดงประสบการณ์ 过 ต้องวางไว้หลังคำกริยาหลัก 吃 กลายเป็น 吃过 (chīguo - เคยทาน)",
+      "learning_objective": "ระบุตำแหน่งการวางโครงสร้างคำบอกประสบการณ์ 过",
+      "pre_post_pair": "CN_PRE_Q006"
+    },
+    {
+      "question_id": "CN_POST_Q007",
+      "test_id": "CN_POST_001",
+      "question_number": 7,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Grammar",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ข้อใดคือรูปปฏิเสธที่ถูกต้องของคำว่า “看过” (kànguo - เคยดู)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "不看过"
+        },
+        {
+          "id": "B",
+          "text": "没看过"
+        },
+        {
+          "id": "C",
+          "text": "看不过"
+        },
+        {
+          "id": "D",
+          "text": "看不没"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "รูปปฏิเสธประโยคประสบการณ์ที่มี 过 ต้องเติมคำว่า 没 ไว้หน้าคำกริยาเท่านั้น ได้เป็น 没看过 (ไม่เคยดู)",
+      "learning_objective": "เลือกคำปฏิเสธสำหรับประโยคประสบการณ์ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q007"
+    },
+    {
+      "question_id": "CN_POST_Q008",
+      "test_id": "CN_POST_001",
+      "question_number": 8,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Sentence Structure",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "นำกลุ่มคำต่อไปนี้มาเรียงเป็นประโยคบอกเล่าประสบการณ์ที่ถูกต้อง: “烤鸭 / 吃 / 过 / 爸爸”",
+      "options": [
+        {
+          "id": "A",
+          "text": "爸爸吃烤鸭过。"
+        },
+        {
+          "id": "B",
+          "text": "爸爸吃过烤鸭。"
+        },
+        {
+          "id": "C",
+          "text": "爸爸过去吃烤鸭。"
+        },
+        {
+          "id": "D",
+          "text": "吃过烤鸭爸爸。"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างประโยคบอกเล่าประสบการณ์คือ ประธาน (爸爸) + กริยา (吃) + 过 + กรรม (烤鸭)",
+      "learning_objective": "เรียงลำดับประโยคบอกเล่าประสบการณ์ได้",
+      "pre_post_pair": "CN_PRE_Q008"
+    },
+    {
+      "question_id": "CN_POST_Q009",
+      "test_id": "CN_POST_001",
+      "question_number": 9,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Dialogue",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "สถานการณ์: A ถามว่า “你吃过榴莲吗？” (คุณเคยทานทุเรียนไหม?) หาก B ไม่เคยทาน B ควรตอบอย่างไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "我吃过榴莲。"
+        },
+        {
+          "id": "B",
+          "text": "我不吃榴莲。"
+        },
+        {
+          "id": "C",
+          "text": "我没吃过榴莲。"
+        },
+        {
+          "id": "D",
+          "text": "我想吃榴莲。"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "เมื่อถามด้วย 你吃过...吗？ การตอบรับแบบไม่เคยต้องใช้รูปปฏิเสธประสบการณ์ 我没吃过榴莲。",
+      "learning_objective": "เลือกประโยคตอบรับคำถามประสบการณ์แบบปฏิเสธ",
+      "pre_post_pair": "CN_PRE_Q009"
+    },
+    {
+      "question_id": "CN_POST_Q010",
+      "test_id": "CN_POST_001",
+      "question_number": 10,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "Context Usage",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ประโยค “爸爸喜欢吃火锅。” คำว่า “喜欢” (xǐhuan) มีความหมายตรงกับข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "อยาก"
+        },
+        {
+          "id": "B",
+          "text": "ชอบ"
+        },
+        {
+          "id": "C",
+          "text": "เคย"
+        },
+        {
+          "id": "D",
+          "text": "อร่อย"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 喜欢 ในประโยคนี้ทำหน้าที่เป็นคำกริยา แปลว่า \"ชอบ\" (พ่อชอบทานหม้อไฟ)",
+      "learning_objective": "เลือกคำกริยาแสดงความชอบได้เหมาะสม",
+      "pre_post_pair": "CN_PRE_Q010"
+    },
+    {
+      "question_id": "CN_POST_Q011",
+      "test_id": "CN_POST_001",
+      "question_number": 11,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Phonetics",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "การออกเสียง Pinyin และวรรณยุกต์ของคำว่า “大皇宫” (พระบรมมหาราชวัง) ข้อใดถูกต้อง?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dàhuánggōng (เสียง 4 + เสียง 2 + เสียง 1)"
+        },
+        {
+          "id": "B",
+          "text": "Dǎhuánggōng (เสียง 3 + เสียง 2 + เสียง 1)"
+        },
+        {
+          "id": "C",
+          "text": "Dàhuǎnggōng (เสียง 4 + เสียง 3 + เสียง 1)"
+        },
+        {
+          "id": "D",
+          "text": "Dàhuánggǒng (เสียง 4 + เสียง 2 + เสียง 3)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 大皇宫 ออกเสียงประกอบด้วย 大 (Dà - เสียง 4), 皇 (huáng - เสียง 2), 宫 (gōng - เสียง 1)",
+      "learning_objective": "วิเคราะห์พินอินคำศัพท์ประสมสถานที่",
+      "pre_post_pair": "CN_PRE_Q011"
+    },
+    {
+      "question_id": "CN_POST_Q012",
+      "test_id": "CN_POST_001",
+      "question_number": 12,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Character Construction",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "คำศัพท์ในข้อใดประกอบด้วยอักษรจีน “国” (guó) ทั้งหมด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "北京, 京剧"
+        },
+        {
+          "id": "B",
+          "text": "中国, 泰国"
+        },
+        {
+          "id": "C",
+          "text": "长城, 故宫"
+        },
+        {
+          "id": "D",
+          "text": "烤鸭, 火锅"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ตัวอักษร 国 สามารถนำมาประสมเป็นคำศัพท์ในบทเรียนได้แก่ 中国 (Zhōngguó - ประเทศจีน) และ 泰国 (Tàiguó - ประเทศไทย)",
+      "learning_objective": "ระบุคำประสมอักษรจีนจากอักษร 国",
+      "pre_post_pair": "CN_PRE_Q012"
+    },
+    {
+      "question_id": "CN_POST_Q013",
+      "test_id": "CN_POST_001",
+      "question_number": 13,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Error Analysis",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ประโยคภาษาจีนในข้อใด ใช้ไวยากรณ์ไม่ถูกต้อง?",
+      "options": [
+        {
+          "id": "A",
+          "text": "我没看过京剧。"
+        },
+        {
+          "id": "B",
+          "text": "我不看过京剧。"
+        },
+        {
+          "id": "C",
+          "text": "姐姐去过上海。"
+        },
+        {
+          "id": "D",
+          "text": "爸爸没吃过榴莲。"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ข้อ B ผิดไวยากรณ์ เนื่องจากประโยคที่มีคำแสดงประสบการณ์ 过 ห้ามใช้ 不 ในการปฏิเสธ ต้องใช้ 没 หน้ากริยาเท่านั้น (ต้องแก้ไขเป็น 我没看过京剧。)",
+      "learning_objective": "วินิจฉัยข้อผิดพลาดทางไวยากรณ์ในการใช้ 不 กับ 过",
+      "pre_post_pair": "CN_PRE_Q013"
+    },
+    {
+      "question_id": "CN_POST_Q014",
+      "test_id": "CN_POST_001",
+      "question_number": 14,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Grammar",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ประโยคคำถาม “你去过上海没有？” (nǐ qùguo Shànghǎi méiyǒu?) มีความหมายสอดคล้องกับประโยคใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "你想去上海吗？"
+        },
+        {
+          "id": "B",
+          "text": "你去过上海吗？"
+        },
+        {
+          "id": "C",
+          "text": "你喜欢上海吗？"
+        },
+        {
+          "id": "D",
+          "text": "你去不去上海？"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างประโยคคำถามถามประสบการณ์ สามารถใช้ ...过...没有？ ซึ่งมีความหมายเดียวกับ ...过...吗？ (คุณเคยไปเซี่ยงไฮ้ไหม?)",
+      "learning_objective": "เลือกรูปแบบประโยคคำถามปลายเปิดแบบบวก-ลบ",
+      "pre_post_pair": "CN_PRE_Q014"
+    },
+    {
+      "question_id": "CN_POST_Q015",
+      "test_id": "CN_POST_001",
+      "question_number": 15,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Sentence Transformation",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "หากต้องการเปลี่ยนประโยคบอกเล่า “爷爷看过京剧。” ให้เป็นประโยคปฏิเสธ ข้อใดถูกต้อง?",
+      "options": [
+        {
+          "id": "A",
+          "text": "爷爷不看过京剧。"
+        },
+        {
+          "id": "B",
+          "text": "爷爷看没过京剧。"
+        },
+        {
+          "id": "C",
+          "text": "爷爷没看过京剧。"
+        },
+        {
+          "id": "D",
+          "text": "爷爷看过没京剧。"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "การแปลงเป็นประโยคปฏิเสธ ต้องเติมคำว่า 没 ไว้หน้าคำกริยา 看 กลายเป็น 爷爷没看过京剧。 (คุณตาไม่เคยดูงิ้ว)",
+      "learning_objective": "แปลงประโยคบอกเล่าเป็นประโยคปฏิเสธได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q015"
+    },
+    {
+      "question_id": "CN_POST_Q016",
+      "test_id": "CN_POST_001",
+      "question_number": 16,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Dialogue Pragmatics",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "สถานการณ์: คุณต้องการสอบถามเพื่อนคนจีนว่า \"หมีแพนด้าน่ารักไหม?\" ควรเลือกใช้ประโยคใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "熊猫可爱吗？"
+        },
+        {
+          "id": "B",
+          "text": "熊猫好吃吗？"
+        },
+        {
+          "id": "C",
+          "text": "你看过熊猫吗？"
+        },
+        {
+          "id": "D",
+          "text": "熊猫去哪里？"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "熊猫 (หมีแพนด้า) + 可爱吗 (น่ารักไหม?) เป็นประโยคถามความเห็นเกี่ยวกับลักษณะของสัตว์",
+      "learning_objective": "เลือกประโยคถามความเห็นเกี่ยวกับลักษณะสัตว์",
+      "pre_post_pair": "CN_PRE_Q016"
+    },
+    {
+      "question_id": "CN_POST_Q017",
+      "test_id": "CN_POST_001",
+      "question_number": 17,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Reading Comprehension",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "อ่านข้อความต่อไปนี้แล้วตอบคำถาม:\n“小红：你好！你在北京怎么样？今年假期，我想和爸爸去北京...”\nจากข้อความ จดหมายฉบับนี้เขียนส่งถึงใคร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "娜林 (นาริน)"
+        },
+        {
+          "id": "B",
+          "text": "小红 (เสี่ยวหง)"
+        },
+        {
+          "id": "C",
+          "text": "泰坤 (แทนคุณ)"
+        },
+        {
+          "id": "D",
+          "text": "凯特 (เคท)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ขึ้นต้นจดหมายระบุว่า “小红：你好！” สื่อว่าเขียนถึงเสี่ยวหง",
+      "learning_objective": "จับใจความสำคัญจากบทอ่าน",
+      "pre_post_pair": "CN_PRE_Q017"
+    },
+    {
+      "question_id": "CN_POST_Q018",
+      "test_id": "CN_POST_001",
+      "question_number": 18,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Reading Comprehension",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "อ่านข้อความต่อไปนี้แล้วตอบคำถาม:\n“...我想去看熊猫。我没看过熊猫...”\nจากข้อความ นาริน (娜林) มีความประสงค์อยากไปทำสิ่งใดเมื่อเดินทางไปปักกิ่ง?",
+      "options": [
+        {
+          "id": "A",
+          "text": "去吃烤鸭 (ไปทานเป็ดย่าง)"
+        },
+        {
+          "id": "B",
+          "text": "去看熊猫 (ไปดูหมีแพนด้า)"
+        },
+        {
+          "id": "C",
+          "text": "去看京剧 (ไปดูงิ้ว)"
+        },
+        {
+          "id": "D",
+          "text": "去吃火锅 (ไปทานหม้อไฟ)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ข้อความระบุชัดเจนว่า “我想去看熊猫” (ฉันอยากไปดูหมีแพนด้า)",
+      "learning_objective": "วิเคราะห์รายละเอียดความต้องการในบทอ่าน",
+      "pre_post_pair": "CN_PRE_Q018"
+    },
+    {
+      "question_id": "CN_POST_Q019",
+      "test_id": "CN_POST_001",
+      "question_number": 19,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Pragmatics",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "สถานการณ์: คุณต้องการเขียนประโยคถามไถ่เพื่อนที่กำลังอาศัยอยู่ที่ปักกิ่งว่า \"ชีวิตที่ปักกิ่งเป็นอย่างไรบ้าง\" ควรพูดอย่างไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "你在北京去过吗？"
+        },
+        {
+          "id": "B",
+          "text": "你在北京怎么样？"
+        },
+        {
+          "id": "C",
+          "text": "你喜欢北京吗？"
+        },
+        {
+          "id": "D",
+          "text": "你去北京吗？"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "你在北京怎么样？ (nǐ zài Běijīng zěnmeyàng?) เป็นโครงสร้างประโยคถามไถ่สารพัดสุขในการดำเนินชีวิต",
+      "learning_objective": "เลือกประโยคถามไถ่เพื่อนเรื่องสถานที่พักอาศัย",
+      "pre_post_pair": "CN_PRE_Q019"
+    },
+    {
+      "question_id": "CN_POST_Q020",
+      "test_id": "CN_POST_001",
+      "question_number": 20,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "Collocation",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "การจับคู่คำกริยากับคำนามในข้อใด ไม่ถูกต้อง ตามหลักภาษาจีนในบทเรียน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "吃火锅"
+        },
+        {
+          "id": "B",
+          "text": "去上海"
+        },
+        {
+          "id": "C",
+          "text": "看熊猫"
+        },
+        {
+          "id": "D",
+          "text": "去烤鸭"
+        }
+      ],
+      "correct_answer": [
+        "D"
+      ],
+      "score": 1,
+      "explanation": "烤鸭 (เป็ดย่าง) เป็นอาหาร ต้องใช้คำกริยา 吃 (กิน/ทาน) เป็น 吃烤鸭 การใช้ 去 (ไป) จึงไม่ถูกต้อง",
+      "learning_objective": "วิเคราะห์คำกริยาที่ใช้คู่กับคำนามอาหาร/สถานที่/กิจกรรม",
+      "pre_post_pair": "CN_PRE_Q020"
+    },
+    {
+      "question_id": "CN_POST_Q021",
+      "test_id": "CN_POST_001",
+      "question_number": 21,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Vocabulary Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำกริยาที่ถูกต้องลงในช่องว่าง: “娜林想____长城。” (นารินอยาก...กำแพงเมืองจีน)",
+      "options": [
+        {
+          "id": "A",
+          "text": "去"
+        },
+        {
+          "id": "B",
+          "text": "吃"
+        },
+        {
+          "id": "C",
+          "text": "可爱"
+        },
+        {
+          "id": "D",
+          "text": "热"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "长城 เป็นสถานที่ท่องเที่ยว ต้องใช้คำกริยา 去 (qù - ไป)",
+      "learning_objective": "เติมคำกริยาเดินทางให้สอดคล้องกับสถานที่",
+      "pre_post_pair": "CN_PRE_Q021"
+    },
+    {
+      "question_id": "CN_POST_Q022",
+      "test_id": "CN_POST_001",
+      "question_number": 22,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Vocabulary Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำกริยาที่ถูกต้องลงในช่องว่าง: “李老师吃____榴莲。” (คุณครูหลี่ทาน...ทุเรียน)",
+      "options": [
+        {
+          "id": "A",
+          "text": "看"
+        },
+        {
+          "id": "B",
+          "text": "过"
+        },
+        {
+          "id": "C",
+          "text": "去"
+        },
+        {
+          "id": "D",
+          "text": "想"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "吃 (กริยา) + 过 (คำแสดงประสบการณ์) = 吃过 (เคยทาน)",
+      "learning_objective": "เติมคำกริยารับประทานให้สอดคล้องกับอาหาร",
+      "pre_post_pair": "CN_PRE_Q022"
+    },
+    {
+      "question_id": "CN_POST_Q023",
+      "test_id": "CN_POST_001",
+      "question_number": 23,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Vocabulary Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำกริยาที่ถูกต้องลงในช่องว่าง: “我想去____熊猫。” (ฉันอยากไป...หมีแพนด้า)",
+      "options": [
+        {
+          "id": "A",
+          "text": "吃"
+        },
+        {
+          "id": "B",
+          "text": "看"
+        },
+        {
+          "id": "C",
+          "text": "去"
+        },
+        {
+          "id": "D",
+          "text": "没"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "熊猫 (หมีแพนด้า) เป็นสัตว์ที่เราไปรับชม ต้องใช้คำกริยา 看 (kàn - ดู/ชม)",
+      "learning_objective": "เติมคำกริยาการรับชมให้สอดคล้องกับสัตว์",
+      "pre_post_pair": "CN_PRE_Q023"
+    },
+    {
+      "question_id": "CN_POST_Q024",
+      "test_id": "CN_POST_001",
+      "question_number": 24,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Pinyin Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "คำศัพท์ “火锅” มี Pinyin คือ “huǒ g___” สระและเสียงวรรณยุกต์ที่หายไปคือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "uō"
+        },
+        {
+          "id": "B",
+          "text": "uó"
+        },
+        {
+          "id": "C",
+          "text": "ō"
+        },
+        {
+          "id": "D",
+          "text": "uǒ"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "锅 (guō) ผสมสระ uo เสียงวรรณยุกต์เสียงที่ 1 เติมเป็น uō",
+      "learning_objective": "เติมเสียงพินอินสระที่หายไป",
+      "pre_post_pair": "CN_PRE_Q024"
+    },
+    {
+      "question_id": "CN_POST_Q025",
+      "test_id": "CN_POST_001",
+      "question_number": 25,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Character Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมตัวอักษรจีนที่หายไปให้ได้คำศัพท์ที่มีความหมายว่า \"ประเทศไทย\": “泰____”",
+      "options": [
+        {
+          "id": "A",
+          "text": "京"
+        },
+        {
+          "id": "B",
+          "text": "国"
+        },
+        {
+          "id": "C",
+          "text": "城"
+        },
+        {
+          "id": "D",
+          "text": "场"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "泰 (Tài) + 国 (guó) = 泰国 (ประเทศไทย)",
+      "learning_objective": "เติมตัวอักษรจีนรูปประสมที่หายไป",
+      "pre_post_pair": "CN_PRE_Q025"
+    },
+    {
+      "question_id": "CN_POST_Q026",
+      "test_id": "CN_POST_001",
+      "question_number": 26,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Grammar Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำบอกประสบการณ์ที่ถูกต้องลงในช่องว่าง: “我去____北京。” (ฉันเคยไปปักกิ่ง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "没"
+        },
+        {
+          "id": "B",
+          "text": "过"
+        },
+        {
+          "id": "C",
+          "text": "不"
+        },
+        {
+          "id": "D",
+          "text": "吗"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำแสดงประสบการณ์ 过 วางไว้หลังคำกริยา 去 เป็น 去过 (เคยไป)",
+      "learning_objective": "เติมคำบอกประสบการณ์ 过 ในตำแหน่งที่ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q026"
+    },
+    {
+      "question_id": "CN_POST_Q027",
+      "test_id": "CN_POST_001",
+      "question_number": 27,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Grammar Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำปฏิเสธประโยคประสบการณ์ลงในช่องว่าง: “我____吃过烤鸭。” (ฉันไม่เคยทานเป็ดย่าง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "不"
+        },
+        {
+          "id": "B",
+          "text": "没"
+        },
+        {
+          "id": "C",
+          "text": "很"
+        },
+        {
+          "id": "D",
+          "text": "别"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "รูปปฏิเสธประโยคประสบการณ์ที่มี 吃过 ต้องเติมคำว่า 没 หน้าคำกริยา",
+      "learning_objective": "เติมปฏิเสธ 没 ในประโยคประสบการณ์",
+      "pre_post_pair": "CN_PRE_Q027"
+    },
+    {
+      "question_id": "CN_POST_Q028",
+      "test_id": "CN_POST_001",
+      "question_number": 28,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "Sentence Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำลงท้ายประโยคคำถาม: “你吃过烤鸭____？” (คุณเคยทานเป็ดย่างไหม?)",
+      "options": [
+        {
+          "id": "A",
+          "text": "呢"
+        },
+        {
+          "id": "B",
+          "text": "吗"
+        },
+        {
+          "id": "C",
+          "text": "过"
+        },
+        {
+          "id": "D",
+          "text": "没"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำเสริมสรีรภาพถาม (Modal particle) ในประโยคคำถามใช่/ไม่ใช่ ใช้ 吗 ลงท้ายประโยค",
+      "learning_objective": "เติมคำเสริมสรีรภาพถาม 吗 ในประโยคคำถาม",
+      "pre_post_pair": "CN_PRE_Q028"
+    },
+    {
+      "question_id": "CN_POST_Q029",
+      "test_id": "CN_POST_001",
+      "question_number": 29,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Grammar Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำสันธนาการเชื่อมสถานที่ให้ถูกต้อง: “爸爸想去长城____故宫。” (พ่ออยากไปกำแพงเมืองจีน...พระราชวังต้องห้าม)",
+      "options": [
+        {
+          "id": "A",
+          "text": "和"
+        },
+        {
+          "id": "B",
+          "text": "过"
+        },
+        {
+          "id": "C",
+          "text": "没"
+        },
+        {
+          "id": "D",
+          "text": "也"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 和 (hé) ใช้เชื่อมคำนามสถานที่ แปลว่า \"และ/กับ\"",
+      "learning_objective": "เติมคำสันธนาการเชื่อมบุคคล 和 ในประโยค",
+      "pre_post_pair": "CN_PRE_Q029"
+    },
+    {
+      "question_id": "CN_POST_Q030",
+      "test_id": "CN_POST_001",
+      "question_number": 30,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Sentence Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำคุณศัพท์ที่เหมาะสมลงในช่องว่าง: “烤鸭很____。” (เป็ดย่าง...มาก)",
+      "options": [
+        {
+          "id": "A",
+          "text": "可爱"
+        },
+        {
+          "id": "B",
+          "text": "好吃"
+        },
+        {
+          "id": "C",
+          "text": "假期"
+        },
+        {
+          "id": "D",
+          "text": "欢迎"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "烤鸭 (เป็ดย่าง) เหมาะสมกับการใช้คำคุณศัพท์ 好吃 (hǎochī - อร่อย)",
+      "learning_objective": "เติมคำคุณศัพท์อธิบายรสชาติอาหาร",
+      "pre_post_pair": "CN_PRE_Q030"
+    },
+    {
+      "question_id": "CN_POST_Q031",
+      "test_id": "CN_POST_001",
+      "question_number": 31,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Transformation Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เปลี่ยนประโยค “哥哥去过长城。” เป็นรูปปฏิเสธ: “哥哥____去过长城。”",
+      "options": [
+        {
+          "id": "A",
+          "text": "不"
+        },
+        {
+          "id": "B",
+          "text": "没"
+        },
+        {
+          "id": "C",
+          "text": "别"
+        },
+        {
+          "id": "D",
+          "text": "没是"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "เติม 没 หน้าคำกริยา 去过 ได้ประโยคปฏิเสธที่ถูกต้อง",
+      "learning_objective": "เติมคำในประโยคปฏิเสธจากโครงสร้างเดิม",
+      "pre_post_pair": "CN_PRE_Q031"
+    },
+    {
+      "question_id": "CN_POST_Q032",
+      "test_id": "CN_POST_001",
+      "question_number": 32,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Dialogue Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำตอบแสดงความคิดเห็นในบทสนทนา:\nA: “烤鸭好吃吗？” (เป็ดย่างอร่อยไหม?)\nB: “很____！”",
+      "options": [
+        {
+          "id": "A",
+          "text": "好吃"
+        },
+        {
+          "id": "B",
+          "text": "可爱"
+        },
+        {
+          "id": "C",
+          "text": "热"
+        },
+        {
+          "id": "D",
+          "text": "欢迎"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ตอบคำถามเรื่องรสชาติอาหาร ใช้คำว่า 好吃 (อร่อยมาก)",
+      "learning_objective": "เติมคำตอบแสดงความคิดเห็นในบทสนทนา",
+      "pre_post_pair": "CN_PRE_Q032"
+    },
+    {
+      "question_id": "CN_POST_Q033",
+      "test_id": "CN_POST_001",
+      "question_number": 33,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Reading Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำศัพท์บอกช่วงเวลาจากบทอ่าน: “今年____，我想和爸爸去北京。” (ปีนี้...ฉันอยากไปปักกิ่งกับพ่อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "假期"
+        },
+        {
+          "id": "B",
+          "text": "朋友"
+        },
+        {
+          "id": "C",
+          "text": "寺庙"
+        },
+        {
+          "id": "D",
+          "text": "京剧"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "假期 (jiàqī) แปลว่า วันหยุด/ปิดเทอม",
+      "learning_objective": "เติมข้อมูลฤดูกาลเที่ยวจากเนื้อเรื่อง",
+      "pre_post_pair": "CN_PRE_Q033"
+    },
+    {
+      "question_id": "CN_POST_Q034",
+      "test_id": "CN_POST_001",
+      "question_number": 34,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Pragmatics Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมคำสรรพนามเรียกบุคคลในคำลงท้ายจดหมาย: “你的____：娜林” (...ของคุณ: นาริน)",
+      "options": [
+        {
+          "id": "A",
+          "text": "欢迎"
+        },
+        {
+          "id": "B",
+          "text": "朋友"
+        },
+        {
+          "id": "C",
+          "text": "夏天"
+        },
+        {
+          "id": "D",
+          "text": "动画片"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำลงท้ายจดหมายใช้คำว่า 朋友 (péngyou - เพื่อน) สื่อถึง \"เพื่อนของคุณ: นาริน\"",
+      "learning_objective": "เติมคำเรียกเพื่อนสนิทในจดหมาย",
+      "pre_post_pair": "CN_PRE_Q034"
+    },
+    {
+      "question_id": "CN_POST_Q035",
+      "test_id": "CN_POST_001",
+      "question_number": 35,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "Character Fill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เติมตัวอักษรจีนที่หายไปให้ได้คำว่า \"ปักกิ่ง\": “北____”",
+      "options": [
+        {
+          "id": "A",
+          "text": "国"
+        },
+        {
+          "id": "B",
+          "text": "京"
+        },
+        {
+          "id": "C",
+          "text": "城"
+        },
+        {
+          "id": "D",
+          "text": "场"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "北 (Běi) + 京 (jīng) = 北京 (ปักกิ่ง)",
+      "learning_objective": "เติมคำประสมอักษร 京 ให้สมบูรณ์",
+      "pre_post_pair": "CN_PRE_Q035"
+    },
+    {
+      "question_id": "CN_POST_Q036",
+      "test_id": "CN_POST_001",
+      "question_number": 36,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Classification",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "คำศัพท์ในข้อใดจัดอยู่ในกลุ่มประเภท “อาหาร/เครื่องดื่ม” (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "烤鸭"
+        },
+        {
+          "id": "B",
+          "text": "火锅"
+        },
+        {
+          "id": "C",
+          "text": "北京"
+        },
+        {
+          "id": "D",
+          "text": "长城"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "烤鸭 (เป็ดย่าง) และ 火锅 (หม้อไฟ) เป็นประเภทอาหาร ส่วน 北京 และ 长城 เป็นสถานที่",
+      "learning_objective": "เลือกคำศัพท์กลุ่มประเภทอาหารทั้งหมด",
+      "pre_post_pair": "CN_PRE_Q036"
+    },
+    {
+      "question_id": "CN_POST_Q037",
+      "test_id": "CN_POST_001",
+      "question_number": 37,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Classification",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "คำศัพท์ในข้อใดเป็นสถานที่ท่องเที่ยวที่อยู่ใน ประเทศจีน (เลือก 3 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "北京"
+        },
+        {
+          "id": "B",
+          "text": "长城"
+        },
+        {
+          "id": "C",
+          "text": "故宫"
+        },
+        {
+          "id": "D",
+          "text": "大皇宫"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "北京 (ปักกิ่ง), 长城 (กำแพงเมืองจีน) และ 故宫 (กู้กง) อยู่ในประเทศจีน ส่วน 大皇宫 (พระบรมมหาราชวัง) อยู่ในประเทศไทย",
+      "learning_objective": "เลือกคำศัพท์กลุ่มประเภทสถานที่ท่องเที่ยวในจีน",
+      "pre_post_pair": "CN_PRE_Q037"
+    },
+    {
+      "question_id": "CN_POST_Q038",
+      "test_id": "CN_POST_001",
+      "question_number": 38,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Collocation",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "สถานที่ท่องเที่ยวในข้อใดต้องใช้คำกริยา “去” (ไป) นำหน้า (เลือก 3 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "北京"
+        },
+        {
+          "id": "B",
+          "text": "长城"
+        },
+        {
+          "id": "C",
+          "text": "上海"
+        },
+        {
+          "id": "D",
+          "text": "烤鸭"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "去北京 (ไปปักกิ่ง), 去长城 (ไปกำแพงเมืองจีน) และ 去上海 (ไปเซี่ยงไฮ้) ใช้คำกริยา 去 ส่วน 烤鸭 ใช้กริยา 吃",
+      "learning_objective": "เลือกคำศัพท์กิจกรรมที่ใช้กริยา 去",
+      "pre_post_pair": "CN_PRE_Q038"
+    },
+    {
+      "question_id": "CN_POST_Q039",
+      "test_id": "CN_POST_001",
+      "question_number": 39,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Phonetics",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "คำศัพท์ภาษาจีนในข้อใดพยางค์แรกออกเสียงวรรณยุกต์ เสียงที่ 3 (上声 - ˇ ) (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "烤 (kǎo)"
+        },
+        {
+          "id": "B",
+          "text": "北 (Běi)"
+        },
+        {
+          "id": "C",
+          "text": "吃 (chī)"
+        },
+        {
+          "id": "D",
+          "text": "国 (guó)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "烤 (kǎo) และ 北 (Běi) ออกเสียงวรรณยุกต์เสียงที่ 3",
+      "learning_objective": "เลือกคำศัพท์ที่มี Pinyin วรรณยุกต์เสียงที่ 3",
+      "pre_post_pair": "CN_PRE_Q039"
+    },
+    {
+      "question_id": "CN_POST_Q040",
+      "test_id": "CN_POST_001",
+      "question_number": 40,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Radicals",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ตัวอักษรจีนในข้อใดมีหมวดอักษร 鸟 (niǎozìpáng) เป็นส่วนประกอบ (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "鸡"
+        },
+        {
+          "id": "B",
+          "text": "鸭"
+        },
+        {
+          "id": "C",
+          "text": "城"
+        },
+        {
+          "id": "D",
+          "text": "过"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ตัวอักษร 鸡 (jī) และ 鸭 (yā) มีหมวดอักษร 鸟 อยู่ส่วนขวา",
+      "learning_objective": "เลือกอักษรจีนที่มีหมวดอักษร 鸟",
+      "pre_post_pair": "CN_PRE_Q040"
+    },
+    {
+      "question_id": "CN_POST_Q041",
+      "test_id": "CN_POST_001",
+      "question_number": 41,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Syntax Analysis",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ประโยคในข้อใดใช้ไวยากรณ์บอกเล่าประสบการณ์ได้ ถูกต้อง (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "哥哥去过长城。"
+        },
+        {
+          "id": "B",
+          "text": "李老师吃过榴莲。"
+        },
+        {
+          "id": "C",
+          "text": "哥哥去长城过。"
+        },
+        {
+          "id": "D",
+          "text": "李老师过吃榴莲。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ประโยค A และ B ถูกต้องตามไวยากรณ์โดยวาง 过 ไว้หลังคำกริยา (去过, 吃过)",
+      "learning_objective": "เลือกประโยคบอกเล่าประสบการณ์ที่ถูกต้องตามไวยากรณ์",
+      "pre_post_pair": "CN_PRE_Q041"
+    },
+    {
+      "question_id": "CN_POST_Q042",
+      "test_id": "CN_POST_001",
+      "question_number": 42,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "Syntax Analysis",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ประโยคปฏิเสธในข้อใด ถูกต้อง ตามหลักไวยากรณ์ (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "我没吃过烤鸭。"
+        },
+        {
+          "id": "B",
+          "text": "凯特没去过娜林家。"
+        },
+        {
+          "id": "C",
+          "text": "我不吃过烤鸭。"
+        },
+        {
+          "id": "D",
+          "text": "凯特去没过娜林家。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "รูปปฏิเสธประโยคประสบการณ์ต้องใช้ 没 + กริยา + 过 (没吃过, 没去过)",
+      "learning_objective": "เลือกประโยคปฏิเสธประสบการณ์ที่ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q042"
+    },
+    {
+      "question_id": "CN_POST_Q043",
+      "test_id": "CN_POST_001",
+      "question_number": 43,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Radicals",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ตัวอักษรจีนในข้อใดมีหมวดอักษร 土 หรือ 鸟 เป็นส่วนประกอบ (เลือก 3 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "城"
+        },
+        {
+          "id": "B",
+          "text": "场"
+        },
+        {
+          "id": "C",
+          "text": "鸭"
+        },
+        {
+          "id": "D",
+          "text": "过"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "城 และ 场 มีหมวดอักษร 土 ส่วน 鸭 มีหมวดอักษร 鸟 (ส่วน 过 มีหมวดอักษร ⻌)",
+      "learning_objective": "เลือกอักษรจีนที่มีหมวดอักษร 土 และ 鸟",
+      "pre_post_pair": "CN_PRE_Q043"
+    },
+    {
+      "question_id": "CN_POST_Q044",
+      "test_id": "CN_POST_001",
+      "question_number": 44,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Error Identification",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ประโยคในข้อใด ใช้ไวยากรณ์ไม่ถูกต้อง (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "我不吃过榴莲。"
+        },
+        {
+          "id": "B",
+          "text": "我没去北京过。"
+        },
+        {
+          "id": "C",
+          "text": "我没吃过榴莲。"
+        },
+        {
+          "id": "D",
+          "text": "我没去过北京。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ข้อ A ผิดเพราะใช้ 不 ปฏิเสธประโยคที่มี 过; ข้อ B ผิดเพราะนำกรรม (北京) มาแทรกไว้หน้า 过 (ที่ถูกต้องคือ 我没去过北京。)",
+      "learning_objective": "วิเคราะห์และเลือกประโยคที่ใช้ไวยากรณ์ผิด",
+      "pre_post_pair": "CN_PRE_Q044"
+    },
+    {
+      "question_id": "CN_POST_Q045",
+      "test_id": "CN_POST_001",
+      "question_number": 45,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Syntax Analysis",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "รูปปฏิเสธของประโยค “爸爸吃过烤鸭。” ข้อใดถูกต้องตามหลักไวยากรณ์ (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "爸爸没吃过烤鸭。"
+        },
+        {
+          "id": "B",
+          "text": "爸爸没有吃过烤鸭。"
+        },
+        {
+          "id": "C",
+          "text": "爸爸不吃过烤鸭。"
+        },
+        {
+          "id": "D",
+          "text": "爸爸吃没过烤鸭。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "รูปปฏิเสธสามารถใช้ 没 หรือ 没有 วางไว้หน้าคำกริยา 吃过 ได้ทั้งสองแบบ",
+      "learning_objective": "เลือกรูปแบบการแปลงประโยคปฏิเสธที่ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q045"
+    },
+    {
+      "question_id": "CN_POST_Q046",
+      "test_id": "CN_POST_001",
+      "question_number": 46,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Pragmatics",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "เมื่อมีคนถามว่า “你去过北京吗？” คำตอบในข้อใดเป็นคำตอบที่ถูกต้องและเป็นธรรมชาติในภาษาจีน (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "我去过。"
+        },
+        {
+          "id": "B",
+          "text": "我没去过。"
+        },
+        {
+          "id": "C",
+          "text": "我不去。"
+        },
+        {
+          "id": "D",
+          "text": "我去不过。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "คำตอบรับสั้นสามารถตอบได้ว่า เคยไป (我去过。) หรือ ไม่เคยไป (我没去过。)",
+      "learning_objective": "เลือกคำตอบรับที่เหมาะสมสำหรับคำถาม 你去过北京吗？",
+      "pre_post_pair": "CN_PRE_Q046"
+    },
+    {
+      "question_id": "CN_POST_Q047",
+      "test_id": "CN_POST_001",
+      "question_number": 47,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Comprehensive Analysis",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "อ่านจดหมายของนาริน แล้วเลือกข้อความที่เป็น ความจริง (True) (เลือก 2 คำตอบ):\n“小红：你好！你在北京怎么样？今年假期，我想和爸爸去北京...”",
+      "options": [
+        {
+          "id": "A",
+          "text": "娜林想和爸爸去北京。"
+        },
+        {
+          "id": "B",
+          "text": "小红在北京。"
+        },
+        {
+          "id": "C",
+          "text": "娜林在香港。"
+        },
+        {
+          "id": "D",
+          "text": "娜林不想去北京。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ในบทอ่านนารินระบุว่า “我想和爸爸去北京” และถามเสี่ยวหงว่า “你在北京怎么样？” แสดงว่าเสี่ยวหงอยู่ที่ปักกิ่ง",
+      "learning_objective": "วิเคราะห์ข้อความที่เป็นจริงจากบทอ่าน",
+      "pre_post_pair": "CN_PRE_Q047"
+    },
+    {
+      "question_id": "CN_POST_Q048",
+      "test_id": "CN_POST_001",
+      "question_number": 48,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Comprehensive Analysis",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "อ่านจดหมายของนาริน แล้วเลือกข้อความที่ ไม่ถูกต้อง (False) (เลือก 2 คำตอบ):\n“...我没去过北京... 我没看过熊猫...”",
+      "options": [
+        {
+          "id": "A",
+          "text": "小红在泰国。"
+        },
+        {
+          "id": "B",
+          "text": "娜林看过熊猫。"
+        },
+        {
+          "id": "C",
+          "text": "娜林没去过北京。"
+        },
+        {
+          "id": "D",
+          "text": "娜林没看过熊猫。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ข้อ A เป็นเท็จเพราะเสี่ยวหงอยู่ที่ปักกิ่ง; ข้อ B เป็นเท็จเพราะนารินระบุชัดเจนว่ายังไม่เคยดูหมีแพนด้า (我没看过熊猫)",
+      "learning_objective": "วิเคราะห์ข้อความที่เป็นเท็จจากบทอ่าน",
+      "pre_post_pair": "CN_PRE_Q048"
+    },
+    {
+      "question_id": "CN_POST_Q049",
+      "test_id": "CN_POST_001",
+      "question_number": 49,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Writing Applications",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ในการเขียนจดหมายแสดงความชวนเพื่อนต่างชาติมาเที่ยวประเทศไทย ประโยคในข้อใดเหมาะสมที่สุด (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "你想来泰国玩吗？"
+        },
+        {
+          "id": "B",
+          "text": "欢迎你来泰国。"
+        },
+        {
+          "id": "C",
+          "text": "我不去泰国。"
+        },
+        {
+          "id": "D",
+          "text": "泰国不美丽。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ประโยค 你想来泰国玩吗？ (ถามชวนมาเที่ยว) และ 欢迎你来泰国。 (ต้อนรับมาไทย) เป็นประโยคชวนเพื่อนที่ถูกต้อง",
+      "learning_objective": "เลือกประโยคแสดงความชวนและกล่าวต้อนรับเพื่อน",
+      "pre_post_pair": "CN_PRE_Q049"
+    },
+    {
+      "question_id": "CN_POST_Q050",
+      "test_id": "CN_POST_001",
+      "question_number": 50,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "Integrated Skill",
+      "topic": "第2课 我没吃过烤鸭",
+      "lesson": "Lesson 2",
+      "question": "ประโยคภาษาจีนในข้อใดมีความหมายสมบูรณ์และถูกต้องตามโครงสร้างไวยากรณ์ (เลือก 2 คำตอบ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "我想去北京。"
+        },
+        {
+          "id": "B",
+          "text": "我没去过中国。"
+        },
+        {
+          "id": "C",
+          "text": "我想北京去。"
+        },
+        {
+          "id": "D",
+          "text": "我没中国去过。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "ประโยค A และ B จัดเรียงโครงสร้างกริยาและกรรมสถานที่ได้ถูกต้องตามหลักภาษาจีน",
+      "learning_objective": "เลือกประโยคแสดงความปรารถนาและประสบการณ์ที่ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q050"
+    }
+  ]

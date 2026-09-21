@@ -42,7 +42,8 @@ import {
   RefreshCw,
   Key,
   LogOut,
-  Eye
+  Eye,
+  ClipboardList // 🎯 เพิ่มไอคอนสำหรับเมนูแบบทดสอบ
 } from 'lucide-react';
 import { db } from './firebase';
 import { doc, setDoc, getDoc, updateDoc, onSnapshot } from 'firebase/firestore'; 
@@ -169,16 +170,20 @@ export default function App() {
   const [loading, setLoading] = useState(true);
 
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  
+  // 🎯 เพิ่ม quiz_home ในระบบจัดการชื่อเมนู
   const [menuNames, setMenuNames] = useState({
     home: 'หน้าหลัก HSK',
     other_home: 'คอร์สอื่นๆ',
+    quiz_home: 'แบบทดสอบ',
     settings: 'ตั้งค่า HSK',
     settings_other: 'ตั้งค่า คอร์สอื่นๆ',
   });
 
+  // 🎯 เพิ่ม quiz_home ในระบบซ่อน/แสดงเมนู
   const [menuVisibility, setMenuVisibility] = useState({
-    teacher: { home: true, other_home: true, settings: true, settings_other: true },
-    student: { home: true, other_home: true }
+    teacher: { home: true, other_home: true, quiz_home: true, settings: true, settings_other: true },
+    student: { home: true, other_home: true, quiz_home: true }
   });
 
   const [isPresenting, setIsPresenting] = useState(false);
@@ -209,7 +214,7 @@ export default function App() {
           const cloudData = docSnap.data().cards;
           
           const fetchedMenuNames = docSnap.data().menuNames;
-          if (fetchedMenuNames) setMenuNames(fetchedMenuNames);
+          if (fetchedMenuNames) setMenuNames(prev => ({...prev, ...fetchedMenuNames}));
 
           const fetchedGlobalStudentPin = docSnap.data().globalStudentPin;
           if (fetchedGlobalStudentPin) setGlobalStudentPin(fetchedGlobalStudentPin);
@@ -511,7 +516,8 @@ export default function App() {
     }
   };
 
-  const canSeeMenu = (menuKey: 'home' | 'other_home' | 'settings' | 'settings_other') => {
+  // 🎯 อัปเดต Type ให้รองรับ quiz_home
+  const canSeeMenu = (menuKey: 'home' | 'other_home' | 'quiz_home' | 'settings' | 'settings_other') => {
     if (appLoginRole === 'admin') return true;
     if (appLoginRole === 'teacher') return menuVisibility.teacher[menuKey as keyof typeof menuVisibility.teacher] ?? true;
     if (appLoginRole === 'student') return menuVisibility.student[menuKey as keyof typeof menuVisibility.student] ?? true;
@@ -764,7 +770,6 @@ export default function App() {
                   {slides[slideIndex].patternType === 'patternFlextable2cols' && <PatternFlextable2cols data={slides[slideIndex]} />}
                   {slides[slideIndex].patternType === 'patternFlexibleDoubleTable' && <PatternFlexibleDoubleTable data={slides[slideIndex]} />}
 
-                  {/* +++ ให้ OtherApp เป็นคนจัดการเรนเดอร์เนื้อหาทั้งหมดของฝั่ง Other +++ */}
                   <OtherSlideRenderer 
                     slide={slides[slideIndex]} 
                     userRole={userRole} 
@@ -829,7 +834,6 @@ export default function App() {
 
           <nav className={`flex flex-col gap-4 w-full h-full ${isSidebarOpen ? '' : 'items-center'}`}>
             
-            {/* 🎯 นำ CanSeeMenu มาครอบเมนู Home */}
             {canSeeMenu('home') && (
               <button
                 onClick={() => setCurrentView('home')}
@@ -847,7 +851,6 @@ export default function App() {
               </button>
             )}
             
-            {/* 🎯 นำ CanSeeMenu มาครอบเมนู Other */}
             {canSeeMenu('other_home') && (
               <button
                 onClick={() => setCurrentView('other_home')}
@@ -855,7 +858,7 @@ export default function App() {
                 className={`flex items-center rounded-xl transition-all ${
                   isSidebarOpen ? 'p-3 w-full justify-start gap-3' : 'p-3 justify-center'
                 } ${
-                  currentView === 'other_home' || (!currentView.startsWith('hsk') && currentView !== 'home' && currentView !== 'settings' && currentView !== 'settings_other')
+                  currentView === 'other_home' || (!currentView.startsWith('hsk') && currentView !== 'home' && currentView !== 'settings' && currentView !== 'settings_other' && currentView !== 'quiz_home')
                     ? 'bg-emerald-600 text-white shadow-lg'
                     : 'text-gray-400 hover:bg-emerald-50'
                 }`}
@@ -865,9 +868,26 @@ export default function App() {
               </button>
             )}
 
+            {/* 🎯 ปุ่มเมนูแบบทดสอบ */}
+            {canSeeMenu('quiz_home') && (
+              <button
+                onClick={() => setCurrentView('quiz_home')}
+                title={menuNames.quiz_home}
+                className={`flex items-center rounded-xl transition-all ${
+                  isSidebarOpen ? 'p-3 w-full justify-start gap-3' : 'p-3 justify-center'
+                } ${
+                  currentView === 'quiz_home'
+                    ? 'bg-amber-500 text-white shadow-lg'
+                    : 'text-gray-400 hover:bg-amber-50'
+                }`}
+              >
+                <ClipboardList className="shrink-0" />
+                {isSidebarOpen && <span className="whitespace-nowrap overflow-hidden font-medium">{menuNames.quiz_home}</span>}
+              </button>
+            )}
+
             {(appLoginRole === 'teacher' || appLoginRole === 'admin') && (
               <>
-                {/* 🎯 นำ CanSeeMenu มาครอบเมนู Settings */}
                 {canSeeMenu('settings') && (
                   <button
                     onClick={() => setCurrentView('settings')}
@@ -885,7 +905,6 @@ export default function App() {
                   </button>
                 )}
 
-                {/* 🎯 นำ CanSeeMenu มาครอบเมนู Settings Other */}
                 {canSeeMenu('settings_other') && (
                   <button
                     onClick={() => setCurrentView('settings_other')}
@@ -917,7 +936,6 @@ export default function App() {
                 {isSidebarOpen && <span className="whitespace-nowrap overflow-hidden font-bold">เข้าร่วมชั้นเรียน</span>}
               </button>
 
-              {/* 🎯 ย้ายปุ่ม Logout มาไว้ใน Sidebar ด้านล่างสุด */}
               <button 
                 onClick={handleLogout}
                 title="ออกจากระบบ"
@@ -1084,7 +1102,6 @@ export default function App() {
           {currentView === 'settings' && (appLoginRole === 'teacher' || appLoginRole === 'admin') && canSeeMenu('settings') && (
             <div className="p-6 md:p-10 w-full relative z-10 flex flex-col gap-8">
               
-              {/* +++ เมนูสำหรับจัดการรหัสผ่าน (แสดงเฉพาะในหน้า Settings) +++ */}
               <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-6">
                 
                 {/* 1. จัดการรหัสคุณครู */}
@@ -1181,7 +1198,7 @@ export default function App() {
                 </div>
               </div>
 
-              {/* 🎯 4. จัดการการมองเห็นเมนู (เฉพาะ Admin) */}
+              {/* 4. จัดการการมองเห็นเมนู (เฉพาะ Admin) */}
               {appLoginRole === 'admin' && (
                 <div className="bg-white p-6 rounded-3xl shadow-sm border border-slate-200 col-span-1 md:col-span-2 lg:col-span-3 flex flex-col gap-4">
                   <div>
@@ -1199,6 +1216,7 @@ export default function App() {
                         {[
                           { key: 'home', label: menuNames.home },
                           { key: 'other_home', label: menuNames.other_home },
+                          { key: 'quiz_home', label: menuNames.quiz_home }, // 🎯 เพิ่ม Quiz
                           { key: 'settings', label: menuNames.settings },
                           { key: 'settings_other', label: menuNames.settings_other }
                         ].map(item => (
@@ -1225,7 +1243,8 @@ export default function App() {
                       <div className="flex flex-col gap-3">
                         {[
                           { key: 'home', label: menuNames.home },
-                          { key: 'other_home', label: menuNames.other_home }
+                          { key: 'other_home', label: menuNames.other_home },
+                          { key: 'quiz_home', label: menuNames.quiz_home } // 🎯 เพิ่ม Quiz
                         ].map(item => (
                           <label key={item.key} className="flex items-center gap-3 cursor-pointer">
                             <input 
@@ -1272,7 +1291,7 @@ export default function App() {
                   roomPin={roomPin}
                   userRole={userRole}
                   appLoginRole={appLoginRole} 
-                  canSeeMenu={canSeeMenu}     
+                  canSeeMenu={canSeeMenu as any} // 🎯 รับ Type ที่กว้างขึ้น
                 />
               );
             }

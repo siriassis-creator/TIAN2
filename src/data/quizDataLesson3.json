@@ -1,0 +1,3658 @@
+[
+    {
+      "question_id": "CN_PRE_Q001",
+      "test_id": "CN_PRE_001",
+      "question_number": 1,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "คำศัพท์กีฬา “打篮球” (dǎ lánqiú) ตรงกับความหมายในภาษาไทยข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "เตะฟุตบอล"
+        },
+        {
+          "id": "B",
+          "text": "เล่นบาสเกตบอล"
+        },
+        {
+          "id": "C",
+          "text": "เล่นวอลเลย์บอล"
+        },
+        {
+          "id": "D",
+          "text": "ต่อยมวยไทย"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำว่า “打篮球” (dǎ lánqiú) ประกอบด้วยคำว่า 打 (ตี/เล่นด้วยมือ) และ 篮球 (บาสเกตบอล) จึงหมายถึง \"เล่นบาสเกตบอล\"",
+      "learning_objective": "สามารถระบุคำศัพท์ชนิดกีฬาภาษาจีนได้ถูกต้องตามความหมายภาษาไทย",
+      "pre_post_pair": "CN_POST_Q001"
+    },
+    {
+      "question_id": "CN_PRE_Q002",
+      "test_id": "CN_PRE_001",
+      "question_number": 2,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "คำศัพท์กิจกรรมดนตรี “弹钢琴” (tán gāngqín) หมายถึงข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ร้องเพลง"
+        },
+        {
+          "id": "B",
+          "text": "เต้นรำ"
+        },
+        {
+          "id": "C",
+          "text": "วาดรูป"
+        },
+        {
+          "id": "D",
+          "text": "เล่นเปียโน"
+        }
+      ],
+      "correct_answer": [
+        "D"
+      ],
+      "score": 1,
+      "explanation": "“弹钢琴” (tán gāngqín) หมายถึง \"เล่นเปียโน\" โดย 弹 (tán) แปลว่า ดีด/เล่นเครื่องสายหรือคีย์บอร์ด และ 钢琴 (gāngqín) แปลว่า เปียโน",
+      "learning_objective": "สามารถระบุคำศัพท์กิจกรรมดนตรีและศิลปะได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q002"
+    },
+    {
+      "question_id": "CN_PRE_Q003",
+      "test_id": "CN_PRE_001",
+      "question_number": 3,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "pinyin",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "Pinyin ที่ถูกต้องของคำศัพท์ว่า “排球” (วอลเลย์บอล) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "páiqiú"
+        },
+        {
+          "id": "B",
+          "text": "báiqiú"
+        },
+        {
+          "id": "C",
+          "text": "páiqióu"
+        },
+        {
+          "id": "D",
+          "text": "báiqióu"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 排球 ออกเสียงพินอินว่า páiqiú โดยใช้พยัญชนะ p (พ) เสียงวรรณยุกต์ที่ 2 และ q (ช) สระ iu เสียงวรรณยุกต์ที่ 2",
+      "learning_objective": "สะกด Pinyin และวรรณยุกต์ของคำศัพท์กีฬาได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q003"
+    },
+    {
+      "question_id": "CN_PRE_Q004",
+      "test_id": "CN_PRE_001",
+      "question_number": 4,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "radicals",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ตัวอักษรจีนที่มีหมวดอักษร “双人旁 (彳)” เช่น คำว่า “很” (hěn) มักจะมีความหมายเกี่ยวกับเรื่องใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "มือและการตี"
+        },
+        {
+          "id": "B",
+          "text": "ถนน หนทาง และการเคลื่อนไหว"
+        },
+        {
+          "id": "C",
+          "text": "เท้าและการกระโดด"
+        },
+        {
+          "id": "D",
+          "text": "ภาษาและการพูด"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "หมวดอักษร 双人旁 (彳 - shuāngrénpáng) มีความหมายเกี่ยวข้องกันกับถนน หนทาง และการเคลื่อนไหว (道路、行动)",
+      "learning_objective": "เข้าใจความหมายและหน้าที่ของหมวดอักษรจีน 双人旁 (彳)",
+      "pre_post_pair": "CN_POST_Q004"
+    },
+    {
+      "question_id": "CN_PRE_Q005",
+      "test_id": "CN_PRE_001",
+      "question_number": 5,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "คำบอกระดับ (Degree Adverbs) “非常” (fēicháng) มีความหมายตรงกับภาษาไทยว่าอย่างไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ไม่ค่อย"
+        },
+        {
+          "id": "B",
+          "text": "ปานกลาง"
+        },
+        {
+          "id": "C",
+          "text": "มาก / อย่างยิ่ง"
+        },
+        {
+          "id": "D",
+          "text": "ไม่ดี"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "คำว่า “非常” (fēicháng) แปลว่า \"อย่างยิ่ง / มากๆ\" ใช้ขยายคำคุณศัพท์เพื่อแสดงระดับความเข้มข้นที่สูงกว่า 很 (hěn)",
+      "learning_objective": "ระบุความหมายของคำบอกระดับในภาษาจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q005"
+    },
+    {
+      "question_id": "CN_PRE_Q006",
+      "test_id": "CN_PRE_001",
+      "question_number": 6,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "daily_life",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เมื่อต้องการพูดเชียร์หรือให้กำลังใจเพื่อนในการแข่งขันกีฬา เช่น “孙浩，加油！” คำว่า “加油” (jiāyóu) หมายถึงอะไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "สู้ๆ / ให้กำลังใจ"
+        },
+        {
+          "id": "B",
+          "text": "ขอบคุณ"
+        },
+        {
+          "id": "C",
+          "text": "ขอโทษ"
+        },
+        {
+          "id": "D",
+          "text": "สวัสดี"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "“加油” (jiāyóu) แปลว่า \"สู้ๆ\" หรือ \"ให้กำลังใจ\" ใช้พูดเชียร์ข้างสนามหรือให้กำลังใจผู้อื่น",
+      "learning_objective": "บอกความหมายของคำสำนวนใช้เชียร์และให้กำลังใจในชีวิตประจำวันได้",
+      "pre_post_pair": "CN_POST_Q006"
+    },
+    {
+      "question_id": "CN_PRE_Q007",
+      "test_id": "CN_PRE_001",
+      "question_number": 7,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ข้อใดเลือกใช้คำกริยาแสดงการเล่นกีฬาประเภท “泰拳” (มวยไทย) ได้ถูกต้องตามหลักภาษาจีน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "踢泰拳"
+        },
+        {
+          "id": "B",
+          "text": "打泰拳"
+        },
+        {
+          "id": "C",
+          "text": "弹泰拳"
+        },
+        {
+          "id": "D",
+          "text": "跳泰拳"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "กีฬามวยไทยชกต่อยด้วยมือ/หมัดเป็นหลัก ภาษาจีนจึงใช้คำกริยา “打” (dǎ) รวมเป็น “打泰拳” (dǎ tàiquán)",
+      "learning_objective": "เลือกใช้คำกริยา (打) ได้ถูกต้องตามประเภทของกีฬา",
+      "pre_post_pair": "CN_POST_Q007"
+    },
+    {
+      "question_id": "CN_PRE_Q008",
+      "test_id": "CN_PRE_001",
+      "question_number": 8,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ประโยค “我会打篮球。” (Wǒ huì dǎ lánqiú.) คำว่า “会” (huì) ในประโยคนี้ทำหน้าที่อะไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "บอกสถานที่"
+        },
+        {
+          "id": "B",
+          "text": "บอกความสามารถที่เกิดจากการฝึกฝน/เรียนรู้"
+        },
+        {
+          "id": "C",
+          "text": "บอกเวลาในอดีต"
+        },
+        {
+          "id": "D",
+          "text": "บอกการปฏิเสธ"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำกริยานุเคราะห์ “会” (huì) ใช้แสดงความสามารถที่ทำเป็นจากการเรียนรู้หรือฝึกฝน เช่น 我会打篮球 (ฉันเล่นบาสเกตบอลเป็น)",
+      "learning_objective": "เข้าใจความหมายและหน้าที่ของคำกริยานุเคราะห์ 会 ในการบอกความสามารถ",
+      "pre_post_pair": "CN_POST_Q008"
+    },
+    {
+      "question_id": "CN_PRE_Q009",
+      "test_id": "CN_PRE_001",
+      "question_number": 9,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "pinyin",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เสียงวรรณยุกต์ของคำว่า “不” (bù) เมื่อนำมาวางหน้าคำว่า “太好” ในวลี “不太好” จะต้องออกเสียงอย่างไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ออกเสียง 1 (bū)"
+        },
+        {
+          "id": "B",
+          "text": "ออกเสียง 2 (bú)"
+        },
+        {
+          "id": "C",
+          "text": "ออกเสียง 3 (bǔ)"
+        },
+        {
+          "id": "D",
+          "text": "ออกเสียง 4 (bù) ตามเดิม"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "กฎการเปลี่ยนเสียงวรรณยุกต์ของ 不 (bù) คือ เมื่อวางหน้าคำอักษรเสียงวรรณยุกต์ที่ 4 (เช่น 太 tài) คำว่า 不 จะเปลี่ยนเป็นเสียงที่ 2 อ่านว่า bú tài hǎo",
+      "learning_objective": "ระบุกฎการเปลี่ยนเสียงวรรณยุกต์ของคำว่า 不 เมื่อวางหน้าอักษรเสียง 4 ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q009"
+    },
+    {
+      "question_id": "CN_PRE_Q010",
+      "test_id": "CN_PRE_001",
+      "question_number": 10,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "单元复习 1",
+      "lesson": "Lesson 3",
+      "question": "คำศัพท์ภาษาต่างประเทศ “汉语” (Hànyǔ) หมายถึงภาษาใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ภาษาไทย"
+        },
+        {
+          "id": "B",
+          "text": "ภาษาอังกฤษ"
+        },
+        {
+          "id": "C",
+          "text": "ภาษาจีน"
+        },
+        {
+          "id": "D",
+          "text": "ภาษาญี่ปุ่น"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "คำว่า “汉语” (Hànyǔ) หมายถึง \"ภาษาจีน\"",
+      "learning_objective": "ระบุความหมายของคำศัพท์ภาษาต่างประเทศได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q010"
+    },
+    {
+      "question_id": "CN_PRE_Q011",
+      "test_id": "CN_PRE_001",
+      "question_number": 11,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "พิจารณาโครงสร้างคำเสริมบอกระดับ (Complement of Degree - 得) ข้อใดวางตำแหน่งของ “得” ได้ถูกต้องตามหลักไวยากรณ์?",
+      "options": [
+        {
+          "id": "A",
+          "text": "她唱很得好。"
+        },
+        {
+          "id": "B",
+          "text": "她唱得很好。"
+        },
+        {
+          "id": "C",
+          "text": "她很唱得好。"
+        },
+        {
+          "id": "D",
+          "text": "她得唱很好。"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างคำเสริมบอกระดับคือ Subject + Verb + 得 + Adverb + Adjective ดังนั้น “唱” (คำกริยา) ต้องตามด้วย “得” แล้วจึงตามด้วยคำบอกระดับ “很好” เป็น “她唱得很好。” (Tā chàng de hěn hǎo.)",
+      "learning_objective": "วิเคราะห์และเรียงลำดับตำแหน่งของ 得 ในประโยคคำเสริมบอกระดับได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q011"
+    },
+    {
+      "question_id": "CN_PRE_Q012",
+      "test_id": "CN_PRE_001",
+      "question_number": 12,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "sentence_patterns",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เมื่อประโยคมีบทกรรม (Object) เช่น “打篮球” หากต้องการประเมินความสามารถด้วยคำเสริมบอกระดับ “得” ข้อใดใช้โครงสร้างซ้ำกริยาได้ถูกต้อง?",
+      "options": [
+        {
+          "id": "A",
+          "text": "孙浩打篮球得很好。"
+        },
+        {
+          "id": "B",
+          "text": "孙浩打篮球打得很好。"
+        },
+        {
+          "id": "C",
+          "text": "孙浩篮球打得很好打。"
+        },
+        {
+          "id": "D",
+          "text": "孙浩得打篮球很好。"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "เมื่อกริยามีกรรม ต้องซ้ำกริยาก่อนใส่ 得 ตามโครงสร้าง Subject + Verb + Object + Verb + 得 + Degree Complement จึงเป็น “孙浩打篮球打得很好。” (Sūn Hào dǎ lánqiú dǎ de hěn hǎo.)",
+      "learning_objective": "ประยุกต์ใช้โครงสร้างประโยคซ้ำกริยากับบทกรรมร่วมกับคำเสริมบอกระดับ 得 ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q012"
+    },
+    {
+      "question_id": "CN_PRE_Q013",
+      "test_id": "CN_PRE_001",
+      "question_number": 13,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "dialogue",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "หากเพื่อนถามคุณว่า “你打得怎么样？” (Nǐ dǎ de zěnmeyàng?) หลังเล่นกีฬา และคุณต้องการถ่อมตนว่า \"ฉันเล่นได้ไม่ค่อยดี\" ควรตอบว่าอย่างไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "我打得非常好。"
+        },
+        {
+          "id": "B",
+          "text": "我打得不太好。"
+        },
+        {
+          "id": "C",
+          "text": "我非常喜欢打。"
+        },
+        {
+          "id": "D",
+          "text": "我不会打。"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำถามถามถึงระดับฝีมือ “...得怎么样？” การตอบประเมินฝีมือตัวเองว่าเล่นได้ไม่ค่อยดี/ไม่ค่อยเก่ง ให้ใช้ประโยค “我打得不太好。” (Wǒ dǎ de bú tài hǎo.)",
+      "learning_objective": "เลือกประโยคตอบรับการถามประเมินความสามารถในบทสนทนาได้อย่างเหมาะสม",
+      "pre_post_pair": "CN_POST_Q013"
+    },
+    {
+      "question_id": "CN_PRE_Q014",
+      "test_id": "CN_PRE_001",
+      "question_number": 14,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "อ่านข้อความต่อไปนี้แล้วตอบคำถาม:\n“孙浩是我的同学，也是我的好朋友。孙浩的爸爸、妈妈都是中国人，他们现在住在泰国。”\nถามว่า: พ่อแม่ของซุนห่าวเป็นคนชาติใด และปัจจุบันอาศัยอยู่ที่ไหน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "เป็นคนไทย อาศัยอยู่ประเทศจีน"
+        },
+        {
+          "id": "B",
+          "text": "เป็นคนจีน อาศัยอยู่ประเทศจีน"
+        },
+        {
+          "id": "C",
+          "text": "เป็นคนจีน อาศัยอยู่ประเทศไทย"
+        },
+        {
+          "id": "D",
+          "text": "เป็นคนไทย อาศัยอยู่ประเทศไทย"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "จากบทอ่าน “...爸爸、妈妈都是中国人 (พ่อแม่เป็นคนจีนทั้งคู่)，他们现在住在泰国 (ตอนนี้พวกเขาสู้อาศัยอยู่ในประเทศไทย)”",
+      "learning_objective": "อ่านจับใจความและสกัดข้อมูลชีวประวัติบุคคลจากบทอ่านสั้นภาษาจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q014"
+    },
+    {
+      "question_id": "CN_PRE_Q015",
+      "test_id": "CN_PRE_001",
+      "question_number": 15,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "sentence_patterns",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติมคำในช่องว่างให้ประโยคสมบูรณ์และได้ความหมายถูกต้องที่สุด:\n“他___踢足球，但是踢___不太好。”",
+      "options": [
+        {
+          "id": "A",
+          "text": "不 / 得"
+        },
+        {
+          "id": "B",
+          "text": "会 / 得"
+        },
+        {
+          "id": "C",
+          "text": "得 / 会"
+        },
+        {
+          "id": "D",
+          "text": "非常 / 不"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ช่องแรกบอกความสามารถต้องใช้ “会” (เตะฟุตบอลเป็น) ช่องที่สองตามหลังกริยา 踢 เพื่อบอกระดับ “不太好” ต้องใช้คำเสริม “得” รวมเป็น “他会踢足球，但是踢得不太好。”",
+      "learning_objective": "เลือกใช้คำกริยานุเคราะห์ 会 และคำเสริมบอกระดับ 得 ในประโยคความรวมได้อย่างถูกต้อง",
+      "pre_post_pair": "CN_POST_Q015"
+    },
+    {
+      "question_id": "CN_PRE_Q016",
+      "test_id": "CN_PRE_001",
+      "question_number": 16,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "พิจารณาคำกริยาและคำนามต่อไปนี้ คู่ใดสามารถนำมารวมกันเป็นวลีกิจกรรมได้อย่างถูกต้องตามหลักภาษาจีน?\n(1) 弹 + 电脑游戏  (2) 玩 + 电脑游戏  (3) 说 + 汉语  (4) 踢 + 泰拳",
+      "options": [
+        {
+          "id": "A",
+          "text": "(1) และ (3)"
+        },
+        {
+          "id": "B",
+          "text": "(2) และ (3)"
+        },
+        {
+          "id": "C",
+          "text": "(2) และ (4)"
+        },
+        {
+          "id": "D",
+          "text": "(1) และ (4)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "(2) 玩电脑游戏 (เล่นเกมคอมพิวเตอร์) ใช้ 玩 ถูกต้อง; (3) 说汉语 (พูดภาษาจีน) ใช้ 说 ถูกต้อง ส่วน (1) ต้องใช้ 玩电脑游戏 และ (4) ต้องใช้ 打泰拳",
+      "learning_objective": "จำแนกและจับคู่คำกริยากับคำนามที่เป็นกิจกรรมต่างๆ ได้ถูกต้องตามบริบท",
+      "pre_post_pair": "CN_POST_Q016"
+    },
+    {
+      "question_id": "CN_PRE_Q017",
+      "test_id": "CN_PRE_001",
+      "question_number": 17,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "daily_life",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ในบทสนทนา เมื่อผู้พูดกล่าวประโยคว่า “我打得不太好。” (Wǒ dǎ de bú tài hǎo.) น้ำเสียงและเจตนาของผู้พูดตรงกับข้อใดมากที่สุด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "แสดงความโอ้อวดว่าตนเองเก่งที่สุด"
+        },
+        {
+          "id": "B",
+          "text": "แสดงความถ่อมตัวเกี่ยวกับการประเมินความสามารถของตนเอง"
+        },
+        {
+          "id": "C",
+          "text": "ปฏิเสธว่าเล่นไม่เป็นเลย"
+        },
+        {
+          "id": "D",
+          "text": "ชวนเพื่อนไปแข่งกีฬา"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "“不太好” (ไม่ค่อยดี/ไม่ค่อยเก่ง) เป็นคำแสดงระดับที่ใช้ประเมินตนเองอย่างสุภาพและถ่อมตัวตามวัฒนธรรมการสื่อสารภาษาจีน",
+      "learning_objective": "วิเคราะห์เจตนาและน้ำเสียงของผู้พูดในบทสนทนาชีวิตประจำวันได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q017"
+    },
+    {
+      "question_id": "CN_PRE_Q018",
+      "test_id": "CN_PRE_001",
+      "question_number": 18,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "อ่านข้อความวัฒนธรรมกีฬาจีนต่อไปนี้:\n“中国人喜欢打乒乓球，很多人都会打乒乓球。中国运动员打乒乓球打得非常好。”\nข้อใดเป็นข้อสรุปที่ ถูกต้อง จากบทอ่านข้างต้น?",
+      "options": [
+        {
+          "id": "A",
+          "text": "คนจีนไม่ชอบเล่นปิงปอง"
+        },
+        {
+          "id": "B",
+          "text": "นักกีฬาจีนเล่นปิงปองได้ไม่ค่อยดี"
+        },
+        {
+          "id": "C",
+          "text": "ปิงปองเป็นกีฬาที่คนจีนชื่นชอบและนักกีฬาจีนเล่นได้ดีมาก"
+        },
+        {
+          "id": "D",
+          "text": "มีคนจีนส่วนน้อยเท่านั้นที่เล่นปิงปองเป็น"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "จากบทอ่าน “中国人喜欢打乒乓球... 中国运动员打乒乓球打得非常好” สรุปได้ว่าปิงปองเป็นกีฬาที่นิยมมากในจีนและนักกีฬาจีนเล่นได้ดีมาก",
+      "learning_objective": "สรุปใจความสำคัญจากข้อความอ่านวัฒนธรรมกีฬาจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q018"
+    },
+    {
+      "question_id": "CN_PRE_Q019",
+      "test_id": "CN_PRE_001",
+      "question_number": 19,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "หากต้องการเปลี่ยนประโยคคำถามจาก “孙浩打篮球打得怎么样？” ให้เป็นคำถามที่ใช้คำว่า “好吗” โดยคงความหมายเดิม ข้อใดถูกต้อง?",
+      "options": [
+        {
+          "id": "A",
+          "text": "孙浩打篮球好吗打？"
+        },
+        {
+          "id": "B",
+          "text": "孙浩打篮球打得好吗？"
+        },
+        {
+          "id": "C",
+          "text": "孙浩好吗打篮球得？"
+        },
+        {
+          "id": "D",
+          "text": "孙浩打得好吗篮球？"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างการถามประเมินผลด้วย 好吗 เมื่อมีกรรมคือ Subject + Verb + Object + Verb + 得 + 好吗？ จึงเป็น “孙浩打篮球打得好吗？”",
+      "learning_objective": "แปลงรูปประโยคคำถามประเมินผลโดยใช้ 好吗 ได้ถูกต้องตามโครงสร้างไวยากรณ์",
+      "pre_post_pair": "CN_POST_Q019"
+    },
+    {
+      "question_id": "CN_PRE_Q020",
+      "test_id": "CN_PRE_001",
+      "question_number": 20,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "单元复习 1",
+      "lesson": "Lesson 3",
+      "question": "จากนิทานทบทวนภาษา (Unit Review 1) ตัวละครเป็ดพูดว่า “我会说日语，我说日语说得很好。” ต่อมาเมื่อมีป้ายเขียนว่า “Stop Bragging!” เป็ดกลับตอบว่า “这个……不知道。” ข้อความนี้สะท้อนลักษณะใดของตัวละครเป็ด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "เป็ดพูดภาษาต่างประเทศได้ทุกภาษาจริงๆ"
+        },
+        {
+          "id": "B",
+          "text": "เป็ดชอบพูดคุยอวดอ้างความสามารถเกินจริง"
+        },
+        {
+          "id": "C",
+          "text": "เป็ดอ่านภาษาอังกฤษออกทุกคำ"
+        },
+        {
+          "id": "D",
+          "text": "เป็ดเป็นครูสอนภาษา"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "นิทานแสดงให้เห็นว่าเป็ดพูดอวดว่าพูดได้หลายภาษาอย่างดีเยี่ยม แต่เมื่อเจอป้ายภาษาอังกฤษ “Stop Bragging!” (หยุดคุยโตได้แล้ว) เป็ดกลับอ่านไม่ออกและตอบว่า “不知道” (ไม่รู้) สะท้อนถึงการชอบพูดคุยโตอวดอ้าง",
+      "learning_objective": "วิเคราะห์และตีความพฤติกรรมตัวละครจากบทอ่านนิทานภาษาจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q020"
+    },
+    {
+      "question_id": "CN_PRE_Q021",
+      "test_id": "CN_PRE_001",
+      "question_number": 21,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "pinyin",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติม Pinyin ที่ขาดหายไปของคำศัพท์ชนิดกีฬาให้สมบูรณ์:\n“打篮球” = dǎ ___qiú (บาสเกตบอล)",
+      "options": [
+        {
+          "id": "A",
+          "text": "lán"
+        },
+        {
+          "id": "B",
+          "text": "pái"
+        },
+        {
+          "id": "C",
+          "text": "zú"
+        },
+        {
+          "id": "D",
+          "text": "tài"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 篮球 (บาสเกตบอล) ออกเสียงพินอินว่า lánqiú พินอินที่หายไปคือ lán",
+      "learning_objective": "เติมเสียงพินอินที่ขาดหายไปของคำศัพท์กีฬาได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q021"
+    },
+    {
+      "question_id": "CN_PRE_Q022",
+      "test_id": "CN_PRE_001",
+      "question_number": 22,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "pinyin",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติม Pinyin ที่ขาดหายไปของคำบอกระดับต่อไปนี้ให้ถูกต้อง:\n“非常” = fēicháng (มาก/อย่างยิ่ง) เสียงพินอินของตัวอักษร “常” คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "cháng"
+        },
+        {
+          "id": "B",
+          "text": "zhāng"
+        },
+        {
+          "id": "C",
+          "text": "cáng"
+        },
+        {
+          "id": "D",
+          "text": "shāng"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "อักษร 常 ออกเสียงพินอินว่า cháng เมื่อรวมกับ 非 จะอ่านว่า fēicháng",
+      "learning_objective": "ระบุเสียงพินอินของคำบอกระดับได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q022"
+    },
+    {
+      "question_id": "CN_PRE_Q023",
+      "test_id": "CN_PRE_001",
+      "question_number": 23,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติมตัวอักษรจีนที่หายไปลงในช่องว่างเพื่อให้ได้คำศัพท์ภาษาจีนที่ถูกต้อง:\n“打___球” (dǎ páiqiú - เล่นวอลเลย์บอล)",
+      "options": [
+        {
+          "id": "A",
+          "text": "篮"
+        },
+        {
+          "id": "B",
+          "text": "排"
+        },
+        {
+          "id": "C",
+          "text": "足"
+        },
+        {
+          "id": "D",
+          "text": "拳"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำว่า \"วอลเลย์บอล\" ภาษาจีนคือ “排球” (páiqiú) ตัวอักษรที่ขาดหายไปคือ “排”",
+      "learning_objective": "ระบุตัวอักษรจีนที่ขาดหายไปในคำศัพท์กีฬาได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q023"
+    },
+    {
+      "question_id": "CN_PRE_Q024",
+      "test_id": "CN_PRE_001",
+      "question_number": 24,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติมคำเสริมโครงสร้างที่ถูกต้องลงในช่องว่างของประโยคต่อไปนี้:\n“我跑___快。” (Wǒ pǎo ___ kuài. - ฉันวิ่งได้เร็ว)",
+      "options": [
+        {
+          "id": "A",
+          "text": "得"
+        },
+        {
+          "id": "B",
+          "text": "的"
+        },
+        {
+          "id": "C",
+          "text": "地"
+        },
+        {
+          "id": "D",
+          "text": "会"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำเสริมโครงสร้างที่วางไว้หลังคำกริยา (跑) เพื่อตามด้วยคำขยายบอกระดับของการกระทำ (快) คือ “得” (dé)",
+      "learning_objective": "เลือกเติมคำเสริมโครงสร้าง 得 ในประโยคบอกระดับอย่างง่ายได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q024"
+    },
+    {
+      "question_id": "CN_PRE_Q025",
+      "test_id": "CN_PRE_001",
+      "question_number": 25,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติมคำกริยานุเคราะห์ที่ถูกต้องลงในช่องว่าง:\n“弟弟___游泳。” (Dìdi ___ yóuyǒng. - น้องชายว่ายน้ำเป็น)",
+      "options": [
+        {
+          "id": "A",
+          "text": "得"
+        },
+        {
+          "id": "B",
+          "text": "很"
+        },
+        {
+          "id": "C",
+          "text": "会"
+        },
+        {
+          "id": "D",
+          "text": "非常"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "คำกริยานุเคราะห์ที่ใช้บอกความสามารถที่ผ่านการฝึกฝนคือ “会” (huì)",
+      "learning_objective": "เติมคำกริยานุเคราะห์ 会 ในประโยคบอกความสามารถได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q025"
+    },
+    {
+      "question_id": "CN_PRE_Q026",
+      "test_id": "CN_PRE_001",
+      "question_number": 26,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "จากคำแปลภาษาไทย “ร้องเพลง” เติมคำศัพท์ภาษาจีนลงในช่องว่างให้ถูกต้อง:\n“姐姐喜欢___。” (Jiějie xǐhuan ___.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "唱歌"
+        },
+        {
+          "id": "B",
+          "text": "跳舞"
+        },
+        {
+          "id": "C",
+          "text": "画画"
+        },
+        {
+          "id": "D",
+          "text": "跳绳"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำศัพท์ภาษาจีนที่แปลว่า \"ร้องเพลง\" คือ “唱歌” (chànggē)",
+      "learning_objective": "เติมคำศัพท์กิจกรรมดนตรี/ศิลปะได้ถูกต้องตามความหมาย",
+      "pre_post_pair": "CN_POST_Q026"
+    },
+    {
+      "question_id": "CN_PRE_Q027",
+      "test_id": "CN_PRE_001",
+      "question_number": 27,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติมคำกริยาภาษาจีนให้ถูกต้องสัมพันธ์กับอุปกรณ์กีฬา:\n“___乒乓球” (เล่นปิงปอง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "踢"
+        },
+        {
+          "id": "B",
+          "text": "打"
+        },
+        {
+          "id": "C",
+          "text": "弹"
+        },
+        {
+          "id": "D",
+          "text": "游"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "กีฬาปิงปองใช้มือถือไม้ตี จึงใช้คำกริยา “打” (dǎ) เป็น “打乒乓球”",
+      "learning_objective": "เลือกเติมคำกริยาแสดงอาการเล่นกีฬาได้ถูกต้องตามประเภทกีฬา",
+      "pre_post_pair": "CN_POST_Q027"
+    },
+    {
+      "question_id": "CN_PRE_Q028",
+      "test_id": "CN_PRE_001",
+      "question_number": 28,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "radicals",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "พิจารณาตัวอักษรจีนที่กำหนดให้: “彳” + “艮” ประกอบกันแล้วได้เป็นตัวอักษรจีนในข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "得"
+        },
+        {
+          "id": "B",
+          "text": "德"
+        },
+        {
+          "id": "C",
+          "text": "很"
+        },
+        {
+          "id": "D",
+          "text": "行"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "หมวดอักษร 彳 (双人旁) รวมกับส่วนประกอบ 艮 (gěn) ประกอบเป็นตัวอักษร “很” (hěn - มาก)",
+      "learning_objective": "รวมส่วนประกอบหมวดอักษรจีนเพื่อสร้างตัวอักษรจีนที่ถูกต้องได้",
+      "pre_post_pair": "CN_POST_Q028"
+    },
+    {
+      "question_id": "CN_PRE_Q029",
+      "test_id": "CN_PRE_001",
+      "question_number": 29,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติมคำลงในช่องว่างของประโยคที่มีบทกรรมให้ถูกต้องตามกฎการซ้ำกริยา:\n“哥哥弹钢琴弹___非常好。”",
+      "options": [
+        {
+          "id": "A",
+          "text": "会"
+        },
+        {
+          "id": "B",
+          "text": "得"
+        },
+        {
+          "id": "C",
+          "text": "很"
+        },
+        {
+          "id": "D",
+          "text": "非常"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างประโยคซ้ำกริยาคือ Verb + Object + Verb + 得 + Degree Complement คำที่ต้องเติมหลังกริยาซ้ำ 弹 ตัวที่สองคือ “得”",
+      "learning_objective": "เติมคำเสริมบอกระดับ 得 ในโครงสร้างประโยคซ้ำกริยาได้อย่างถูกต้อง",
+      "pre_post_pair": "CN_POST_Q029"
+    },
+    {
+      "question_id": "CN_PRE_Q030",
+      "test_id": "CN_PRE_001",
+      "question_number": 30,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "dialogue",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "พิจารณาบทสนทนาต่อไปนี้ แล้วเลือกประโยคเติมลงในช่องว่างของ B ให้ถูกต้องและสอดคล้องที่สุด:\nA: 你说汉语说得怎么样？\nB: _______________。",
+      "options": [
+        {
+          "id": "A",
+          "text": "我不说汉语。"
+        },
+        {
+          "id": "B",
+          "text": "我说得不太好。"
+        },
+        {
+          "id": "C",
+          "text": "我会说汉语。"
+        },
+        {
+          "id": "D",
+          "text": "我去过中国。"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "A ถามประเมินความสามารถ “...说得怎么样？” คำตอบ B จึงต้องตอบประเมินระดับฝีมือของตนเอง คือ “我说得不太好。” (ฉันพูดได้ไม่ค่อยดี)",
+      "learning_objective": "เลือกประโยคตอบคำถามประเมินความสามารถในบทสนทนาได้อย่างเหมาะสม",
+      "pre_post_pair": "CN_POST_Q030"
+    },
+    {
+      "question_id": "CN_PRE_Q031",
+      "test_id": "CN_PRE_001",
+      "question_number": 31,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติมคำศัพท์ลงในช่องว่างของบทอ่านสั้นแนะนำเพื่อนให้สมบูรณ์:\n“孙浩很喜欢打篮球，他打篮球打得___好。” (ซุนห่าวชอบเล่นบาสเกตบอลมาก เขาเล่นบาสเกตบอลได้ดีมากๆ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "非常"
+        },
+        {
+          "id": "B",
+          "text": "不太"
+        },
+        {
+          "id": "C",
+          "text": "不"
+        },
+        {
+          "id": "D",
+          "text": "会"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "จากบริบทซุนห่าว \"ชอบเล่นบาสมาก\" คำบอกระดับที่สอดคล้องเชิงบวกคือ “非常” (fēicháng - มากๆ) รวมเป็น 非常好",
+      "learning_objective": "เลือกเติมคำบอกระดับที่สอดคล้องกับบริบทเนื้อหาการอ่านจับใจความ",
+      "pre_post_pair": "CN_POST_Q031"
+    },
+    {
+      "question_id": "CN_PRE_Q032",
+      "test_id": "CN_PRE_001",
+      "question_number": 32,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "radicals",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "พิจารณาส่วนประกอบอักษรจีนต่อไปนี้: “寻” + “文” รวมกันเกิดเป็นตัวอักษรข้างในคำว่า “得” แล้วถ้าเป็นส่วนประกอบ “良” + “寸” ประกอบกับหมวดอักษร 辶 จะได้เป็นตัวอักษรจีนในข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "过"
+        },
+        {
+          "id": "B",
+          "text": "这"
+        },
+        {
+          "id": "C",
+          "text": "红"
+        },
+        {
+          "id": "D",
+          "text": "级"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ตามเนื้อหาแบบเรียนย่อยการประกอบตัวอักษร: “良” + “寸” (ประกอบกับ 辶) จะได้เป็นตัวอักษร “过” (guò)",
+      "learning_objective": "วิเคราะห์และระบุตัวอักษรจีนที่เกิดจากการรวมส่วนประกอบอักษรตามแบบเรียนได้",
+      "pre_post_pair": "CN_POST_Q032"
+    },
+    {
+      "question_id": "CN_PRE_Q033",
+      "test_id": "CN_PRE_001",
+      "question_number": 33,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "daily_life",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติมคำประเมินความสามารถลงในช่องว่างให้สอดคล้องกับบริบทประโยคปฏิเสธความชื่นชอบ:\n“我不太喜欢踢足球，我踢得___。”",
+      "options": [
+        {
+          "id": "A",
+          "text": "非常好"
+        },
+        {
+          "id": "B",
+          "text": "很好"
+        },
+        {
+          "id": "C",
+          "text": "不太好"
+        },
+        {
+          "id": "D",
+          "text": "会"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "ประโยคแรกระบุว่า “我不太喜欢踢足球” (ฉันไม่ค่อยชอบเตะฟุตบอล) ประโยคต่อมาจึงต้องประเมินรับกันว่า “我踢得不太好。” (ฉันเตะได้ไม่ค่อยดี)",
+      "learning_objective": "เลือกใช้คำประเมินระดับความสามารถได้สอดคล้องกับบริบทความชื่นชอบของบุคคล",
+      "pre_post_pair": "CN_POST_Q033"
+    },
+    {
+      "question_id": "CN_PRE_Q034",
+      "test_id": "CN_PRE_001",
+      "question_number": 34,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติมคำศัพท์ตำแหน่งทางกีฬาลงในช่องว่างของประโยคแนะนำ Yao Ming ให้ถูกต้อง:\n“姚明是我最喜欢的体育明星。他是篮球___。”",
+      "options": [
+        {
+          "id": "A",
+          "text": "同学"
+        },
+        {
+          "id": "B",
+          "text": "运动员"
+        },
+        {
+          "id": "C",
+          "text": "老师"
+        },
+        {
+          "id": "D",
+          "text": "好朋友"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำศัพท์ที่แปลว่า \"นักกีฬา\" คือ “运动员” (yùndòngyuán) เมื่อรวมกับ 篮球 (บาสเกตบอล) จะเป็น “篮球运动员” (นักบาสเกตบอล)",
+      "learning_objective": "เติมคำศัพท์เฉพาะทางกีฬาในประโยคแนะนำบุคคลสำคัญ/นักกีฬาได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q034"
+    },
+    {
+      "question_id": "CN_PRE_Q035",
+      "test_id": "CN_PRE_001",
+      "question_number": 35,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "单元复习 1",
+      "lesson": "Lesson 3",
+      "question": "จากนิทานทบทวนภาษา (Unit Review 1) เติมคำกริยาประสบการณ์ที่ถูกต้องลงในช่องว่าง:\n“我___过日本，也会说日语。” (ฉันเคยไปประเทศญี่ปุ่น และพูดภาษาญี่ปุ่นเป็นด้วย)",
+      "options": [
+        {
+          "id": "A",
+          "text": "吃"
+        },
+        {
+          "id": "B",
+          "text": "去"
+        },
+        {
+          "id": "C",
+          "text": "看"
+        },
+        {
+          "id": "D",
+          "text": "玩"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างบอกประสบการณ์ไปสถานที่ต่างๆ คือ 去 + 过 + สถานที่ คำกริยาที่ต้องเติมคือ “去” (qù - ไป) รวมเป็น 我去过日本 (ฉันเคยไปญี่ปุ่น)",
+      "learning_objective": "เติมคำกริยาบอกประสบการณ์โครงสร้าง 过 ในบริบทนิทานภาษาจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q035"
+    },
+    {
+      "question_id": "CN_PRE_Q036",
+      "test_id": "CN_PRE_001",
+      "question_number": 36,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ข้อใดจัดเป็นคำศัพท์กีฬาที่ใช้คำกริยา “打” (dǎ) ในการเล่น? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "篮球"
+        },
+        {
+          "id": "B",
+          "text": "排球"
+        },
+        {
+          "id": "C",
+          "text": "足球"
+        },
+        {
+          "id": "D",
+          "text": "乒乓球"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "score": 2,
+      "explanation": "กีฬาที่ใช้มือตี/เล่นจะใช้กริยา “打” ได้แก่ 打篮球, 打排球, 打乒乓球 ส่วน 足球 (ฟุตบอล) ใช้กริยา 踢 (เตะ)",
+      "learning_objective": "จำแนกและเลือกคำศัพท์กีฬาที่ใช้คำกริยา 打 ได้ถูกต้องครบถ้วน",
+      "pre_post_pair": "CN_POST_Q036"
+    },
+    {
+      "question_id": "CN_PRE_Q037",
+      "test_id": "CN_PRE_001",
+      "question_number": 37,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "คำในข้อใดต่อไปนี้จัดเป็น “คำบอกระดับ” (Degree Adverbs) ในภาษาจีนที่ปรากฏในบทเรียน? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "很"
+        },
+        {
+          "id": "B",
+          "text": "非常"
+        },
+        {
+          "id": "C",
+          "text": "不太"
+        },
+        {
+          "id": "D",
+          "text": "游泳"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "很 (hěn - มาก), 非常 (fēicháng - มากๆ), 不太 (bú tài - ไม่ค่อย) เป็นคำบอกระดับทั้งหมด ส่วน 游泳 (yóuyǒng) เป็นคำกริยา (ว่ายน้ำ)",
+      "learning_objective": "จำแนกและเลือกคำบอกระดับ (Degree Adverbs) ได้ถูกต้องครบถ้วน",
+      "pre_post_pair": "CN_POST_Q037"
+    },
+    {
+      "question_id": "CN_PRE_Q038",
+      "test_id": "CN_PRE_001",
+      "question_number": 38,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "radicals",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ตัวอักษรจีนในข้อใดมีหมวดอักษร “双人旁 (彳)” เป็นส่วนประกอบ? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "得"
+        },
+        {
+          "id": "B",
+          "text": "很"
+        },
+        {
+          "id": "C",
+          "text": "德"
+        },
+        {
+          "id": "D",
+          "text": "打"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "ตัวอักษร 得 (dé), 很 (hěn), 德 (dé) มีหมวดอักษร 彳 (双人旁) อยู่ด้านซ้ายทั้งหมด ส่วน 打 มีหมวดอักษร 扌 (提手旁)",
+      "learning_objective": "ระบุและเลือกตัวอักษรจีนที่มีหมวดอักษร 双人旁 (彳) ได้ถูกต้องครบถ้วน",
+      "pre_post_pair": "CN_POST_Q038"
+    },
+    {
+      "question_id": "CN_PRE_Q039",
+      "test_id": "CN_PRE_001",
+      "question_number": 39,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ข้อใดจัดเป็นคำศัพท์กิจกรรมเกี่ยวกับ “ดนตรีและศิลปะ” ในบทเรียน? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "唱歌"
+        },
+        {
+          "id": "B",
+          "text": "画画"
+        },
+        {
+          "id": "C",
+          "text": "弹钢琴"
+        },
+        {
+          "id": "D",
+          "text": "踢足球"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "唱歌 (ร้องเพลง), 画画 (วาดรูป), 弹钢琴 (เล่นเปียโน) เป็นกิจกรรมดนตรีและศิลปะ ส่วน 踢足球 เป็นกิจกรรมกีฬา",
+      "learning_objective": "จัดกลุ่มคำศัพท์กิจกรรมเกี่ยวกับดนตรีและศิลปะได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q039"
+    },
+    {
+      "question_id": "CN_PRE_Q040",
+      "test_id": "CN_PRE_001",
+      "question_number": 40,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "pinyin",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "พิจารณาคำศัพท์และ Pinyin ต่อไปนี้ ข้อใดจับคู่ Pinyin และเครื่องหมายวรรณยุกต์ได้ ถูกต้อง? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "唱歌 = chànggē"
+        },
+        {
+          "id": "B",
+          "text": "跳舞 = tiàowǔ"
+        },
+        {
+          "id": "C",
+          "text": "游泳 = yóuyǒng"
+        },
+        {
+          "id": "D",
+          "text": "踢足球 = tī zúqióu"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "A, B, C สะกดพินอินถูกต้อง ส่วน D สะกดผิดตรงคำว่า 足球 ต้องเป็น zúqiú (สระ iu)",
+      "learning_objective": "ตรวจสอบและเลือกคู่คำศัพท์จีนกับ Pinyin ที่สะกดถูกต้องได้",
+      "pre_post_pair": "CN_POST_Q040"
+    },
+    {
+      "question_id": "CN_PRE_Q041",
+      "test_id": "CN_PRE_001",
+      "question_number": 41,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "单元复习 1",
+      "lesson": "Lesson 3",
+      "question": "คำศัพท์ในข้อใดเป็นชื่อภาษาต่างประเทศที่ปรากฏในบททบทวน (Unit Review 1)? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "泰语"
+        },
+        {
+          "id": "B",
+          "text": "英语"
+        },
+        {
+          "id": "C",
+          "text": "日语"
+        },
+        {
+          "id": "D",
+          "text": "烤鸭"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "泰语 (ภาษาไทย), 英语 (ภาษาอังกฤษ), 日语 (ภาษาญี่ปุ่น) เป็นคำศัพท์ชื่อภาษาต่างประเทศ ส่วน 烤鸭 (kǎoyā) แปลว่า เป็ดย่าง",
+      "learning_objective": "ระบุคำศัพท์ประเภทชื่อภาษาต่างประเทศในบทเรียนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q041"
+    },
+    {
+      "question_id": "CN_PRE_Q042",
+      "test_id": "CN_PRE_001",
+      "question_number": 42,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "sentence_patterns",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ข้อใดเป็นรูปแบบประโยคคำถามที่ใช้ถามเพื่อประเมินระดับฝีมือ/ความสามารถได้อย่างถูกต้องตามหลักไวยากรณ์? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "你打得怎么样？"
+        },
+        {
+          "id": "B",
+          "text": "你打得好吗？"
+        },
+        {
+          "id": "C",
+          "text": "你打怎么样得？"
+        },
+        {
+          "id": "D",
+          "text": "孙浩打篮球打得好吗？"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "score": 2,
+      "explanation": "A (ถามด้วย 怎么样), B (ถามด้วย 得好吗), D (ซ้ำกริยาแล้วถามด้วย 得好吗) ถูกต้องตามหลักไวยากรณ์ ส่วน C วางโครงสร้างผิด",
+      "learning_objective": "จำแนกและเลือกรูปแบบประโยคคำถามประเมินผลที่ถูกต้องตามหลักไวยากรณ์ได้",
+      "pre_post_pair": "CN_POST_Q042"
+    },
+    {
+      "question_id": "CN_PRE_Q043",
+      "test_id": "CN_PRE_001",
+      "question_number": 43,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "พิจารณาประโยคต่อไปนี้ ข้อใดใช้คำเสริมบอกระดับ “得” ถูกต้อง ตามโครงสร้างไวยากรณ์? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "我画得很好。"
+        },
+        {
+          "id": "B",
+          "text": "弟弟游得非常快。"
+        },
+        {
+          "id": "C",
+          "text": "他得踢足球很好。"
+        },
+        {
+          "id": "D",
+          "text": "妹妹跳得不太好。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "score": 2,
+      "explanation": "A, B, D ใช้โครงสร้าง Verb + 得 + Adverb + Adjective ได้ถูกต้อง ส่วน C วาง 得 ไว้หน้ากริยาซึ่งผิดหลักไวยากรณ์",
+      "learning_objective": "วิเคราะห์และเลือกประโยคที่ใช้คำเสริมบอกระดับ 得 ได้ถูกต้องตามหลักไวยากรณ์",
+      "pre_post_pair": "CN_POST_Q043"
+    },
+    {
+      "question_id": "CN_PRE_Q044",
+      "test_id": "CN_PRE_001",
+      "question_number": 44,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ประโยคในข้อใดมีการซ้ำกริยาเมื่อมีบทกรรม (Verb + Object + Verb + 得) ได้ ถูกต้อง? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "他说汉语说得非常好。"
+        },
+        {
+          "id": "B",
+          "text": "姐姐画画画得很好。"
+        },
+        {
+          "id": "C",
+          "text": "我打泰拳打得不太好。"
+        },
+        {
+          "id": "D",
+          "text": "我打泰拳得不太好。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "A (说法语说得...), B (画画画得...), C (打泰拳打得...) มีการซ้ำกริยาก่อนใส่ 得 ถูกต้องทุกข้อ ส่วน D ขาดการซ้ำกริยา 打",
+      "learning_objective": "วิเคราะห์และเลือกประโยคที่มีโครงสร้างซ้ำกริยาร่วมกับบทกรรมได้อย่างถูกต้องครบถ้วน",
+      "pre_post_pair": "CN_POST_Q044"
+    },
+    {
+      "question_id": "CN_PRE_Q045",
+      "test_id": "CN_PRE_001",
+      "question_number": 45,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "จากบทอ่านเรื่องซุนห่าว:\n“孙浩很喜欢打篮球，他打篮球打得非常好。他踢足球踢得不太好，他不太喜欢踢足球。”\nข้อความใดต่อไปนี้สรุปได้ ถูกต้อง ตรงตามบทอ่าน? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "ซุนห่าวชอบเล่นบาสเกตบอลมาก"
+        },
+        {
+          "id": "B",
+          "text": "ซุนห่าวเล่นบาสเกตบอลได้ดีมากๆ"
+        },
+        {
+          "id": "C",
+          "text": "ซุนห่าวเตะฟุตบอลเก่งมาก"
+        },
+        {
+          "id": "D",
+          "text": "ซุนห่าวไม่ค่อยชอบเตะฟุตบอล"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "score": 2,
+      "explanation": "จากบทอ่าน ซุนห่าวชอบบาสเกตบอลและเล่นได้ดีมาก (A, B ถูก) และไม่ค่อยชอบฟุตบอลเพราะเตะได้ไม่ค่อยดี (D ถูก) ส่วน C ขัดแย้งกับบทอ่าน",
+      "learning_objective": "ตรวจสอบและเลือกข้อเท็จจริงที่ถูกต้องจากบทอ่านจับใจความภาษาจีนได้",
+      "pre_post_pair": "CN_POST_Q045"
+    },
+    {
+      "question_id": "CN_PRE_Q046",
+      "test_id": "CN_PRE_001",
+      "question_number": 46,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ข้อใดเป็นการจับคู่ระหว่าง “คำกริยา” และ “คำนามกิจกรรม” ที่ถูกต้องตามหลักภาษาจีน? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "弹 + 钢琴"
+        },
+        {
+          "id": "B",
+          "text": "说 + 汉语"
+        },
+        {
+          "id": "C",
+          "text": "踢 + 足球"
+        },
+        {
+          "id": "D",
+          "text": "弹 + 足球"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "弹钢琴 (เล่นเปเปียโน), 说汉语 (พูดภาษาจีน), 踢足球 (เตะฟุตบอล) เป็นการจับคู่กริยากับกรรมที่ถูกต้อง ส่วน 弹足球 ไม่มีความหมายในภาษาจีน",
+      "learning_objective": "เลือกคู่คำกริยาและคำนามกิจกรรมที่ถูกต้องสอดคล้องตามหลักภาษาจีน",
+      "pre_post_pair": "CN_POST_Q046"
+    },
+    {
+      "question_id": "CN_PRE_Q047",
+      "test_id": "CN_PRE_001",
+      "question_number": 47,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "radicals",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ตัวอักษรจีนคู่ใดต่อไปนี้ มี “ส่วนประกอบร่วมกัน” (Shared Components) ตรงตามที่ระบุในแบบเรียน? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "非 และ 排 (มีส่วนประกอบ 非 ร่วมกัน)"
+        },
+        {
+          "id": "B",
+          "text": "篮 และ 蓝 (มีส่วนประกอบ 监 ร่วมกัน)"
+        },
+        {
+          "id": "C",
+          "text": "踢 และ 跳 (มีส่วนประกอบ 足/𡤕 ร่วมกัน)"
+        },
+        {
+          "id": "D",
+          "text": "很 และ 打 (มีส่วนประกอบเหมือนกันทุกประการ)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "A (มี 非), B (มี 监 ด้านล่าง), C (มี 𡤕/足 ด้านซ้าย) เป็นคู่ตัวอักษรที่มีส่วนประกอบร่วมกันตามหน้า 39 ของแบบเรียน ส่วน D ไม่มีส่วนประกอบร่วมกัน",
+      "learning_objective": "วิเคราะห์และเลือกคู่ตัวอักษรจีนที่มีส่วนประกอบร่วมกันได้ถูกต้องตามแบบเรียน",
+      "pre_post_pair": "CN_POST_Q047"
+    },
+    {
+      "question_id": "CN_PRE_Q048",
+      "test_id": "CN_PRE_001",
+      "question_number": 48,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "daily_life",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เมื่อเพื่อนชมคุณว่า “你说汉语说得非常好！” (คุณพูดภาษาจีนได้ดีมากๆ เลย!) ประโยคใดในภาษาจีนที่สามารถใช้ตอบกลับเพื่อแสดงความถ่อมตนได้อย่างเหมาะสม? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "哪里哪里，我说得不太好。"
+        },
+        {
+          "id": "B",
+          "text": "谢谢，但我说得不太好。"
+        },
+        {
+          "id": "C",
+          "text": "我不说汉语。"
+        },
+        {
+          "id": "D",
+          "text": "我是汉语老师。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "A (“哪里哪里...” - ไม่ขนาดนั้นหรอก) และ B (“ขอบคุณ แต่ฉันยังพูดได้ไม่ค่อยดี”) เป็นการตอบรับคำชมอย่างสุภาพและถ่อมตนตามวัฒนธรรมจีน",
+      "learning_objective": "เลือกประโยคตอบรับคำชมที่แสดงความถ่อมตนอย่างสุภาพตามวัฒนธรรมจีนได้",
+      "pre_post_pair": "CN_POST_Q048"
+    },
+    {
+      "question_id": "CN_PRE_Q049",
+      "test_id": "CN_PRE_001",
+      "question_number": 49,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "จากบทอ่านเสริมวัฒนธรรมเกี่ยวกับ Yao Ming (姚明) และกีฬาปิงปอง ข้อใดกล่าวได้ ถูกต้อง? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "姚明是篮球运动员。"
+        },
+        {
+          "id": "B",
+          "text": "姚明中国人。"
+        },
+        {
+          "id": "C",
+          "text": "中国人喜欢打乒乓球。"
+        },
+        {
+          "id": "D",
+          "text": "中国运动员打乒乓球打得不太好。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "Yao Ming เป็นนักบาสเกตบอลจีน (A, B ถูก) บทเรียนระบุว่าคนจีนชอบเล่นปิงปอง (C ถูก) ส่วน D ผิด เพราะนักกีฬาจีนเล่นปิงปองได้ดีมาก (非常好)",
+      "learning_objective": "วิเคราะห์และเลือกข้อความที่เป็นจริงเกี่ยวกับบทอ่านบุคคลสำคัญและวัฒนธรรมกีฬาจีนได้",
+      "pre_post_pair": "CN_POST_Q049"
+    },
+    {
+      "question_id": "CN_PRE_Q050",
+      "test_id": "CN_PRE_001",
+      "question_number": 50,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "单元复习 1",
+      "lesson": "Lesson 3",
+      "question": "จากนิทานทบทวนภาษา (Unit Review 1) ภาษาใดบ้างที่ตัวละครเป็ดอ้างว่าตนเองพูดได้ดีมาก? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "日语 (ภาษาญี่ปุ่น)"
+        },
+        {
+          "id": "B",
+          "text": "法语 (ภาษาฝรั่งเศส)"
+        },
+        {
+          "id": "C",
+          "text": "英语 (ภาษาอังกฤษ)"
+        },
+        {
+          "id": "D",
+          "text": "泰语 (ภาษาไทย)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "ในนิทาน เป็ดอ้างว่า “我会说日语... 日语说得很好”、“我会说法语... 法语说得很好” และ “我会说英语... 英语说得非常好”",
+      "learning_objective": "อ่านสกัดรายละเอียดรายการภาษาที่ปรากฏในบทอ่านนิทานภาษาจีนได้ถูกต้องครบถ้วน",
+      "pre_post_pair": "CN_POST_Q050"
+    },
+    {
+      "question_id": "CN_POST_Q001",
+      "test_id": "CN_POST_001",
+      "question_number": 1,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "คำศัพท์กีฬา “踢足球” (tī zúqiú) ตรงกับความหมายในภาษาไทยข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "เล่นบาสเกตบอล"
+        },
+        {
+          "id": "B",
+          "text": "เตะฟุตบอล"
+        },
+        {
+          "id": "C",
+          "text": "เล่นวอลเลย์บอล"
+        },
+        {
+          "id": "D",
+          "text": "ชกมวยไทย"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำว่า “踢足球” (tī zúqiú) ประกอบด้วยคำว่า 踢 (เตะ) และ 足球 (ฟุตบอล) จึงหมายถึง \"เตะฟุตบอล\"",
+      "learning_objective": "สามารถระบุคำศัพท์ชนิดกีฬาภาษาจีนได้ถูกต้องตามความหมายภาษาไทย",
+      "pre_post_pair": "CN_PRE_Q001"
+    },
+    {
+      "question_id": "CN_POST_Q002",
+      "test_id": "CN_POST_001",
+      "question_number": 2,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "คำศัพท์กิจกรรมศิลปะ “画画” (huà huà) หมายถึงข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "เล่นเปียโน"
+        },
+        {
+          "id": "B",
+          "text": "เต้นรำ"
+        },
+        {
+          "id": "C",
+          "text": "วาดรูป"
+        },
+        {
+          "id": "D",
+          "text": "ร้องเพลง"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "“画画” (huà huà) ประกอบด้วยกริยา 画 (วาด) และกรรม 画 (รูปภาพ) หมายถึง \"วาดรูป\"",
+      "learning_objective": "สามารถระบุคำศัพท์กิจกรรมดนตรีและศิลปะได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q002"
+    },
+    {
+      "question_id": "CN_POST_Q003",
+      "test_id": "CN_POST_001",
+      "question_number": 3,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "pinyin",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "Pinyin ที่ถูกต้องของคำศัพท์ว่า “游泳” (ว่ายน้ำ) คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "yóuyǒng"
+        },
+        {
+          "id": "B",
+          "text": "yóuyóng"
+        },
+        {
+          "id": "C",
+          "text": "yōuyǒng"
+        },
+        {
+          "id": "D",
+          "text": "yióuyǒng"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 游泳 ออกเสียงพินอินว่า yóuyǒng โดยอักษร 游 ออกเสียงวรรณยุกต์ที่ 2 (yóu) และ 泳 ออกเสียงวรรณยุกต์ที่ 3 (yǒng)",
+      "learning_objective": "สะกด Pinyin และวรรณยุกต์ของคำศัพท์กีฬาได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q003"
+    },
+    {
+      "question_id": "CN_POST_Q004",
+      "test_id": "CN_POST_001",
+      "question_number": 4,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "radicals",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ตัวอักษรจีนที่มีหมวดอักษร “双人旁 (彳)” เช่น คำว่า “得” (dé) ในไวยากรณ์บทเรียน มักจะเกี่ยวข้องกับเรื่องใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "มือและการหยิบจับ"
+        },
+        {
+          "id": "B",
+          "text": "ถนน หนทาง และการเคลื่อนไหว"
+        },
+        {
+          "id": "C",
+          "text": "ภาษาและการพูด"
+        },
+        {
+          "id": "D",
+          "text": "อาหารและการกิน"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "หมวดอักษร 双人旁 (彳 - shuāngrénpáng) ที่พบในตัวอักษร 得 (dé) มีความหมายเดิมเกี่ยวข้องกันกับเส้นทาง ถนน และการเคลื่อนไหว (道路、行动)",
+      "learning_objective": "เข้าใจความหมายและหน้าที่ของหมวดอักษรจีน 双人旁 (彳)",
+      "pre_post_pair": "CN_PRE_Q004"
+    },
+    {
+      "question_id": "CN_POST_Q005",
+      "test_id": "CN_POST_001",
+      "question_number": 5,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "คำบอกระดับ (Degree Adverbs) “不太” (bú tài) มีความหมายตรงกับภาษาไทยว่าอย่างไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ไม่ค่อย"
+        },
+        {
+          "id": "B",
+          "text": "มากๆ"
+        },
+        {
+          "id": "C",
+          "text": "ดีมากๆ"
+        },
+        {
+          "id": "D",
+          "text": "ปานกลาง"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า “不太” (bú tài) แปลว่า \"ไม่ค่อย...\" มักใช้ร่วมกับคำคุณศัพท์ เช่น 不太好 (ไม่ค่อยดี / ไม่ค่อยเก่ง)",
+      "learning_objective": "ระบุความหมายของคำบอกระดับในภาษาจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q005"
+    },
+    {
+      "question_id": "CN_POST_Q006",
+      "test_id": "CN_POST_001",
+      "question_number": 6,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "daily_life",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "คำศัพท์ที่ใช้เรียกบุคคลที่มีชื่อเสียงโดดเด่นในวงการกีฬา เช่น Yao Ming คือคำว่า “体育明星” (tǐyù míngxīng) ซึ่งหมายถึงอะไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ดารานนักกีฬา / นักกีฬาชื่อดัง"
+        },
+        {
+          "id": "B",
+          "text": "ครูสอนกีฬา"
+        },
+        {
+          "id": "C",
+          "text": "สนามแข่งขัน"
+        },
+        {
+          "id": "D",
+          "text": "การแข่งขันกีฬา"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "“体育明星” (tǐyù míngxīng) ประกอบด้วย 体育 (กีฬา) และ 明星 (ดารา/คนดัง) แปลว่า \"ดารานนักกีฬา\" หรือ \"นักกีฬาชื่อดัง\"",
+      "learning_objective": "บอกความหมายของคำสำนวนใช้เชียร์และให้กำลังใจในชีวิตประจำวันได้",
+      "pre_post_pair": "CN_PRE_Q006"
+    },
+    {
+      "question_id": "CN_POST_Q007",
+      "test_id": "CN_POST_001",
+      "question_number": 7,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ข้อใดเลือกใช้คำกริยาแสดงการเล่นกีฬาประเภท “足球” (ฟุตบอล) ได้ถูกต้องตามหลักภาษาจีน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "打足球"
+        },
+        {
+          "id": "B",
+          "text": "踢足球"
+        },
+        {
+          "id": "C",
+          "text": "弹足球"
+        },
+        {
+          "id": "D",
+          "text": "跳足球"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "กีฬาฟุตบอลใช้เท้าเตะเป็นหลัก ภาษาจีนจึงใช้คำกริยา “踢” (tī) รวมเป็น “踢足球” (tī zúqiú)",
+      "learning_objective": "เลือกใช้คำกริยา (踢) ได้ถูกต้องตามประเภทของกีฬา",
+      "pre_post_pair": "CN_PRE_Q007"
+    },
+    {
+      "question_id": "CN_POST_Q008",
+      "test_id": "CN_POST_001",
+      "question_number": 8,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ประโยคคำถาม “你会说汉语吗？” (Nǐ huì shuō Hànyǔ ma?) คำว่า “会” (huì) ทำหน้าที่วัดสิ่งใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "วัดการเดินทางไปต่างประเทศ"
+        },
+        {
+          "id": "B",
+          "text": "วัดความสามารถทางภาษาที่เกิดจากการเรียนรู้"
+        },
+        {
+          "id": "C",
+          "text": "วัดเวลาว่างในปัจจุบัน"
+        },
+        {
+          "id": "D",
+          "text": "วัดความชอบส่วนตัว"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำกริยานุเคราะห์ “会” (huì) ในประโยคนี้ใช้สอบถามความสามารถในการพูดภาษาจีนที่ผ่านการเรียนรู้ฝึกฝน",
+      "learning_objective": "เข้าใจความหมายและหน้าที่ของคำกริยานุเคราะห์ 会 ในการบอกความสามารถ",
+      "pre_post_pair": "CN_PRE_Q008"
+    },
+    {
+      "question_id": "CN_POST_Q009",
+      "test_id": "CN_POST_001",
+      "question_number": 9,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "pinyin",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เสียงวรรณยุกต์ของคำว่า “不” (bù) ในประโยค “不好” (bù hǎo) จะออกเสียงวรรณยุกต์ตามข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ออกเสียง 1 (bū)"
+        },
+        {
+          "id": "B",
+          "text": "ออกเสียง 2 (bú)"
+        },
+        {
+          "id": "C",
+          "text": "ออกเสียง 3 (bǔ)"
+        },
+        {
+          "id": "D",
+          "text": "ออกเสียง 4 (bù) ตามเดิม"
+        }
+      ],
+      "correct_answer": [
+        "D"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 好 (hǎo) เป็นเสียงวรรณยุกต์ที่ 3 คำว่า 不 (bù) ที่นำหน้าจึงไม่อยู่ในเงื่อนไขการเปลี่ยนเสียงเป็นเสียงที่ 2 ยังคงออกเสียงที่ 4 (bù) ตามเดิม",
+      "learning_objective": "ระบุกฎการเปลี่ยนเสียงวรรณยุกต์ของคำว่า 不 เมื่อวางหน้าอักษรเสียง 3 ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q009"
+    },
+    {
+      "question_id": "CN_POST_Q010",
+      "test_id": "CN_POST_001",
+      "question_number": 10,
+      "type": "single_choice",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "单元复习 1",
+      "lesson": "Lesson 3",
+      "question": "คำศัพท์ภาษาต่างประเทศ “泰语” (Tàiyǔ) หมายถึงภาษาใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ภาษาจีน"
+        },
+        {
+          "id": "B",
+          "text": "ภาษาอังกฤษ"
+        },
+        {
+          "id": "C",
+          "text": "ภาษาไทย"
+        },
+        {
+          "id": "D",
+          "text": "ภาษาฝรั่งเศส"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "คำว่า “泰语” (Tàiyǔ) หมายถึง \"ภาษาไทย\"",
+      "learning_objective": "ระบุความหมายของคำศัพท์ภาษาต่างประเทศได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q010"
+    },
+    {
+      "question_id": "CN_POST_Q011",
+      "test_id": "CN_POST_001",
+      "question_number": 11,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "พิจารณาประโยคประเมินความสามารถด้านการเต้นรำ ข้อใดวางตำแหน่งของ “得” ได้ถูกต้องตามหลักไวยากรณ์?",
+      "options": [
+        {
+          "id": "A",
+          "text": "他跳非常得好。"
+        },
+        {
+          "id": "B",
+          "text": "他跳得非常好。"
+        },
+        {
+          "id": "C",
+          "text": "他非常跳得好。"
+        },
+        {
+          "id": "D",
+          "text": "他得跳非常好。"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างประโยคคำเสริมบอกระดับคือ Subject + Verb + 得 + Adverb + Adjective คำกริยา 跳 ต้องตามด้วย 得 แล้วต่อด้วยคำบอกระดับ 非常好 เป็น “他跳得非常好。” (Tā tiào de fēicháng hǎo.)",
+      "learning_objective": "วิเคราะห์และเรียงลำดับตำแหน่งของ 得 ในประโยคคำเสริมบอกระดับได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q011"
+    },
+    {
+      "question_id": "CN_POST_Q012",
+      "test_id": "CN_POST_001",
+      "question_number": 12,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "sentence_patterns",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เมื่อประโยคมีบทกรรมเกี่ยวกับกีฬาฟุตบอล “踢足球” หากต้องการประเมินฝีมือว่าเตะได้ไม่ค่อยดี โดยใช้โครงสร้างซ้ำกริยา ข้อใดถูกต้อง?",
+      "options": [
+        {
+          "id": "A",
+          "text": "他踢足球得不太好。"
+        },
+        {
+          "id": "B",
+          "text": "他踢足球踢得不太好。"
+        },
+        {
+          "id": "C",
+          "text": "他足球踢得不太好踢。"
+        },
+        {
+          "id": "D",
+          "text": "他得踢足球不太好。"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างประโยคซ้ำกริยากับบทกรรมคือ Subject + Verb + Object + Verb + 得 + Complement จึงต้องซ้ำกริยา 踢 เป็น “他踢足球踢得不太好。” (Tā tī zúqiú tī de bú tài hǎo.)",
+      "learning_objective": "ประยุกต์ใช้โครงสร้างประโยคซ้ำกริยากับบทกรรมร่วมกับคำเสริมบอกระดับ 得 ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q012"
+    },
+    {
+      "question_id": "CN_POST_Q013",
+      "test_id": "CN_POST_001",
+      "question_number": 13,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "dialogue",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "หากมีคนถามประเมินความสามารถในการวาดรูปของบุคคลอื่นว่า “他画得怎么样？” (Tā huà de zěnmeyàng?) ข้อใดเป็นประโยคตอบชมเชยผู้อื่นว่า \"เขาวาดได้ดีมากๆ\" ได้ถูกต้อง?",
+      "options": [
+        {
+          "id": "A",
+          "text": "他画得不太好。"
+        },
+        {
+          "id": "B",
+          "text": "他画得非常好。"
+        },
+        {
+          "id": "C",
+          "text": "他不喜欢画画。"
+        },
+        {
+          "id": "D",
+          "text": "他不会画画。"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำถามถามประเมินผลการวาดรูปของผู้อื่น การตอบชมเชยว่าวาดได้ดีมากๆ ต้องใช้ “他画得非常好。” (Tā huà de fēicháng hǎo.)",
+      "learning_objective": "เลือกประโยคตอบรับการถามประเมินความสามารถในบทสนทนาได้อย่างเหมาะสม",
+      "pre_post_pair": "CN_PRE_Q013"
+    },
+    {
+      "question_id": "CN_POST_Q014",
+      "test_id": "CN_POST_001",
+      "question_number": 14,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "อ่านข้อความต่อไปนี้แล้วตอบคำถาม:\n“孙浩今年十一岁，读五年级。他很喜欢打篮球，打得非常好。”\nถามว่า: ซุนห่าวเรียนอยู่ชั้นใด และชอบเล่นกีฬาอะไรมากที่สุด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ชั้น ป.4 / ชอบเตะฟุตบอล"
+        },
+        {
+          "id": "B",
+          "text": "ชั้น ป.5 / ชอบเล่นบาสเกตบอล"
+        },
+        {
+          "id": "C",
+          "text": "ชั้น ป.5 / ชอบเล่นวอลเลย์บอล"
+        },
+        {
+          "id": "D",
+          "text": "ชั้น ป.6 / ชอบชกมวยไทย"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "จากบทอ่าน “...读五年级 (เรียนอยู่ชั้น ป.5)... 他很喜欢打篮球 (เขาชอบเล่นบาสเกตบอลมาก)”",
+      "learning_objective": "อ่านจับใจความและสกัดข้อมูลชีวประวัติบุคคลจากบทอ่านสั้นภาษาจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q014"
+    },
+    {
+      "question_id": "CN_POST_Q015",
+      "test_id": "CN_POST_001",
+      "question_number": 15,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "sentence_patterns",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติมคำในช่องว่างให้ประโยคสมบูรณ์และได้ความหมายถูกต้องที่สุด:\n“我___弹钢琴，而且弹___非常好。”",
+      "options": [
+        {
+          "id": "A",
+          "text": "会 / 得"
+        },
+        {
+          "id": "B",
+          "text": "不 / 得"
+        },
+        {
+          "id": "C",
+          "text": "得 / 会"
+        },
+        {
+          "id": "D",
+          "text": "非常 / 会"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ช่องแรกแสดงความสามารถเล่นเปียโนเป็นใช้ “会” ช่องหลังตามหลังกริยาซ้ำ 弹 เพื่อบอกระดับความเชี่ยวชาญใช้คำเสริม “得” รวมเป็น “我会弹钢琴，而且弹得非常好。”",
+      "learning_objective": "เลือกใช้คำกริยานุเคราะห์ 会 และคำเสริมบอกระดับ 得 ในประโยคความรวมได้อย่างถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q015"
+    },
+    {
+      "question_id": "CN_POST_Q016",
+      "test_id": "CN_POST_001",
+      "question_number": 16,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "พิจารณาคำกริยาและคำนามต่อไปนี้ ข้อใดรวมกันเป็นวลีกิจกรรมได้ ถูกต้อง ตามหลักภาษาจีน?\n(1) 打 + 泰拳  (2) 踢 + 泰拳  (3) 弹 + 钢琴  (4) 画 + 钢琴",
+      "options": [
+        {
+          "id": "A",
+          "text": "(1) และ (3)"
+        },
+        {
+          "id": "B",
+          "text": "(2) และ (3)"
+        },
+        {
+          "id": "C",
+          "text": "(2) และ (4)"
+        },
+        {
+          "id": "D",
+          "text": "(1) และ (4)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "(1) 打泰拳 (ต่อยมวยไทย) และ (3) 弹钢琴 (เล่นเปียโน) จับคู่ถูกต้อง ส่วน (2) ต้องใช้ 打泰拳 และ (4) ต้องใช้ 弹钢琴",
+      "learning_objective": "จำแนกและจับคู่คำกริยากับคำนามที่เป็นกิจกรรมต่างๆ ได้ถูกต้องตามบริบท",
+      "pre_post_pair": "CN_PRE_Q016"
+    },
+    {
+      "question_id": "CN_POST_Q017",
+      "test_id": "CN_POST_001",
+      "question_number": 17,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "daily_life",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ในบทสนทนาการสื่อสารภาษาต่างประเทศ เมื่อผู้พูดกล่าวว่า “我说得不太好。” (Wǒ shuō de bú tài hǎo.) มีเจตนาตรงกับข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "แสดงความโกรธที่พูดไม่รู้เรื่อง"
+        },
+        {
+          "id": "B",
+          "text": "แสดงความถ่อมตัวเกี่ยวกับการพูดภาษาของตนเอง"
+        },
+        {
+          "id": "C",
+          "text": "ยืนยันว่าตนเองพูดไม่ได้เลยแม้แต่คำเดียว"
+        },
+        {
+          "id": "D",
+          "text": "อวดอ้างว่าตนเองพูดได้เหมือนเจ้าของภาษา"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "การใช้คำว่า “不说得不太好” เป็นรูปแบบการแสดงความถ่อมตนในการประเมินระดับทักษะภาษาของตนเองอย่างสุภาพ",
+      "learning_objective": "วิเคราะห์เจตนาและน้ำเสียงของผู้พูดในบทสนทนาชีวิตประจำวันได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q017"
+    },
+    {
+      "question_id": "CN_POST_Q018",
+      "test_id": "CN_POST_001",
+      "question_number": 18,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "อ่านข้อความต่อไปนี้:\n“中国运动员打乒乓球打得非常好，他们在比赛中常常拿第一名。”\nข้อใดเป็นข้อสรุปที่ ถูกต้อง จากบทอ่านข้างต้น?",
+      "options": [
+        {
+          "id": "A",
+          "text": "นักกีฬาจีนเล่นปิงปองได้แพ้บ่อยๆ"
+        },
+        {
+          "id": "B",
+          "text": "นักกีฬาจีนมีทักษะการเล่นปิงปองที่ยอดเยี่ยมและมักได้ที่หนึ่งในการแข่งขัน"
+        },
+        {
+          "id": "C",
+          "text": "นักกีฬาจีนไม่ชอบแข่งขันปิงปอง"
+        },
+        {
+          "id": "D",
+          "text": "การแข่งขันปิงปองในจีนไม่มีผู้ชนะ"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "จากบทอ่าน “打得非常好 (เล่นได้ดีมาก)... 常常拿第一名 (มักจะได้ที่หนึ่งเสมอ)” สรุปได้ว่านักกีฬาจีนมีทักษะปิงปองที่ยอดเยี่ยม",
+      "learning_objective": "สรุปใจความสำคัญจากข้อความอ่านวัฒนธรรมกีฬาจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q018"
+    },
+    {
+      "question_id": "CN_POST_Q019",
+      "test_id": "CN_POST_001",
+      "question_number": 19,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ข้อใดเป็นการตอบปฏิเสธถ่อมตนต่อประโยคคำถามประเมินผล “他踢足球踢得好吗？” (Tā tī zúqiú tī de hǎo ma?) ได้ถูกต้อง?",
+      "options": [
+        {
+          "id": "A",
+          "text": "他踢得不太好。"
+        },
+        {
+          "id": "B",
+          "text": "他不是踢足球。"
+        },
+        {
+          "id": "C",
+          "text": "他不喜欢好吗。"
+        },
+        {
+          "id": "D",
+          "text": "他好吗踢足球。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "เมื่อถูกถามด้วย “...踢得好吗？” ประโยคตอบรับ/ปฏิเสธประเมินผลระดับฝีมือคือ “他踢得不太好。” (เขาเตะได้ไม่ค่อยดีเท่าไร)",
+      "learning_objective": "แปลงรูปประโยคคำถามประเมินผลโดยใช้ 好吗 ได้ถูกต้องตามโครงสร้างไวยากรณ์",
+      "pre_post_pair": "CN_PRE_Q019"
+    },
+    {
+      "question_id": "CN_POST_Q020",
+      "test_id": "CN_POST_001",
+      "question_number": 20,
+      "type": "single_choice",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "单元复习 1",
+      "lesson": "Lesson 3",
+      "question": "จากบทเรียนนิทานทบทวนภาษา (Unit Review 1) เหตุใดตัวละครเป็ดจึงตอบว่า “这个……不知道。” เมื่อเห็นป้ายกำกับภาษาอังกฤษ “Stop Bragging!”?",
+      "options": [
+        {
+          "id": "A",
+          "text": "เพราะเป็ดอ่านภาษาอังกฤษไม่ออกจริงๆ"
+        },
+        {
+          "id": "B",
+          "text": "เพราะเป็ดแกล้งทำเป็นมองไม่เห็นป้าย"
+        },
+        {
+          "id": "C",
+          "text": "เพราะเป็ดกำลังรีบไปบิน"
+        },
+        {
+          "id": "D",
+          "text": "เพราะเป็ดไม่ชอบภาษาจีน"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "นิทานสะท้อนความขบขันว่าเป็ดคุยโตว่าพูดภาษาต่างประเทศได้หลายภาษา แต่พอเจอป้ายภาษาอังกฤษกลับอ่านไม่ออก สะท้อนว่าเป็ดพูดอวดอ้างเกินจริง",
+      "learning_objective": "วิเคราะห์และตีความพฤติกรรมตัวละครจากบทอ่านนิทานภาษาจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q020"
+    },
+    {
+      "question_id": "CN_POST_Q021",
+      "test_id": "CN_POST_001",
+      "question_number": 21,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "pinyin",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติม Pinyin ที่ขาดหายไปของคำศัพท์ชนิดกีฬาให้สมบูรณ์:\n“踢足球” = tī ___qiú (เตะฟุตบอล)",
+      "options": [
+        {
+          "id": "A",
+          "text": "zú"
+        },
+        {
+          "id": "B",
+          "text": "lán"
+        },
+        {
+          "id": "C",
+          "text": "pái"
+        },
+        {
+          "id": "D",
+          "text": "pīng"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 足球 (ฟุตบอล) ออกเสียงพินอินว่า zúqiú เสียงพินอินที่หายไปคือ zú",
+      "learning_objective": "เติมเสียงพินอินที่ขาดหายไปของคำศัพท์กีฬาได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q021"
+    },
+    {
+      "question_id": "CN_POST_Q022",
+      "test_id": "CN_POST_001",
+      "question_number": 22,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "pinyin",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติม Pinyin ที่ขาดหายไปของคำถามบอกระดับต่อไปนี้ให้ถูกต้อง:\n“怎么样” = zěnme___ (เป็นอย่างไร) เสียงพินอินของอักษร “样” คือข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "yàng"
+        },
+        {
+          "id": "B",
+          "text": "yáng"
+        },
+        {
+          "id": "C",
+          "text": "yāng"
+        },
+        {
+          "id": "D",
+          "text": "yàngs"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "อักษร 样 ออกเสียงพินอินว่า yàng รวมเป็น zěnmeyàng",
+      "learning_objective": "ระบุเสียงพินอินของคำบอกระดับได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q022"
+    },
+    {
+      "question_id": "CN_POST_Q023",
+      "test_id": "CN_POST_001",
+      "question_number": 23,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติมตัวอักษรจีนที่หายไปลงในช่องว่างเพื่อให้ได้คำศัพท์ภาษาจีนที่ถูกต้อง:\n“打___球” (dǎ lánqiú - เล่นบาสเกตบอล)",
+      "options": [
+        {
+          "id": "A",
+          "text": "篮"
+        },
+        {
+          "id": "B",
+          "text": "足"
+        },
+        {
+          "id": "C",
+          "text": "排"
+        },
+        {
+          "id": "D",
+          "text": "乒"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า \"บาสเกตบอล\" ภาษาจีนคือ “篮球” (lánqiú) ตัวอักษรที่หายไปคือ “篮”",
+      "learning_objective": "ระบุตัวอักษรจีนที่ขาดหายไปในคำศัพท์กีฬาได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q023"
+    },
+    {
+      "question_id": "CN_POST_Q024",
+      "test_id": "CN_POST_001",
+      "question_number": 24,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติมคำเสริมโครงสร้างที่ถูกต้องลงในช่องว่างของประโยคต่อไปนี้:\n“妹妹跳___高。” (Mèimei tiào ___ gāo. - น้องสาวกระโดดได้สูง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "得"
+        },
+        {
+          "id": "B",
+          "text": "的"
+        },
+        {
+          "id": "C",
+          "text": "地"
+        },
+        {
+          "id": "D",
+          "text": "很"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำเสริมโครงสร้างที่วางไว้หลังคำกริยา (跳) เพื่อบอกระดับความสูงของการกระทำ (高) คือ “得” (dé)",
+      "learning_objective": "เลือกเติมคำเสริมโครงสร้าง 得 ในประโยคบอกระดับอย่างง่ายได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q024"
+    },
+    {
+      "question_id": "CN_POST_Q025",
+      "test_id": "CN_POST_001",
+      "question_number": 25,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "grammar",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติมคำกริยานุเคราะห์ที่ถูกต้องลงในช่องว่าง:\n“妹妹___跳舞。” (Mèimei ___ tiào wǔ. - น้องสาวเต้นรำเป็น)",
+      "options": [
+        {
+          "id": "A",
+          "text": "会"
+        },
+        {
+          "id": "B",
+          "text": "得"
+        },
+        {
+          "id": "C",
+          "text": "很"
+        },
+        {
+          "id": "D",
+          "text": "非常"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำกริยานุเคราะห์ที่ใช้แสดงความสามารถที่ฝึกฝนมาคือ “会” (huì)",
+      "learning_objective": "เติมคำกริยานุเคราะห์ 会 ในประโยคบอกความสามารถได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q025"
+    },
+    {
+      "question_id": "CN_POST_Q026",
+      "test_id": "CN_POST_001",
+      "question_number": 26,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "จากคำแปลภาษาไทย “เต้นรำ” เติมคำศัพท์ภาษาจีนลงในช่องว่างให้ถูกต้อง:\n“妹妹喜欢___。” (Mèimei xǐhuan ___.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "跳舞"
+        },
+        {
+          "id": "B",
+          "text": "唱歌"
+        },
+        {
+          "id": "C",
+          "text": "画画"
+        },
+        {
+          "id": "D",
+          "text": "弹钢琴"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำศัพท์ภาษาจีนที่แปลว่า \"เต้นรำ\" คือ “跳舞” (tiàowǔ)",
+      "learning_objective": "เติมคำศัพท์กิจกรรมดนตรี/ศิลปะ/กีฬาได้ถูกต้องตามความหมาย",
+      "pre_post_pair": "CN_PRE_Q026"
+    },
+    {
+      "question_id": "CN_POST_Q027",
+      "test_id": "CN_POST_001",
+      "question_number": 27,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติมคำกริยาภาษาจีนให้ถูกต้องสัมพันธ์กับประเภทกีฬาที่ใช้เท้าเตะ:\n“___足球” (เตะฟุตบอล)",
+      "options": [
+        {
+          "id": "A",
+          "text": "踢"
+        },
+        {
+          "id": "B",
+          "text": "打"
+        },
+        {
+          "id": "C",
+          "text": "弹"
+        },
+        {
+          "id": "D",
+          "text": "游"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "กีฬาฟุตบอลใช้เท้าเตะ ต้องใช้คำกริยา “踢” (tī) รวมเป็น 踢足球",
+      "learning_objective": "เลือกเติมคำกริยาแสดงอาการเล่นกีฬาได้ถูกต้องตามประเภทกีฬา",
+      "pre_post_pair": "CN_PRE_Q027"
+    },
+    {
+      "question_id": "CN_POST_Q028",
+      "test_id": "CN_POST_001",
+      "question_number": 28,
+      "type": "fill_blank",
+      "level": "basic",
+      "skill": "radicals",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "พิจารณาการประสมตัวอักษรจีน: “彳” + “寻” + “文” รวมประกอบกันแล้วได้เป็นตัวอักษรจีนในข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "得"
+        },
+        {
+          "id": "B",
+          "text": "德"
+        },
+        {
+          "id": "C",
+          "text": "很"
+        },
+        {
+          "id": "D",
+          "text": "过"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "หมวดอักษร 彳 (双人旁) รวมกับส่วนประกอบ 寻 และ 文 ประกอบเป็นตัวอักษร “得” (dé)",
+      "learning_objective": "รวมส่วนประกอบหมวดอักษรจีนเพื่อสร้างตัวอักษรจีนที่ถูกต้องได้",
+      "pre_post_pair": "CN_PRE_Q028"
+    },
+    {
+      "question_id": "CN_POST_Q029",
+      "test_id": "CN_POST_001",
+      "question_number": 29,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติมคำลงในช่องว่างของประโยคประเมินการเต้นรำที่มีการซ้ำกริยาให้ถูกต้อง:\n“妹妹跳舞跳___很好。”",
+      "options": [
+        {
+          "id": "A",
+          "text": "得"
+        },
+        {
+          "id": "B",
+          "text": "会"
+        },
+        {
+          "id": "C",
+          "text": "很"
+        },
+        {
+          "id": "D",
+          "text": "非常"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ในโครงสร้างซ้ำกริยา Verb + Object + Verb + 得 + Complement คำที่ต้องวางหลังกริยาซ้ำตัวที่สอง (跳) คือ “得”",
+      "learning_objective": "เติมคำเสริมบอกระดับ 得 ในโครงสร้างประโยคซ้ำกริยาได้อย่างถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q029"
+    },
+    {
+      "question_id": "CN_POST_Q030",
+      "test_id": "CN_POST_001",
+      "question_number": 30,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "dialogue",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เลือกคำตอบเติมลงในช่องว่างของ B ให้สอดคล้องกับบทสนทนาถามความสามารถการว่ายน้ำ:\nA: 你游泳游得好吗？\nB: _______________。",
+      "options": [
+        {
+          "id": "A",
+          "text": "我游得非常快。"
+        },
+        {
+          "id": "B",
+          "text": "我不会吃火锅。"
+        },
+        {
+          "id": "C",
+          "text": "我去过北京。"
+        },
+        {
+          "id": "D",
+          "text": "我不喜欢跳舞。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "A ถามถึงฝีมือการว่ายน้ำ B จึงตอบประเมินความสามารถของตนเองด้วยคำบอกระดับ “我游得非常快。” (ฉันว่ายได้เร็วมากๆ)",
+      "learning_objective": "เลือกประโยคตอบคำถามประเมินความสามารถในบทสนทนาได้อย่างเหมาะสม",
+      "pre_post_pair": "CN_PRE_Q030"
+    },
+    {
+      "question_id": "CN_POST_Q031",
+      "test_id": "CN_POST_001",
+      "question_number": 31,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติมคำบอกระดับลงในช่องว่างให้สอดคล้องกับบริบทประโยคแสดงความไม่ถนัด:\n“孙浩不太喜欢踢足球，他踢足球踢得___好。”",
+      "options": [
+        {
+          "id": "A",
+          "text": "不太"
+        },
+        {
+          "id": "B",
+          "text": "非常"
+        },
+        {
+          "id": "C",
+          "text": "很"
+        },
+        {
+          "id": "D",
+          "text": "会"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "บริบทระบุว่าซุนห่าว \"ไม่ค่อยชอบเตะฟุตบอล\" คำขยายประเมินฝีมือจึงเป็น “不太” (bú tài) รวมเป็น 不太好 (ไม่ค่อยดี/ไม่ค่อยเก่ง)",
+      "learning_objective": "เลือกเติมคำบอกระดับที่สอดคล้องกับบริบทเนื้อหาการอ่านจับใจความ",
+      "pre_post_pair": "CN_PRE_Q031"
+    },
+    {
+      "question_id": "CN_POST_Q032",
+      "test_id": "CN_POST_001",
+      "question_number": 32,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "radicals",
+      "topic": "单元复习 1",
+      "lesson": "Lesson 3",
+      "question": "พิจารณาส่วนประกอบอักษรจีน: “彳” + “十” + “罒” + “心” ประกอบรวมกันได้เป็นตัวอักษรจีนในข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "德"
+        },
+        {
+          "id": "B",
+          "text": "得"
+        },
+        {
+          "id": "C",
+          "text": "很"
+        },
+        {
+          "id": "D",
+          "text": "过"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ตามแบบเรียนย่อยตัวอักษรจีน: หมวดอักษร 彳 รวมกับส่วนประกอบ 十, 罒, 心 ประกอบเป็นตัวอักษร “德” (dé) เช่น ในคำว่า 德语 (ภาษาเยอรมัน)",
+      "learning_objective": "วิเคราะห์และระบุตัวอักษรจีนที่เกิดจากการรวมส่วนประกอบอักษรตามแบบเรียนได้",
+      "pre_post_pair": "CN_PRE_Q032"
+    },
+    {
+      "question_id": "CN_POST_Q033",
+      "test_id": "CN_POST_001",
+      "question_number": 33,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "daily_life",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติมคำประเมินความสามารถลงในช่องว่างให้สอดคล้องกับบริบทความชื่นชอบอย่างมาก:\n“我非常喜欢画画，我画得___。”",
+      "options": [
+        {
+          "id": "A",
+          "text": "非常好"
+        },
+        {
+          "id": "B",
+          "text": "不太好"
+        },
+        {
+          "id": "C",
+          "text": "不好"
+        },
+        {
+          "id": "D",
+          "text": "不会"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ประโยคเปิดด้วยความชอบอย่างยิ่ง “我非常喜欢画画” (ฉันชอบวาดรูปมากๆ) ประโยคต่อมาจึงประเมินสอดคล้องกันว่า “我画得非常好。” (ฉันวาดได้ดีมากๆ)",
+      "learning_objective": "เลือกใช้คำประเมินระดับความสามารถได้สอดคล้องกับบริบทความชื่นชอบของบุคคล",
+      "pre_post_pair": "CN_PRE_Q033"
+    },
+    {
+      "question_id": "CN_POST_Q034",
+      "test_id": "CN_POST_001",
+      "question_number": 34,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เติมคำยกย่องลงในช่องว่างของประโยคให้ถูกต้องตามบริบทบทเรียน:\n“孙浩是我最喜欢的___。他篮球打得非常好。”",
+      "options": [
+        {
+          "id": "A",
+          "text": "体育明星"
+        },
+        {
+          "id": "B",
+          "text": "汉语老师"
+        },
+        {
+          "id": "C",
+          "text": "医生"
+        },
+        {
+          "id": "D",
+          "text": "爸爸"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ประโยคกล่าวถึงความสามารถทางกีฬาบาสเกตบอล คำที่เหมาะสมในการเติมลงในช่องว่างคือ “体育明星” (tǐyù míngxīng - ดารานนักกีฬา)",
+      "learning_objective": "เติมคำศัพท์เฉพาะทางกีฬาในประโยคแนะนำบุคคลสำคัญ/นักกีฬาได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q034"
+    },
+    {
+      "question_id": "CN_POST_Q035",
+      "test_id": "CN_POST_001",
+      "question_number": 35,
+      "type": "fill_blank",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "单元复习 1",
+      "lesson": "Lesson 3",
+      "question": "เติมคำกริยาประสบการณ์ที่ถูกต้องลงในช่องว่างของบทอ่านท่องเที่ยวทบทวน:\n“我___过北京，吃过北京烤鸭。” (ฉันเคยไปปักกิ่ง และเคยทานเป็ดย่างปักกิ่ง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "去"
+        },
+        {
+          "id": "B",
+          "text": "打"
+        },
+        {
+          "id": "C",
+          "text": "弹"
+        },
+        {
+          "id": "D",
+          "text": "说"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "กริยาที่ใช้คู่กับโครงสร้างสถานที่ + 过 คือคำว่า “去” (qù - ไป) รวมเป็น 去过北京 (เคยไปปักกิ่ง)",
+      "learning_objective": "เติมคำกริยาบอกประสบการณ์โครงสร้าง 过 ในบริบทนิทานภาษาจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q035"
+    },
+    {
+      "question_id": "CN_POST_Q036",
+      "test_id": "CN_POST_001",
+      "question_number": 36,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "กิจกรรมกีฬาในข้อใดต่อไปนี้ ไม่ใช้ คำกริยา “打” (dǎ) ในการเล่น? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "足球"
+        },
+        {
+          "id": "B",
+          "text": "游泳"
+        },
+        {
+          "id": "C",
+          "text": "跳绳"
+        },
+        {
+          "id": "D",
+          "text": "排球"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "足球 (ใช้ 踢), 游泳 (ใช้กริยา 游), 跳绳 (ใช้กริยา 跳) ทั้งหมดนี้ไม่ใช้ 打 ส่วน 排球 ใช้ 打排球",
+      "learning_objective": "จำแนกและเลือกคำศัพท์กีฬาที่ใช้คำกริยา 打 ได้ถูกต้องครบถ้วน",
+      "pre_post_pair": "CN_PRE_Q036"
+    },
+    {
+      "question_id": "CN_POST_Q037",
+      "test_id": "CN_POST_001",
+      "question_number": 37,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "คำในข้อใดต่อไปนี้ ไม่ใช่ “คำบอกระดับ” (Degree Adverbs) ในภาษาจีน? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "篮球"
+        },
+        {
+          "id": "B",
+          "text": "游泳"
+        },
+        {
+          "id": "C",
+          "text": "踢"
+        },
+        {
+          "id": "D",
+          "text": "非常"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "篮球 (คำนาม), 游泳 (คำกริยา), 踢 (คำกริยา) ทั้งหมดไม่ใช่คำบอกระดับ มีเพียง 非常 ที่เป็นคำบอกระดับ",
+      "learning_objective": "จำแนกและเลือกคำบอกระดับ (Degree Adverbs) ได้ถูกต้องครบถ้วน",
+      "pre_post_pair": "CN_PRE_Q037"
+    },
+    {
+      "question_id": "CN_POST_Q038",
+      "test_id": "CN_POST_001",
+      "question_number": 38,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "radicals",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ตัวอักษรจีนในข้อใด ไม่มี หมวดอักษร “双人旁 (彳)” เป็นส่วนประกอบ? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "打"
+        },
+        {
+          "id": "B",
+          "text": "篮"
+        },
+        {
+          "id": "C",
+          "text": "歌"
+        },
+        {
+          "id": "D",
+          "text": "很"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "打 (หมวด 扌), 篮 (หมวด 竹), 歌 (หมวด 欠) ทั้งหมดไม่มี 彳 ส่วน 很 มีหมวดอักษร 彳 (双人旁)",
+      "learning_objective": "ระบุและเลือกตัวอักษรจีนที่มีหมวดอักษร 双人旁 (彳) ได้ถูกต้องครบถ้วน",
+      "pre_post_pair": "CN_PRE_Q038"
+    },
+    {
+      "question_id": "CN_POST_Q039",
+      "test_id": "CN_POST_001",
+      "question_number": 39,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "คำศัพท์ในข้อใดต่อไปนี้จัดอยู่ในกลุ่มกิจกรรมประเภท “กีฬา” (Sports) ในบทเรียน? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "打篮球"
+        },
+        {
+          "id": "B",
+          "text": "踢足球"
+        },
+        {
+          "id": "C",
+          "text": "打乒乓球"
+        },
+        {
+          "id": "D",
+          "text": "弹钢琴"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "打篮球, 踢足球, 打乒乓球 เป็นกิจกรรมประเภทกีฬา ส่วน 弹钢琴 เป็นกิจกรรมดนตรี",
+      "learning_objective": "จัดกลุ่มคำศัพท์กิจกรรมเกี่ยวกับดนตรีและศิลปะได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q039"
+    },
+    {
+      "question_id": "CN_POST_Q040",
+      "test_id": "CN_POST_001",
+      "question_number": 40,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "pinyin",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "พิจารณาคำศัพท์กีฬาและ Pinyin ต่อไปนี้ ข้อใดจับคู่ Pinyin ได้ ถูกต้อง? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "打篮球 = dǎ lánqiú"
+        },
+        {
+          "id": "B",
+          "text": "踢足球 = tī zúqiú"
+        },
+        {
+          "id": "C",
+          "text": "打排球 = dǎ páiqiú"
+        },
+        {
+          "id": "D",
+          "text": "打泰拳 = dǎ tàiquánn"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "A, B, C สะกดพินอินถูกต้อง ส่วน D สะกดผิดตรงคำว่า tàiquánn (สะกด n เกินมา)",
+      "learning_objective": "ตรวจสอบและเลือกคู่คำศัพท์จีนกับ Pinyin ที่สะกดถูกต้องได้",
+      "pre_post_pair": "CN_PRE_Q040"
+    },
+    {
+      "question_id": "CN_POST_Q041",
+      "test_id": "CN_POST_001",
+      "question_number": 41,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "vocabulary",
+      "topic": "单元复习 1",
+      "lesson": "Lesson 3",
+      "question": "คำศัพท์ชื่อภาษาต่างประเทศในข้อใดปรากฏอยู่ในบทเรียนหรือบททบทวน (Unit Review 1)? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "德语"
+        },
+        {
+          "id": "B",
+          "text": "西班牙语"
+        },
+        {
+          "id": "C",
+          "text": "法语"
+        },
+        {
+          "id": "D",
+          "text": "北京"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "德语 (ภาษาเยอรมัน), 西班牙语 (ภาษาสเปน), 法语 (ภาษาฝรั่งเศส) ปรากฏในตารางคำศัพท์ภาษาต่างประเทศ บททบทวนที่ 1 ส่วน 北京 เป็นชื่อเมืองหลวง",
+      "learning_objective": "ระบุคำศัพท์ประเภทชื่อภาษาต่างประเทศในบทเรียนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q041"
+    },
+    {
+      "question_id": "CN_POST_Q042",
+      "test_id": "CN_POST_001",
+      "question_number": 42,
+      "type": "multiple_select",
+      "level": "basic",
+      "skill": "sentence_patterns",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ข้อใดเป็นโครงสร้างประโยคคำถามประเมินผลที่ ผิดหลักไวยากรณ์ ภาษาจีน? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "你打怎么样得？"
+        },
+        {
+          "id": "B",
+          "text": "你得打好吗？"
+        },
+        {
+          "id": "C",
+          "text": "你打得怎么样？"
+        },
+        {
+          "id": "D",
+          "text": "你打得好吗？"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "A (วาง 怎么样 ไว้หน้า 得) และ B (วาง 得 ไว้หน้ากริยา) ผิดโครงสร้างไวยากรณ์ทั้งคู่ ส่วน C และ D เป็นประโยคที่ถูกต้อง",
+      "learning_objective": "จำแนกและเลือกรูปแบบประโยคคำถามประเมินผลที่ถูกต้องตามหลักไวยากรณ์ได้",
+      "pre_post_pair": "CN_PRE_Q042"
+    },
+    {
+      "question_id": "CN_POST_Q043",
+      "test_id": "CN_POST_001",
+      "question_number": 43,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ประโยคในข้อใดเรียงลำดับคำเสริมบอกระดับ “得” ผิดหลักไวยากรณ์? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "他得踢足球很好。"
+        },
+        {
+          "id": "B",
+          "text": "我很得画好。"
+        },
+        {
+          "id": "C",
+          "text": "我画得很好。"
+        },
+        {
+          "id": "D",
+          "text": "妹妹跳得不太好。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "A (วาง 得 หน้ากริยา) และ B (วาง 很 หน้า 得) ผิดไวยากรณ์ ส่วน C และ D ถูกต้องตามโครงสร้าง Verb + 得 + Adverb + Adjective",
+      "learning_objective": "วิเคราะห์และเลือกประโยคที่ใช้คำเสริมบอกระดับ 得 ได้ถูกต้องตามหลักไวยากรณ์",
+      "pre_post_pair": "CN_PRE_Q043"
+    },
+    {
+      "question_id": "CN_POST_Q044",
+      "test_id": "CN_POST_001",
+      "question_number": 44,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "grammar",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "การละกริยาตัวแรกแต่ย้ายบทกรรมมาไว้หน้าประโยค เช่น Object + Subject + Verb + 得 + Complement ถือเป็นอีกหนึ่งรูปประโยคที่ถูกต้อง ข้อใดเรียงประโยคตามรูปแบบนี้ได้ ถูกต้อง? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "篮球孙浩打得很好。"
+        },
+        {
+          "id": "B",
+          "text": "汉语文文说得非常好。"
+        },
+        {
+          "id": "C",
+          "text": "足球他踢得不太好。"
+        },
+        {
+          "id": "D",
+          "text": "得打篮球孙浩很好。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "A (เอา 篮球 ไว้หน้า), B (เอา 汉语 ไว้หน้า), C (เอา 足球 ไว้หน้า) เป็นประโยคละกริยาตัวแรกที่ถูกต้องตามหลักภาษาจีน ส่วน D เรียงคำผิดโครงสร้าง",
+      "learning_objective": "วิเคราะห์และเลือกประโยคที่มีโครงสร้างซ้ำกริยาร่วมกับบทกรรมได้อย่างถูกต้องครบถ้วน",
+      "pre_post_pair": "CN_POST_Q044"
+    },
+    {
+      "question_id": "CN_POST_Q045",
+      "test_id": "CN_POST_001",
+      "question_number": 45,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "จากบทอ่านเรื่องซุนห่าว ข้อใดเป็นข้อความที่เป็น เท็จ (ไม่ตรงกับเนื้อหาในบทอ่าน)? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "ซุนห่าวเตะฟุตบอลได้ดีมากๆ"
+        },
+        {
+          "id": "B",
+          "text": "ซุนห่าวเป็นคนไทยแท้"
+        },
+        {
+          "id": "C",
+          "text": "ซุนห่าวชอบเตะฟุตบอลมากกว่าบาสเกตบอล"
+        },
+        {
+          "id": "D",
+          "text": "ซุนห่าวเรียนอยู่ชั้น ป.5"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "ซุนห่าวเตะฟุตบอลไม่ค่อยดี (A เท็จ), พ่อแม่เป็นคนจีน (B เท็จ), ชอบบาสเกตบอลมากกว่า (C เท็จ) มีเพียง D ที่เป็นความจริง",
+      "learning_objective": "ตรวจสอบและเลือกข้อเท็จจริงที่ถูกต้องจากบทอ่านจับใจความภาษาจีนได้",
+      "pre_post_pair": "CN_POST_Q045"
+    },
+    {
+      "question_id": "CN_POST_Q046",
+      "test_id": "CN_POST_001",
+      "question_number": 46,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "vocabulary",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "พิจารณาการจับคู่คำกริยากับคำนามต่อไปนี้ ข้อใดเป็นการจับคู่ที่ ผิด ตามหลักภาษาจีน? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "弹足球"
+        },
+        {
+          "id": "B",
+          "text": "踢钢琴"
+        },
+        {
+          "id": "C",
+          "text": "说篮球"
+        },
+        {
+          "id": "D",
+          "text": "说汉语"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "A (弹足球 ผิด ต้องใช้ 踢), B (踢钢琴 ผิด ต้องใช้ 弹), C (说篮球 ผิด ต้องใช้ 打) ส่วน D (说汉语) ถูกต้อง",
+      "learning_objective": "เลือกคู่คำกริยาและคำนามกิจกรรมที่ถูกต้องสอดคล้องตามหลักภาษาจีน",
+      "pre_post_pair": "CN_POST_Q046"
+    },
+    {
+      "question_id": "CN_POST_Q047",
+      "test_id": "CN_POST_001",
+      "question_number": 47,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "radicals",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ตัวอักษรจีนในข้อใดมีหมวดอักษร “提手旁 (扌)” (หมวดอักษรมือ) ร่วมกัน? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "打"
+        },
+        {
+          "id": "B",
+          "text": "扫"
+        },
+        {
+          "id": "C",
+          "text": "排"
+        },
+        {
+          "id": "D",
+          "text": "很"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "打 (dǎ), 扫 (sǎo), 排 (pái) มีหมวดอักษร 扌 (提手旁) อยู่ด้านซ้ายเหมือนกันทั้งหมด ส่วน 很 มีหมวดอักษร 彳",
+      "learning_objective": "วิเคราะห์และเลือกคู่ตัวอักษรจีนที่มีส่วนประกอบร่วมกันได้ถูกต้องตามแบบเรียน",
+      "pre_post_pair": "CN_POST_Q047"
+    },
+    {
+      "question_id": "CN_POST_Q048",
+      "test_id": "CN_POST_001",
+      "question_number": 48,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "daily_life",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "เมื่อมีเพื่อนมาชมคุณข้างสนามกีฬาว่า “你打篮球打得真好！” (คุณเล่นบาสเกตบอลได้ดีจริงๆ เลย!) ข้อใดเป็นประโยคที่สามารถใช้ตอบกลับได้อย่างเหมาะสม? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "哪里哪里，我打得不太好。"
+        },
+        {
+          "id": "B",
+          "text": "谢谢！"
+        },
+        {
+          "id": "C",
+          "text": "我不打篮球。"
+        },
+        {
+          "id": "D",
+          "text": "我不知道。"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B"
+      ],
+      "score": 2,
+      "explanation": "A เป็นการตอบถ่อมตนตามวัฒนธรรมจีน B เป็นการขอบคุณรับคำชมตามมารยาท ส่วน C และ D ไม่สอดคล้องกับบริบทที่มีคนชมการเล่นบาส",
+      "learning_objective": "เลือกประโยคตอบรับคำชมที่แสดงความถ่อมตนอย่างสุภาพตามวัฒนธรรมจีนได้",
+      "pre_post_pair": "CN_POST_Q048"
+    },
+    {
+      "question_id": "CN_POST_Q049",
+      "test_id": "CN_POST_001",
+      "question_number": 49,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "第3课 我打得不太好",
+      "lesson": "Lesson 3",
+      "question": "ข้อใดเป็นข้อสรุปวิเคราะห์เกี่ยวกับวัฒนธรรมกีฬาและนักกีฬาจีนจากบทอ่านในบทเรียน? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "กีฬาปิงปองเป็นกีฬาที่ได้รับความนิยมอย่างแพร่หลายในประเทศจีน"
+        },
+        {
+          "id": "B",
+          "text": "นักกีฬาจีนได้รับการฝึกฝนจนมีความเชี่ยวชาญในกีฬาปิงปองระดับสูง"
+        },
+        {
+          "id": "C",
+          "text": "คนจีนนิยมเล่นกีฬาเพื่อสุขภาพและการกระชับมิตรภาพ"
+        },
+        {
+          "id": "D",
+          "text": "คนจีนไม่นิยมเล่นกีฬาบาสเกตบอลเลย"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "จากบทอ่าน ปิงปองเป็นที่นิยมมาก นักกีฬาจีนเล่นได้ดีมาก และการเล่นกีฬาเป็นกิจกรรมเชื่อมมิตรภาพ (A, B, C ถูก) ส่วน D ผิด เพราะบาสเกตบอลก็เป็นที่นิยม (เช่น Yao Ming)",
+      "learning_objective": "วิเคราะห์และเลือกข้อความที่เป็นจริงเกี่ยวกับบทอ่านบุคคลสำคัญและวัฒนธรรมกีฬาจีนได้",
+      "pre_post_pair": "CN_POST_Q049"
+    },
+    {
+      "question_id": "CN_POST_Q050",
+      "test_id": "CN_POST_001",
+      "question_number": 50,
+      "type": "multiple_select",
+      "level": "advanced",
+      "skill": "reading",
+      "topic": "单元复习 1",
+      "lesson": "Lesson 3",
+      "question": "จากนิทานทบทวนภาษา (Unit Review 1) สถานที่หรือประเทศใดบ้างที่ตัวละครเป็ดอ้างว่าตนเอง “เคยไป” (去过)? (เลือกตอบทุกข้อที่ถูกต้อง)",
+      "options": [
+        {
+          "id": "A",
+          "text": "北京 (ปักกิ่ง)"
+        },
+        {
+          "id": "B",
+          "text": "长城 (กำแพงเมืองจีน)"
+        },
+        {
+          "id": "C",
+          "text": "日本 (ประเทศญี่ปุ่น)"
+        },
+        {
+          "id": "D",
+          "text": "泰国 (ประเทศไทย)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 2,
+      "explanation": "ในนิทาน เป็ดอ้างประโยคว่า “我去过北京，去过长城...” และ “我去过日本...”",
+      "learning_objective": "อ่านสกัดรายละเอียดรายการภาษาที่ปรากฏในบทอ่านนิทานภาษาจีนได้ถูกต้องครบถ้วน",
+      "pre_post_pair": "CN_PRE_Q050"
+    }
+  ]
