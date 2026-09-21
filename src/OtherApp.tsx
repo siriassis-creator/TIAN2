@@ -278,11 +278,11 @@ export default function OtherApp({
   // =========================================================================
   if (currentView === 'quiz_home') {
     
- // 🎯 โหมดพิมพ์ A4
- if (printQuizData !== null) {
+// 🎯 โหมดพิมพ์ A4
+if (printQuizData !== null) {
   return (
-    // 🎯 สังเกตคลาส: print:static print:h-auto print:overflow-visible สำคัญมาก! ทำให้เอกสารเรียงลงมาหลายๆ หน้าได้
-    <div className="absolute inset-0 z-[9999] bg-slate-200 w-full h-full overflow-y-auto print:static print:h-auto print:overflow-visible print:bg-white print:block">
+    // 🎯 เปลี่ยนคำว่า absolute เป็น "fixed" เพื่อให้หน้าพิมพ์ A4 ลอยทับแถบเมนูด้านบนของแอป 100%
+    <div className="fixed inset-0 z-[9999] bg-slate-200 w-full h-full overflow-y-auto print:static print:h-auto print:overflow-visible print:bg-white print:block">
       <PrintableQuiz 
         data={printQuizData.data} 
         title={printQuizData.title} 
