@@ -1,6 +1,6 @@
 // src/OtherApp.tsx
-import React, { useState } from 'react';
-import { ArrowLeft, Play, ChevronRight, BookOpen, Bot, ClipboardList, Printer } from 'lucide-react'; // 🎯 เพิ่ม Printer
+import React, { useState, useEffect } from 'react';
+import { ArrowLeft, Play, ChevronRight, BookOpen, Bot, ClipboardList, Printer } from 'lucide-react';
 import Settings2 from './Settings2';
 
 import LessonPattern1 from './components/LessonPattern1';
@@ -78,7 +78,7 @@ import OtherLesson6_18 from './components/Other_lesson6-18';
 
 import ChatBot from './components/ChatBot';
 import QuizContainer from './components/quiz/QuizContainer';
-import PrintableQuiz from './components/quiz/PrintableQuiz'; // 🎯 นำเข้าหน้าพิมพ์ A4
+import PrintableQuiz from './components/quiz/PrintableQuiz'; 
 
 import mockQuizDataLesson1 from './data/quizDataLesson1.json';
 import mockQuizDataLesson2 from './data/quizDataLesson2.json';
@@ -189,14 +189,40 @@ export default function OtherApp({
 }: OtherAppProps) {
   
   const [activeSectionId, setActiveSectionId] = useState<string | null>(null);
-  
-  // 🎯 States สำหรับแบบทดสอบ
   const [activeQuizData, setActiveQuizData] = useState<any[] | null>(null);
   const [printQuizData, setPrintQuizData] = useState<{data: any[], title: string} | null>(null);
-  
   const [showChatBot, setShowChatBot] = useState(false);
   const [chatLessonTitle, setChatLessonTitle] = useState('');
   const [chatLessonContext, setChatLessonContext] = useState('');
+
+  // 🎯 เพิ่ม useEffect ดักจับ URL พารามิเตอร์ เพื่อดึงข้อสอบชุดที่ครูส่งให้มาทำออนไลน์
+  useEffect(() => {
+    if (currentView === 'quiz_home' && activeQuizData === null) {
+      const params = new URLSearchParams(window.location.search);
+      const qIdsParam = params.get('qIds');
+      
+      if (qIdsParam) {
+        const idsArray = qIdsParam.split(',');
+        // รวมคลังข้อสอบทั้งหมดเพื่อมาหาข้อที่ตรงกัน
+        const allQuestions = [
+          ...(mockQuizDataLesson1 || []),
+          ...(mockQuizDataLesson2 || []),
+          ...(mockQuizDataLesson3 || []),
+          ...(mockQuizDataLesson4 || []),
+          ...(mockQuizDataLesson5_6 || [])
+        ];
+        
+        // ค้นหาข้อสอบให้ตรงกับ ID ที่ฝังมากับลิงก์
+        const matchedQuestions = idsArray.map(id => allQuestions.find((q: any) => q.question_id === id)).filter(Boolean);
+        
+        if (matchedQuestions.length > 0) {
+          setActiveQuizData(matchedQuestions as any);
+          // ลบลิงก์ข้างบนทิ้ง (เปลี่ยนให้ URL สะอาด) เพื่อป้องกันระบบเปิดข้อสอบเดิมซ้ำตอนนักเรียนกดออกจากข้อสอบ
+          window.history.replaceState({}, document.title, window.location.pathname);
+        }
+      }
+    }
+  }, [currentView, activeQuizData]);
 
   const handleOpenChatForLesson = (lesson: any) => {
     const title = lesson.titleCn ? `บทที่ ${lesson.lessonNumber}: ${lesson.titleCn}` : `บทที่ ${lesson.lessonNumber}`;

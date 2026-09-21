@@ -583,16 +583,22 @@ export default function App() {
                 >
                   ย้อนกลับ
                 </button>
+      
                 <button 
                   onClick={() => {
+                    // 🎯 1. อ่านค่าพารามิเตอร์จาก URL (เช่น ?view=quiz_home)
+                    const params = new URLSearchParams(window.location.search);
+                    const intendedView = params.get('view'); 
+
                     if (targetRole === 'student' && loginPinInput === globalStudentPin) {
                       setAppLoginRole('student');
                       setUserRole('student');
-                      setCurrentView(menuVisibility.student.home ? 'home' : 'other_home');
+                      // 🎯 2. ถ้ามีลิงก์แนบมา ให้พาไปหน้านั้น ถ้าไม่มีพาไปหน้า Home
+                      setCurrentView(intendedView ? intendedView : (menuVisibility.student.home ? 'home' : 'other_home'));
                     } else if (targetRole === 'teacher' && loginPinInput === globalTeacherPin) {
                       setAppLoginRole('teacher');
                       setUserRole('teacher');
-                      setCurrentView(menuVisibility.teacher.home ? 'home' : 'other_home');
+                      setCurrentView(intendedView ? intendedView : (menuVisibility.teacher.home ? 'home' : 'other_home'));
                     } else if (targetRole === 'admin' && loginPinInput === globalAdminPin) {
                       setAppLoginRole('admin');
                       setUserRole('teacher');
@@ -608,6 +614,8 @@ export default function App() {
                 >
                   ปลดล็อก
                 </button>
+
+
               </div>
             </div>
           )}
