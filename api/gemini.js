@@ -12,7 +12,6 @@ export default async function handler(req, res) {
     const geminiKey = process.env.GEMINI_API_KEY;
     const openaiKey = process.env.OPENAI_API_KEY;
     const groqKey = process.env.GROQ_API_KEY;
-    const deepseekKey = process.env.DEEPSEEK_API_KEY; // 🎯 เพิ่ม Key สำหรับ DeepSeek (OpenRouter)
     const cfAccountId = process.env.CLOUDFLARE_ACCOUNT_ID; 
     const cfToken = process.env.CLOUDFLARE_API_TOKEN;
 
@@ -42,14 +41,14 @@ export default async function handler(req, res) {
     }
 
     // ==========================================
-    // 2. ChatGPT, Groq หรือ DeepSeek
+    // 2. ChatGPT, Groq หรือ DeepSeek (ใช้งานผ่าน Groq ฟรี 100%)
     // ==========================================
     if (provider === 'chatgpt' || provider === 'groq' || provider === 'deepseek') {
       const isGpt = provider === 'chatgpt';
       const isDeepseek = provider === 'deepseek';
       
-      // เลือกใช้ API Key ให้ตรงค่าย
-      const apiKey = isGpt ? openaiKey : (isDeepseek ? deepseekKey : groqKey);
+      // 🎯 ใช้ groqKey สำหรับทั้งคุณครู LUNA และคุณครู DeepSeek เลยครับ (ประหยัด ไม่ต้องเสียเงิน)
+      const apiKey = isGpt ? openaiKey : groqKey;
       
       if (!apiKey) return res.status(500).json({ error: `ไม่พบ API Key สำหรับ ${provider.toUpperCase()}` });
 
@@ -63,13 +62,13 @@ export default async function handler(req, res) {
       let apiUrl = "";
       let modelName = "";
 
-      // 🎯 กำหนด Endpoint และโมเดลของแต่ละค่าย
       if (isGpt) {
         apiUrl = "https://api.openai.com/v1/chat/completions";
         modelName = "gpt-4o-mini";
       } else if (isDeepseek) {
-        apiUrl = "https://openrouter.ai/api/v1/chat/completions"; // Endpoint สำหรับ OpenRouter
-        modelName = "deepseek/deepseek-chat:free";
+        // 🎯 สลับให้คุณครู DeepSeek มาวิ่งผ่าน API ของ Groq (ได้ใช้ DeepSeek R1 ฟรีและไวมาก!)
+        apiUrl = "https://api.groq.com/openai/v1/chat/completions"; 
+        modelName = "deepseek-r1-distill-llama-70b"; 
       } else {
         apiUrl = "https://api.groq.com/openai/v1/chat/completions";
         modelName = "qwen/qwen3.8-27b";
@@ -153,6 +152,6 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'ไม่รู้จัก Provider ที่เลือก' });
 
   } catch (error) {
-    return res.status(500).json({ error: error.message });ƒ
+    return res.status(500).json({ error: error.message });
   }
 }
