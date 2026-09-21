@@ -654,49 +654,49 @@ export default function App() {
         {/* --- Presentation Overlay (ซ่อนตอนพิมพ์) --- */}
         {isPresenting && slides.length > 0 && (
           <div className="fixed inset-0 z-[2000] bg-white flex flex-col w-full h-full overflow-hidden print:hidden">
-            <div className="h-16 bg-slate-900 text-white flex items-center justify-between px-6 shrink-0 z-[2001]">
-              <div className="flex items-center gap-4">
+            <div className="h-14 md:h-16 bg-slate-900 text-white flex items-center justify-between px-3 md:px-6 shrink-0 z-[2001] gap-2">
+              <div className="flex items-center gap-2 md:gap-4 flex-1 min-w-0">
                 {userRole === 'teacher' && roomPin && (
-                  <span className="bg-orange-500 px-3 py-1 rounded font-black text-sm tracking-widest text-white shadow-sm border border-orange-400 flex items-center gap-2">
-                    <Users size={16}/> PIN: {roomPin}
+                  <span className="bg-orange-500 px-2 py-1 md:px-3 md:py-1 rounded font-black text-xs md:text-sm tracking-widest text-white shadow-sm border border-orange-400 flex items-center gap-1 md:gap-2 shrink-0">
+                    <Users size={14} className="md:w-4 md:h-4"/> <span className="hidden sm:inline">PIN:</span> {roomPin}
                   </span>
                 )}
                 {userRole === 'student' && (
-                  <span className="bg-indigo-500 px-3 py-1 rounded font-bold text-xs text-white shadow-sm">
+                  <span className="bg-indigo-500 px-2 py-1 md:px-3 md:py-1 rounded font-bold text-[10px] md:text-xs text-white shadow-sm shrink-0">
                     โหมดนักเรียน
                   </span>
                 )}
                 
-                <span className="bg-indigo-600 px-3 py-1 rounded font-bold text-sm uppercase hidden md:inline-block">
+                <span className="bg-indigo-600 px-3 py-1 rounded font-bold text-sm uppercase hidden lg:inline-block shrink-0">
                   {slides[slideIndex].courseInfo}
                 </span>
-                <span className="text-indigo-200 truncate max-w-[200px] md:max-w-none">
+                <span className="text-indigo-200 truncate text-xs md:text-base flex-1 min-w-0">
                   {slides[slideIndex].lessonInfo}
                 </span>
               </div>
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-2 md:gap-4 shrink-0">
                 <div className="flex bg-slate-800 p-1 rounded-lg gap-1 border border-slate-700">
                   {userRole === 'teacher' && (
                     <>
                       <button
                         onClick={toggleDrawing}
-                        className={`p-2 rounded ${
+                        className={`p-1.5 md:p-2 rounded ${
                           isDrawing ? 'bg-indigo-600 text-white' : 'text-slate-400'
                         }`}
                       >
-                        <Pencil size={18} />
+                        <Pencil size={16} className="md:w-5 md:h-5" />
                       </button>
                       <input
                         type="color"
                         value={brushColor}
                         onChange={(e) => setBrushColor(e.target.value)}
-                        className="w-6 h-6 rounded-full cursor-pointer bg-transparent border-0 mt-1.5 mx-1"
+                        className="w-5 h-5 md:w-6 md:h-6 rounded-full cursor-pointer bg-transparent border-0 mt-1 md:mt-1.5 mx-0.5 md:mx-1"
                       />
                       <button
                         onClick={clearCanvas}
-                        className="p-2 text-red-400"
+                        className="p-1.5 md:p-2 text-red-400"
                       >
-                        <Trash2 size={18} />
+                        <Trash2 size={16} className="md:w-5 md:h-5" />
                       </button>
                     </>
                   )}
@@ -708,9 +708,9 @@ export default function App() {
                     setRoomPin(null);
                     setUserRole(appLoginRole === 'student' ? 'student' : 'teacher'); 
                   }}
-                  className="p-2 hover:bg-red-600 rounded-lg"
+                  className="p-1.5 md:p-2 bg-red-500/20 hover:bg-red-600 text-red-400 hover:text-white rounded-lg transition-colors shrink-0"
                 >
-                  <X />
+                  <X size={20} className="md:w-6 md:h-6" />
                 </button>
               </div>
             </div>
@@ -784,18 +784,18 @@ export default function App() {
               </div>
             </div>
 
-            <div className="h-20 bg-white border-t flex items-center justify-between px-10 shrink-0 z-[2001]">
+            <div className="h-16 md:h-20 bg-white border-t flex items-center justify-between px-4 md:px-10 shrink-0 z-[2001]">
               <button
                 onClick={() => {
                   if (slideIndex > 0) changeSlide(slideIndex - 1);
                 }}
                 disabled={slideIndex === 0 || userRole === 'student'}
-                className={`flex items-center gap-2 px-6 py-2 rounded-full ${userRole === 'student' ? 'bg-transparent text-transparent' : 'bg-slate-100 disabled:opacity-30'}`}
+                className={`flex items-center gap-1 md:gap-2 px-4 py-2 md:px-6 md:py-2.5 rounded-full text-sm md:text-base font-bold transition-all ${userRole === 'student' ? 'bg-transparent text-transparent' : 'bg-slate-100 text-slate-700 hover:bg-slate-200 disabled:opacity-30'}`}
               >
-                {userRole === 'teacher' && <><ChevronLeft /> ก่อนหน้า</>}
+                {userRole === 'teacher' && <><ChevronLeft size={18} className="md:w-5 md:h-5"/> <span className="hidden sm:inline">ก่อนหน้า</span></>}
               </button>
               
-              <span className={`font-bold ${userRole === 'student' ? 'text-indigo-500 animate-pulse' : 'text-slate-700'}`}>
+              <span className={`text-xs md:text-base font-bold ${userRole === 'student' ? 'text-indigo-500 animate-pulse' : 'text-slate-700'}`}>
                 {userRole === 'student' ? 'กำลังติดตามหน้าจอคุณครู...' : `Slide ${slideIndex + 1} / ${slides.length}`}
               </span>
               
@@ -804,9 +804,9 @@ export default function App() {
                   if (slideIndex < slides.length - 1) changeSlide(slideIndex + 1);
                 }}
                 disabled={slideIndex === slides.length - 1 || userRole === 'student'}
-                className={`flex items-center gap-2 px-6 py-2 rounded-full ${userRole === 'student' ? 'bg-transparent text-transparent' : 'bg-indigo-600 text-white disabled:opacity-30'}`}
+                className={`flex items-center gap-1 md:gap-2 px-4 py-2 md:px-6 md:py-2.5 rounded-full text-sm md:text-base font-bold transition-all ${userRole === 'student' ? 'bg-transparent text-transparent' : 'bg-indigo-600 text-white hover:bg-indigo-700 disabled:opacity-30'}`}
               >
-                {userRole === 'teacher' && <>ถัดไป <ChevronRight /></>}
+                {userRole === 'teacher' && <><span className="hidden sm:inline">ถัดไป</span> <ChevronRight size={18} className="md:w-5 md:h-5"/></>}
               </button>
             </div>
           </div>
@@ -953,7 +953,8 @@ export default function App() {
                   เลือกคอร์สเพื่อเริ่มต้นการเรียนการสอน
                 </p>
               </header>
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-6 w-full">
+              {/* 🎯 จัดการ Grid สำหรับหน้าปกบนมือถือให้แสดง 1 ชิ้น ตรงกลาง */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-6 w-full max-w-xs sm:max-w-none mx-auto">
                 {hskCards
                   .filter((c) => c.isEnabled && c.id.startsWith('hsk')) 
                   .map((card) => {
