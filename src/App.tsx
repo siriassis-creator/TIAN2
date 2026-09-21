@@ -43,7 +43,8 @@ import {
   Key,
   LogOut,
   Eye,
-  ClipboardList
+  ClipboardList,
+  Bot
 } from 'lucide-react';
 import { db } from './firebase';
 import { doc, setDoc, getDoc, updateDoc, onSnapshot } from 'firebase/firestore'; 
@@ -176,13 +177,14 @@ export default function App() {
     home: 'หน้าหลัก HSK',
     other_home: 'คอร์สอื่นๆ',
     quiz_home: 'แบบทดสอบ',
+    ai_tutor: 'AI ติวเตอร์',
     settings: 'ตั้งค่า HSK',
     settings_other: 'ตั้งค่า คอร์สอื่นๆ',
   });
 
   const [menuVisibility, setMenuVisibility] = useState({
-    teacher: { home: true, other_home: true, quiz_home: true, settings: true, settings_other: true },
-    student: { home: true, other_home: true, quiz_home: true }
+    teacher: { home: true, other_home: true, quiz_home: true, ai_tutor: true, settings: true, settings_other: true },
+    student: { home: true, other_home: true, quiz_home: true, ai_tutor: true }
   });
 
   const [isPresenting, setIsPresenting] = useState(false);
@@ -515,7 +517,7 @@ export default function App() {
     }
   };
 
-  const canSeeMenu = (menuKey: 'home' | 'other_home' | 'quiz_home' | 'settings' | 'settings_other') => {
+  const canSeeMenu = (menuKey: 'home' | 'other_home' | 'quiz_home' | 'ai_tutor' | 'settings' | 'settings_other') => {
     if (appLoginRole === 'admin') return true;
     if (appLoginRole === 'teacher') return menuVisibility.teacher[menuKey as keyof typeof menuVisibility.teacher] ?? true;
     if (appLoginRole === 'student') return menuVisibility.student[menuKey as keyof typeof menuVisibility.student] ?? true;
@@ -622,7 +624,6 @@ export default function App() {
 
   return (
     <>
-      {/* 🎯 ซ่อน Join Modal ตอนสั่งพิมพ์ */}
       {showJoinModal && (
         <div className="fixed inset-0 z-[9999] bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4 print:hidden">
           <div className="bg-white p-8 rounded-3xl shadow-2xl w-full max-w-sm flex flex-col items-center transform transition-all">
@@ -850,7 +851,7 @@ export default function App() {
                   onClick={() => setCurrentView('other_home')}
                   title={menuNames.other_home}
                   className={`flex-shrink-0 flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition-all ${
-                    currentView === 'other_home' || (!currentView.startsWith('hsk') && currentView !== 'home' && currentView !== 'settings' && currentView !== 'settings_other' && currentView !== 'quiz_home')
+                    currentView === 'other_home' || (!currentView.startsWith('hsk') && currentView !== 'home' && currentView !== 'settings' && currentView !== 'settings_other' && currentView !== 'quiz_home' && currentView !== 'ai_tutor')
                       ? 'bg-emerald-600 text-white shadow-md'
                       : 'text-slate-600 bg-slate-50 hover:bg-emerald-50'
                   }`}
@@ -870,6 +871,20 @@ export default function App() {
                   }`}
                 >
                   <ClipboardList size={18} /> {menuNames.quiz_home}
+                </button>
+              )}
+
+              {canSeeMenu('ai_tutor') && (
+                <button
+                  onClick={() => setCurrentView('ai_tutor')}
+                  title={menuNames.ai_tutor}
+                  className={`flex-shrink-0 flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition-all ${
+                    currentView === 'ai_tutor'
+                      ? 'bg-blue-500 text-white shadow-md'
+                      : 'text-slate-600 bg-slate-50 hover:bg-blue-50'
+                  }`}
+                >
+                  <Bot size={18} /> <span className="hidden sm:inline-block">{menuNames.ai_tutor}</span><span className="sm:hidden">AI</span>
                 </button>
               )}
 
@@ -925,7 +940,7 @@ export default function App() {
           </div>
         </header>
 
-        {/* 🎯 ปลดล็อก Main Content ให้ยืดล้นจอเวลาสั่งพิมพ์ (print:h-auto print:overflow-visible print:block) */}
+        {/* 🎯 ปลดล็อก Main Content ให้ยืดล้นจอเวลาสั่งพิมพ์ */}
         <main className="flex-1 relative overflow-y-auto w-full print:h-auto print:overflow-visible print:block">
 
           {currentView === 'home' && canSeeMenu('home') && (
@@ -1188,6 +1203,7 @@ export default function App() {
                           { key: 'home', label: menuNames.home },
                           { key: 'other_home', label: menuNames.other_home },
                           { key: 'quiz_home', label: menuNames.quiz_home },
+                          { key: 'ai_tutor', label: menuNames.ai_tutor },
                           { key: 'settings', label: menuNames.settings },
                           { key: 'settings_other', label: menuNames.settings_other }
                         ].map(item => (
@@ -1214,7 +1230,8 @@ export default function App() {
                         {[
                           { key: 'home', label: menuNames.home },
                           { key: 'other_home', label: menuNames.other_home },
-                          { key: 'quiz_home', label: menuNames.quiz_home }
+                          { key: 'quiz_home', label: menuNames.quiz_home },
+                          { key: 'ai_tutor', label: menuNames.ai_tutor }
                         ].map(item => (
                           <label key={item.key} className="flex items-center gap-3 cursor-pointer">
                             <input 
