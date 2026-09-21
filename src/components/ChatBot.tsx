@@ -98,15 +98,14 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
   const [isListening, setIsListening] = useState(false);
   const [micLang, setMicLang] = useState<'th-TH' | 'zh-CN'>('th-TH'); 
   const [isAutoSpeak, setIsAutoSpeak] = useState(true);
-  const [selectedProvider, setSelectedProvider] = useState<'gemini' | 'chatgpt' | 'groq' | 'cloudflare'>('gemini');
+  
+  // 🎯 เพิ่ม deepseek เข้าไปใน Type
+  const [selectedProvider, setSelectedProvider] = useState<'gemini' | 'chatgpt' | 'groq' | 'cloudflare' | 'deepseek'>('gemini');
   
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  
-  // 🎯 สร้างระบบควบคุมการเล่นเสียง
   const currentAudioRef = useRef<HTMLAudioElement | null>(null);
   const isPlayingRef = useRef(false);
 
-  // ฟังก์ชันหยุดเสียงทุกอย่างทันทีที่กดปิด หรือขึ้นข้อความใหม่
   const stopAudio = () => {
     isPlayingRef.current = false;
     if (currentAudioRef.current) {
@@ -132,29 +131,23 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
     ]);
   }, [lessonTitle]);
 
-  // 🎯 อัปเกรดระบบลำโพง: สลับภาษาอัตโนมัติแล้วยิง API ดึงเสียงฟรีจาก Google
   const speak = async (text: string, defaultLang: 'zh-CN' | 'th-TH' = 'th-TH') => {
-    stopAudio(); // หยุดเสียงเก่าก่อนเล่นใหม่
+    stopAudio(); 
     isPlayingRef.current = true;
 
-    // 1. คลีนพินอิน(ภาษาอังกฤษ) และสัญลักษณ์พิเศษทิ้ง เพื่อกันหุ่นยนต์อ่าน a-b-c
     let cleanText = text.replace(/\([a-zA-Zāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ\s]+\)/g, '');
     cleanText = cleanText.replace(/[\[\]\-\*\_]/g, '');
 
-    // 2. หั่นประโยค สลับก้อนภาษาจีนกับก้อนภาษาไทย
     const segments = cleanText.split(/([\u4e00-\u9fa5]+)/g);
 
-    // 3. ใช้ลูปเพื่อเล่นเสียงต่อกันทีละท่อนแบบเนียนๆ
     for (const segment of segments) {
-      if (!isPlayingRef.current) break; // ถ้าผู้ใช้กดปิดเสียงกลางคัน ให้หลุดลูปทันที
+      if (!isPlayingRef.current) break; 
       if (!segment.trim()) continue;
 
-      // ตรวจสอบว่าท่อนนี้เป็นจีนหรือไทย
       const isChinese = /[\u4e00-\u9fa5]/.test(segment);
       const langCode = isChinese ? 'zh-CN' : (defaultLang === 'zh-CN' ? 'zh-CN' : 'th');
 
       try {
-        // ยิงไปขอไฟล์เสียงฟรีจาก api/tts.js ของเรา
         const response = await fetch('/api/tts', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -167,10 +160,9 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
           const audio = new Audio(audioUrl);
           currentAudioRef.current = audio;
 
-          // รอให้ท่อนนี้เล่นจบก่อน ค่อยวนลูปไปเล่นท่อนถัดไป
           await new Promise((resolve) => {
             audio.onended = resolve;
-            audio.onerror = resolve; // ถ้าเล่นไฟล์พัง ให้ข้ามไปท่อนต่อไปเลย
+            audio.onerror = resolve; 
             audio.play();
           });
         }
@@ -434,7 +426,7 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
               <button 
                 onClick={() => {
                   setIsAutoSpeak(!isAutoSpeak);
-                  stopAudio(); // 🎯 กดปุ่มแล้วเสียงดับทันที
+                  stopAudio(); 
                 }}
                 className={`p-2 rounded-xl transition-colors shadow-sm flex items-center gap-1 ${
                   isAutoSpeak ? 'bg-emerald-500 hover:bg-emerald-400 text-white' : 'bg-slate-100/20 hover:bg-slate-100/30 text-emerald-100'
@@ -461,6 +453,8 @@ export default function ChatBot({ lessonTitle, lessonContext, onClose }: ChatBot
               <option value="groq" className="text-slate-800">คุณครู LUNA</option>
               <option value="cloudflare" className="text-slate-800">คุณครู SKY</option>
               <option value="chatgpt" className="text-slate-800">คุณครู GPT</option>
+              {/* 🎯 เพิ่มคุณครู DeepSeek ในเมนูให้เลือก */}
+              <option value="deepseek" className="text-slate-800">คุณครู DeepSeek</option>
             </select>
           </div>
         </div>

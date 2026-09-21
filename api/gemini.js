@@ -1,19 +1,18 @@
 // api/gemini.js
 
 export default async function handler(req, res) {
-  // 1. เช็ค Method
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method Not Allowed' });
   }
 
   try {
-    // 2. Vercel แปลง body เป็น Object ให้แล้ว ไม่ต้องใช้ JSON.parse()
     const { messages, systemInstruction, provider = 'gemini' } = req.body;
     
     // ดึง API Keys จาก Vercel Environment Variables
     const geminiKey = process.env.GEMINI_API_KEY;
     const openaiKey = process.env.OPENAI_API_KEY;
     const groqKey = process.env.GROQ_API_KEY;
+    const deepseekKey = process.env.DEEPSEEK_API_KEY; // 🎯 เพิ่ม Key สำหรับ DeepSeek (OpenRouter)
     const cfAccountId = process.env.CLOUDFLARE_ACCOUNT_ID; 
     const cfToken = process.env.CLOUDFLARE_API_TOKEN;
 
@@ -43,11 +42,14 @@ export default async function handler(req, res) {
     }
 
     // ==========================================
-    // 2. ChatGPT หรือ Groq
+    // 2. ChatGPT, Groq หรือ DeepSeek
     // ==========================================
-    if (provider === 'chatgpt' || provider === 'groq') {
+    if (provider === 'chatgpt' || provider === 'groq' || provider === 'deepseek') {
       const isGpt = provider === 'chatgpt';
-      const apiKey = isGpt ? openaiKey : groqKey;
+      const isDeepseek = provider === 'deepseek';
+      
+      // เลือกใช้ API Key ให้ตรงค่าย
+      const apiKey = isGpt ? openaiKey : (isDeepseek ? deepseekKey : groqKey);
       
       if (!apiKey) return res.status(500).json({ error: `ไม่พบ API Key สำหรับ ${provider.toUpperCase()}` });
 
@@ -58,11 +60,20 @@ export default async function handler(req, res) {
 
       formattedMessages.unshift({ role: 'system', content: systemInstruction + "\nRespond strictly in valid JSON." });
 
-      const urlOpenAI = "https://api.openai.com/v1/chat/completions";
-      const urlGroq = "https://api.groq.com/openai/v1/chat/completions";
-      const apiUrl = isGpt ? urlOpenAI : urlGroq;
-      
-      const modelName = isGpt ? "gpt-4o-mini" : "qwen/qwen3.8-27b";
+      let apiUrl = "";
+      let modelName = "";
+
+      // 🎯 กำหนด Endpoint และโมเดลของแต่ละค่าย
+      if (isGpt) {
+        apiUrl = "https://api.openai.com/v1/chat/completions";
+        modelName = "gpt-4o-mini";
+      } else if (isDeepseek) {
+        apiUrl = "https://openrouter.ai/api/v1/chat/completions"; // Endpoint สำหรับ OpenRouter
+        modelName = "deepseek-v4.1-flash:free"; // โมเดล DeepSeek แบบ Free
+      } else {
+        apiUrl = "https://api.groq.com/openai/v1/chat/completions";
+        modelName = "qwen/qwen3.8-27b";
+      }
 
       const response = await fetch(apiUrl, {
         method: 'POST',
@@ -73,7 +84,7 @@ export default async function handler(req, res) {
         body: JSON.stringify({
           model: modelName,
           messages: formattedMessages,
-          temperature: 0.2, // ลด temperature ลงเพื่อป้องกันอาการวนลูป
+          temperature: 0.2,
           response_format: { type: "json_object" }
         })
       });
@@ -103,8 +114,7 @@ export default async function handler(req, res) {
       });
 
       const model = "@cf/meta/llama-3.1-8b-instruct-fast";
-      const apiUrl = "https://api.cloudflare.com/client/v4/accounts/" + cfAccountId + "/ai/run/" + model;
- 
+      const apiUrl = "[https://api.cloudflare.com/client/v4/accounts/](https://api.cloudflare.com/client/v4/accounts/)" + cfAccountId + "/ai/run/" + model;
 
       const response = await fetch(apiUrl, {
         method: 'POST',
@@ -114,8 +124,8 @@ export default async function handler(req, res) {
         },
         body: JSON.stringify({
           messages: formattedMessages,
-          temperature: 0.2, // ลด temperature ลงเพื่อป้องกันอาการวนลูป
-          max_tokens: 800   // ป้องกันการสร้างข้อความยาวเกินไป
+          temperature: 0.2,
+          max_tokens: 800
         })
       });
 
@@ -125,7 +135,6 @@ export default async function handler(req, res) {
          throw new Error(JSON.stringify(data.errors || data));
       }
 
-      // ดึงข้อมูลและบังคับแปลงเป็น String ก่อนใช้ .replace
       let rawReply = data.result.response || data.result;
       let cleanReply = typeof rawReply === 'object' ? JSON.stringify(rawReply) : String(rawReply || "");
 
