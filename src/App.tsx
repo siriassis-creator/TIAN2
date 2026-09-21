@@ -43,9 +43,9 @@ import {
   Key,
   LogOut,
   Eye,
+  EyeOff,
   ClipboardList,
-  Bot,
-  EyeOff
+  Bot
 } from 'lucide-react';
 import { db } from './firebase';
 import { doc, setDoc, getDoc, updateDoc, onSnapshot } from 'firebase/firestore'; 
@@ -162,7 +162,7 @@ export default function App() {
   const [globalTeacherPin, setGlobalTeacherPin] = useState<string>('9999'); 
   const [globalStudentPin, setGlobalStudentPin] = useState<string>('1234');
   const [globalAdminPin, setGlobalAdminPin] = useState<string>('8888'); 
-  const [showSlideControls, setShowSlideControls] = useState(true);
+  
   const [loginStep, setLoginStep] = useState<'role' | 'pin'>('role');
   const [targetRole, setTargetRole] = useState<'teacher' | 'student' | 'admin' | null>(null); 
   const [loginPinInput, setLoginPinInput] = useState('');
@@ -174,6 +174,9 @@ export default function App() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   
+  // 🎯 State ใหม่สำหรับเปิด/ปิด แผงควบคุม Slide Show
+  const [showSlideControls, setShowSlideControls] = useState(false);
+
   const [menuNames, setMenuNames] = useState({
     home: 'หน้าหลัก HSK',
     other_home: 'คอร์สอื่นๆ',
@@ -290,7 +293,7 @@ export default function App() {
       observer.observe(slideWrapperRef.current);
       return () => observer.disconnect();
     }
-  }, [slideIndex, isPresenting, isDrawing]);
+  }, [slideIndex, isPresenting, isDrawing, showSlideControls]);
 
   useEffect(() => {
     if (isPresenting && roomPin && userRole === 'student') {
@@ -403,6 +406,7 @@ export default function App() {
     setRoomPin(newPin);
     setUserRole('teacher');
     setIsDrawing(false);
+    setShowSlideControls(false); // เริ่มต้นมาให้ซ่อนแผงควบคุมเพื่อให้สไลด์เต็มจอ
 
     try {
       await setDoc(doc(db, 'live_sessions', newPin), {
@@ -441,6 +445,7 @@ export default function App() {
         setUserRole('student');
         setShowJoinModal(false);
         setJoinPinInput('');
+        setShowSlideControls(false); // เริ่มต้นมาให้ซ่อนแผงควบคุม
         
         const course = hskCards.find(c => c.id === data.courseId);
         if(course) {
@@ -652,70 +657,41 @@ export default function App() {
       {/* 🎯 ปลดล็อก Main Layout ให้ความสูงยืดตามเนื้อหากระดาษตอนพิมพ์ */}
       <div className="flex flex-col h-screen font-sans bg-[#f8fafc] overflow-hidden w-full relative print:h-auto print:overflow-visible print:block">
         
-        
-{/* --- Presentation Overlay --- */}
-{isPresenting && slides.length > 0 && (
-          <div className="fixed inset-0 z-[2000] bg-slate-50 flex flex-col w-full h-full overflow-hidden print:hidden">
+        {/* ========================================================================= */}
+        {/* 🎯 โหมด Slide Show (แผงควบคุมทั้งหมดรวมอยู่ที่ด้านล่างและเปิด/ปิดได้) */}
+        {/* ========================================================================= */}
+        {isPresenting && slides.length > 0 && (
+          <div className="fixed inset-0 z-[2000] bg-white flex flex-col w-full h-full overflow-hidden print:hidden">
             
-            {/* 🎯 ปุ่มสำหรับ ซ่อน/แสดง แผงควบคุม (ลอยอยู่มุมขวาล่าง) */}
-            <button
-              onClick={() => setShowSlideControls(!showSlideControls)}
-              className="absolute bottom-6 right-6 z-[2005] p-3 md:p-4 bg-slate-900/60 hover:bg-slate-900 text-white rounded-full backdrop-blur-md shadow-2xl transition-all"
-              title={showSlideControls ? "ซ่อนแผงควบคุม" : "แสดงแผงควบคุม"}
-            >
-              {showSlideControls ? <EyeOff size={24} /> : <Eye size={24} />}
-            </button>
-
-            {/* แถบเมนูด้านบน (ซ่อน/แสดง ตาม State) */}
-            <div className={`absolute top-0 left-0 w-full h-14 md:h-16 bg-slate-900/95 backdrop-blur-md text-white flex items-center justify-between px-3 md:px-6 z-[2002] transition-transform duration-300 shadow-md gap-2 ${showSlideControls ? 'translate-y-0' : '-translate-y-full'}`}>
-              <div className="flex items-center gap-2 md:gap-4 flex-1 min-w-0">
-                {userRole === 'teacher' && roomPin && (
-                  <span className="bg-orange-500 px-2 py-1 md:px-3 md:py-1 rounded font-black text-xs md:text-sm tracking-widest text-white shadow-sm border border-orange-400 flex items-center gap-1 md:gap-2 shrink-0">
-                    <Users size={14} className="md:w-4 md:h-4"/> <span className="hidden sm:inline">PIN:</span> {roomPin}
-                  </span>
-                )}
-                {userRole === 'student' && (
-                  <span className="bg-indigo-500 px-2 py-1 md:px-3 md:py-1 rounded font-bold text-[10px] md:text-xs text-white shadow-sm shrink-0">
-                    โหมดนักเรียน
-                  </span>
-                )}
-                <span className="bg-indigo-600 px-3 py-1 rounded font-bold text-sm uppercase hidden lg:inline-block shrink-0">
-                  {slides[slideIndex].courseInfo}
-                </span>
-                <span className="text-indigo-200 truncate text-xs md:text-base flex-1 min-w-0">
-                  {slides[slideIndex].lessonInfo}
-                </span>
-              </div>
-              <div className="flex items-center gap-2 md:gap-4 shrink-0">
-                <div className="flex bg-slate-800 p-1 rounded-lg gap-1 border border-slate-700">
-                  {userRole === 'teacher' && (
-                    <>
-                      <button onClick={toggleDrawing} className={`p-1.5 md:p-2 rounded ${isDrawing ? 'bg-indigo-600 text-white' : 'text-slate-400'}`}>
-                        <Pencil size={16} className="md:w-5 md:h-5" />
-                      </button>
-                      <input type="color" value={brushColor} onChange={(e) => setBrushColor(e.target.value)} className="w-5 h-5 md:w-6 md:h-6 rounded-full cursor-pointer bg-transparent border-0 mt-1 md:mt-1.5 mx-0.5 md:mx-1" />
-                      <button onClick={clearCanvas} className="p-1.5 md:p-2 text-red-400">
-                        <Trash2 size={16} className="md:w-5 md:h-5" />
-                      </button>
-                    </>
-                  )}
-                </div>
-                <button onClick={() => { setIsPresenting(false); setIsDrawing(false); setRoomPin(null); setUserRole(appLoginRole === 'student' ? 'student' : 'teacher'); }} className="p-1.5 md:p-2 bg-red-500/20 hover:bg-red-600 text-red-400 hover:text-white rounded-lg transition-colors shrink-0">
-                  <X size={20} className="md:w-6 md:h-6" />
-                </button>
-              </div>
-            </div>
-
-            {/* พื้นที่สไลด์ (ขยายเต็มหน้าจอ 100%) */}
+            {/* พื้นที่แสดงสไลด์ (เต็มจอ 100% เลื่อนเลยแผงควบคุมด้านล่างได้) */}
             <div 
-              className="absolute inset-0 w-full h-full overflow-auto pt-16 pb-20 md:pt-20 md:pb-24 px-4 md:px-10 z-[2000]"
+              className="flex-1 bg-slate-50 overflow-auto p-2 md:p-10 pb-[140px] md:pb-40 w-full"
               ref={presentationScrollRef}
               onScroll={handleTeacherScroll}
             >
               <div className="relative w-full h-fit min-h-full" ref={slideWrapperRef}>
                 {isDrawing && canvasSize.width > 0 && (
                   <div className="absolute top-0 left-0 z-[5000] cursor-crosshair">
-                    <CanvasDraw ref={canvasRef} brushColor={brushColor} brushRadius={3} canvasWidth={canvasSize.width} canvasHeight={canvasSize.height} backgroundColor="transparent" lazyRadius={0} disabled={userRole === 'student'} hideGrid={true} onChange={(canvas: any) => { if (userRole === 'teacher' && roomPin) { if (drawingTimeoutRef.current) clearTimeout(drawingTimeoutRef.current); drawingTimeoutRef.current = setTimeout(() => { const data = canvas.getSaveData(); updateDoc(doc(db, 'live_sessions', roomPin), { drawingData: data }).catch(e => {}); }, 300); } }} />
+                    <CanvasDraw
+                      ref={canvasRef}
+                      brushColor={brushColor}
+                      brushRadius={3}
+                      canvasWidth={canvasSize.width}
+                      canvasHeight={canvasSize.height}
+                      backgroundColor="transparent"
+                      lazyRadius={0}
+                      disabled={userRole === 'student'}
+                      hideGrid={true}
+                      onChange={(canvas: any) => {
+                        if (userRole === 'teacher' && roomPin) {
+                          if (drawingTimeoutRef.current) clearTimeout(drawingTimeoutRef.current);
+                          drawingTimeoutRef.current = setTimeout(() => {
+                            const data = canvas.getSaveData();
+                            updateDoc(doc(db, 'live_sessions', roomPin), { drawingData: data }).catch(e => {});
+                          }, 300); 
+                        }
+                      }}
+                    />
                   </div>
                 )}
                 
@@ -745,30 +721,90 @@ export default function App() {
                   {slides[slideIndex].patternType === 'patternFlextable2cols' && <PatternFlextable2cols data={slides[slideIndex]} />}
                   {slides[slideIndex].patternType === 'patternFlexibleDoubleTable' && <PatternFlexibleDoubleTable data={slides[slideIndex]} />}
 
-                  {/* 🎯 กรณีเป็น OtherApp ให้เรนเดอร์คอมโพเนนต์นี้ แต่ถ้าก๊อปไปใส่ App.tsx ให้ลบบรรทัด OtherSlideRenderer ออกได้เลยครับ */}
-                  <OtherSlideRenderer slide={slides[slideIndex]} userRole={userRole} roomPin={roomPin} />
+                  <OtherSlideRenderer 
+                    slide={slides[slideIndex]} 
+                    userRole={userRole} 
+                    roomPin={roomPin} 
+                  />
                 </div>
               </div>
             </div>
 
-            {/* แถบเมนูด้านล่าง (ซ่อน/แสดง ตาม State) */}
-            <div className={`absolute bottom-0 left-0 w-full h-16 md:h-20 bg-white/95 backdrop-blur-md border-t flex items-center justify-between px-4 md:px-10 z-[2002] transition-transform duration-300 pr-24 shadow-[0_-4px_20px_-10px_rgba(0,0,0,0.1)] ${showSlideControls ? 'translate-y-0' : 'translate-y-full'}`}>
-              <button onClick={() => { if (slideIndex > 0) changeSlide(slideIndex - 1); }} disabled={slideIndex === 0 || userRole === 'student'} className={`flex items-center gap-1 md:gap-2 px-4 py-2 md:px-6 md:py-2.5 rounded-full text-sm md:text-base font-bold transition-all ${userRole === 'student' ? 'bg-transparent text-transparent' : 'bg-slate-100 text-slate-700 hover:bg-slate-200 disabled:opacity-30'}`}>
-                {userRole === 'teacher' && <><ChevronLeft size={18} className="md:w-5 md:h-5"/> <span className="hidden sm:inline">ก่อนหน้า</span></>}
-              </button>
+            {/* 🎯 แผงควบคุมแบบใหม่ (Fix ด้านล่าง) */}
+            <div className="absolute bottom-0 left-0 w-full z-[2002] pointer-events-none flex flex-col justify-end">
               
-              <span className={`text-xs md:text-base font-bold ${userRole === 'student' ? 'text-indigo-500 animate-pulse' : 'text-slate-700'}`}>
-                {userRole === 'student' ? 'กำลังติดตามหน้าจอคุณครู...' : `Slide ${slideIndex + 1} / ${slides.length}`}
-              </span>
-              
-              <button onClick={() => { if (slideIndex < slides.length - 1) changeSlide(slideIndex + 1); }} disabled={slideIndex === slides.length - 1 || userRole === 'student'} className={`flex items-center gap-1 md:gap-2 px-4 py-2 md:px-6 md:py-2.5 rounded-full text-sm md:text-base font-bold transition-all ${userRole === 'student' ? 'bg-transparent text-transparent' : 'bg-indigo-600 text-white hover:bg-indigo-700 disabled:opacity-30'}`}>
-                {userRole === 'teacher' && <><span className="hidden sm:inline">ถัดไป</span> <ChevronRight size={18} className="md:w-5 md:h-5"/></>}
-              </button>
+              {/* เมนูตั้งค่า Dropup (โชว์/ซ่อน) */}
+              <div className={`pointer-events-auto bg-slate-900/95 backdrop-blur-md text-white flex flex-col md:flex-row items-center justify-between px-4 md:px-6 py-3 transition-all duration-300 transform origin-bottom border-t border-slate-700
+                ${showSlideControls ? 'translate-y-0 opacity-100' : 'translate-y-[100%] opacity-0 h-0 py-0 overflow-hidden'}`}>
+                
+                <div className="flex items-center gap-3 w-full md:w-auto mb-3 md:mb-0 justify-between md:justify-start">
+                  <div className="flex items-center gap-2">
+                    {userRole === 'teacher' && roomPin && (
+                      <span className="bg-orange-500 px-2 py-1 rounded font-black text-xs md:text-sm tracking-widest text-white shadow-sm border border-orange-400 flex items-center gap-1 md:gap-2 shrink-0">
+                        <Users size={14} className="md:w-4 md:h-4"/> <span className="hidden sm:inline">PIN:</span> {roomPin}
+                      </span>
+                    )}
+                    {userRole === 'student' && (
+                      <span className="bg-indigo-500 px-2 py-1 rounded font-bold text-[10px] md:text-xs text-white shadow-sm shrink-0">
+                        โหมดนักเรียน
+                      </span>
+                    )}
+                  </div>
+                  <div className="truncate text-xs md:text-sm text-indigo-200 text-right md:text-left flex-1 md:w-64 ml-2">
+                    {slides[slideIndex].lessonInfo}
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-between w-full md:w-auto gap-4 shrink-0">
+                  <div className="flex bg-slate-800 p-1 rounded-lg gap-1 border border-slate-700">
+                    {userRole === 'teacher' && (
+                      <>
+                        <button onClick={toggleDrawing} className={`p-1.5 md:p-2 rounded transition-colors ${isDrawing ? 'bg-indigo-600 text-white' : 'text-slate-400 hover:text-white'}`}>
+                          <Pencil size={16} className="md:w-5 md:h-5" />
+                        </button>
+                        <input type="color" value={brushColor} onChange={(e) => setBrushColor(e.target.value)} className="w-5 h-5 md:w-6 md:h-6 rounded-full cursor-pointer bg-transparent border-0 mt-1 md:mt-1.5 mx-0.5 md:mx-1" />
+                        <button onClick={clearCanvas} className="p-1.5 md:p-2 text-red-400 hover:text-red-300 transition-colors">
+                          <Trash2 size={16} className="md:w-5 md:h-5" />
+                        </button>
+                      </>
+                    )}
+                  </div>
+                  <button onClick={() => { setIsPresenting(false); setIsDrawing(false); setRoomPin(null); setUserRole(appLoginRole === 'student' ? 'student' : 'teacher'); }} className="px-3 py-1.5 md:px-4 md:py-2 bg-red-500 hover:bg-red-600 text-white rounded-lg transition-colors flex items-center gap-1.5 text-sm font-bold shadow-sm">
+                    <X size={18} /> <span className="hidden sm:inline">ปิดหน้าต่าง</span><span className="sm:hidden">ปิด</span>
+                  </button>
+                </div>
+              </div>
+
+              {/* แถบนำทางด้านล่างสุด (แสดงเสมอ) */}
+              <div className="pointer-events-auto h-14 md:h-16 bg-white/95 backdrop-blur-md border-t border-slate-200 flex items-center justify-between px-3 md:px-6 shadow-[0_-4px_10px_rgba(0,0,0,0.05)] w-full">
+                <button onClick={() => { if (slideIndex > 0) changeSlide(slideIndex - 1); }} disabled={slideIndex === 0 || userRole === 'student'} className={`flex items-center gap-1 px-3 py-2 md:px-6 md:py-2.5 rounded-full text-sm md:text-base font-bold transition-all ${userRole === 'student' ? 'bg-transparent text-transparent' : 'bg-slate-100 text-slate-700 hover:bg-slate-200 disabled:opacity-30'}`}>
+                  {userRole === 'teacher' && <><ChevronLeft size={18} className="md:w-5 md:h-5"/> <span className="hidden sm:inline">ก่อนหน้า</span></>}
+                </button>
+                
+                <span className={`text-xs md:text-base font-bold ${userRole === 'student' ? 'text-indigo-500 animate-pulse' : 'text-slate-700'}`}>
+                  {userRole === 'student' ? 'รอครูเปลี่ยนสไลด์...' : `Slide ${slideIndex + 1} / ${slides.length}`}
+                </span>
+                
+                <div className="flex items-center gap-2">
+                  <button onClick={() => { if (slideIndex < slides.length - 1) changeSlide(slideIndex + 1); }} disabled={slideIndex === slides.length - 1 || userRole === 'student'} className={`flex items-center gap-1 px-3 py-2 md:px-6 md:py-2.5 rounded-full text-sm md:text-base font-bold transition-all ${userRole === 'student' ? 'bg-transparent text-transparent' : 'bg-indigo-600 text-white hover:bg-indigo-700 disabled:opacity-30'}`}>
+                    {userRole === 'teacher' && <><span className="hidden sm:inline">ถัดไป</span> <ChevronRight size={18} className="md:w-5 md:h-5"/></>}
+                  </button>
+                  
+                  {/* เส้นคั่นและปุ่มเปิด/ปิดแผงควบคุม (Toggle) */}
+                  <div className="w-px h-6 bg-slate-200 mx-1 md:mx-2"></div>
+                  <button 
+                    onClick={() => setShowSlideControls(!showSlideControls)} 
+                    className={`p-2 rounded-xl transition-all shadow-sm ${showSlideControls ? 'bg-blue-100 text-blue-600' : 'bg-slate-100 text-slate-500 hover:bg-slate-200'}`}
+                    title="เปิด/ปิด แผงควบคุม"
+                  >
+                    {showSlideControls ? <EyeOff size={20} className="md:w-6 md:h-6" /> : <Eye size={20} className="md:w-6 md:h-6" />}
+                  </button>
+                </div>
+              </div>
+
             </div>
           </div>
         )}
-
-
 
         {/* 🎯 แถบเมนูด้านบน (ซ่อนตอนพิมพ์) */}
         <header className="bg-white/95 backdrop-blur-md border-b flex-shrink-0 z-[50] shadow-sm print:hidden">
