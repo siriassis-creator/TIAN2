@@ -1,3 +1,4 @@
+// src/components/quiz/QuestionCard.tsx
 import React, { useState, useEffect } from 'react';
 import { CheckCircle2, XCircle, AlertCircle } from 'lucide-react';
 
@@ -6,12 +7,30 @@ export interface Option {
   text: string;
 }
 
-// 🎯 ใส่ export เพื่อให้ไฟล์อื่นนำ Type ไปใช้งานได้
+export interface QuestionContent {
+  enabled?: boolean;
+  type?: string;
+  title?: string;
+  text?: string;
+}
+
+export interface QuestionImage {
+  enabled?: boolean;
+  source?: string | null;
+  file_name?: string | null;
+  image_prompt?: string | null;
+  url?: string | null;
+  image_url?: string | null;
+}
+
+// 🎯 อัปเดต Type ให้รองรับ content และ image
 export interface QuestionType {
   question_id: string;
   type: string; // single_choice, multiple_select, fill_blank
   question: string;
-  options: Option[];
+  content?: QuestionContent;
+  image?: QuestionImage;
+  options?: Option[];
   correct_answer: string[];
   explanation: string;
 }
@@ -45,7 +64,7 @@ export default function QuestionCard({ question, onAnswer, onNext }: Props) {
     let userAns: string[] = [];
     let correct = false;
 
-    if (question.type === 'fill_blank') {
+    if (question.type === 'fill_blank' || question.type === 'fill_in_the_blank') {
       userAns = [inputText.trim()];
       correct = question.correct_answer.some(
         (ans) => ans.toLowerCase() === inputText.trim().toLowerCase()
@@ -74,10 +93,33 @@ export default function QuestionCard({ question, onAnswer, onNext }: Props) {
   return (
     <div className="w-full max-w-2xl mx-auto bg-white rounded-3xl shadow-lg border border-slate-100 overflow-hidden">
       <div className="p-6 md:p-8">
-        <h2 className="text-2xl font-bold text-slate-800 mb-6 leading-relaxed">
+        
+        {/* 🎯 ส่วนแสดงบทอ่าน หรือ บทสนทนา (ถ้ามี) */}
+        {question.content && question.content.enabled && question.content.text && (
+          <div className="mb-6 p-5 bg-indigo-50 border border-indigo-100 rounded-2xl text-slate-700 whitespace-pre-line text-sm md:text-base leading-relaxed shadow-sm">
+            {question.content.title && (
+              <div className="font-bold text-indigo-900 mb-2">{question.content.title}</div>
+            )}
+            <div>{question.content.text}</div>
+          </div>
+        )}
+
+        {/* 🎯 ส่วนแสดงรูปภาพประกอบ (ถ้ามี) */}
+        {question.image && question.image.enabled && (question.image.url || question.image.image_url) && (
+          <div className="mb-6 flex justify-center">
+            <img 
+              src={question.image.url || question.image.image_url || ''} 
+              alt="question visual" 
+              className="max-h-56 object-contain rounded-xl border border-slate-200 shadow-sm" 
+            />
+          </div>
+        )}
+
+        {/* --- ส่วนคำถาม --- */}
+        <h2 className="text-xl md:text-2xl font-bold text-slate-800 mb-6 leading-relaxed text-justify">
           {question.question}
           {question.type === 'multiple_select' && (
-             <span className="ml-2 text-sm text-emerald-600 font-normal bg-emerald-50 px-2 py-1 rounded-md">
+             <span className="ml-2 text-sm text-emerald-600 font-normal bg-emerald-50 px-2 py-1 rounded-md inline-block whitespace-nowrap">
                (เลือกได้หลายข้อ)
              </span>
           )}
@@ -85,7 +127,7 @@ export default function QuestionCard({ question, onAnswer, onNext }: Props) {
 
         {/* --- ส่วนรับคำตอบ --- */}
         <div className="space-y-3 mb-8">
-          {question.type === 'fill_blank' ? (
+          {question.type === 'fill_blank' || question.type === 'fill_in_the_blank' ? (
             <input
               type="text"
               value={inputText}
@@ -97,8 +139,12 @@ export default function QuestionCard({ question, onAnswer, onNext }: Props) {
           ) : (
             // เช็คว่ามี options ก่อน map กันแอปพังกรณีข้อมูลตกหล่น
             question.options?.map((opt) => {
-              const isSelected = selected.includes(opt.id);
-              const isAnsCorrect = question.correct_answer.includes(opt.id);
+              // รองรับโครงสร้างทั้งแบบ Object {id, text} และแบบ String ธรรมดา
+              const optId = typeof opt === 'string' ? opt : opt.id;
+              const optText = typeof opt === 'string' ? opt : opt.text;
+              
+              const isSelected = selected.includes(optId);
+              const isAnsCorrect = question.correct_answer.includes(optId);
               
               // กำหนดสีปุ่มตอนเฉลย
               let btnClass = isSelected
@@ -117,17 +163,17 @@ export default function QuestionCard({ question, onAnswer, onNext }: Props) {
 
               return (
                 <button
-                  key={opt.id}
-                  onClick={() => toggleSelect(opt.id)}
+                  key={optId}
+                  onClick={() => toggleSelect(optId)}
                   disabled={isSubmitted}
                   className={`w-full text-left px-5 py-4 border-2 rounded-xl transition-all duration-200 flex items-center justify-between ${btnClass}`}
                 >
-                  <span className="font-medium text-lg">
-                    <span className="mr-3 font-bold opacity-50">{opt.id}.</span>
-                    {opt.text}
+                  <span className="font-medium text-base md:text-lg leading-relaxed">
+                    <span className="mr-3 font-bold opacity-50">{typeof opt === 'string' ? '' : `${optId}.`}</span>
+                    {optText}
                   </span>
-                  {isSubmitted && isAnsCorrect && <CheckCircle2 className="text-emerald-500" />}
-                  {isSubmitted && isSelected && !isAnsCorrect && <XCircle className="text-red-500" />}
+                  {isSubmitted && isAnsCorrect && <CheckCircle2 className="text-emerald-500 shrink-0 ml-2" />}
+                  {isSubmitted && isSelected && !isAnsCorrect && <XCircle className="text-red-500 shrink-0 ml-2" />}
                 </button>
               );
             })
@@ -136,11 +182,16 @@ export default function QuestionCard({ question, onAnswer, onNext }: Props) {
 
         {/* --- ส่วนเฉลยอธิบาย --- */}
         {isSubmitted && (
-          <div className={`p-4 rounded-xl mb-6 flex gap-3 items-start border ${isCorrect ? 'bg-emerald-50 border-emerald-200 text-emerald-800' : 'bg-red-50 border-red-200 text-red-800'}`}>
+          <div className={`p-4 md:p-5 rounded-xl mb-6 flex gap-3 items-start border ${isCorrect ? 'bg-emerald-50 border-emerald-200 text-emerald-800' : 'bg-red-50 border-red-200 text-red-800'}`}>
             {isCorrect ? <CheckCircle2 className="shrink-0 mt-0.5" /> : <AlertCircle className="shrink-0 mt-0.5" />}
             <div>
-              <p className="font-bold mb-1">{isCorrect ? 'ถูกต้อง!' : 'ยังไม่ถูกนะ'}</p>
-              <p className="text-sm opacity-90">{question.explanation}</p>
+              <p className="font-bold mb-1 text-base md:text-lg">{isCorrect ? 'ถูกต้อง!' : 'ยังไม่ถูกนะ'}</p>
+              {question.explanation && (
+                <p className="text-sm md:text-base opacity-90 leading-relaxed mt-2 pt-2 border-t border-current/20">
+                  <span className="font-bold">คำอธิบาย: </span>
+                  {question.explanation}
+                </p>
+              )}
             </div>
           </div>
         )}

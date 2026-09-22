@@ -1,6 +1,6 @@
 // src/components/quiz/PrintableQuiz.tsx
 import React, { useState, useEffect } from 'react';
-import { Printer, ArrowLeft, Link as LinkIcon, RefreshCw, FileText, Download } from 'lucide-react'; // 🎯 เพิ่มไอคอน Download
+import { Printer, ArrowLeft, Link as LinkIcon, RefreshCw, FileText, Download } from 'lucide-react';
 import type { QuestionType } from './QuestionCard';
 
 interface Props {
@@ -53,7 +53,7 @@ export default function PrintableQuiz({ data, title, onClose }: Props) {
         `}
       </style>
 
-      {/* 🎯 แถบเครื่องมือตั้งค่า (ปรับขนาดให้พอดีบนมือถือ) */}
+      {/* 🎯 แถบเครื่องมือตั้งค่า */}
       <div className="fixed top-2 md:top-4 left-1/2 -translate-x-1/2 flex flex-wrap justify-center gap-1.5 md:gap-2 print:hidden z-50 bg-white/95 p-2 md:p-3 rounded-2xl shadow-xl backdrop-blur-md border border-slate-200 items-center w-[96%] md:w-auto">
         <button onClick={onClose} className="px-3 py-2 bg-slate-100 hover:bg-red-50 hover:text-red-600 text-slate-600 rounded-xl flex items-center gap-1 font-bold transition-all text-sm">
           <ArrowLeft size={16} /> <span className="hidden sm:inline">ปิดหน้าต่าง</span><span className="sm:hidden">ปิด</span>
@@ -86,8 +86,6 @@ export default function PrintableQuiz({ data, title, onClose }: Props) {
         <button onClick={handleCopyLink} className="px-3 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl shadow-md flex items-center gap-1 font-bold transition-all text-sm">
           <LinkIcon size={16} /> <span className="hidden sm:inline">คัดลอกลิงก์</span><span className="sm:hidden">คัดลอก</span>
         </button>
-        
-        {/* 🎯 ปุ่มปริ้น/ดาวน์โหลด แยกหน้าจอ */}
         <button onClick={() => window.print()} className="px-3 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl shadow-md flex items-center gap-1.5 font-bold transition-all text-sm">
           <Printer size={16} className="hidden sm:block" /> 
           <Download size={16} className="sm:hidden" />
@@ -114,34 +112,56 @@ export default function PrintableQuiz({ data, title, onClose }: Props) {
         </div>
 
         <div className="space-y-6 md:space-y-8">
-          {questions.map((q, idx) => (
-            <div key={q.question_id || idx} className="break-inside-avoid print:mb-6">
-              <p className="font-bold text-base md:text-lg mb-2 md:mb-3 leading-relaxed text-justify">
-                {idx + 1}. {q.question}
-                {q.type === 'multiple_select' && (
-                  <span className="text-xs md:text-sm font-normal text-slate-500 ml-2">(เลือกได้หลายข้อ)</span>
-                )}
-              </p>
+          {questions.map((q, idx) => {
+            // ดึงข้อมูล content และ image เพื่อหลีกเลี่ยง Type Error
+            const contentData = (q as any).content;
+            const imageData = (q as any).image;
 
-              {q.type === 'fill_blank' ? (
-                <div className="mt-4 md:mt-6 mb-3 md:mb-4 pl-4 md:pl-6">
-                  <span className="inline-block w-full max-w-md border-b-2 border-dotted border-slate-400 h-6"></span>
-                </div>
-              ) : (
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-2 md:gap-y-3 gap-x-6 pl-4 md:pl-6 mt-2 md:mt-3">
-                  {q.options?.map((opt: any) => (
-                    <div key={opt.id} className="flex items-start gap-2 md:gap-3">
-                      <div className="w-5 h-5 md:w-6 md:h-6 rounded-full border-2 border-slate-300 shrink-0 mt-0.5 flex items-center justify-center"></div>
-                      <div className="text-sm md:text-base leading-relaxed">
-                        <span className="font-bold mr-2">{opt.id}.</span> 
-                        {opt.text}
+            return (
+              <div key={q.question_id || idx} className="break-inside-avoid print:mb-6">
+                
+                {/* 🎯 แสดงบทอ่าน (Reading/Conversation) */}
+                {contentData && contentData.enabled && contentData.text && (
+                  <div className="mb-4 p-4 bg-slate-50 print:bg-transparent border border-slate-200 print:border-slate-400 rounded-xl text-sm md:text-base text-slate-800 print:text-black whitespace-pre-line leading-relaxed">
+                    {contentData.title && <div className="font-bold mb-2">{contentData.title}</div>}
+                    <div>{contentData.text}</div>
+                  </div>
+                )}
+
+                {/* 🎯 แสดงรูปภาพ (Image) */}
+                {imageData && imageData.enabled && imageData.url && (
+                  <div className="mb-4 flex justify-start">
+                    <img src={imageData.url} alt="question content" className="max-h-48 object-contain rounded-lg border border-slate-200 print:border-none print:max-h-40" />
+                  </div>
+                )}
+
+                <p className="font-bold text-base md:text-lg mb-2 md:mb-3 leading-relaxed text-justify mt-2">
+                  {idx + 1}. {q.question}
+                  {q.type === 'multiple_select' && (
+                    <span className="text-xs md:text-sm font-normal text-slate-500 ml-2">(เลือกได้หลายข้อ)</span>
+                  )}
+                </p>
+
+                {q.type === 'fill_blank' || q.type === 'fill_in_the_blank' ? (
+                  <div className="mt-4 md:mt-6 mb-3 md:mb-4 pl-4 md:pl-6">
+                    <span className="inline-block w-full max-w-md border-b-2 border-dotted border-slate-400 h-6"></span>
+                  </div>
+                ) : (
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-2 md:gap-y-3 gap-x-6 pl-4 md:pl-6 mt-2 md:mt-3">
+                    {q.options?.map((opt: any) => (
+                      <div key={opt.id || opt} className="flex items-start gap-2 md:gap-3">
+                        <div className="w-5 h-5 md:w-6 md:h-6 rounded-full border-2 border-slate-300 shrink-0 mt-0.5 flex items-center justify-center"></div>
+                        <div className="text-sm md:text-base leading-relaxed">
+                          <span className="font-bold mr-2">{opt.id ? `${opt.id}.` : ''}</span> 
+                          {opt.text || opt}
+                        </div>
                       </div>
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
-          ))}
+                    ))}
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </div>
 
         <div className="break-before-page pt-8 md:pt-10 mt-8 md:mt-10 print:mt-0 print:pt-0 print:border-t-0 border-t-2 border-dashed border-slate-300">
