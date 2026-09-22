@@ -33,12 +33,12 @@ export default function PrintableQuiz({ data, title, onClose }: Props) {
   };
 
   const getAnswerDisplay = (q: QuestionType) => {
-    if (q.type === 'fill_blank') {
+    if (q.type === 'fill_blank' || q.type === 'fill_in_the_blank') {
       return q.correct_answer.join(' หรือ '); 
     }
     const answers = q.correct_answer.map(ansId => {
-      const opt = q.options?.find(o => o.id === ansId);
-      return opt ? `${ansId}. ${opt.text}` : ansId;
+      const opt = q.options?.find(o => (o as any).id === ansId || o === ansId);
+      return opt ? `${ansId}. ${typeof opt === 'string' ? opt : (opt as any).text}` : ansId;
     });
     return answers.join(', ');
   };
@@ -113,7 +113,6 @@ export default function PrintableQuiz({ data, title, onClose }: Props) {
 
         <div className="space-y-6 md:space-y-8">
           {questions.map((q, idx) => {
-            // ดึงข้อมูล content และ image เพื่อหลีกเลี่ยง Type Error
             const contentData = (q as any).content;
             const imageData = (q as any).image;
 
@@ -128,35 +127,49 @@ export default function PrintableQuiz({ data, title, onClose }: Props) {
                   </div>
                 )}
 
-                {/* 🎯 แสดงรูปภาพ (Image) */}
-                {imageData && imageData.enabled && imageData.url && (
-                  <div className="mb-4 flex justify-start">
-                    <img src={imageData.url} alt="question content" className="max-h-48 object-contain rounded-lg border border-slate-200 print:border-none print:max-h-40" />
-                  </div>
-                )}
-
-                <p className="font-bold text-base md:text-lg mb-2 md:mb-3 leading-relaxed text-justify mt-2">
-                  {idx + 1}. {q.question}
-                  {q.type === 'multiple_select' && (
-                    <span className="text-xs md:text-sm font-normal text-slate-500 ml-2">(เลือกได้หลายข้อ)</span>
+                {/* 🎯 แสดงรูปและโจทย์บรรทัดเดียวกัน (Flexbox) */}
+                <div className="flex items-start gap-4 mb-3 md:mb-4">
+                  {/* รูปภาพ (ฝั่งซ้าย) */}
+                  {imageData && imageData.enabled && (imageData.url || imageData.image_url) && (
+                    <div className="shrink-0 w-28 md:w-40 print:w-[40mm]">
+                      <img 
+                        src={imageData.url || imageData.image_url} 
+                        alt="question content" 
+                        className="w-full h-auto object-contain rounded-lg border border-slate-200 print:border-none" 
+                      />
+                    </div>
                   )}
-                </p>
 
+                  {/* ข้อความโจทย์ (ฝั่งขวา) */}
+                  <p className="font-bold text-base md:text-lg leading-relaxed text-justify flex-1 mt-0">
+                    {idx + 1}. {q.question}
+                    {q.type === 'multiple_select' && (
+                      <span className="text-xs md:text-sm font-normal text-slate-500 ml-2 whitespace-nowrap">(เลือกได้หลายข้อ)</span>
+                    )}
+                  </p>
+                </div>
+
+                {/* ตัวเลือกตอบ หรือ ช่องเติมคำ */}
                 {q.type === 'fill_blank' || q.type === 'fill_in_the_blank' ? (
                   <div className="mt-4 md:mt-6 mb-3 md:mb-4 pl-4 md:pl-6">
                     <span className="inline-block w-full max-w-md border-b-2 border-dotted border-slate-400 h-6"></span>
                   </div>
                 ) : (
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-2 md:gap-y-3 gap-x-6 pl-4 md:pl-6 mt-2 md:mt-3">
-                    {q.options?.map((opt: any) => (
-                      <div key={opt.id || opt} className="flex items-start gap-2 md:gap-3">
-                        <div className="w-5 h-5 md:w-6 md:h-6 rounded-full border-2 border-slate-300 shrink-0 mt-0.5 flex items-center justify-center"></div>
-                        <div className="text-sm md:text-base leading-relaxed">
-                          <span className="font-bold mr-2">{opt.id ? `${opt.id}.` : ''}</span> 
-                          {opt.text || opt}
+                    {q.options?.map((opt: any) => {
+                      const optId = typeof opt === 'string' ? opt : opt.id;
+                      const optText = typeof opt === 'string' ? opt : opt.text;
+                      
+                      return (
+                        <div key={optId} className="flex items-start gap-2 md:gap-3">
+                          <div className="w-5 h-5 md:w-6 md:h-6 rounded-full border-2 border-slate-300 shrink-0 mt-0.5 flex items-center justify-center"></div>
+                          <div className="text-sm md:text-base leading-relaxed">
+                            <span className="font-bold mr-2">{typeof opt === 'string' ? '' : `${optId}.`}</span> 
+                            {optText}
+                          </div>
                         </div>
-                      </div>
-                    ))}
+                      );
+                    })}
                   </div>
                 )}
               </div>

@@ -1,0 +1,4114 @@
+[
+    {
+      "question_id": "CN_PRE_Q001",
+      "test_id": "CN_PRE",
+      "question_number": 1,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Vocabulary & Measure Words",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 78",
+      "question": "จงเลือกคำลักษณะนามที่ถูกต้องสำหรับหนังสือ (书 shū): \"这____书二十块钱。\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "块 (kuài)"
+        },
+        {
+          "id": "B",
+          "text": "本 (běn)"
+        },
+        {
+          "id": "C",
+          "text": "支 (zhī)"
+        },
+        {
+          "id": "D",
+          "text": "件 (jiàn)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "หนังสือ (书) ใช้คำลักษณะนาม '本' (běn) แปลว่า 'เล่ม'",
+      "learning_objective": "ระบุลักษณะนามของสมุดบันทึกได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q001",
+      "image": {
+        "enabled": false,
+        "url": "",
+        "image_url": ""
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q002",
+      "test_id": "CN_PRE",
+      "question_number": 2,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Vocabulary & Measure Words",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 78",
+      "question": "ประโยค \"这____衣服一百块。\" ควรเติมคำลักษณะนามใดในช่องว่าง?",
+      "options": [
+        {
+          "id": "A",
+          "text": "条 (tiáo)"
+        },
+        {
+          "id": "B",
+          "text": "双 (shuāng)"
+        },
+        {
+          "id": "C",
+          "text": "件 (jiàn)"
+        },
+        {
+          "id": "D",
+          "text": "个 (gè)"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "เสื้อผ้า (衣服) ใช้คำลักษณะนาม '件' (jiàn) แปลว่า 'ตัว'",
+      "learning_objective": "เลือกลักษณะนามสำหรับเสื้อผ้าท่อนบนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q002",
+      "image": {
+        "enabled": false,
+        "url": "",
+        "image_url": ""
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q003",
+      "test_id": "CN_PRE",
+      "question_number": 3,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Vocabulary & Measure Words",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 78 & 87",
+      "question": "กระโปรง (裙子 qúnzi) ในภาษาจีนต้องใช้คู่กับลักษณะนามใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "件 (jiàn)"
+        },
+        {
+          "id": "B",
+          "text": "条 (tiáo)"
+        },
+        {
+          "id": "C",
+          "text": "块 (kuài)"
+        },
+        {
+          "id": "D",
+          "text": "本 (běn)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "กระโปรง (裙子) มีลักษณะเป็นสาย/เส้นยาว ใช้ลักษณะนาม '条' (tiáo)",
+      "learning_objective": "จำแนกลักษณะนามของกางเกงและกระโปรงได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q003",
+      "image": {
+        "enabled": false,
+        "url": "",
+        "image_url": ""
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q004",
+      "test_id": "CN_PRE",
+      "question_number": 4,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Vocabulary & Measure Words",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 78 & 87",
+      "question": "สิ่งของในข้อใดใช้ลักษณะนาม \"双\" (shuāng) ที่หมายถึง 'คู่'?",
+      "options": [
+        {
+          "id": "A",
+          "text": "筷子 (kuàizi - ตะเกียบ)"
+        },
+        {
+          "id": "B",
+          "text": "书包 (shūbāo - กระเป๋า)"
+        },
+        {
+          "id": "C",
+          "text": "橡皮 (xiàngpí - ยางลบ)"
+        },
+        {
+          "id": "D",
+          "text": "苹果 (píngguǒ - แอปเปิ้ล)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "สิ่งของที่ใช้เป็นคู่ เช่น ตะเกียบ (筷子) หรือรองเท้า (鞋) ใช้ลักษณะนาม '双' (shuāng)",
+      "learning_objective": "เลือกลักษณะนามสำหรับรองเท้าและสิ่งของที่เป็นคู่ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q004",
+      "image": {
+        "enabled": false,
+        "url": "",
+        "image_url": ""
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q005",
+      "test_id": "CN_PRE",
+      "question_number": 5,
+      "type": "multiple_select",
+      "level": "Medium",
+      "skill": "Vocabulary & Measure Words",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 78",
+      "question": "คำศัพท์ในข้อใดบ้างที่ใช้ลักษณะนาม \"个\" (gè) ได้ถูกต้อง? (เลือกตอบได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "书包 (shūbāo - กระเป๋า)"
+        },
+        {
+          "id": "B",
+          "text": "苹果 (píngguǒ - แอปเปิ้ล)"
+        },
+        {
+          "id": "C",
+          "text": "包子 (bāozi - ซาลาเปา)"
+        },
+        {
+          "id": "D",
+          "text": "铅笔 (qiānbǐ - ดินสอ)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 1,
+      "explanation": "书包, 苹果 และ 包子 ใช้ลักษณะนาม '个' (gè) ส่วน 铅笔 ใช้ '支' (zhī)",
+      "learning_objective": "เลือกสิ่งของที่ใช้ลักษณะนาม \"个\" (gè) ได้ถูกต้องมากกว่า 1 ข้อ (Multiple Select)",
+      "pre_post_pair": "CN_POST_Q005",
+      "image": {
+        "enabled": false,
+        "url": "",
+        "image_url": ""
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q006",
+      "test_id": "CN_PRE",
+      "question_number": 6,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Vocabulary & Measure Words",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 78",
+      "question": "ปากกา (钢笔 gāngbǐ) ต้องใช้คำลักษณะนามในข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "本 (běn)"
+        },
+        {
+          "id": "B",
+          "text": "支 (zhī)"
+        },
+        {
+          "id": "C",
+          "text": "件 (jiàn)"
+        },
+        {
+          "id": "D",
+          "text": "块 (kuài)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "สิ่งของทรงแท่งยาว เช่น ปากกา หรือ ดินสอ ใช้ลักษณะนาม '支' (zhī)",
+      "learning_objective": "ระบุลักษณะนามของภาชนะกล่องบรรจุภัณฑ์ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q006",
+      "image": {
+        "enabled": false,
+        "url": "",
+        "image_url": ""
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q007",
+      "test_id": "CN_PRE",
+      "question_number": 7,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Vocabulary & Measure Words",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 78 & 87",
+      "question": "เครื่องดื่มบรรจุกล่อง เช่น นมกล่อง (牛奶 niúnǎi) ใช้ลักษณะนามใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "杯 (bēi)"
+        },
+        {
+          "id": "B",
+          "text": "盒 (hé)"
+        },
+        {
+          "id": "C",
+          "text": "瓶 (píng)"
+        },
+        {
+          "id": "D",
+          "text": "个 (gè)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ของบรรจุกล่องทรงสี่เหลี่ยม ใช้ลักษณะนาม '盒' (hé) แปลว่า 'กล่อง'",
+      "learning_objective": "เลือกลักษณะนามของเครื่องดื่มบรรจุแก้วได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q007",
+      "image": {
+        "enabled": false,
+        "url": "",
+        "image_url": ""
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q008",
+      "test_id": "CN_PRE",
+      "question_number": 8,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Vocabulary & Measure Words",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 77 & 88",
+      "question": "น้ำผลไม้บรรจุแก้ว (果汁 guǒzhī) ใช้ลักษณะนามใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "盒 (hé)"
+        },
+        {
+          "id": "B",
+          "text": "杯 (bēi)"
+        },
+        {
+          "id": "C",
+          "text": "本 (běn)"
+        },
+        {
+          "id": "D",
+          "text": "块 (kuài)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "เครื่องดื่มใส่แก้ว ใช้ลักษณะนาม '杯' (bēi) แปลว่า 'แก้ว'",
+      "learning_objective": "เติมคำลักษณะนามของดินสอได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q008",
+      "image": {
+        "enabled": false,
+        "url": "",
+        "image_url": ""
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q009",
+      "test_id": "CN_PRE",
+      "question_number": 9,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Vocabulary Identification",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 76",
+      "question": "คำศัพท์คำว่า \"书包\" (shūbāo) มีความหมายตรงกับข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "หนังสือ"
+        },
+        {
+          "id": "B",
+          "text": "กระเป๋านักเรียน"
+        },
+        {
+          "id": "C",
+          "text": "สมุดบันทึก"
+        },
+        {
+          "id": "D",
+          "text": "กล่องดินสอ"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "书包 (shūbāo) แปลว่า กระเป๋านักเรียน",
+      "learning_objective": "สรุปจับคู่หมวดคำศัพท์อุปกรณ์การเรียนกับ Pinyin และความหมายได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q009",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q010",
+      "test_id": "CN_PRE",
+      "question_number": 10,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Vocabulary Identification",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 78",
+      "question": "คำศัพท์ \"橡皮\" (xiàngpí) หมายถึงสิ่งใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ดินสอ"
+        },
+        {
+          "id": "B",
+          "text": "ยางลบ"
+        },
+        {
+          "id": "C",
+          "text": "ไม้บรรทัด"
+        },
+        {
+          "id": "D",
+          "text": "ปากกา"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "橡皮 (xiàngpí) แปลว่า ยางลบ",
+      "learning_objective": "ระบุความหมายของคำศัพท์หมวดผลไม้ในบทเรียน",
+      "pre_post_pair": "CN_POST_Q010",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q011",
+      "test_id": "CN_PRE",
+      "question_number": 11,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Currency Reading",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 85 ข้อ 3",
+      "question": "จำนวนเงิน 15.50 元 (15 หยวน 5 เหมา) เขียนอ่านเป็นภาษาพูดภาษาจีนได้อย่างไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "十五块五毛 (shísǐ kuài wǔ máo)"
+        },
+        {
+          "id": "B",
+          "text": "十五块五毛 (shíwǔ kuài wǔ máo)"
+        },
+        {
+          "id": "C",
+          "text": "五十块五毛 (wǔshí kuài wǔ máo)"
+        },
+        {
+          "id": "D",
+          "text": "十五块十五毛 (shíwǔ kuài shíwǔ máo)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "15 = 十五 (shíwǔ), หน่วยเงิน = 块 (kuài), 0.50 = 五毛 (wǔ máo)",
+      "learning_objective": "อ่านจำนวนเงินหยวนเต็มจำนวนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q011",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q012",
+      "test_id": "CN_PRE",
+      "question_number": 12,
+      "type": "single_choice",
+      "level": "Hard",
+      "skill": "Currency Reading",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 85 ข้อ 5",
+      "question": "จำนวนเงิน 108.00 元 อ่านภาษาจีนได้อย่างไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "一百八十块 (yìbǎi bāshí kuài)"
+        },
+        {
+          "id": "B",
+          "text": "一百零八块 (yìbǎi líng bā kuài)"
+        },
+        {
+          "id": "C",
+          "text": "一百八块 (yìbǎi bā kuài)"
+        },
+        {
+          "id": "D",
+          "text": "十八块 (shíbā kuài)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "หลักร้อยที่มีศูนย์คั่นตรงกลาง ต้องอ่านออกเสียง '零' (líng) เป็น '一百零八块'",
+      "learning_objective": "อ่านจำนวนเงินที่มีทศนิยมสองตำแหน่ง (หยวน เหมา) ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q012",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q013",
+      "test_id": "CN_PRE",
+      "question_number": 13,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Number & Currency Reading",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 76 ข้อ 3",
+      "question": "จำนวนเงิน 200 元 ในภาษาจีนนิยมใช้อ่านข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "二百块 (èr bǎi kuài)"
+        },
+        {
+          "id": "B",
+          "text": "两百块 (liǎng bǎi kuài)"
+        },
+        {
+          "id": "C",
+          "text": "二十块 (èr shí kuài)"
+        },
+        {
+          "id": "D",
+          "text": "两块 (liǎng kuài)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "หลักร้อย นิยมใช้ '两' (liǎng) เป็น '两百块'",
+      "learning_objective": "อ่านจำนวนเงินระดับหลักร้อยที่มีเลขศูนย์ตรงกลาง (零) ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q013",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q014",
+      "test_id": "CN_PRE",
+      "question_number": 14,
+      "type": "single_choice",
+      "level": "Hard",
+      "skill": "Grammar & Number Rules",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 77",
+      "question": "ข้อใดแสดงการอ่านราคา 5.05 元 ได้ถูกต้อง?",
+      "options": [
+        {
+          "id": "A",
+          "text": "五块五毛 (wǔ kuài wǔ máo)"
+        },
+        {
+          "id": "B",
+          "text": "五块零五分 (wǔ kuài líng wǔ fēn)"
+        },
+        {
+          "id": "C",
+          "text": "五块五分 (wǔ kuài wǔ fēn)"
+        },
+        {
+          "id": "D",
+          "text": "五角五分 (wǔ jiǎo wǔ fēn)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "5.05 元 = 5 块 กับ 5 分 โดยเว้นศูนย์ตรงกลางเป็น '五块零五分'",
+      "learning_objective": "ระบุการใช้คำว่า \"两\" (liǎng) ในการอ่านจำนวนเงินหลักร้อยได้อย่างถูกต้อง",
+      "pre_post_pair": "CN_POST_Q014",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q015",
+      "test_id": "CN_PRE",
+      "question_number": 15,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Currency Vocabulary",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 84",
+      "question": "หน่วยเงินที่เป็นทางการของจีน (RMB) คือคำว่าอะไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "泰铢 (Tàizhū)"
+        },
+        {
+          "id": "B",
+          "text": "人民币 (Rénmínbì)"
+        },
+        {
+          "id": "C",
+          "text": "美元 (Měiyuán)"
+        },
+        {
+          "id": "D",
+          "text": "日元 (Rìyuán)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "เงินหยวนจีนในทางการเรียกว่า 人民币 (Rénmínbì)",
+      "learning_objective": "จำแนกชื่อสกุลเงินต่างประเทศจากบทเรียนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q015",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q016",
+      "test_id": "CN_PRE",
+      "question_number": 16,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Currency Identification",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 84",
+      "question": "สกุลเงินบาทไทย ภาษาจีนเรียกว่าอะไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "人民币 (Rénmínbì)"
+        },
+        {
+          "id": "B",
+          "text": "泰铢 (Tàizhū)"
+        },
+        {
+          "id": "C",
+          "text": "美元 (Měiyuán)"
+        },
+        {
+          "id": "D",
+          "text": "英镑 (Yīngbàng)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "泰铢 (Tàizhū) หมายถึง สกุลเงินบาทไทย",
+      "learning_objective": "จับคู่สัญลักษณ์สกุลเงิน (Currency Symbols) กับชื่อสกุลเงินภาษาจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q016",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q017",
+      "test_id": "CN_PRE",
+      "question_number": 17,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Currency Calculation",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 84",
+      "question": "อัตราแลกเปลี่ยน 100 泰铢 (บาท) เท่ากับกี่ RMB (หยวน) ตามบทเรียน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "10 块"
+        },
+        {
+          "id": "B",
+          "text": "22 块"
+        },
+        {
+          "id": "C",
+          "text": "50 块"
+        },
+        {
+          "id": "D",
+          "text": "100 块"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ตามบทเรียน LS6 หน้า 84 ระบุอัตราแลกเปลี่ยนโดยประมาณ 100 泰铢 ≈ 22 人民币",
+      "learning_objective": "คำนวณการแลกเปลี่ยนเงินบาทไทยเป็นเงินหยวนตามอัตราแลกเปลี่ยนในบทเรียน",
+      "pre_post_pair": "CN_POST_Q017",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q018",
+      "test_id": "CN_PRE",
+      "question_number": 18,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Currency & Vocabulary",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 75 & 76",
+      "question": "สัญลักษณ์ '¥' เป็นสัญลักษณ์ของสกุลเงินใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "美元 (Měiyuán)"
+        },
+        {
+          "id": "B",
+          "text": "人民币 (Rénmínbì)"
+        },
+        {
+          "id": "C",
+          "text": "泰铢 (Tàizhū)"
+        },
+        {
+          "id": "D",
+          "text": "欧元 (Ōuyuán)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "สัญลักษณ์ ¥ ใช้แทนสกุลเงิน 人民币 (Rénmínbì) หรือเงินหยวน",
+      "learning_objective": "เติมหน่วยเงินย่อย \"毛\" (máo) ในโครงสร้างราคาได้อย่างถูกต้อง",
+      "pre_post_pair": "CN_POST_Q018",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q019",
+      "test_id": "CN_PRE",
+      "question_number": 19,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Currency Knowledge",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 75",
+      "question": "หน่วยเงินภาษาพูด 块 (kuài) มีหน่วยภาษาเขียนตรงกับข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "角 (jiǎo)"
+        },
+        {
+          "id": "B",
+          "text": "元 (yuán)"
+        },
+        {
+          "id": "C",
+          "text": "分 (fēn)"
+        },
+        {
+          "id": "D",
+          "text": "毛 (máo)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "块 (kuài) เป็นภาษาพูด ของหน่วยภาษาเขียน 元 (yuán)",
+      "learning_objective": "เปรียบเทียบมูลค่าธนบัตรเงินหยวนตามหน้าบทเรียนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q019",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q020",
+      "test_id": "CN_PRE",
+      "question_number": 20,
+      "type": "multiple_select",
+      "level": "Medium",
+      "skill": "Currency Identification",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 75",
+      "question": "หน่วยเงินย่อยภาษาพูด 毛 (máo) มีหน่วยภาษาเขียนตรงกับข้อใด? (เลือกตอบได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "角 (jiǎo)"
+        },
+        {
+          "id": "B",
+          "text": "分 (fēn)"
+        },
+        {
+          "id": "C",
+          "text": "元 (yuán)"
+        },
+        {
+          "id": "D",
+          "text": "毛 (máo)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "毛 (máo) ในภาษาพูดตรงกับ 角 (jiǎo) ในภาษาเขียน",
+      "learning_objective": "ระบุชนิดของหน่วยเงินหยวนที่ปรากฏในบทเรียนได้ถูกต้องมากกว่า 1 ข้อ (Multiple Select)",
+      "pre_post_pair": "CN_POST_Q020",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q021",
+      "test_id": "CN_PRE",
+      "question_number": 21,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Reading Dialogue",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 90 ข้อ 1",
+      "question": "จากบทสนทนา ผู้ซื้อต้องการซื้อสิ่งใดบ้าง?",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ซื้อของในตลาดเครื่องเขียน]\nA: 你好！请问你想买什么？ (Nǐ hǎo! Qǐngwèn nǐ xiǎng mǎi shénme?)\nB: 你好！我要买两支铅笔和一块橡皮。 (Nǐ hǎo! Wǒ yào mǎi liǎng zhī qiānbǐ hé yí kuài xiàngpí.)\nA: 铅笔一支三块钱，橡皮一块两块钱。 (Qiānbǐ yì zhī sān kuài qián, xiàngpí yí kuài liǎng kuài qián.)\nB: 一共多少钱？ (Yígòng duōshao qián?)\nA: 一共八块钱。 (Yígòng bā kuài qián.)\nB: 给你十块钱。 (Gěi nǐ shí kuài qián.)\nA: 找你两块钱，谢谢！ (Zhǎo nǐ liǎng kuài qián, xièxie!)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "铅笔两支、橡皮一块"
+        },
+        {
+          "id": "B",
+          "text": "钢笔一支、笔记本一本"
+        },
+        {
+          "id": "C",
+          "text": "书包一个、铅笔三支"
+        },
+        {
+          "id": "D",
+          "text": "橡皮两块、铅笔一块"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "บทสนทนาระบุ: \"我要买两支铅笔和一块橡皮\" (ดินสอ 2 แท่ง ยางลบ 1 ก้อน)",
+      "learning_objective": "จับคู่ราคาสินค้า ยางลบ (橡皮) จากบทสนทนาได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q021",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q022",
+      "test_id": "CN_PRE",
+      "question_number": 22,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Reading Dialogue",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 90 ข้อ 3",
+      "question": "ดินสอ 1 แท่ง ราคาเท่าไร?",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ซื้อของในตลาดเครื่องเขียน]\nA: 你好！请问你想买什么？ (Nǐ hǎo! Qǐngwèn nǐ xiǎng mǎi shénme?)\nB: 你好！我要买两支铅笔和一块橡皮。 (Nǐ hǎo! Wǒ yào mǎi liǎng zhī qiānbǐ hé yí kuài xiàngpí.)\nA: 铅笔一支三块钱，橡皮一块两块钱。 (Qiānbǐ yì zhī sān kuài qián, xiàngpí yí kuài liǎng kuài qián.)\nB: 一共多少钱？ (Yígòng duōshao qián?)\nA: 一共八块钱。 (Yígòng bā kuài qián.)\nB: 给你十块钱。 (Gěi nǐ shí kuài qián.)\nA: 找你两块钱，谢谢！ (Zhǎo nǐ liǎng kuài qián, xièxie!)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "两块 (2 หยวน)"
+        },
+        {
+          "id": "B",
+          "text": "三块 (3 หยวน)"
+        },
+        {
+          "id": "C",
+          "text": "五块 (5 หยวน)"
+        },
+        {
+          "id": "D",
+          "text": "十块 (10 หยวน)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "บทสนทนาระบุ: \"铅笔一支三块钱\" (ดินสอแท่งละ 3 หยวน)",
+      "learning_objective": "จับคู่ราคาสินค้า หนังสือ (书) จากบทสนทนาได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q022",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q023",
+      "test_id": "CN_PRE",
+      "question_number": 23,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Transaction Calculation",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 91 ข้อ 5",
+      "question": "ราคารวมสินค้าทั้งหมดที่ B ซื้อเป็นเงินเท่าไร?",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ซื้อของในตลาดเครื่องเขียน]\nA: 你好！请问你想买什么？ (Nǐ hǎo! Qǐngwèn nǐ xiǎng mǎi shénme?)\nB: 你好！我要买两支铅笔和一块橡皮。 (Nǐ hǎo! Wǒ yào mǎi liǎng zhī qiānbǐ hé yí kuài xiàngpí.)\nA: 铅笔一支三块钱，橡皮一块两块钱。 (Qiānbǐ yì zhī sān kuài qián, xiàngpí yí kuài liǎng kuài qián.)\nB: 一共多少钱？ (Yígòng duōshao qián?)\nA: 一共八块钱。 (Yígòng bā kuài qián.)\nB: 给你十块钱。 (Gěi nǐ shí kuài qián.)\nA: 找你两块钱，谢谢！ (Zhǎo nǐ liǎng kuài qián, xièxie!)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "六块 (6 หยวน)"
+        },
+        {
+          "id": "B",
+          "text": "八块 (8 หยวน)"
+        },
+        {
+          "id": "C",
+          "text": "十块 (10 หยวน)"
+        },
+        {
+          "id": "D",
+          "text": "十二块 (12 หยวน)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ดินสอ 2 แท่ง (3x2=6) + ยางลบ 1 ก้อน (2) = 8 หยวน (\"一共八块钱\")",
+      "learning_objective": "คำนวณราคารวมสินค้า (一共多少钱) จากบทสนทนาได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q023",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q024",
+      "test_id": "CN_PRE",
+      "question_number": 24,
+      "type": "single_choice",
+      "level": "Hard",
+      "skill": "Problem Solving & Dialogue Comprehension",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 91 ข้อ 6–7",
+      "question": "ผู้ซื้อให้เงินผู้ขาย 10 หยวน ผู้ขายต้องทอนเงินเท่าไร?",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ซื้อของในตลาดเครื่องเขียน]\nA: 你好！请问你想买什么？ (Nǐ hǎo! Qǐngwèn nǐ xiǎng mǎi shénme?)\nB: 你好！我要买两支铅笔和一块橡皮。 (Nǐ hǎo! Wǒ yào mǎi liǎng zhī qiānbǐ hé yí kuài xiàngpí.)\nA: 铅笔一支三块钱，橡皮一块两块钱。 (Qiānbǐ yì zhī sān kuài qián, xiàngpí yí kuài liǎng kuài qián.)\nB: 一共多少钱？ (Yígòng duōshao qián?)\nA: 一共八块钱。 (Yígòng bā kuài qián.)\nB: 给你十块钱。 (Gěi nǐ shí kuài qián.)\nA: 找你两块钱，谢谢！ (Zhǎo nǐ liǎng kuài qián, xièxie!)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "一块 (1 หยวน)"
+        },
+        {
+          "id": "B",
+          "text": "两块 (2 หยวน)"
+        },
+        {
+          "id": "C",
+          "text": "三块 (3 หยวน)"
+        },
+        {
+          "id": "D",
+          "text": "不用找钱 (ไม่ต้องทอน)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "10 หยวน - 8 หยวน = 2 หยวน (\"找你两块钱\")",
+      "learning_objective": "วิเคราะห์สถานการณ์เงินไม่พอและการแก้ปัญหาในบทสนทนา",
+      "pre_post_pair": "CN_POST_Q024",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q025",
+      "test_id": "CN_PRE",
+      "question_number": 25,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Sentence Completion",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 77 & 90",
+      "question": "คำว่า \"一共\" (yígòng) ในบทสนทนามีความหมายว่าอย่างไร?",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ซื้อของในตลาดเครื่องเขียน]\nA: 你好！请问你想买什么？ (Nǐ hǎo! Qǐngwèn nǐ xiǎng mǎi shénme?)\nB: 你好！我要买两支铅笔和一块橡皮。 (Nǐ hǎo! Wǒ yào mǎi liǎng zhī qiānbǐ hé yí kuài xiàngpí.)\nA: 铅笔一支三块钱，橡皮一块两块钱。 (Qiānbǐ yì zhī sān kuài qián, xiàngpí yí kuài liǎng kuài qián.)\nB: 一共多少钱？ (Yígòng duōshao qián?)\nA: 一共八块钱。 (Yígòng bā kuài qián.)\nB: 给你十块钱。 (Gěi nǐ shí kuài qián.)\nA: 找你两块钱，谢谢！ (Zhǎo nǐ liǎng kuài qián, xièxie!)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "ส่วนลด"
+        },
+        {
+          "id": "B",
+          "text": "รวมทั้งหมด"
+        },
+        {
+          "id": "C",
+          "text": "เงินทอน"
+        },
+        {
+          "id": "D",
+          "text": "ราคาแพง"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "一共 (yígòng) แปลว่า รวมทั้งหมด",
+      "learning_objective": "เติมประโยคถามราคาสินค้า \"多少钱\" ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q025",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q026",
+      "test_id": "CN_PRE",
+      "question_number": 26,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Reading Dialogue",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 77",
+      "question": "เสื้อ (上衣 shàngyī) ราคาดั้งเดิมที่ผู้ขายบอกคือเท่าไร?",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ซื้อเสื้อผ้า]\nA: 请问，这件上衣多少钱？ (Qǐngwèn, zhè jiàn shàngyī duōshao qián?)\nB: 这件上衣两百块钱。 (Zhè jiàn shàngyī liǎngbǎi kuài qián.)\nA: 太贵了！便宜一点儿吧。 (Tài guì le! Piányi yìdiǎnr ba.)\nB: 一百八十块，怎么样？ (Yìbǎi bāshí kuài, zěnmeyàng?)\nA: 好的，给你两百块。 (Hǎo de, gěi nǐ liǎngbǎi kuài.)\nB: 找你二十块。 (Zhǎo nǐ èrshí kuài.)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "一百块 (100 หยวน)"
+        },
+        {
+          "id": "B",
+          "text": "两百块 (200 หยวน)"
+        },
+        {
+          "id": "C",
+          "text": "一百八十块 (180 หยวน)"
+        },
+        {
+          "id": "D",
+          "text": "二十块 (20 หยวน)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ผู้ขายบอก: \"这件上衣两百块钱\" (เสื้อตัวนี้ 200 หยวน)",
+      "learning_objective": "อ่านราคายางลบจากบทสนทนาร้านเครื่องเขียนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q026",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q027",
+      "test_id": "CN_PRE",
+      "question_number": 27,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Reading Dialogue",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 77",
+      "question": "เมื่อผู้ซื้อบอกว่า \"太贵了！\" ผู้ขายลดราคาเหลือเท่าไร?",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ซื้อเสื้อผ้า]\nA: 请问，这件上衣多少钱？ (Qǐngwèn, zhè jiàn shàngyī duōshao qián?)\nB: 这件上衣两百块钱。 (Zhè jiàn shàngyī liǎngbǎi kuài qián.)\nA: 太贵了！便宜一点儿吧。 (Tài guì le! Piányi yìdiǎnr ba.)\nB: 一百八十块，怎么样？ (Yìbǎi bāshí kuài, zěnmeyàng?)\nA: 好的，给你两百块。 (Hǎo de, gěi nǐ liǎngbǎi kuài.)\nB: 找你二十块。 (Zhǎo nǐ èrshí kuài.)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "一百五十块"
+        },
+        {
+          "id": "B",
+          "text": "一百八十块"
+        },
+        {
+          "id": "C",
+          "text": "一百九十块"
+        },
+        {
+          "id": "D",
+          "text": "两百块"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ผู้ขายลดราคาว่า: \"一百八十块，怎么样？\" (180 หยวน เป็นไง?)",
+      "learning_objective": "ระบุราคาปากกาแพงพิเศษในบทสนทนาได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q027",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q028",
+      "test_id": "CN_PRE",
+      "question_number": 28,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Language Expression",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 77 & 79",
+      "question": "สำนวน \"便宜一点儿吧\" (Piányi yìdiǎnr ba) มีความหมายว่าอย่างไร?",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ซื้อเสื้อผ้า]\nA: 请问，这件上衣多少钱？ (Qǐngwèn, zhè jiàn shàngyī duōshao qián?)\nB: 这件上衣两百块钱。 (Zhè jiàn shàngyī liǎngbǎi kuài qián.)\nA: 太贵了！便宜一点儿吧。 (Tài guì le! Piányi yìdiǎnr ba.)\nB: 一百八十块，怎么样？ (Yìbǎi bāshí kuài, zěnmeyàng?)\nA: 好的，给你两百块。 (Hǎo de, gěi nǐ liǎngbǎi kuài.)\nB: 找你二十块。 (Zhǎo nǐ èrshí kuài.)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "ซื้อเพิ่มอีกหน่อยนะ"
+        },
+        {
+          "id": "B",
+          "text": "ลดราคาลงหน่อยนะ"
+        },
+        {
+          "id": "C",
+          "text": "แพงเกินไปแล้ว"
+        },
+        {
+          "id": "D",
+          "text": "สินค้าคุณภาพดีมาก"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "便宜一点儿吧 แปลว่า ถูกลงหน่อยนะ / ลดราคาหน่อยนะ",
+      "learning_objective": "ระบุคำอุทานแสดงความรู้สึกเรื่องราคา (真贵啊) ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q028",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q029",
+      "test_id": "CN_PRE",
+      "question_number": 29,
+      "type": "single_choice",
+      "level": "Hard",
+      "skill": "Applied Math & Dialogue",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 77",
+      "question": "ตกลงราคาที่ 180 หยวน ผู้ซื้อจ่ายเงิน 200 หยวน ได้รับเงินทอนเท่าไร?",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ซื้อเสื้อผ้า]\nA: 请问，这件上衣多少钱？ (Qǐngwèn, zhè jiàn shàngyī duōshao qián?)\nB: 这件上衣两百块钱。 (Zhè jiàn shàngyī liǎngbǎi kuài qián.)\nA: 太贵了！便宜一点儿吧。 (Tài guì le! Piányi yìdiǎnr ba.)\nB: 一百八十块，怎么样？ (Yìbǎi bāshí kuài, zěnmeyàng?)\nA: 好的，给你两百块。 (Hǎo de, gěi nǐ liǎngbǎi kuài.)\nB: 找你二十块。 (Zhǎo nǐ èrshí kuài.)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "十块 (10 หยวน)"
+        },
+        {
+          "id": "B",
+          "text": "二十块 (20 หยวน)"
+        },
+        {
+          "id": "C",
+          "text": "三十块 (30 หยวน)"
+        },
+        {
+          "id": "D",
+          "text": "四十块 (40 หยวน)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "200 - 180 = 20 หยวน (\"找你二十块\")",
+      "learning_objective": "คำนวณเงินทอนจากการซื้อสินค้าราคา 2.5 หยวน ด้วยธนบัตร 10 หยวน",
+      "pre_post_pair": "CN_PRE_Q029",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q030",
+      "test_id": "CN_PRE",
+      "question_number": 30,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Dialogue Conventions",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 77",
+      "question": "คำว่า \"请问\" (qǐngwèn) ใช้ทำหน้าที่อะไรในบทสนทนา?",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ซื้อเสื้อผ้า]\nA: 请问，这件上衣多少钱？ (Qǐngwèn, zhè jiàn shàngyī duōshao qián?)\nB: 这件上衣两百块钱。 (Zhè jiàn shàngyī liǎngbǎi kuài qián.)\nA: 太贵了！便宜一点儿吧。 (Tài guì le! Piányi yìdiǎnr ba.)\nB: 一百八十块，怎么样？ (Yìbǎi bāshí kuài, zěnmeyàng?)\nA: 好的，给你两百块。 (Hǎo de, gěi nǐ liǎngbǎi kuài.)\nB: 找你二十块。 (Zhǎo nǐ èrshí kuài.)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "กล่าวขอบคุณ"
+        },
+        {
+          "id": "B",
+          "text": "กล่าวขอโทษ"
+        },
+        {
+          "id": "C",
+          "text": "กล่าวถามอย่างสุภาพ ('ขอถามหน่อย')"
+        },
+        {
+          "id": "D",
+          "text": "กล่าวบอกลา"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "请问 (qǐngwèn) แปลว่า ขอถามหน่อย / ขออนุญาตถาม",
+      "learning_objective": "เติมประโยคแสดงคำสุภาพ \"请问\" ในการสอบถามราคาได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q030",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q031",
+      "test_id": "CN_PRE",
+      "question_number": 31,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Reading Comprehension",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 81",
+      "question": "ในบทอ่าน ผู้เขียนไปเที่ยวเมืองใด?",
+      "content": {
+        "enabled": true,
+        "text": "今年四月，我和爸爸妈妈去了北京。北京真漂亮！\n我们去了“熊猫商店”。商店里有书包、铅笔、橡皮和笔记本。\n我买了一块熊猫橡皮，两块钱。还买了一本笔记本，十块钱。\n一共十三块钱。我看到一支钢笔，八十块，太贵了，我没有买。\n\nPinyin:\nJīnnián sì yuè, wǒ hé bàba māma qù le Běijīng. Běijīng zhēn piàoliang!\nWǒmen qù le \"Xióngmāo Shāngdiàn\". Shāngdiàn lǐ yǒu shūbāo, qiānbǐ, xiàngpí hé bǐjìběn.\nWǒ mǎi le yí kuài xióngmāo xiàngpí, liǎng kuài qián. Hái mǎi le yì běn bǐjìběn, shí kuài qián.\nYígòng shísān kuài qián. Wǒ kàndào yì zhī gāngbǐ, bāshí kuài, tài guì le, wǒ méiyǒu mǎi."
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "上海 (เซี่ยงไฮ้)"
+        },
+        {
+          "id": "B",
+          "text": "北京 (ปักกิ่ง)"
+        },
+        {
+          "id": "C",
+          "text": "广州 (กวางโจว)"
+        },
+        {
+          "id": "D",
+          "text": "清迈 (เชียงใหม่)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "บทอ่านระบุ: \"我和爸爸妈妈去了北京\" (ไปปักกิ่ง)",
+      "learning_objective": "ระบุช่วงเวลาและสถานที่ที่ผู้เล่าเดินทางไปในบทอ่านได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q031",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q032",
+      "test_id": "CN_PRE",
+      "question_number": 32,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Reading Comprehension",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 81",
+      "question": "ชื่อร้านค้าที่ผู้เขียนไปซื้อของคือร้านอะไร?",
+      "content": {
+        "enabled": true,
+        "text": "今年四月，我和爸爸妈妈去了北京。北京真漂亮！\n我们去了“熊猫商店”。商店里有书包、铅笔、橡皮和笔记本。\n我买了一块熊猫橡皮，两块钱。还买了一本笔记本，十块钱。\n一共十三块钱。我看到一支钢笔，八十块，太贵了，我没有买。\n\nPinyin:\nJīnnián sì yuè, wǒ hé bàba māma qù le Běijīng. Běijīng zhēn piàoliang!\nWǒmen qù le \"Xióngmāo Shāngdiàn\". Shāngdiàn lǐ yǒu shūbāo, qiānbǐ, xiàngpí hé bǐjìběn.\nWǒ mǎi le yí kuài xióngmāo xiàngpí, liǎng kuài qián. Hái mǎi le yì běn bǐjìběn, shí kuài qián.\nYígòng shísān kuài qián. Wǒ kàndào yì zhī gāngbǐ, bāshí kuài, tài guì le, wǒ méiyǒu mǎi."
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "熊猫商店 (ร้านหมีแพนด้า)"
+        },
+        {
+          "id": "B",
+          "text": "北京商店 (ร้านปักกิ่ง)"
+        },
+        {
+          "id": "C",
+          "text": "文具商店 (ร้านเครื่องเขียน)"
+        },
+        {
+          "id": "D",
+          "text": "友谊商店 (ร้านมิตรภาพ)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "บทอ่านระบุ: \"我们去了'熊猫商店'\"",
+      "learning_objective": "ระบุรายการสินค้าที่มีขายในร้านหมีแพนด้า (熊猫商店) ได้ถูกต้องมากกว่า 1 ข้อ (Multiple Select)",
+      "pre_post_pair": "CN_POST_Q032",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q033",
+      "test_id": "CN_PRE",
+      "question_number": 33,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Reading Comprehension",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 81",
+      "question": "ผู้เขียนซื้อยางลบหมีแพนด้ามาราคาเท่าไร?",
+      "content": {
+        "enabled": true,
+        "text": "今年四月，我和爸爸妈妈去了北京。北京真漂亮！\n我们去了“熊猫商店”。商店里有书包、铅笔、橡皮和笔记本。\n我买了一块熊猫橡皮，两块钱。还买了一本笔记本，十块钱。\n一共十三块钱。我看到一支钢笔，八十块，太贵了，我没有买。\n\nPinyin:\nJīnnián sì yuè, wǒ hé bàba māma qù le Běijīng. Běijīng zhēn piàoliang!\nWǒmen qù le \"Xióngmāo Shāngdiàn\". Shāngdiàn lǐ yǒu shūbāo, qiānbǐ, xiàngpí hé bǐjìběn.\nWǒ mǎi le yí kuài xióngmāo xiàngpí, liǎng kuài qián. Hái mǎi le yì běn bǐjìběn, shí kuài qián.\nYígòng shísān kuài qián. Wǒ kàndào yì zhī gāngbǐ, bāshí kuài, tài guì le, wǒ méiyǒu mǎi."
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "一块钱 (1 หยวน)"
+        },
+        {
+          "id": "B",
+          "text": "两块钱 (2 หยวน)"
+        },
+        {
+          "id": "C",
+          "text": "十块钱 (10 หยวน)"
+        },
+        {
+          "id": "D",
+          "text": "八十块 (80 หยวน)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "บทอ่านระบุ: \"一块熊猫橡皮，两块钱\" (2 หยวน)",
+      "learning_objective": "ตรวจสอบราคายางลบหมีแพนด้า 1 ก้อนจากบทอ่านได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q033",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q034",
+      "test_id": "CN_PRE",
+      "question_number": 34,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Text-based Calculation",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 81",
+      "question": "รวมเงินที่ผู้เขียนจ่ายซื้อยางลบและสมุดบันทึกเป็นเงินเท่าไร?",
+      "content": {
+        "enabled": true,
+        "text": "今年四月，我和爸爸妈妈去了北京。北京真漂亮！\n我们去了“熊猫商店”。商店里有书包、铅笔、橡皮和笔记本。\n我买了一块熊猫橡皮，两块钱。还买了一本笔记本，十块钱。\n一共十三块钱。我看到一支钢笔，八十块，太贵了，我没有买。\n\nPinyin:\nJīnnián sì yuè, wǒ hé bàba māma qù le Běijīng. Běijīng zhēn piàoliang!\nWǒmen qù le \"Xióngmāo Shāngdiàn\". Shāngdiàn lǐ yǒu shūbāo, qiānbǐ, xiàngpí hé bǐjìběn.\nWǒ mǎi le yí kuài xióngmāo xiàngpí, liǎng kuài qián. Hái mǎi le yì běn bǐjìběn, shí kuài qián.\nYígòng shísān kuài qián. Wǒ kàndào yì zhī gāngbǐ, bāshí kuài, tài guì le, wǒ méiyǒu mǎi."
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "十块钱"
+        },
+        {
+          "id": "B",
+          "text": "十二块钱"
+        },
+        {
+          "id": "C",
+          "text": "十三块钱"
+        },
+        {
+          "id": "D",
+          "text": "十五块钱"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "ยางลบ (2 หยวน) + สมุด (10 หยวน) = 12 หยวน (ในโจทย์บทอ่านระบุคำนวณรวม '一共十三块钱')",
+      "learning_objective": "คำนวณจำนวนเงินรวมที่ผู้เล่าจ่ายซื้อยางลบหมีแพนด้า 2 ก้อน",
+      "pre_post_pair": "CN_POST_Q034",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q035",
+      "test_id": "CN_PRE",
+      "question_number": 35,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Reading Comprehension",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 81",
+      "question": "ทำไมผู้เขียนจึงไม่ซื้อปากกาหมึกซึม (钢笔 gāngbǐ)?",
+      "content": {
+        "enabled": true,
+        "text": "今年四月，我和爸爸妈妈去了北京。北京真漂亮！\n我们去了“熊猫商店”。商店里有书包、铅笔、橡皮和笔记本。\n我买了一块熊猫橡皮，两块钱。还买了一本笔记本，十块钱。\n一共十三块钱。我看到一支钢笔，八十块，太贵了，我没有买。\n\nPinyin:\nJīnnián sì yuè, wǒ hé bàba māma qù le Běijīng. Běijīng zhēn piàoliang!\nWǒmen qù le \"Xióngmāo Shāngdiàn\". Shāngdiàn lǐ yǒu shūbāo, qiānbǐ, xiàngpí hé bǐjìběn.\nWǒ mǎi le yí kuài xióngmāo xiàngpí, liǎng kuài qián. Hái mǎi le yì běn bǐjìběn, shí kuài qián.\nYígòng shísān kuài qián. Wǒ kàndào yì zhī gāngbǐ, bāshí kuài, tài guì le, wǒ méiyǒu mǎi."
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "ปากกาไม่สวย"
+        },
+        {
+          "id": "B",
+          "text": "ปากกาแพงเกินไป (八十块，太贵了)"
+        },
+        {
+          "id": "C",
+          "text": "เงินไม่พอ"
+        },
+        {
+          "id": "D",
+          "text": "ร้านไม่มีขาย"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "บทอ่านระบุ: \"一支钢笔，八十块，太贵了，我没有买\"",
+      "learning_objective": "ระบุเหตุผลที่ผู้เล่าไม่ได้ซื้อปากกาหมึกซึมหมีแพนด้า",
+      "pre_post_pair": "CN_PRE_Q035",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q036",
+      "test_id": "CN_PRE",
+      "question_number": 36,
+      "type": "multiple_select",
+      "level": "Medium",
+      "skill": "Passage Synthesis",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 81",
+      "question": "สิ่งของใดบ้างที่มีวางขายในร้านหมีแพนด้าตามบทอ่าน? (เลือกตอบได้มากกว่า 1 ข้อ)",
+      "content": {
+        "enabled": true,
+        "text": "今年四月，我和爸爸妈妈去了北京。北京真漂亮！\n我们去了“熊猫商店”。商店里有书包、铅笔、橡皮和笔记本。\n我买了一块熊猫橡皮，两块钱。还买了一本笔记本，十块钱。\n一共十三块钱。我看到一支钢笔，八十块，太贵了，我没有买。\n\nPinyin:\nJīnnián sì yuè, wǒ hé bàba māma qù le Běijīng. Běijīng zhēn piàoliang!\nWǒmen qù le \"Xióngmāo Shāngdiàn\". Shāngdiàn lǐ yǒu shūbāo, qiānbǐ, xiàngpí hé bǐjìběn.\nWǒ mǎi le yí kuài xióngmāo xiàngpí, liǎng kuài qián. Hái mǎi le yì běn bǐjìběn, shí kuài qián.\nYígòng shísān kuài qián. Wǒ kàndào yì zhī gāngbǐ, bāshí kuài, tài guì le, wǒ méiyǒu mǎi."
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "书包 (กระเป๋า)"
+        },
+        {
+          "id": "B",
+          "text": "铅笔 (ดินสอ)"
+        },
+        {
+          "id": "C",
+          "text": "橡皮 (ยางลบ)"
+        },
+        {
+          "id": "D",
+          "text": "衣服 (เสื้อผ้า)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 1,
+      "explanation": "ร้านมีขาย 书包, 铅笔, 橡皮 และ 笔记本 (ไม่มี 衣服)",
+      "learning_objective": "สรุปสิ่งของทั้งหมดที่ผู้เล่าซื้อกลับมาจากร้าน 熊猫商店",
+      "pre_post_pair": "CN_POST_Q036",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q037",
+      "test_id": "CN_PRE",
+      "question_number": 37,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Cultural Knowledge & Reading",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 92",
+      "question": "ด้ามของพู่กันจีน (毛笔 máobǐ) ทำมาจากวัสดุใด?",
+      "content": {
+        "enabled": true,
+        "text": "[บทอ่าน: 文化体验站 - 毛笔与“福”字 (พู่กันจีนและตัวอักษร 'ฟู่')]\n毛笔 (Máobǐ) เป็นอุปกรณ์การเขียนและการวาดภาพโบราณของจีน \nด้ามทำจากไม้ไผ่ (竹子) หัวพู่กันทำจากขนสัตว์ (动物毛) \nดังนั้นตัวอักษร \"笔\" (bǐ) จึงประกอบด้วย หมวดอักษรไผ่ \"⺮\" (竹字头) อยู่ด้านบน และคำว่า \"毛\" (máo - ขน) อยู่ด้านล่าง\n\nนอกจากนี้ ในช่วงเทศกาลตรุษจีน คนจีนนิยมติดตัวอักษร \"福\" (fú) \nซึ่งมีความหมายว่า โชคลาภ วาสนา และความสุข โดยมักจะติดแบบกลับหัว (倒贴) \nเพราะคำว่า \"倒\" (dào - กลับหัว) ออกเสียงเหมือนคำว่า \"到\" (dào - มาถึง) \nสื่อความหมายมงคลว่า \"福到了\" (โชคลาภวาสนามาถึงแล้ว)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "木头 (ไม้)"
+        },
+        {
+          "id": "B",
+          "text": "竹子 (ไม้ไผ่)"
+        },
+        {
+          "id": "C",
+          "text": "塑料 (พลาสติก)"
+        },
+        {
+          "id": "D",
+          "text": "金属 (โลหะ)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "บทอ่านระบุ: \"ด้ามทำจากไม้ไผ่ (竹子)\"",
+      "learning_objective": "ระบุที่มาและประโยชน์ของพู่กันจีน (毛笔) จากบทอ่านวัฒนธรรมได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q037",
+      "image": {
+        "enabled": true,
+        "url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_PRE_Q037_7ts5tsxmyk4.png",
+        "image_url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_PRE_Q037_7ts5tsxmyk4.png"
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q038",
+      "test_id": "CN_PRE",
+      "question_number": 38,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Character Analysis",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 92",
+      "question": "ตัวอักษร \"笔\" (bǐ) ประกอบด้วยส่วนประกอบหลักสองส่วนคืออะไร?",
+      "content": {
+        "enabled": true,
+        "text": "[บทอ่าน: 文化体验站 - 毛笔与“福”字 (พู่กันจีนและตัวอักษร 'ฟู่')]\n毛笔 (Máobǐ) เป็นอุปกรณ์การเขียนและการวาดภาพโบราณของจีน \nด้ามทำจากไม้ไผ่ (竹子) หัวพู่กันทำจากขนสัตว์ (动物毛) \nดังนั้นตัวอักษร \"笔\" (bǐ) จึงประกอบด้วย หมวดอักษรไผ่ \"⺮\" (竹字头) อยู่ด้านบน และคำว่า \"毛\" (máo - ขน) อยู่ด้านล่าง\n\nนอกจากนี้ ในช่วงเทศกาลตรุษจีน คนจีนนิยมติดตัวอักษร \"福\" (fú) \nซึ่งมีความหมายว่า โชคลาภ วาสนา และความสุข โดยมักจะติดแบบกลับหัว (倒贴) \nเพราะคำว่า \"倒\" (dào - กลับหัว) ออกเสียงเหมือนคำว่า \"到\" (dào - มาถึง) \nสื่อความหมายมงคลว่า \"福到了\" (โชคลาภวาสนามาถึงแล้ว)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "竹 (ไผ่) + 毛 (ขน)"
+        },
+        {
+          "id": "B",
+          "text": "木 (ไม้) + 毛 (ขน)"
+        },
+        {
+          "id": "C",
+          "text": "竹 (ไผ่) + 手 (มือ)"
+        },
+        {
+          "id": "D",
+          "text": "金 (โลหะ) + 毛 (ขน)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ตัวอักษร 笔 ประกอบด้วย หมวดไผ่ ⺮ อยู่บน และ 毛 อยู่ล่าง",
+      "learning_objective": "วิเคราะห์องค์ประกอบของตัวอักษร \"笔\" (bǐ) จากบทอ่านวัฒนธรรม",
+      "pre_post_pair": "CN_POST_Q038",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q039",
+      "test_id": "CN_PRE",
+      "question_number": 39,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Character Recognition",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 92",
+      "question": "การติดอักษรมงคล \"福\" (fú) กลับหัว (倒贴) มีความหมายสอดคล้องกับพ้องเสียงคำว่าอะไร?",
+      "content": {
+        "enabled": true,
+        "text": "[บทอ่าน: 文化体验站 - 毛笔与“福”字 (พู่กันจีนและตัวอักษร 'ฟู่')]\n毛笔 (Máobǐ) เป็นอุปกรณ์การเขียนและการวาดภาพโบราณของจีน \nด้ามทำจากไม้ไผ่ (竹子) หัวพู่กันทำจากขนสัตว์ (动物毛) \nดังนั้นตัวอักษร \"笔\" (bǐ) จึงประกอบด้วย หมวดอักษรไผ่ \"⺮\" (竹字头) อยู่ด้านบน และคำว่า \"毛\" (máo - ขน) อยู่ด้านล่าง\n\nนอกจากนี้ ในช่วงเทศกาลตรุษจีน คนจีนนิยมติดตัวอักษร \"福\" (fú) \nซึ่งมีความหมายว่า โชคลาภ วาสนา และความสุข โดยมักจะติดแบบกลับหัว (倒贴) \nเพราะคำว่า \"倒\" (dào - กลับหัว) ออกเสียงเหมือนคำว่า \"到\" (dào - มาถึง) \nสื่อความหมายมงคลว่า \"福到了\" (โชคลาภวาสนามาถึงแล้ว)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "福到了 (โชคลาภวาสมาถึงแล้ว)"
+        },
+        {
+          "id": "B",
+          "text": "福走了 (โชคลาภไปแล้ว)"
+        },
+        {
+          "id": "C",
+          "text": "福多了 (โชคลาภเยอะแล้ว)"
+        },
+        {
+          "id": "D",
+          "text": "福好 (โชคลาภดี)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 倒 (dào - กลับหัว) พ้องเสียงกับ 到 (dào - มาถึง) สื่อความหมาย '福到了' (โชคลาภมาถึงแล้ว)",
+      "learning_objective": "ระบุตัวอักษรจีนมงคล \"福\" (fú) และความหมายได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q039",
+      "image": {
+        "enabled": true,
+        "url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_PRE_Q039_j83ipnddmmh.png",
+        "image_url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_PRE_Q039_j83ipnddmmh.png"
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q040",
+      "test_id": "CN_PRE",
+      "question_number": 40,
+      "type": "single_choice",
+      "level": "Hard",
+      "skill": "Stroke Order & Writing",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 83 & 92",
+      "question": "หมวดอักษร \"⺮\" (竹字头 zhúzìtóu) มักเกี่ยวข้องกับสิ่งใด?",
+      "content": {
+        "enabled": true,
+        "text": "[บทอ่าน: 文化体验站 - 毛笔与“福”字 (พู่กันจีนและตัวอักษร 'ฟู่')]\n毛笔 (Máobǐ) เป็นอุปกรณ์การเขียนและการวาดภาพโบราณของจีน \nด้ามทำจากไม้ไผ่ (竹子) หัวพู่กันทำจากขนสัตว์ (动物毛) \nดังนั้นตัวอักษร \"笔\" (bǐ) จึงประกอบด้วย หมวดอักษรไผ่ \"⺮\" (竹字头) อยู่ด้านบน และคำว่า \"毛\" (máo - ขน) อยู่ด้านล่าง\n\nนอกจากนี้ ในช่วงเทศกาลตรุษจีน คนจีนนิยมติดตัวอักษร \"福\" (fú) \nซึ่งมีความหมายว่า โชคลาภ วาสนา และความสุข โดยมักจะติดแบบกลับหัว (倒贴) \nเพราะคำว่า \"倒\" (dào - กลับหัว) ออกเสียงเหมือนคำว่า \"到\" (dào - มาถึง) \nสื่อความหมายมงคลว่า \"福到了\" (โชคลาภวาสนามาถึงแล้ว)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "สัตว์"
+        },
+        {
+          "id": "B",
+          "text": "ไม้ไผ่/อุปกรณ์ทำจากไม้ไผ่"
+        },
+        {
+          "id": "C",
+          "text": "แหล่งน้ำ"
+        },
+        {
+          "id": "D",
+          "text": "โลหะ"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "หมวด ⺮ กลายมาจากคำว่า 竹 (ไม้ไผ่) เกี่ยวข้องกับอุปกรณ์ที่ทำจากไม้ไผ่",
+      "learning_objective": "ระบุจำนวนขีดและลำดับขีดของอักษร \"百\" ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q040",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q041",
+      "test_id": "CN_PRE",
+      "question_number": 41,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Sentence Construction",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 79",
+      "question": "จงเติมคำแสดงความรู้สึกที่ถูกต้องในประโยค: \"这件衣服____贵了！\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "很 (hěn)"
+        },
+        {
+          "id": "B",
+          "text": "太 (tài)"
+        },
+        {
+          "id": "C",
+          "text": "真 (zhēn)"
+        },
+        {
+          "id": "D",
+          "text": "多 (duō)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างประโยคบอกระดับความอุทาน/เกินไปใช้: 太 + คำคุณศัพท์ + 了 (太贵了)",
+      "learning_objective": "เรียงลำดับประโยคการขยายคำศัพท์แบบต่อคำ (词语阶梯) ได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q041",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q042",
+      "test_id": "CN_PRE",
+      "question_number": 42,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Word Order",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 79",
+      "question": "จงเรียงลำดับคำต่อไปนี้ให้เป็นประโยคที่ถูกต้องตามไวยากรณ์: [ 真 / 这双鞋 / 可爱 ]",
+      "options": [
+        {
+          "id": "A",
+          "text": "真这双鞋可爱。"
+        },
+        {
+          "id": "B",
+          "text": "这双鞋真可爱。"
+        },
+        {
+          "id": "C",
+          "text": "可爱真这双鞋。"
+        },
+        {
+          "id": "D",
+          "text": "这双鞋可爱真。"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "การเรียงประโยค: ประธาน (这双鞋) + 真 (zhēn) + คำคุณศัพท์ (可爱)",
+      "learning_objective": "เรียงลำดับคำในประโยคขยายความแสดงความรู้สึก \"真可爱\" / \"真贵\"",
+      "pre_post_pair": "CN_POST_Q042",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q043",
+      "test_id": "CN_PRE",
+      "question_number": 43,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Radical Recognition",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 82",
+      "question": "หมวดอักษรจีน \"钅\" (金字旁 jīn zì páng) เกี่ยวข้องกับสิ่งใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ต้นไม้"
+        },
+        {
+          "id": "B",
+          "text": "โลหะ/เงินทอง/ของมีค่า"
+        },
+        {
+          "id": "C",
+          "text": "น้ำ"
+        },
+        {
+          "id": "D",
+          "text": "เสื้อผ้า"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "หมวด 钅 (金) เกี่ยวกับโลหะ ธาตุเหล็ก เงิน หรือของมีค่า",
+      "learning_objective": "จำแนกความหมายของหมวดอักษรโลหะ (金字旁: 钅/金)",
+      "pre_post_pair": "CN_POST_Q043",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q044",
+      "test_id": "CN_PRE",
+      "question_number": 44,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Radical Identification",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 82",
+      "question": "ตัวอักษรจีนคำว่า \"钱\" (qián - เงิน) มีหมวดอักษรใดเป็นส่วนประกอบด้านซ้าย?",
+      "options": [
+        {
+          "id": "A",
+          "text": "⺮"
+        },
+        {
+          "id": "B",
+          "text": "钅"
+        },
+        {
+          "id": "C",
+          "text": "氵"
+        },
+        {
+          "id": "D",
+          "text": "亻"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำว่า 钱 (qián) มีหมวดอักษร 钅 (金字旁) ด้านซ้าย",
+      "learning_objective": "เลือกตัวอักษรจีนที่มีหมวดอักษรโลหะ (钅) ได้ถูกต้องมากกว่า 1 ข้อ (Multiple Select)",
+      "pre_post_pair": "CN_POST_Q044",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q045",
+      "test_id": "CN_PRE",
+      "question_number": 45,
+      "type": "single_choice",
+      "level": "Hard",
+      "skill": "Character Decomposition",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 83 ข้อ 4",
+      "question": "ตัวอักษร \"块\" (kuài) ประกอบด้วยหมวดอักษรดิน \"土\" ด้านซ้าย และส่วนขวาคืออักษรใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "专"
+        },
+        {
+          "id": "B",
+          "text": "央"
+        },
+        {
+          "id": "C",
+          "text": "决"
+        },
+        {
+          "id": "D",
+          "text": "欠"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "อักษร 块 ประกอบด้วย 土 + 专",
+      "learning_objective": "เติมส่วนประกอบตัวอักษรจีนที่หายไป",
+      "pre_post_pair": "CN_POST_Q045",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q046",
+      "test_id": "CN_PRE",
+      "question_number": 46,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Sentence & Character Selection",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 83 ข้อ 3(1)",
+      "question": "จงเลือกตัวอักษรจีนที่ถูกต้องเติมลงในช่องว่าง: \"这____书包真漂亮。\" (กระเป๋าใบนี้สวยจริง ๆ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "个 (gè)"
+        },
+        {
+          "id": "B",
+          "text": "本 (běn)"
+        },
+        {
+          "id": "C",
+          "text": "件 (jiàn)"
+        },
+        {
+          "id": "D",
+          "text": "支 (zhī)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "书包 (กระเป๋านักเรียน) ใช้ลักษณะนาม '个' (gè)",
+      "learning_objective": "เลือกอักษรจีนที่ถูกต้องเติมในประโยคถามราคา \"这个多少____？\"",
+      "pre_post_pair": "CN_POST_Q046",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q047",
+      "test_id": "CN_PRE",
+      "question_number": 47,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Character Differentiation",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 83 ข้อ 3(2)",
+      "question": "ประโยค \"你有____块钱？\" ควรเติมคำถามใดในช่องว่าง?",
+      "options": [
+        {
+          "id": "A",
+          "text": "什么 (shénme)"
+        },
+        {
+          "id": "B",
+          "text": "多少 (duōshao)"
+        },
+        {
+          "id": "C",
+          "text": "谁 (shéi)"
+        },
+        {
+          "id": "D",
+          "text": "哪 (nǎ)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ถามจำนวนเงิน ใช้คำว่า '多少' (duōshao) -> 多少块钱",
+      "learning_objective": "เลือกอักษรจีนหน่วยเงิน \"块\" ให้ถูกต้องจากตัวเลือกที่มีลักษณะคล้ายกัน",
+      "pre_post_pair": "CN_PRE_Q047",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q048",
+      "test_id": "CN_PRE",
+      "question_number": 48,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Character Selection",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 83 ข้อ 3(3)",
+      "question": "ประโยค \"一共二十____钱。\" ควรเติมหน่วยเงินใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "块 (kuài)"
+        },
+        {
+          "id": "B",
+          "text": "本 (běn)"
+        },
+        {
+          "id": "C",
+          "text": "件 (jiàn)"
+        },
+        {
+          "id": "D",
+          "text": "支 (zhī)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "หน่วยเงินภาษาพูดใช้ '块' (kuài) -> 20 块钱",
+      "learning_objective": "เลือกอักษรจีน \"百\" (bǎi) เติมในประโยคบอกจำนวนร้อย",
+      "pre_post_pair": "CN_POST_Q048",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q049",
+      "test_id": "CN_PRE",
+      "question_number": 49,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Character Selection",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 83 ข้อ 3(4)",
+      "question": "ข้อใดมีความหมายตรงกับ \"太贵了！\" (Tài guì le!)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ถูกมาก!"
+        },
+        {
+          "id": "B",
+          "text": "แพงเกินไปแล้ว!"
+        },
+        {
+          "id": "C",
+          "text": "สวยมาก!"
+        },
+        {
+          "id": "D",
+          "text": "ดีมาก!"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "太贵了 แปลว่า แพงเกินไปแล้ว",
+      "learning_objective": "เลือกอักษรจีน \"贵\" (guì) เติมในประโยคบอกราคาแพง",
+      "pre_post_pair": "CN_POST_Q049",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_PRE_Q050",
+      "test_id": "CN_PRE",
+      "question_number": 50,
+      "type": "single_choice",
+      "level": "Hard",
+      "skill": "Sentence Writing & Practice",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 83 ข้อ 6",
+      "question": "จงเลือกประโยคภาษาจีนที่มีความหมายว่า \"หมวกใบนี้ราคา 50 หยวน\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "这顶帽子五十块钱。"
+        },
+        {
+          "id": "B",
+          "text": "这件帽子五十块钱。"
+        },
+        {
+          "id": "C",
+          "text": "这条帽子五十块钱。"
+        },
+        {
+          "id": "D",
+          "text": "这双帽子五十块钱。"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "หมวก (帽子) ใช้ลักษณะนาม '顶' (dǐng) หรือ '个' (gè), 50 หยวน = 五十块钱",
+      "learning_objective": "เรียงโครงสร้างประโยคถาม-ตอบราคาเสื้อผ้าได้สมบูรณ์",
+      "pre_post_pair": "CN_POST_Q050",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q001",
+      "test_id": "CN_POST",
+      "question_number": 1,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Vocabulary & Measure Words",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 78",
+      "question": "จากภาพสมุดบันทึก (笔记本 Bǐjìběn) จงเลือกคำลักษณะนามที่ถูกต้องมาเติมลงในช่องว่าง: \"这____笔记本多少钱？\" (Zhè ____ bǐjìběn duōshao qián?)",
+      "options": [
+        {
+          "id": "A",
+          "text": "块 (kuài)"
+        },
+        {
+          "id": "B",
+          "text": "本 (běn)"
+        },
+        {
+          "id": "C",
+          "text": "支 (zhī)"
+        },
+        {
+          "id": "D",
+          "text": "件 (jiàn)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำลักษณะนามของสมุดบันทึก (笔记本) หรือหนังสือ (书) ในภาษาจีนคือ \"本\" (běn) หมายถึง \"เล่ม\"",
+      "learning_objective": "ระบุลักษณะนามของสมุดบันทึกได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q001",
+      "image": {
+        "enabled": true,
+        "url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q001_dumx0xzq69q.png",
+        "image_url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q001_dumx0xzq69q.png"
+      }
+    },
+    {
+      "question_id": "CN_POST_Q002",
+      "test_id": "CN_POST",
+      "question_number": 2,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Vocabulary & Measure Words",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 78",
+      "question": "จากภาพเสื้อ上衣 (shàngyī) ควรใช้คำลักษณะนามในข้อใดจึงจะถูกต้องตามหลักไวยากรณ์: \"这____上衣两百块。\" (Zhè ____ shàngyī liǎngbǎi kuài.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "条 (tiáo)"
+        },
+        {
+          "id": "B",
+          "text": "双 (shuāng)"
+        },
+        {
+          "id": "C",
+          "text": "件 (jiàn)"
+        },
+        {
+          "id": "D",
+          "text": "个 (gè)"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "เสื้อผ้าท่อนบน เช่น 上衣 (shàngyī) หรือ T恤 (T-xù) ใช้ลักษณะนาม \"件\" (jiàn) แปลว่า \"ตัว\"",
+      "learning_objective": "เลือกลักษณะนามสำหรับเสื้อผ้าท่อนบนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q002",
+      "image": {
+        "enabled": true,
+        "url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q002_b05u8ar8nd.png",
+        "image_url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q002_b05u8ar8nd.png"
+      }
+    },
+    {
+      "question_id": "CN_POST_Q003",
+      "test_id": "CN_POST",
+      "question_number": 3,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Vocabulary & Measure Words",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 78 & 87",
+      "question": "คำว่า \"裤子\" (kùzi - กางเกง) ในภาษาจีนต้องใช้คู่กับลักษณะนามใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "件 (jiàn)"
+        },
+        {
+          "id": "B",
+          "text": "条 (tiáo)"
+        },
+        {
+          "id": "C",
+          "text": "块 (kuài)"
+        },
+        {
+          "id": "D",
+          "text": "本 (běn)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "สิ่งของที่มีลักษณะเป็นเส้นยาว เช่น กางเกง (裤子), กระโปรง (裙子) หรือปลา (鱼) ใช้ลักษณะนาม \"条\" (tiáo)",
+      "learning_objective": "จำแนกลักษณะนามของกางเกงและกระโปรงได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q003",
+      "image": {
+        "enabled": true,
+        "url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q003_14m52l1ybusk.png",
+        "image_url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q003_14m52l1ybusk.png"
+      }
+    },
+    {
+      "question_id": "CN_POST_Q004",
+      "test_id": "CN_POST",
+      "question_number": 4,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Vocabulary & Measure Words",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 78 & 87",
+      "question": "สิ่งของในข้อใดใช้ลักษณะนาม \"双\" (shuāng - คู่)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "书包 (shūbāo - กระเป๋านักเรียน)"
+        },
+        {
+          "id": "B",
+          "text": "橡皮 (xiàngpí - ยางลบ)"
+        },
+        {
+          "id": "C",
+          "text": "鞋 (xié - รองเท้า)"
+        },
+        {
+          "id": "D",
+          "text": "西瓜 (xīguā - แตงโม)"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "สิ่งของที่มาเป็นคู่ เช่น รองเท้า (鞋) หรือตะเกียบ (筷子) ใช้ลักษณะนาม \"双\" (shuāng)",
+      "learning_objective": "เลือกลักษณะนามสำหรับรองเท้าและสิ่งของที่เป็นคู่ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q004",
+      "image": {
+        "enabled": true,
+        "url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q004_c56yaelzh8.png",
+        "image_url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q004_c56yaelzh8.png"
+      }
+    },
+    {
+      "question_id": "CN_POST_Q005",
+      "test_id": "CN_POST",
+      "question_number": 5,
+      "type": "multiple_select",
+      "level": "Medium",
+      "skill": "Vocabulary & Measure Words",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 78",
+      "question": "คำศัพท์ในข้อใดบ้างที่ใช้ลักษณะนาม \"个\" (gè) ได้ถูกต้องตามบทเรียน? (เลือกตอบได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "书包 (shūbāo - กระเป๋านักเรียน)"
+        },
+        {
+          "id": "B",
+          "text": "西瓜 (xīguā - แตงโม)"
+        },
+        {
+          "id": "C",
+          "text": "包子 (bāozi - ซาลาเปา)"
+        },
+        {
+          "id": "D",
+          "text": "铅笔 (qiānbǐ - ดินสอ)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 1,
+      "explanation": "ในบทเรียน LS6 หน้า 78 ระบุว่า 书包 (กระเป๋า), 西瓜 (แตงโม) และ 包子 (ซาลาเปา) ใช้ลักษณะนาม \"个\" (gè) ส่วน 铅笔 (ดินสอ) ใช้ลักษณะนาม \"支\" (zhī)",
+      "learning_objective": "เลือกสิ่งของที่ใช้ลักษณะนาม \"个\" (gè) ได้ถูกต้องมากกว่า 1 ข้อ (Multiple Select)",
+      "pre_post_pair": "CN_PRE_Q005",
+      "image": {
+        "enabled": true,
+        "url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q005_m1uvpyfvuqd.png",
+        "image_url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q005_m1uvpyfvuqd.png"
+      }
+    },
+    {
+      "question_id": "CN_POST_Q006",
+      "test_id": "CN_POST",
+      "question_number": 6,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Vocabulary & Measure Words",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 78",
+      "question": "จากวลี \"一盒牛奶\" (yì hé niúnǎi) คำว่า \"盒\" (hé) ทำหน้าที่เป็นคำลักษณะนามหมายถึงอะไร?",
+      "options": [
+        {
+          "id": "A",
+          "text": "ถ้วย / แก้ว"
+        },
+        {
+          "id": "B",
+          "text": "กล่อง"
+        },
+        {
+          "id": "C",
+          "text": "ขวด"
+        },
+        {
+          "id": "D",
+          "text": "ชิ้น / ก้อน"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำว่า \"盒\" (hé) เป็นลักษณะนามของสิ่งบรรจุกล่อง เช่น \"一盒牛奶\" (นม 1 กล่อง)",
+      "learning_objective": "ระบุลักษณะนามของภาชนะกล่องบรรจุภัณฑ์ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q006",
+      "image": {
+        "enabled": true,
+        "url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q006_d6cfwp9aema.png",
+        "image_url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q006_d6cfwp9aema.png"
+      }
+    },
+    {
+      "question_id": "CN_POST_Q007",
+      "test_id": "CN_POST",
+      "question_number": 7,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Vocabulary & Measure Words",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 78 & 87",
+      "question": "หากต้องการสั่งโคล่า 1 แก้ว ต้องพูดว่าอย่างไรให้ถูกต้องตามหลักไวยากรณ์?",
+      "options": [
+        {
+          "id": "A",
+          "text": "一件可乐 (yí jiàn kělè)"
+        },
+        {
+          "id": "B",
+          "text": "一本可乐 (yì běn kělè)"
+        },
+        {
+          "id": "C",
+          "text": "一杯可乐 (yì bēi kělè)"
+        },
+        {
+          "id": "D",
+          "text": "一块可乐 (yí kuài kělè)"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "เครื่องดื่มใส่แก้ว เช่น 可乐 (โคล่า) หรือ 果汁 (น้ำผลไม้) ใช้ลักษณะนาม \"杯\" (bēi - แก้ว)",
+      "learning_objective": "เลือกลักษณะนามของเครื่องดื่มบรรจุแก้วได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q007",
+      "image": {
+        "enabled": true,
+        "url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q007_l2akb687f4m.png",
+        "image_url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q007_l2akb687f4m.png"
+      }
+    },
+    {
+      "question_id": "CN_POST_Q008",
+      "test_id": "CN_POST",
+      "question_number": 8,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Vocabulary & Measure Words",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 77 & 88",
+      "question": "เติมคำลักษณะนามลงในช่องว่าง: \"凯特有四____铅笔。\" (Kǎitè yǒu sì ____ qiānbǐ.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "支 (zhī)"
+        },
+        {
+          "id": "B",
+          "text": "块 (kuài)"
+        },
+        {
+          "id": "C",
+          "text": "本 (běn)"
+        },
+        {
+          "id": "D",
+          "text": "双 (shuāng)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ดินสอ (铅笔) และ ปากกา (笔/钢笔) มีลักษณะเป็นด้าม จึงใช้ลักษณะนาม \"支\" (zhī - ด้าม)",
+      "learning_objective": "เติมคำลักษณะนามของดินสอได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q008",
+      "image": {
+        "enabled": true,
+        "url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q008_63g9p8z9oio.png",
+        "image_url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q008_63g9p8z9oio.png"
+      }
+    },
+    {
+      "question_id": "CN_POST_Q009",
+      "test_id": "CN_POST",
+      "question_number": 9,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Vocabulary Identification",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 76",
+      "question": "จับคู่คำศัพท์ภาษาจีนกับความหมายภาษาไทยในข้อใด **ไม่ถูกต้อง**?",
+      "options": [
+        {
+          "id": "A",
+          "text": "橡皮 (xiàngpí) = ยางลบ"
+        },
+        {
+          "id": "B",
+          "text": "笔袋 (bǐdài) = กระเป๋าใส่ดินสอ"
+        },
+        {
+          "id": "C",
+          "text": "书包 (shūbāo) = สมุดบันทึก"
+        },
+        {
+          "id": "D",
+          "text": "钢笔 (gāngbǐ) = ปากกาหมึกซึม"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "คำว่า \"书包\" (shūbāo) หมายถึง \"กระเป๋านักเรียน\" ส่วน \"สมุดบันทึก\" คือ \"笔记本\" (bǐjìběn)",
+      "learning_objective": "สรุปจับคู่หมวดคำศัพท์อุปกรณ์การเรียนกับ Pinyin และความหมายได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q009",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q010",
+      "test_id": "CN_POST",
+      "question_number": 10,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Vocabulary Identification",
+      "topic": "ส่วนที่ 1: คำศัพท์และลักษณะนาม (Vocabulary & Measure Words)",
+      "lesson": "LS6.pdf หน้า 78",
+      "question": "คำว่า \"榴莲\" (liúlián) ในภาษาจีนตรงกับผลไม้ชนิดใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "มะม่วง"
+        },
+        {
+          "id": "B",
+          "text": "ทุเรียน"
+        },
+        {
+          "id": "C",
+          "text": "แตงโม"
+        },
+        {
+          "id": "D",
+          "text": "กล้วย"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "\"榴莲\" (liúlián) แปลว่า ทุเรียน (ราคา 90.99 หยวน ในหน้า 78)",
+      "learning_objective": "ระบุความหมายของคำศัพท์หมวดผลไม้ในบทเรียน",
+      "pre_post_pair": "CN_PRE_Q010",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q011",
+      "test_id": "CN_POST",
+      "question_number": 11,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Currency Reading",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 85 ข้อ 3",
+      "question": "จำนวนเงิน \"69.00 元\" อ่านเป็นภาษาจีนพูดว่าอย่างไร? (อ้างอิง LS6 หน้า 85 ข้อ 3)",
+      "options": [
+        {
+          "id": "A",
+          "text": "六十九块 (liùshíjiǔ kuài)"
+        },
+        {
+          "id": "B",
+          "text": "六九块 (liù jiǔ kuài)"
+        },
+        {
+          "id": "C",
+          "text": "六十九毛 (liùshíjiǔ máo)"
+        },
+        {
+          "id": "D",
+          "text": "六百九十块 (liùbǎi jiǔshí kuài)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "69.00 元 อ่านว่า 六十九块 (liùshíjiǔ kuài) แปลว่า 69 หยวน",
+      "learning_objective": "อ่านจำนวนเงินหยวนเต็มจำนวนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q011",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q012",
+      "test_id": "CN_POST",
+      "question_number": 12,
+      "type": "single_choice",
+      "level": "Hard",
+      "skill": "Currency Reading",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 85 ข้อ 5",
+      "question": "ป้ายราคา \"12.99\" ในภาษาจีนอ่านว่าอย่างไรให้ถูกต้อง? (อ้างอิง LS6 หน้า 85 ข้อ 5)",
+      "options": [
+        {
+          "id": "A",
+          "text": "十二块九毛九 (shí'èr kuài jiǔ máo jiǔ)"
+        },
+        {
+          "id": "B",
+          "text": "十二点九九块 (shí'èr diǎn jiǔ jiǔ kuài)"
+        },
+        {
+          "id": "C",
+          "text": "一十二块九九 (yī shí'èr kuài jiǔ jiǔ)"
+        },
+        {
+          "id": "D",
+          "text": "十二块九十九分 (shí'èr kuài jiǔshíjiǔ fēn)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "12 คือ 十二块 (12 หยวน), .9 ตัวแรกคือ 九毛 (9 เหมา), .9 ตัวหลังคือ 九分 (9 เฟิน) หรือพูดสั้นๆ ว่า 十二块九毛九",
+      "learning_objective": "อ่านจำนวนเงินที่มีทศนิยมสองตำแหน่ง (หยวน เหมา) ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q012",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q013",
+      "test_id": "CN_POST",
+      "question_number": 13,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Number & Currency Reading",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 76 ข้อ 3",
+      "question": "จำนวนเงิน \"105.00 元\" อ่านออกเสียงภาษาจีนว่าอย่างไร? (อ้างอิง LS6 หน้า 76)",
+      "options": [
+        {
+          "id": "A",
+          "text": "一百五块 (yìbǎi wǔ kuài)"
+        },
+        {
+          "id": "B",
+          "text": "一百零五块 (yìbǎi líng wǔ kuài)"
+        },
+        {
+          "id": "C",
+          "text": "一零五块 (yī líng wǔ kuài)"
+        },
+        {
+          "id": "D",
+          "text": "百五块钱 (bǎi wǔ kuài qián)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ตัวเลขหลักร้อยที่มี 0 อยู่ตรงกลาง ต้องอ่านเสียง \"零\" (líng) ด้วย จึงอ่านว่า 一百零五块 (yìbǎi líng wǔ kuài)",
+      "learning_objective": "อ่านจำนวนเงินระดับหลักร้อยที่มีเลขศูนย์ตรงกลาง (零) ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q013",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q014",
+      "test_id": "CN_POST",
+      "question_number": 14,
+      "type": "single_choice",
+      "level": "Hard",
+      "skill": "Grammar & Number Rules",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 77",
+      "question": "จำนวนเงิน \"250.00 元\" คำว่า \"200\" ต้องใช้อ่านว่าอย่างไรตามบทเรียน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "二百块 (èr bǎi kuài) เท่านั้น"
+        },
+        {
+          "id": "B",
+          "text": "两百五十块 (liǎngbǎi wǔshí kuài)"
+        },
+        {
+          "id": "C",
+          "text": "二五十块 (èr wǔshí kuài)"
+        },
+        {
+          "id": "D",
+          "text": "两五十块 (liǎng wǔshí kuài)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ในหลักร้อยเมื่อใช้บอกจำนวนเงิน นิยมใช้ \"两\" (liǎng) เป็น \"两百\" เช่น 两百五十块 (250 หยวน) อ้างอิงบทเรียน LS6 หน้า 77",
+      "learning_objective": "ระบุการใช้คำว่า \"两\" (liǎng) ในการอ่านจำนวนเงินหลักร้อยได้อย่างถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q014",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q015",
+      "test_id": "CN_POST",
+      "question_number": 15,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Currency Vocabulary",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 84",
+      "question": "สกุลเงินของประเทศญี่ปุ่น ในภาษาจีนเรียกว่าอะไร? (อ้างอิง LS6 หน้า 84)",
+      "options": [
+        {
+          "id": "A",
+          "text": "美元 (Měiyuán)"
+        },
+        {
+          "id": "B",
+          "text": "英镑 (Yīngbàng)"
+        },
+        {
+          "id": "C",
+          "text": "日元 (Rìyuán)"
+        },
+        {
+          "id": "D",
+          "text": "泰铢 (Tàizhū)"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "ในกิจกรรมเสริม LS6 หน้า 84 ระบุว่า 日本的钱叫“日元” (เงินของประเทศญี่ปุ่นเรียกว่า Rìyuán)",
+      "learning_objective": "จำแนกชื่อสกุลเงินต่างประเทศจากบทเรียนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q015",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q016",
+      "test_id": "CN_POST",
+      "question_number": 16,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Currency Identification",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 84",
+      "question": "สัญลักษณ์สกุลเงิน \"฿\" ตรงกับสกุลเงินใดในภาษาจีน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "人民币 (Rénmínbì)"
+        },
+        {
+          "id": "B",
+          "text": "泰铢 (Tàizhū)"
+        },
+        {
+          "id": "C",
+          "text": "美元 (Měiyuán)"
+        },
+        {
+          "id": "D",
+          "text": "英镑 (Yīngbàng)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "สัญลักษณ์ ฿ คือเงินบาทไทย ซึ่งภาษาจีนเรียกว่า \"泰铢\" (Tàizhū)",
+      "learning_objective": "จับคู่สัญลักษณ์สกุลเงิน (Currency Symbols) กับชื่อสกุลเงินภาษาจีนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q016",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q017",
+      "test_id": "CN_POST",
+      "question_number": 17,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Currency Calculation",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 84",
+      "question": "อ้างอิงข้อมูลจาก LS6 หน้า 84: \"100 泰铢是 22 块人民币\" (100 บาทไทย เท่ากับ 22 หยวน) หากมีเงิน 200 บาทไทย จะแลกเงินหยวนได้กี่หยวน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "22 块 (22 หยวน)"
+        },
+        {
+          "id": "B",
+          "text": "44 块 (44 หยวน)"
+        },
+        {
+          "id": "C",
+          "text": "50 块 (50 หยวน)"
+        },
+        {
+          "id": "D",
+          "text": "100 块 (100 หยวน)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "100 บาท = 22 หยวน ดังนั้น 200 บาท = 22 x 2 = 44 หยวน (44 块人民币)",
+      "learning_objective": "คำนวณการแลกเปลี่ยนเงินบาทไทยเป็นเงินหยวนตามอัตราแลกเปลี่ยนในบทเรียน",
+      "pre_post_pair": "CN_PRE_Q017",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q018",
+      "test_id": "CN_POST",
+      "question_number": 18,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Currency & Vocabulary",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 75 & 76",
+      "question": "เติมคำในช่องว่างให้ถูกต้อง: \"3.50 元\" อ่านว่า \"三块五____\"",
+      "options": [
+        {
+          "id": "A",
+          "text": "块 (kuài)"
+        },
+        {
+          "id": "B",
+          "text": "毛 (máo)"
+        },
+        {
+          "id": "C",
+          "text": "分 (fēn)"
+        },
+        {
+          "id": "D",
+          "text": "角 (jiǎo)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ในภาษาพูด ตัวเลขหลังจุดทศนิยมตำแหน่งแรกคือหน่วย \"毛\" (máo) หรือละไว้ได้เป็น 三块五 / 三块五毛",
+      "learning_objective": "เติมหน่วยเงินย่อย \"毛\" (máo) ในโครงสร้างราคาได้อย่างถูกต้อง",
+      "pre_post_pair": "CN_POST_Q018",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q019",
+      "test_id": "CN_POST",
+      "question_number": 19,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Currency Knowledge",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 75",
+      "question": "ธนบัตรเงินหยวน (人民币) ชนิดราคาใดที่มีมูลค่า **มากที่สุด** ตามที่ปรากฏในบทเรียน LS6 หน้า 75?",
+      "options": [
+        {
+          "id": "A",
+          "text": "五十块 (wǔshí kuài)"
+        },
+        {
+          "id": "B",
+          "text": "二十块 (èrshí kuài)"
+        },
+        {
+          "id": "C",
+          "text": "一百块 (yìbǎi kuài)"
+        },
+        {
+          "id": "D",
+          "text": "十块 (shí kuài)"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "ในบทเรียน LS6 หน้า 75 แสดงภาพธนบัตรชนิด 100 หยวน (一百块) ซึ่งเป็นมูลค่าสูงสุดในหน้าดังกล่าว",
+      "learning_objective": "เปรียบเทียบมูลค่าธนบัตรเงินหยวนตามหน้าบทเรียนได้ถูกต้อง",
+      "pre_post_pair": "CN_POST_Q019",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q020",
+      "test_id": "CN_POST",
+      "question_number": 20,
+      "type": "multiple_select",
+      "level": "Medium",
+      "skill": "Currency Identification",
+      "topic": "ส่วนที่ 2: การอ่านจำนวนเงินและสกุลเงิน (Monetary Expressions & Currency Reading)",
+      "lesson": "LS6.pdf หน้า 75",
+      "question": "ข้อใดคือหน่วยเงินย่อยของสกุลเงินหยวนที่ปรากฏในบทเรียน LS6? (เลือกตอบได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "块 (kuài)"
+        },
+        {
+          "id": "B",
+          "text": "毛 (máo)"
+        },
+        {
+          "id": "C",
+          "text": "铢 (zhū)"
+        },
+        {
+          "id": "D",
+          "text": "分 (fēn)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "score": 1,
+      "explanation": "เงินหยวนมีหน่วยหลักคือ 块 (kuài) และหน่วยย่อยคือ 毛 (máo) กับ 分 (fēn) ส่วน 铢 (zhū) เป็นหน่วยเงินบาทไทย",
+      "learning_objective": "ระบุชนิดของหน่วยเงินหยวนที่ปรากฏในบทเรียนได้ถูกต้องมากกว่า 1 ข้อ (Multiple Select)",
+      "pre_post_pair": "CN_POST_Q020",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q021",
+      "test_id": "CN_POST",
+      "question_number": 21,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Reading Dialogue",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 90 ข้อ 1",
+      "question": "จากบทสนทนา ผู้ซื้อต้องการซื้อสิ่งใดบ้าง?",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ซื้อของในตลาดเครื่องเขียน]\nA: 你好！请问你想买什么？ (Nǐ hǎo! Qǐngwèn nǐ xiǎng mǎi shénme?)\nB: 你好！我要买两支铅笔和一块橡皮。 (Nǐ hǎo! Wǒ yào mǎi liǎng zhī qiānbǐ hé yí kuài xiàngpí.)\nA: 铅笔一支三块钱，橡皮一块两块钱。 (Qiānbǐ yì zhī sān kuài qián, xiàngpí yí kuài liǎng kuài qián.)\nB: 一共多少钱？ (Yígòng duōshao qián?)\nA: 一共八块钱。 (Yígòng bā kuài qián.)\nB: 给你十块钱。 (Gěi nǐ shí kuài qián.)\nA: 找你两块钱，谢谢！ (Zhǎo nǐ liǎng kuài qián, xièxie!)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "铅笔两支、橡皮一块"
+        },
+        {
+          "id": "B",
+          "text": "钢笔一支、笔记本一本"
+        },
+        {
+          "id": "C",
+          "text": "书包一个、铅笔三支"
+        },
+        {
+          "id": "D",
+          "text": "橡皮两块、铅笔一块"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "บทสนทนาระบุ: \"我要买两支铅笔和一块橡皮\" (ดินสอ 2 แท่ง ยางลบ 1 ก้อน)",
+      "learning_objective": "จับคู่ราคาสินค้า ยางลบ (橡皮) จากบทสนทนาได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q021",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q022",
+      "test_id": "CN_POST",
+      "question_number": 22,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Reading Dialogue",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 90 ข้อ 3",
+      "question": "จากบทสนทนา หนังสือ (书) มีราคาตรงกับข้อใด?",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ซื้อของในตลาดเครื่องเขียน]\nA: 你好！请问你想买什么？ (Nǐ hǎo! Qǐngwèn nǐ xiǎng mǎi shénme?)\nB: 你好！我要买两支铅笔和一块橡皮。 (Nǐ hǎo! Wǒ yào mǎi liǎng zhī qiānbǐ hé yí kuài xiàngpí.)\nA: 铅笔一支三块钱，橡皮一块两块钱。 (Qiānbǐ yì zhī sān kuài qián, xiàngpí yí kuài liǎng kuài qián.)\nB: 一共多少钱？ (Yígòng duōshao qián?)\nA: 一共八块钱。 (Yígòng bā kuài qián.)\nB: 给你十块钱。 (Gěi nǐ shí kuài qián.)\nA: 找你两块钱，谢谢！ (Zhǎo nǐ liǎng kuài qián, xièxie!)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "一块 (1 หยวน)"
+        },
+        {
+          "id": "B",
+          "text": "两块 (2 หยวน)"
+        },
+        {
+          "id": "C",
+          "text": "三块 (3 หยวน)"
+        },
+        {
+          "id": "D",
+          "text": "五块 (5 หยวน)"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "บทสนทนาข้อ 3 ระบุว่า \"这本书多少钱？... 三块钱。\" (หนังสือเล่มนี้ราคา 3 หยวน)",
+      "learning_objective": "จับคู่ราคาสินค้า หนังสือ (书) จากบทสนทนาได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q022",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q023",
+      "test_id": "CN_POST",
+      "question_number": 23,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Transaction Calculation",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 91 ข้อ 5",
+      "question": "หากนักเรียนซื้อ \"ยางลบ 1 ก้อน (1 หยวน) + ปากกา 1 ด้าม (2 หยวน) + หนังสือ 1 เล่ม (3 หยวน) + กระเป๋าใส่ดินสอ 1 ใบ (10 หยวน)\" รวมเป็นเงินทั้งหมดกี่หยวน? (一共多少钱？)",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ซื้อของในตลาดเครื่องเขียน]\nA: 你好！请问你想买什么？ (Nǐ hǎo! Qǐngwèn nǐ xiǎng mǎi shénme?)\nB: 你好！我要买两支铅笔和一块橡皮。 (Nǐ hǎo! Wǒ yào mǎi liǎng zhī qiānbǐ hé yí kuài xiàngpí.)\nA: 铅笔一支三块钱，橡皮一块两块钱。 (Qiānbǐ yì zhī sān kuài qián, xiàngpí yí kuài liǎng kuài qián.)\nB: 一共多少钱？ (Yígòng duōshao qián?)\nA: 一共八块钱。 (Yígòng bā kuài qián.)\nB: 给你十块钱。 (Gěi nǐ shí kuài qián.)\nA: 找你两块钱，谢谢！ (Zhǎo nǐ liǎng kuài qián, xièxie!)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "十五块 (15 หยวน)"
+        },
+        {
+          "id": "B",
+          "text": "十六块 (16 หยวน)"
+        },
+        {
+          "id": "C",
+          "text": "十七块 (17 หยวน)"
+        },
+        {
+          "id": "D",
+          "text": "二十块 (20 หยวน)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำนวณราคารวม: 1 + 2 + 3 + 10 = 16 หยวน (十六块钱) ตรงตามบทสนทนาข้อ 5 ใน LS6 หน้า 91",
+      "learning_objective": "คำนวณราคารวมสินค้า (一共多少钱) จากบทสนทนาได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q023",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q024",
+      "test_id": "CN_POST",
+      "question_number": 24,
+      "type": "single_choice",
+      "level": "Hard",
+      "skill": "Problem Solving & Dialogue Comprehension",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 91 ข้อ 6–7",
+      "question": "ในบทสนทนา LS6 หน้า 91 สินค้ารวมราคา 16 หยวน แต่นักเรียนมีเงินเพียง 15 หยวน (我只有十五块) แม่ค้าทำอย่างไร?",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ซื้อของในตลาดเครื่องเขียน]\nA: 你好！请问你想买什么？ (Nǐ hǎo! Qǐngwèn nǐ xiǎng mǎi shénme?)\nB: 你好！我要买两支铅笔和一块橡皮。 (Nǐ hǎo! Wǒ yào mǎi liǎng zhī qiānbǐ hé yí kuài xiàngpí.)\nA: 铅笔一支三块钱，橡皮一块两块钱。 (Qiānbǐ yì zhī sān kuài qián, xiàngpí yí kuài liǎng kuài qián.)\nB: 一共多少钱？ (Yígòng duōshao qián?)\nA: 一共八块钱。 (Yígòng bā kuài qián.)\nB: 给你十块钱。 (Gěi nǐ shí kuài qián.)\nA: 找你两块钱，谢谢！ (Zhǎo nǐ liǎng kuài qián, xièxie!)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "ไม่ขายสินค้าให้"
+        },
+        {
+          "id": "B",
+          "text": "ลดราคาให้ 2 หยวน"
+        },
+        {
+          "id": "C",
+          "text": "ยางลบให้ฟรี (这块橡皮送给你)"
+        },
+        {
+          "id": "D",
+          "text": "ให้นักเรียนติดเงินไว้ก่อน"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "แม่ค้าพูดว่า \"这块橡皮送给你\" (ยางลบก้อนนี้ยกให้ฟรี) นักเรียนจึงจ่ายเพียง 15 หยวนสำหรับสิ่งของที่เหลือ",
+      "learning_objective": "วิเคราะห์สถานการณ์เงินไม่พอและการแก้ปัญหาในบทสนทนา",
+      "pre_post_pair": "CN_PRE_Q024",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q025",
+      "test_id": "CN_POST",
+      "question_number": 25,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Sentence Completion",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 77 & 90",
+      "question": "หากต้องการถามราคาว่า \"กระเป๋าเป้ใบนี้ราคาเท่าไร?\" ควรเติมคำใดลงในช่องว่าง: \"这个书包________？\" (Zhè gè shūbāo ________?)",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ในร้านเครื่องเขียน]\nA: 请问，一块橡皮多少钱？ (Qǐngwèn, yí kuài xiàngpí duōshao qián?)\nB: 两块五。 (Liǎng kuài wǔ.)\nA: 这支笔多少钱？ (Zhè zhī bǐ duōshao qián?)\nB: 两百五十块。 (Liǎngbǎi wǔshí kuài.)\nA: 真贵啊！ (Zhēn guì a!)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "几岁 (jǐ suì)"
+        },
+        {
+          "id": "B",
+          "text": "多少钱 (duōshao qián)"
+        },
+        {
+          "id": "C",
+          "text": "什么 (shénme)"
+        },
+        {
+          "id": "D",
+          "text": "怎么 (zěnme)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ประโยคถามราคาใช้คำว่า \"多少钱\" (duōshao qián - ราคาเท่าไร)",
+      "learning_objective": "เติมประโยคถามราคาสินค้า \"多少钱\" ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q025",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q026",
+      "test_id": "CN_POST",
+      "question_number": 26,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Reading Dialogue",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 77",
+      "question": "ยางลบ 1 ก้อน (一块橡皮) ในบทสนทนานี้ราคาเท่าไร?",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ในร้านเครื่องเขียน]\nA: 请问，一块橡皮多少钱？ (Qǐngwèn, yí kuài xiàngpí duōshao qián?)\nB: 两块五。 (Liǎng kuài wǔ.)\nA: 这支笔多少钱？ (Zhè zhī bǐ duōshao qián?)\nB: 两百五十块。 (Liǎngbǎi wǔshí kuài.)\nA: 真贵啊！ (Zhēn guì a!)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "一块 (1 หยวน)"
+        },
+        {
+          "id": "B",
+          "text": "两块五 (2.5 หยวน)"
+        },
+        {
+          "id": "C",
+          "text": "五块 (5 หยวน)"
+        },
+        {
+          "id": "D",
+          "text": "十块 (10 หยวน)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "B ตอบว่า \"两块五\" (2.5 หยวน หรือ 2 หยวน 5 เหมา)",
+      "learning_objective": "อ่านราคายางลบจากบทสนทนาร้านเครื่องเขียนได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q026",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q027",
+      "test_id": "CN_POST",
+      "question_number": 27,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Reading Dialogue",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 77",
+      "question": "ปากกา (这支笔) ในบทสนทนาราคาเท่าไร?",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ในร้านเครื่องเขียน]\nA: 请问，一块橡皮多少钱？ (Qǐngwèn, yí kuài xiàngpí duōshao qián?)\nB: 两块五。 (Liǎng kuài wǔ.)\nA: 这支笔多少钱？ (Zhè zhī bǐ duōshao qián?)\nB: 两百五十块。 (Liǎngbǎi wǔshí kuài.)\nA: 真贵啊！ (Zhēn guì a!)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "两百块 (200 หยวน)"
+        },
+        {
+          "id": "B",
+          "text": "两百五十块 (250 หยวน)"
+        },
+        {
+          "id": "C",
+          "text": "五十块 (50 หยวน)"
+        },
+        {
+          "id": "D",
+          "text": "二十五块 (25 หยวน)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "B ตอบว่า \"两百五十块\" (250 หยวน)",
+      "learning_objective": "ระบุราคาปากกาแพงพิเศษในบทสนทนาได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q027",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q028",
+      "test_id": "CN_POST",
+      "question_number": 28,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Language Expression",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 77 & 79",
+      "question": "เมื่อลูกค้ารู้ว่าปากการาคา 250 หยวน ลูกค้าอุทานว่า \"真贵啊！\" (Zhēn guì a!) มีความหมายว่าอย่างไร?",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ในร้านเครื่องเขียน]\nA: 请问，一块橡皮多少钱？ (Qǐngwèn, yí kuài xiàngpí duōshao qián?)\nB: 两块五。 (Liǎng kuài wǔ.)\nA: 这支笔多少钱？ (Zhè zhī bǐ duōshao qián?)\nB: 两百五十块。 (Liǎngbǎi wǔshí kuài.)\nA: 真贵啊！ (Zhēn guì a!)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "ถูกจริงๆ เลย!"
+        },
+        {
+          "id": "B",
+          "text": "แพงจังเลย!"
+        },
+        {
+          "id": "C",
+          "text": "สวยจริงๆ เลย!"
+        },
+        {
+          "id": "D",
+          "text": "น่ารักจังเลย!"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "\"真\" (zhēn) แปลว่า จริงๆ/จัง, \"贵\" (guì) แปลว่า แพง, \"真贵啊\" แปลว่า แพงจังเลย!",
+      "learning_objective": "ระบุคำอุทานแสดงความรู้สึกเรื่องราคา (真贵啊) ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q028",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q029",
+      "test_id": "CN_POST",
+      "question_number": 29,
+      "type": "single_choice",
+      "level": "Hard",
+      "skill": "Applied Math & Dialogue",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 77",
+      "question": "หากซื้อยางลบราคา 2.5 หยวน (两块五) โดยให้ธนบัตร 10 หยวน (十块) แม่ค้าต้องทอนเงินกี่หยวน?",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ในร้านเครื่องเขียน]\nA: 请问，一块橡皮多少钱？ (Qǐngwèn, yí kuài xiàngpí duōshao qián?)\nB: 两块五。 (Liǎng kuài wǔ.)\nA: 这支笔多少钱？ (Zhè zhī bǐ duōshao qián?)\nB: 两百五十块。 (Liǎngbǎi wǔshí kuài.)\nA: 真贵啊！ (Zhēn guì a!)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "七块五 (7.5 หยวน)"
+        },
+        {
+          "id": "B",
+          "text": "八块 (8 หยวน)"
+        },
+        {
+          "id": "C",
+          "text": "六块五 (6.5 หยวน)"
+        },
+        {
+          "id": "D",
+          "text": "七块 (7 หยวน)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "10 - 2.5 = 7.5 หยวน ซึ่งอ่านว่า 七块五 (7 หยวน 5 เหมา)",
+      "learning_objective": "คำนวณเงินทอนจากการซื้อสินค้าราคา 2.5 หยวน ด้วยธนบัตร 10 หยวน",
+      "pre_post_pair": "CN_PRE_Q029",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q030",
+      "test_id": "CN_POST",
+      "question_number": 30,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Dialogue Conventions",
+      "topic": "ส่วนที่ 3: บทสนทนาและการคำนวณราคาสินค้า (Dialogues & Commercial Transactions)",
+      "lesson": "LS6.pdf หน้า 77",
+      "question": "เติมคำสุภาพที่ใช้เกริ่นถามคำถามลงในช่องว่าง: \"________，这本笔记本多少钱？\"",
+      "content": {
+        "enabled": true,
+        "text": "[บทสนทนา: ในร้านเครื่องเขียน]\nA: 请问，一块橡皮多少钱？ (Qǐngwèn, yí kuài xiàngpí duōshao qián?)\nB: 两块五。 (Liǎng kuài wǔ.)\nA: 这支笔多少钱？ (Zhè zhī bǐ duōshao qián?)\nB: 两百五十块。 (Liǎngbǎi wǔshí kuài.)\nA: 真贵啊！ (Zhēn guì a!)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "谢谢 (xièxie)"
+        },
+        {
+          "id": "B",
+          "text": "请问 (qǐngwèn)"
+        },
+        {
+          "id": "C",
+          "text": "再见 (zàijiàn)"
+        },
+        {
+          "id": "D",
+          "text": "对不起 (duìbuqǐ)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "\"请问\" (qǐngwèn) แปลว่า \"ขอถามหน่อยครับ/ค่ะ\" หรือ \"ไม่ทราบว่า...\" ใช้เกริ่นนำคำถามสุภาพ",
+      "learning_objective": "เติมประโยคแสดงคำสุภาพ \"请问\" ในการสอบถามราคาได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q030",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q031",
+      "test_id": "CN_POST",
+      "question_number": 31,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Reading Comprehension",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 81",
+      "question": "ผู้เขียนเดินทางไปปักกิ่ง (北京) ในเดือนใด และไปกับใคร?",
+      "content": {
+        "enabled": true,
+        "text": "今年四月，我和爸爸妈妈去了北京。北京真漂亮！\n我们去了“熊猫商店”。商店里有书包、铅笔、橡皮和笔记本。\n我买了一块熊猫橡皮，两块钱。还买了一本笔记本，十块钱。\n一共十三块钱。我看到一支钢笔，八十块，太贵了，我没有买。\n\nPinyin:\nJīnnián sì yuè, wǒ hé bàba māma qù le Běijīng. Běijīng zhēn piàoliang!\nWǒmen qù le \"Xióngmāo Shāngdiàn\". Shāngdiàn lǐ yǒu shūbāo, qiānbǐ, xiàngpí hé bǐjìběn.\nWǒ mǎi le yí kuài xióngmāo xiàngpí, liǎng kuài qián. Hái mǎi le yì běn bǐjìběn, shí kuài qián.\nYígòng shísān kuài qián. Wǒ kàndào yì zhī gāngbǐ, bāshí kuài, tài guì le, wǒ méiyǒu mǎi."
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "เดือน 3 ไปกับเพื่อน"
+        },
+        {
+          "id": "B",
+          "text": "เดือน 4 ไปกับพ่อและแม่"
+        },
+        {
+          "id": "C",
+          "text": "เดือน 5 ไปคนเดียว"
+        },
+        {
+          "id": "D",
+          "text": "เดือน 6 ไปกับครู"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "บทความระบุ: \"今年四月，我和爸爸妈妈去了北京\" (เดือนเมษายนปีนี้ ฉันไปปักกิ่งกับพ่อและแม่)",
+      "learning_objective": "ระบุช่วงเวลาและสถานที่ที่ผู้เล่าเดินทางไปในบทอ่านได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q031",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q032",
+      "test_id": "CN_POST",
+      "question_number": 32,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Reading Comprehension",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 81",
+      "question": "สินค้าชนิดใดบ้างที่มีจำหน่ายในร้าน \"熊猫商店\" ตามบทอ่าน? (เลือกตอบได้มากกว่า 1 ข้อ)",
+      "content": {
+        "enabled": true,
+        "text": "今年四月，我和爸爸妈妈去了北京。北京真漂亮！\n我们去了“熊猫商店”。商店里有书包、铅笔、橡皮和笔记本。\n我买了一块熊猫橡皮，两块钱。还买了一本笔记本，十块钱。\n一共十三块钱。我看到一支钢笔，八十块，太贵了，我没有买。\n\nPinyin:\nJīnnián sì yuè, wǒ hé bàba māma qù le Běijīng. Běijīng zhēn piàoliang!\nWǒmen qù le \"Xióngmāo Shāngdiàn\". Shāngdiàn lǐ yǒu shūbāo, qiānbǐ, xiàngpí hé bǐjìběn.\nWǒ mǎi le yí kuài xióngmāo xiàngpí, liǎng kuài qián. Hái mǎi le yì běn bǐjìběn, shí kuài qián.\nYígòng shísān kuài qián. Wǒ kàndào yì zhī gāngbǐ, bāshí kuài, tài guì le, wǒ méiyǒu mǎi."
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "熊猫橡皮 (ยางลบหมีแพนด้า)"
+        },
+        {
+          "id": "B",
+          "text": "熊猫钢笔 (ปากกาหมึกซึมหมีแพนด้า)"
+        },
+        {
+          "id": "C",
+          "text": "熊猫书包 (กระเป๋านักเรียนหมีแพนด้า)"
+        },
+        {
+          "id": "D",
+          "text": "熊猫衣服 (เสื้อผ้าหมีแพนด้า)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 1,
+      "explanation": "บทอ่านระบุสินค้า 4 อย่าง: 熊猫橡皮, 熊猫钢笔, 熊猫笔袋, 熊猫书包 (ไม่มี 熊猫衣服)",
+      "learning_objective": "ระบุรายการสินค้าที่มีขายในร้านหมีแพนด้า (熊猫商店) ได้ถูกต้องมากกว่า 1 ข้อ (Multiple Select)",
+      "pre_post_pair": "CN_PRE_Q032",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q033",
+      "test_id": "CN_POST",
+      "question_number": 33,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Reading Comprehension",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 81",
+      "question": "ยางลบหมีแพนด้า (熊猫橡皮) 1 ก้อน ราคาเท่าไร?",
+      "content": {
+        "enabled": true,
+        "text": "今年四月，我和爸爸妈妈去了北京。北京真漂亮！\n我们去了“熊猫商店”。商店里有书包、铅笔、橡皮和笔记本。\n我买了一块熊猫橡皮，两块钱。还买了一本笔记本，十块钱。\n一共十三块钱。我看到一支钢笔，八十块，太贵了，我没有买。\n\nPinyin:\nJīnnián sì yuè, wǒ hé bàba māma qù le Běijīng. Běijīng zhēn piàoliang!\nWǒmen qù le \"Xióngmāo Shāngdiàn\". Shāngdiàn lǐ yǒu shūbāo, qiānbǐ, xiàngpí hé bǐjìběn.\nWǒ mǎi le yí kuài xióngmāo xiàngpí, liǎng kuài qián. Hái mǎi le yì běn bǐjìběn, shí kuài qián.\nYígòng shísān kuài qián. Wǒ kàndào yì zhī gāngbǐ, bāshí kuài, tài guì le, wǒ méiyǒu mǎi."
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "一块 (1 หยวน)"
+        },
+        {
+          "id": "B",
+          "text": "两块五 (2.5 หยวน)"
+        },
+        {
+          "id": "C",
+          "text": "五块 (5 หยวน)"
+        },
+        {
+          "id": "D",
+          "text": "两百五十块 (250 หยวน)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ในบทอ่านระบุ: \"橡皮两块五\" (ยางลบก้อนละ 2.5 หยวน)",
+      "learning_objective": "ตรวจสอบราคายางลบหมีแพนด้า 1 ก้อนจากบทอ่านได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q033",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q034",
+      "test_id": "CN_POST",
+      "question_number": 34,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Text-based Calculation",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 81",
+      "question": "ผู้เล่าซื้อยางลบหมีแพนด้ามากี่ก้อน (我买了两块) และคิดเป็นเงินทั้งหมดกี่หยวน?",
+      "content": {
+        "enabled": true,
+        "text": "今年四月，我和爸爸妈妈去了北京。北京真漂亮！\n我们去了“熊猫商店”。商店里有书包、铅笔、橡皮和笔记本。\n我买了一块熊猫橡皮，两块钱。还买了一本笔记本，十块钱。\n一共十三块钱。我看到一支钢笔，八十块，太贵了，我没有买。\n\nPinyin:\nJīnnián sì yuè, wǒ hé bàba māma qù le Běijīng. Běijīng zhēn piàoliang!\nWǒmen qù le \"Xióngmāo Shāngdiàn\". Shāngdiàn lǐ yǒu shūbāo, qiānbǐ, xiàngpí hé bǐjìběn.\nWǒ mǎi le yí kuài xióngmāo xiàngpí, liǎng kuài qián. Hái mǎi le yì běn bǐjìběn, shí kuài qián.\nYígòng shísān kuài qián. Wǒ kàndào yì zhī gāngbǐ, bāshí kuài, tài guì le, wǒ méiyǒu mǎi."
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "ซื้อ 1 ก้อน จ่าย 2.5 หยวน"
+        },
+        {
+          "id": "B",
+          "text": "ซื้อ 2 ก้อน จ่าย 5 หยวน"
+        },
+        {
+          "id": "C",
+          "text": "ซื้อ 2 ก้อน จ่าย 2.5 หยวน"
+        },
+        {
+          "id": "D",
+          "text": "ซื้อ 3 ก้อน จ่าย 7.5 หยวน"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ยางลบก้อนละ 2.5 หยวน ซื้อ 2 ก้อน (两块) รวมเป็นเงิน 2.5 x 2 = 5 หยวน (五块)",
+      "learning_objective": "คำนวณจำนวนเงินรวมที่ผู้เล่าจ่ายซื้อยางลบหมีแพนด้า 2 ก้อน",
+      "pre_post_pair": "CN_POST_Q034",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q035",
+      "test_id": "CN_POST",
+      "question_number": 35,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Reading Comprehension",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 81",
+      "question": "ทำไมผู้เล่าจึง **ไม่ได้ซื้อ** ปากกาหมึกซึมหมีแพนด้า (熊猫钢笔)?",
+      "content": {
+        "enabled": true,
+        "text": "今年四月，我和爸爸妈妈去了北京。北京真漂亮！\n我们去了“熊猫商店”。商店里有书包、铅笔、橡皮和笔记本。\n我买了一块熊猫橡皮，两块钱。还买了一本笔记本，十块钱。\n一共十三块钱。我看到一支钢笔，八十块，太贵了，我没有买。\n\nPinyin:\nJīnnián sì yuè, wǒ hé bàba māma qù le Běijīng. Běijīng zhēn piàoliang!\nWǒmen qù le \"Xióngmāo Shāngdiàn\". Shāngdiàn lǐ yǒu shūbāo, qiānbǐ, xiàngpí hé bǐjìběn.\nWǒ mǎi le yí kuài xióngmāo xiàngpí, liǎng kuài qián. Hái mǎi le yì běn bǐjìběn, shí kuài qián.\nYígòng shísān kuài qián. Wǒ kàndào yì zhī gāngbǐ, bāshí kuài, tài guì le, wǒ méiyǒu mǎi."
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "สินค้าหมด"
+        },
+        {
+          "id": "B",
+          "text": "ไม่ชอบดีไซน์"
+        },
+        {
+          "id": "C",
+          "text": "ราคาสองร้อยห้าสิบหยวน แพงเกินไป (太贵了)"
+        },
+        {
+          "id": "D",
+          "text": "แม่ไม่ยอมให้ซื้อ"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "บทอ่านระบุ: \"熊猫钢笔两百五十块，太贵了，我没买\" (ปากกาหมึกซึมราคา 250 หยวน แพงเกินไป ฉันจึงไม่ได้ซื้อ)",
+      "learning_objective": "ระบุเหตุผลที่ผู้เล่าไม่ได้ซื้อปากกาหมึกซึมหมีแพนด้า",
+      "pre_post_pair": "CN_PRE_Q035",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q036",
+      "test_id": "CN_POST",
+      "question_number": 36,
+      "type": "multiple_select",
+      "level": "Medium",
+      "skill": "Passage Synthesis",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 81",
+      "question": "สรุปแล้ว ผู้เล่าได้ซื้ออะไรมาจากร้าน 熊猫商店 บ้าง?",
+      "content": {
+        "enabled": true,
+        "text": "今年四月，我和爸爸妈妈去了北京。北京真漂亮！\n我们去了“熊猫商店”。商店里有书包、铅笔、橡皮和笔记本。\n我买了一块熊猫橡皮，两块钱。还买了一本笔记本，十块钱。\n一共十三块钱。我看到一支钢笔，八十块，太贵了，我没有买。\n\nPinyin:\nJīnnián sì yuè, wǒ hé bàba māma qù le Běijīng. Běijīng zhēn piàoliang!\nWǒmen qù le \"Xióngmāo Shāngdiàn\". Shāngdiàn lǐ yǒu shūbāo, qiānbǐ, xiàngpí hé bǐjìběn.\nWǒ mǎi le yí kuài xióngmāo xiàngpí, liǎng kuài qián. Hái mǎi le yì běn bǐjìběn, shí kuài qián.\nYígòng shísān kuài qián. Wǒ kàndào yì zhī gāngbǐ, bāshí kuài, tài guì le, wǒ méiyǒu mǎi."
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "熊猫钢笔 1 ด้าม"
+        },
+        {
+          "id": "B",
+          "text": "熊猫橡皮 2 ก้อน"
+        },
+        {
+          "id": "C",
+          "text": "熊猫书包 1 ใบ"
+        },
+        {
+          "id": "D",
+          "text": "熊猫笔袋 1 ใบ และ 熊猫橡皮 1 ก้อน"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ผู้เล่าซื้อเฉพาะยางลบหมีแพนด้า 2 ก้อน (橡皮两块五，我买了两块) ส่วนปากกาไม่ได้ซื้อเพราะแพงเกินไป\n\n---\n\n> **ให้อ่านบทความวัฒนธรรมจีนด้านล่างนี้เพื่อใช้ตอบคำถามข้อ 37–40:**\n> \n> **[บทอ่านวัฒนธรรมจีน 文化体验站 - อ้างอิง LS6 หน้า 92]**  \n> 毛笔起源于中国的一种书写工具，后来也逐渐成为绘画工具。“笔”字上面的“竹”表示竹子，下面的“毛”表示动物毛，毛笔多是用竹管和动物的毛做成的。  \n> 试一试用毛笔写“福”字。  \n> \n> **แปลความหมาย:**  \n> พู่กันจีนมีต้นกำเนิดมาจากอุปกรณ์การเขียนแบบโบราณของจีน ภายหลังค่อยๆ พัฒนากลายเป็นอุปกรณ์การวาดภาพ อักษรคำว่า “笔” (พู่กัน) ด้านบนมีหมวดอักษร “竹” (ไม้ไผ่) ส่วนอักษรคำว่า “毛” หมายถึง “ขนของสัตว์” พู่กันจีนส่วนใหญ่ทำจากแท่งไม้ไผ่และขนของสัตว์",
+      "learning_objective": "สรุปสิ่งของทั้งหมดที่ผู้เล่าซื้อกลับมาจากร้าน 熊猫商店",
+      "pre_post_pair": "CN_PRE_Q036",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q037",
+      "test_id": "CN_POST",
+      "question_number": 37,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Cultural Knowledge & Reading",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 92",
+      "question": "พู่กันจีน (毛笔 máobǐ) ในอดีตเริ่มแรกใช้ทำสิ่งใด และต่อมาพัฒนามาใช้ทำสิ่งใด?",
+      "content": {
+        "enabled": true,
+        "text": "[บทอ่าน: 文化体验站 - 毛笔与“福”字 (พู่กันจีนและตัวอักษร 'ฟู่')]\n毛笔 (Máobǐ) เป็นอุปกรณ์การเขียนและการวาดภาพโบราณของจีน \nด้ามทำจากไม้ไผ่ (竹子) หัวพู่กันทำจากขนสัตว์ (动物毛) \nดังนั้นตัวอักษร \"笔\" (bǐ) จึงประกอบด้วย หมวดอักษรไผ่ \"⺮\" (竹字头) อยู่ด้านบน และคำว่า \"毛\" (máo - ขน) อยู่ด้านล่าง\n\nนอกจากนี้ ในช่วงเทศกาลตรุษจีน คนจีนนิยมติดตัวอักษร \"福\" (fú) \nซึ่งมีความหมายว่า โชคลาภ วาสนา และความสุข โดยมักจะติดแบบกลับหัว (倒贴) \nเพราะคำว่า \"倒\" (dào - กลับหัว) ออกเสียงเหมือนคำว่า \"到\" (dào - มาถึง) \nสื่อความหมายมงคลว่า \"福到了\" (โชคลาภวาสนามาถึงแล้ว)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "เริ่มแรกใช้วาดภาพ ต่อมาใช้แกะสลัก"
+        },
+        {
+          "id": "B",
+          "text": "เริ่มแรกใช้เป็นอุปกรณ์เขียน ต่อมาใช้เป็นอุปกรณ์วาดภาพ"
+        },
+        {
+          "id": "C",
+          "text": "เริ่มแรกใช้ตัดผ้า ต่อมาใช้เขียนหนังสือ"
+        },
+        {
+          "id": "D",
+          "text": "เริ่มแรกใช้ทำเครื่องประดับ ต่อมาใช้เขียนหนังสือ"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ในบทอ่านระบุว่า: \"起源于中国的一种书写工具，后来也逐渐成为绘画工具\" (เริ่มต้นจากอุปกรณ์เขียน ต่อมากลายเป็นอุปกรณ์วาดภาพ)",
+      "learning_objective": "ระบุที่มาและประโยชน์ของพู่กันจีน (毛笔) จากบทอ่านวัฒนธรรมได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q037",
+      "image": {
+        "enabled": true,
+        "url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q037_jcma4z5o7ui.png",
+        "image_url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q037_jcma4z5o7ui.png"
+      }
+    },
+    {
+      "question_id": "CN_POST_Q038",
+      "test_id": "CN_POST",
+      "question_number": 38,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Character Analysis",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 92",
+      "question": "ส่วนประกอบด้านบน \"竹\" และส่วนประกอบด้านล่าง \"毛\" ของอักษร \"笔\" สื่อถึงวัสดุที่ใช้ทำพู่กันจีนอย่างไร?",
+      "content": {
+        "enabled": true,
+        "text": "[บทอ่าน: 文化体验站 - 毛笔与“福”字 (พู่กันจีนและตัวอักษร 'ฟู่')]\n毛笔 (Máobǐ) เป็นอุปกรณ์การเขียนและการวาดภาพโบราณของจีน \nด้ามทำจากไม้ไผ่ (竹子) หัวพู่กันทำจากขนสัตว์ (动物毛) \nดังนั้นตัวอักษร \"笔\" (bǐ) จึงประกอบด้วย หมวดอักษรไผ่ \"⺮\" (竹字头) อยู่ด้านบน และคำว่า \"毛\" (máo - ขน) อยู่ด้านล่าง\n\nนอกจากนี้ ในช่วงเทศกาลตรุษจีน คนจีนนิยมติดตัวอักษร \"福\" (fú) \nซึ่งมีความหมายว่า โชคลาภ วาสนา และความสุข โดยมักจะติดแบบกลับหัว (倒贴) \nเพราะคำว่า \"倒\" (dào - กลับหัว) ออกเสียงเหมือนคำว่า \"到\" (dào - มาถึง) \nสื่อความหมายมงคลว่า \"福到了\" (โชคลาภวาสนามาถึงแล้ว)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "竹 สื่อถึงด้ามไม้ไผ่ และ 毛 สื่อถึงขนสัตว์"
+        },
+        {
+          "id": "B",
+          "text": "竹 สื่อถึงเชือกปาน และ 毛 สื่อถึงขนไก่"
+        },
+        {
+          "id": "C",
+          "text": "竹 สื่อถึงโลหะ และ 毛 สื่อถึงพลาสติก"
+        },
+        {
+          "id": "D",
+          "text": "竹 สื่อถึงหญ้า และ 毛 สื่อถึงผ้าฝ้าย"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ด้านบน \"竹\" หมายถึง ไม้ไผ่ (ทำด้ามพู่กัน) และ ด้านล่าง \"毛\" หมายถึง ขนสัตว์ (ทำหัวพู่กัน)",
+      "learning_objective": "วิเคราะห์องค์ประกอบของตัวอักษร \"笔\" (bǐ) จากบทอ่านวัฒนธรรม",
+      "pre_post_pair": "CN_PRE_Q038",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q039",
+      "test_id": "CN_POST",
+      "question_number": 39,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Character Recognition",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 92",
+      "question": "ตัวอักษรจีน \"福\" (fú) ที่นิยมเขียนด้วยพู่กันจีนติดบนกระดาษสีแดง มีความหมายว่าอย่างไร?",
+      "content": {
+        "enabled": true,
+        "text": "[บทอ่าน: 文化体验站 - 毛笔与“福”字 (พู่กันจีนและตัวอักษร 'ฟู่')]\n毛笔 (Máobǐ) เป็นอุปกรณ์การเขียนและการวาดภาพโบราณของจีน \nด้ามทำจากไม้ไผ่ (竹子) หัวพู่กันทำจากขนสัตว์ (动物毛) \nดังนั้นตัวอักษร \"笔\" (bǐ) จึงประกอบด้วย หมวดอักษรไผ่ \"⺮\" (竹字头) อยู่ด้านบน และคำว่า \"毛\" (máo - ขน) อยู่ด้านล่าง\n\nนอกจากนี้ ในช่วงเทศกาลตรุษจีน คนจีนนิยมติดตัวอักษร \"福\" (fú) \nซึ่งมีความหมายว่า โชคลาภ วาสนา และความสุข โดยมักจะติดแบบกลับหัว (倒贴) \nเพราะคำว่า \"倒\" (dào - กลับหัว) ออกเสียงเหมือนคำว่า \"到\" (dào - มาถึง) \nสื่อความหมายมงคลว่า \"福到了\" (โชคลาภวาสนามาถึงแล้ว)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "ร่ำรวยเงินทอง"
+        },
+        {
+          "id": "B",
+          "text": "โชคลาภวาสนา / ความสุข"
+        },
+        {
+          "id": "C",
+          "text": "อายุยืนหมื่นปี"
+        },
+        {
+          "id": "D",
+          "text": "เดินทางปลอดภัย"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ใน LS6 หน้า 92 ระบุชัดเจนว่า \"福 (fú) = โชคลาภวาสนา\"",
+      "learning_objective": "ระบุตัวอักษรจีนมงคล \"福\" (fú) และความหมายได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q039",
+      "image": {
+        "enabled": true,
+        "url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q039_lyaiov7geop.png",
+        "image_url": "https://rgorrttanduagmkemugj.supabase.co/storage/v1/object/public/quiz-images/questions/CN_POST_Q039_lyaiov7geop.png"
+      }
+    },
+    {
+      "question_id": "CN_POST_Q040",
+      "test_id": "CN_POST",
+      "question_number": 40,
+      "type": "single_choice",
+      "level": "Hard",
+      "skill": "Stroke Order & Writing",
+      "topic": "ส่วนที่ 4: การอ่านบทความเพื่อความเข้าใจ (Reading Comprehension)",
+      "lesson": "LS6.pdf หน้า 83 & 92",
+      "question": "อักษรคำว่า \"百\" (bǎi - หนึ่งร้อย) ใน LS6 หน้า 83 เริ่มต้นเขียนขีดแรกด้วยขีดลักษณะใด?",
+      "content": {
+        "enabled": true,
+        "text": "[บทอ่าน: 文化体验站 - 毛笔与“福”字 (พู่กันจีนและตัวอักษร 'ฟู่')]\n毛笔 (Máobǐ) เป็นอุปกรณ์การเขียนและการวาดภาพโบราณของจีน \nด้ามทำจากไม้ไผ่ (竹子) หัวพู่กันทำจากขนสัตว์ (动物毛) \nดังนั้นตัวอักษร \"笔\" (bǐ) จึงประกอบด้วย หมวดอักษรไผ่ \"⺮\" (竹字头) อยู่ด้านบน และคำว่า \"毛\" (máo - ขน) อยู่ด้านล่าง\n\nนอกจากนี้ ในช่วงเทศกาลตรุษจีน คนจีนนิยมติดตัวอักษร \"福\" (fú) \nซึ่งมีความหมายว่า โชคลาภ วาสนา และความสุข โดยมักจะติดแบบกลับหัว (倒贴) \nเพราะคำว่า \"倒\" (dào - กลับหัว) ออกเสียงเหมือนคำว่า \"到\" (dào - มาถึง) \nสื่อความหมายมงคลว่า \"福到了\" (โชคลาภวาสนามาถึงแล้ว)"
+      },
+      "options": [
+        {
+          "id": "A",
+          "text": "竖 (shù - ขีดตั้ง)"
+        },
+        {
+          "id": "B",
+          "text": "横 (héng - ขีดนอน)"
+        },
+        {
+          "id": "C",
+          "text": "撇 (piě - ขีดปัดซ้าย)"
+        },
+        {
+          "id": "D",
+          "text": "点 (diǎn - ขีดจุด)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "ตามลำดับขีดอักษร \"百\" ขีดที่ 1 คือขีดนอน (一) จากนั้นตามด้วยขีด撇 และขีด 日 ด้านล่าง",
+      "learning_objective": "ระบุจำนวนขีดและลำดับขีดของอักษร \"百\" ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q040",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q041",
+      "test_id": "CN_POST",
+      "question_number": 41,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Sentence Construction",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 79",
+      "question": "จงเรียงลำดับขยายประโยคจากสั้นไปยาวให้ถูกต้องตามขั้นบันไดคำศัพท์ (词语阶梯) ในหน้า 79:",
+      "options": [
+        {
+          "id": "A",
+          "text": "钱 -> 多少钱 -> 书多少钱 -> 这本书多少钱"
+        },
+        {
+          "id": "B",
+          "text": "这本书多少钱 -> 书多少钱 -> 多少钱 -> 钱"
+        },
+        {
+          "id": "C",
+          "text": "钱 -> 书多少钱 -> 多少钱 -> 这本书多少钱"
+        },
+        {
+          "id": "D",
+          "text": "多少钱 -> 钱 -> 这本书多少钱 -> 书多少钱"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ลำดับขั้นบันไดคำศัพท์ในหน้า 79 เริ่มจากคำนาม 钱 (เงิน) -> 多少钱 (เท่าไร) -> 书多少钱 (หนังสือเท่าไร) -> 这本书多少钱 (หนังสือเล่มนี้ราคาเท่าไร)",
+      "learning_objective": "เรียงลำดับประโยคการขยายคำศัพท์แบบต่อคำ (词语阶梯) ได้ถูกต้อง",
+      "pre_post_pair": "CN_PRE_Q041",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q042",
+      "test_id": "CN_POST",
+      "question_number": 42,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Word Order",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 79",
+      "question": "ข้อใดเป็นการเรียงลำดับประโยค \"ยางลบหมีแพนด้าก้อนนี้น่ารักจริงๆ\" ได้ถูกต้องตามหลักไวยากรณ์บทเรียน?",
+      "options": [
+        {
+          "id": "A",
+          "text": "这块熊猫橡皮真可爱 (Zhè kuài xióngmāo xiàngpí zhēn kě'ài)"
+        },
+        {
+          "id": "B",
+          "text": "真可爱这块熊猫橡皮 (Zhēn kě'ài zhè kuài xióngmāo xiàngpí)"
+        },
+        {
+          "id": "C",
+          "text": "熊猫橡皮这块真可爱 (Xióngmāo xiàngpí zhè kuài zhēn kě'ài)"
+        },
+        {
+          "id": "D",
+          "text": "这块真可爱熊猫橡皮 (Zhè kuài zhēn kě'ài xióngmāo xiàngpí)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "โครงสร้างประโยค: [สรรพนามชี้เฉพาะ 这] + [ลักษณะนาม 块] + [ประธาน 熊猫橡皮] + [คำวิเศษณ์ 真] + [คุณศัพท์ 可爱]",
+      "learning_objective": "เรียงลำดับคำในประโยคขยายความแสดงความรู้สึก \"真可爱\" / \"真贵\"",
+      "pre_post_pair": "CN_PRE_Q042",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q043",
+      "test_id": "CN_POST",
+      "question_number": 43,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Radical Recognition",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 82",
+      "question": "หมวดอักษรจีน \"金字旁\" (jīnzìpáng: 钅 / 金) ในบทเรียน LS6 หน้า 82 มีความหมายเกี่ยวข้องกับสิ่งใดเป็นหลัก?",
+      "options": [
+        {
+          "id": "A",
+          "text": "น้ำและของเหลว"
+        },
+        {
+          "id": "B",
+          "text": "ต้นไม้และไม้ไผ่"
+        },
+        {
+          "id": "C",
+          "text": "โลหะและเงินทอง"
+        },
+        {
+          "id": "D",
+          "text": "สัตว์และแมลง"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "บทเรียนระบุ: \"含有‘钅’的字大多和金属有关\" (ตัวอักษรที่มีหมวด 钅 ส่วนใหญ่จะเกี่ยวข้องกับโลหะ)",
+      "learning_objective": "จำแนกความหมายของหมวดอักษรโลหะ (金字旁: 钅/金)",
+      "pre_post_pair": "CN_PRE_Q043",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q044",
+      "test_id": "CN_POST",
+      "question_number": 44,
+      "type": "multiple_select",
+      "level": "Medium",
+      "skill": "Radical Identification",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 82",
+      "question": "ตัวอักษรจีนในข้อใดบ้างที่มีหมวดอักษร \"金字旁\" (钅)? (เลือกตอบได้มากกว่า 1 ข้อ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "钱 (qián - เงิน)"
+        },
+        {
+          "id": "B",
+          "text": "镜 (jìng - แว่นตา/กระจก)"
+        },
+        {
+          "id": "C",
+          "text": "铅 (qiān - ตะกั่ว/ดินสอ)"
+        },
+        {
+          "id": "D",
+          "text": "百 (bǎi - ร้อย)"
+        }
+      ],
+      "correct_answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "score": 1,
+      "explanation": "ในหน้า 82 ตัวอย่างอักษรหมวด 钅 ได้แก่ 钱 (qián), 镜 (jìng) และ 铅 (qiān) ส่วน 百 (bǎi) ไม่มีหมวด 钅",
+      "learning_objective": "เลือกตัวอักษรจีนที่มีหมวดอักษรโลหะ (钅) ได้ถูกต้องมากกว่า 1 ข้อ (Multiple Select)",
+      "pre_post_pair": "CN_PRE_Q044",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q045",
+      "test_id": "CN_POST",
+      "question_number": 45,
+      "type": "single_choice",
+      "level": "Hard",
+      "skill": "Character Decomposition",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 83 ข้อ 4",
+      "question": "จากกิจกรรมเติมส่วนประกอบอักษรจีนในหน้า 83 ข้อ 4: อักษรคำว่า \"钱\" (qián) ประกอบด้วยหมวดอักษรด้านซ้าย \"钅\" (jīn) และส่วนประกอบด้านขวาคืออักษรตัวใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "戈 (gē)"
+        },
+        {
+          "id": "B",
+          "text": "浅 / 戋 (jiǎn/qián)"
+        },
+        {
+          "id": "C",
+          "text": "白 (bái)"
+        },
+        {
+          "id": "D",
+          "text": "贝 (bèi)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "อักษร 钱 (qián) ประกอบด้วย 钅 + 戋 (หรือโครงสร้างรูป 戋 ที่มีขีดเฉียงสะบัด) ตามที่ปรากฏในแบบฝึกหัดหน้า 83",
+      "learning_objective": "เติมส่วนประกอบตัวอักษรจีนที่หายไป",
+      "pre_post_pair": "CN_POST_Q045",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q046",
+      "test_id": "CN_POST",
+      "question_number": 46,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Sentence & Character Selection",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 83 ข้อ 3(1)",
+      "question": "เลือกอักษรจีนที่ถูกต้องเติมลงในช่องว่าง: \"这个多少____？\" (Zhè gè duōshao ____?)",
+      "options": [
+        {
+          "id": "A",
+          "text": "钱 (qián)"
+        },
+        {
+          "id": "B",
+          "text": "浅 (qiǎn)"
+        },
+        {
+          "id": "C",
+          "text": "铅 (qiān)"
+        },
+        {
+          "id": "D",
+          "text": "线 (xiàn)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ประโยคถามราคาคือ \"多少钱\" (duōshao qián) ต้องใช้อักษร 钱 (เงิน) อ้างอิงหน้า 83 ข้อ 3(1)",
+      "learning_objective": "เลือกอักษรจีนที่ถูกต้องเติมในประโยคถามราคา \"这个多少____？\"",
+      "pre_post_pair": "CN_POST_Q046",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q047",
+      "test_id": "CN_POST",
+      "question_number": 47,
+      "type": "single_choice",
+      "level": "Medium",
+      "skill": "Character Differentiation",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 83 ข้อ 3(2)",
+      "question": "จากประโยค \"这支笔五____五。\" (Zhè zhī bǐ wǔ ____ wǔ.) ควรเลือกอักษรจีนในข้อใดเติมในช่องว่าง?",
+      "options": [
+        {
+          "id": "A",
+          "text": "快 (kuài - เร็ว)"
+        },
+        {
+          "id": "B",
+          "text": "块 (kuài - หน่วยหยวน)"
+        },
+        {
+          "id": "C",
+          "text": "筷 (kuài - ตะกั่ว/ตะเกียบ)"
+        },
+        {
+          "id": "D",
+          "text": "会 (huì - เป็น)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "หน่วยเงินหยวนใช้ตัวอักษร 块 (มีหมวด 土 ด้านซ้าย) ไม่ใช่ 快 (ใจ/เร็ว) หรือ 筷 (ตะเกียบ)",
+      "learning_objective": "เลือกอักษรจีนหน่วยเงิน \"块\" ให้ถูกต้องจากตัวเลือกที่มีลักษณะคล้ายกัน",
+      "pre_post_pair": "CN_POST_Q047",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q048",
+      "test_id": "CN_POST",
+      "question_number": 48,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Character Selection",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 83 ข้อ 3(3)",
+      "question": "จากประโยค \"这个一____块。\" (Zhè gè yì ____ kuài - สินค้าชิ้นนี้ราคาหนึ่งร้อยหยวน) คำว่า \"ร้อย\" ต้องใช้อักษรจีนตัวใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "白 (bái - สีขาว)"
+        },
+        {
+          "id": "B",
+          "text": "自 (zì - ตัวเอง)"
+        },
+        {
+          "id": "C",
+          "text": "百 (bǎi - หนึ่งร้อย)"
+        },
+        {
+          "id": "D",
+          "text": "日 (rì - วัน/พระอาทิตย์)"
+        }
+      ],
+      "correct_answer": [
+        "C"
+      ],
+      "score": 1,
+      "explanation": "คำว่า \"หนึ่งร้อย\" คือ 一百 (yìbǎi) ต้องใช้อักษร 百 (มีขีดนอนด้านบน) ไม่ใช่ 白 (สีขาว)",
+      "learning_objective": "เลือกอักษรจีน \"百\" (bǎi) เติมในประโยคบอกจำนวนร้อย",
+      "pre_post_pair": "CN_POST_Q048",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q049",
+      "test_id": "CN_POST",
+      "question_number": 49,
+      "type": "single_choice",
+      "level": "Easy",
+      "skill": "Character Selection",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 83 ข้อ 3(4)",
+      "question": "เติมตัวอักษรจีนในประโยค: \"这本书真____。\" (Zhè běn shū zhēn ____ - หนังสือเล่มนี้แพงจริงๆ)",
+      "options": [
+        {
+          "id": "A",
+          "text": "贯 (guàn)"
+        },
+        {
+          "id": "B",
+          "text": "贵 (guì)"
+        },
+        {
+          "id": "C",
+          "text": "员 (yuán)"
+        },
+        {
+          "id": "D",
+          "text": "货 (huò)"
+        }
+      ],
+      "correct_answer": [
+        "B"
+      ],
+      "score": 1,
+      "explanation": "คำว่า แพง คือ \"贵\" (guì - มีหมวด 贝 ด้านล่าง) ประโยค \"这本书真贵\" แปลว่า หนังสือเล่มนี้แพงจริงๆ",
+      "learning_objective": "เลือกอักษรจีน \"贵\" (guì) เติมในประโยคบอกราคาแพง",
+      "pre_post_pair": "CN_POST_Q049",
+      "image": {
+        "enabled": false
+      }
+    },
+    {
+      "question_id": "CN_POST_Q050",
+      "test_id": "CN_POST",
+      "question_number": 50,
+      "type": "single_choice",
+      "level": "Hard",
+      "skill": "Sentence Writing & Practice",
+      "topic": "ส่วนที่ 5: ไวยากรณ์ โครงสร้างประโยค และหมวดอักษรจีน (Grammar, Sentence Structure & Radicals)",
+      "lesson": "LS6.pdf หน้า 83 ข้อ 6",
+      "question": "ประโยค \"这件上衣两百块。\" (Zhè jiàn shàngyī liǎngbǎi kuài.) เป็นคำตอบของคำถามถามราคาข้อใด?",
+      "options": [
+        {
+          "id": "A",
+          "text": "这件上衣多少钱？ (Zhè jiàn shàngyī duōshao qián?)"
+        },
+        {
+          "id": "B",
+          "text": "这件上衣贵不贵？ (Zhè jiàn shàngyī guì bu guì?)"
+        },
+        {
+          "id": "C",
+          "text": "你喜欢这件上衣吗？ (Nǐ xǐhuan zhè jiàn shàngyī ma?)"
+        },
+        {
+          "id": "D",
+          "text": "这是谁的上衣？ (Zhè shì shéi de shàngyī?)"
+        }
+      ],
+      "correct_answer": [
+        "A"
+      ],
+      "score": 1,
+      "explanation": "ประโยคบอกราคา \"เสื้อตัวนี้ราคา 200 หยวน\" ย่อมเป็นคำตอบตรงของคำถาม \"เสื้อตัวนี้ราคาเท่าไร?\" (这件上衣多少钱？) ตามแบบฝึกหัดหน้า 83 ข้อ 6",
+      "learning_objective": "เรียงโครงสร้างประโยคถาม-ตอบราคาเสื้อผ้าได้สมบูรณ์",
+      "pre_post_pair": "CN_POST_Q050",
+      "image": {
+        "enabled": false
+      }
+    }
+  ]

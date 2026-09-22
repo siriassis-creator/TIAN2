@@ -1,7 +1,10 @@
 // src/OtherApp.tsx
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft, Play, ChevronRight, BookOpen, Bot, ClipboardList, Printer } from 'lucide-react';
+import { ArrowLeft, Play, ChevronRight, BookOpen, Bot, ClipboardList, Printer, Pencil, Eye, EyeOff, Users, Trash2, X } from 'lucide-react';
 import Settings2 from './Settings2';
+import { db } from './firebase';
+import { doc, updateDoc } from 'firebase/firestore'; 
+import CanvasDraw from 'react-canvas-draw';
 
 import LessonPattern1 from './components/LessonPattern1';
 import LessonTones from './components/LessonTones';
@@ -79,12 +82,14 @@ import OtherLesson6_18 from './components/Other_lesson6-18';
 import ChatBot from './components/ChatBot';
 import QuizContainer from './components/quiz/QuizContainer';
 import PrintableQuiz from './components/quiz/PrintableQuiz'; 
+import QuizEditor from './components/quiz/QuizEditor';
 
 import mockQuizDataLesson1 from './data/quizDataLesson1.json';
 import mockQuizDataLesson2 from './data/quizDataLesson2.json';
 import mockQuizDataLesson3 from './data/quizDataLesson3.json';
 import mockQuizDataLesson4 from './data/quizDataLesson4.json';
 import mockQuizDataLesson5_6 from './data/quizData.json';
+import mockQuizDataLesson6 from './data/quizDataLesson6.json';
 
 const getRandomQuestions = (questions: any[], count: number) => {
   if (!questions || questions.length === 0) return [];
@@ -207,7 +212,8 @@ export default function OtherApp({
           ...(mockQuizDataLesson2 || []),
           ...(mockQuizDataLesson3 || []),
           ...(mockQuizDataLesson4 || []),
-          ...(mockQuizDataLesson5_6 || [])
+          ...(mockQuizDataLesson5_6 || []),
+          ...(mockQuizDataLesson6 || [])
         ];
         const matchedQuestions = idsArray.map(id => allQuestions.find((q: any) => q.question_id === id)).filter(Boolean);
         if (matchedQuestions.length > 0) {
@@ -339,6 +345,24 @@ export default function OtherApp({
   }
 
   // =========================================================================
+  // 🎯 โหมดระบบจัดการข้อสอบ (Quiz Editor)
+  // =========================================================================
+  if (currentView === 'quiz_editor') {
+    return (
+      <div className="p-4 md:p-10 w-full relative z-10 min-h-screen">
+        <div className="animate-fade-in w-full">
+          <div className="flex items-center justify-between mb-4 md:mb-6 bg-white p-3 md:p-4 rounded-xl md:rounded-2xl border border-slate-200 shadow-sm sticky top-[60px] md:top-0 z-[45]">
+            <button onClick={() => setCurrentView('quiz_home')} className="flex items-center gap-2 text-slate-500 hover:text-indigo-600 font-bold bg-slate-50 hover:bg-indigo-50 px-4 py-2 rounded-xl transition-colors text-sm md:text-base w-full md:w-auto justify-center md:justify-start">
+              <ArrowLeft size={18} /> กลับไปหน้าแบบทดสอบ
+            </button>
+          </div>
+          <QuizEditor />
+        </div>
+      </div>
+    );
+  }
+
+  // =========================================================================
   // 🎯 โหมดหน้าแบบทดสอบ (Quiz Home)
   // =========================================================================
   if (currentView === 'quiz_home') {
@@ -353,9 +377,20 @@ export default function OtherApp({
       <div className="p-4 md:p-10 w-full relative z-10 min-h-screen">
         {activeQuizData === null ? (
           <div className="animate-fade-in">
-            <header className="mb-8 md:mb-12 text-center md:text-left">
-              <h1 className="text-2xl md:text-4xl font-extrabold text-amber-600 tracking-tight flex items-center justify-center md:justify-start gap-3"><ClipboardList size={32} className="md:w-10 md:h-10 text-amber-500" />{menuNames.quiz_home || 'แบบทดสอบ'}</h1>
-              <p className="text-slate-500 mt-2 text-sm md:text-lg">เลือกรูปแบบการทดสอบ ทำแบบออนไลน์ 10 ข้อ หรือพิมพ์เป็นกระดาษข้อสอบ</p>
+            <header className="mb-8 md:mb-12 flex flex-col md:flex-row md:items-center justify-between gap-4 text-center md:text-left">
+              <div>
+                <h1 className="text-2xl md:text-4xl font-extrabold text-amber-600 tracking-tight flex items-center justify-center md:justify-start gap-3"><ClipboardList size={32} className="md:w-10 md:h-10 text-amber-500" />{menuNames.quiz_home || 'แบบทดสอบ'}</h1>
+                <p className="text-slate-500 mt-2 text-sm md:text-lg">เลือกรูปแบบการทดสอบ ทำแบบออนไลน์ 10 ข้อ หรือพิมพ์เป็นกระดาษข้อสอบ</p>
+              </div>
+              {/* 🎯 ปุ่มสำหรับเข้าหน้าแก้ไขข้อสอบ (เฉพาะครู/แอดมิน) */}
+              {(appLoginRole === 'teacher' || appLoginRole === 'admin') && (
+                <button 
+                  onClick={() => setCurrentView('quiz_editor')} 
+                  className="px-5 py-3 bg-slate-800 hover:bg-slate-900 text-white rounded-xl font-bold flex items-center justify-center gap-2 transition-all shadow-md active:scale-95 shrink-0"
+                >
+                  <Pencil size={20} /> ระบบจัดการข้อสอบ (Quiz Editor)
+                </button>
+              )}
             </header>
             <div className="flex flex-col gap-8 md:gap-10 max-w-5xl">
               
@@ -440,20 +475,60 @@ export default function OtherApp({
               </section>
 
               <section className="bg-white p-5 md:p-8 rounded-2xl md:rounded-3xl shadow-sm border border-slate-200">
-                <h2 className="text-xl md:text-2xl font-bold text-slate-800 mb-4 md:mb-6 border-b-2 border-slate-100 pb-3 md:pb-4 flex items-center gap-2 md:gap-3"><BookOpen className="text-orange-500 w-5 h-5 md:w-6 md:h-6" /> แบบทดสอบ: บทที่ 5-6</h2>
+                <h2 className="text-xl md:text-2xl font-bold text-slate-800 mb-4 md:mb-6 border-b-2 border-slate-100 pb-3 md:pb-4 flex items-center gap-2 md:gap-3"><BookOpen className="text-orange-500 w-5 h-5 md:w-6 md:h-6" /> แบบทดสอบ: บทที่ 5</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                   <div className="w-full bg-gradient-to-br from-orange-50 to-amber-50 border border-orange-100 p-5 md:p-6 rounded-2xl shadow-sm flex flex-col gap-3 md:gap-4 hover:shadow-md transition-shadow">
                     <div><h4 className="text-lg md:text-xl font-bold text-orange-700">แบบทดสอบก่อนเรียน (Pre-test)</h4><p className="text-orange-600/80 text-xs md:text-sm mt-1">วัดพื้นฐานก่อนเริ่มเรียน</p></div>
                     <div className="grid grid-cols-2 gap-2 mt-auto">
                       <button onClick={() => { setActiveQuizData(getRandomQuestions((mockQuizDataLesson5_6 || []).filter((q: any) => q.question_id?.includes('PRE')), 10) as any); }} className="py-2.5 md:py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-xl font-bold transition-colors shadow-sm text-xs md:text-sm flex flex-col items-center justify-center gap-1"><Play size={18} /> สุ่มทำ 10 ข้อ</button>
-                      <button onClick={() => { setPrintQuizData({ data: (mockQuizDataLesson5_6 || []).filter((q: any) => q.question_id?.includes('PRE')), title: 'แบบทดสอบก่อนเรียน (Pre-test) - บทที่ 5-6' }); }} className="py-2.5 md:py-3 bg-white text-orange-600 border border-orange-200 hover:bg-orange-50 rounded-xl font-bold transition-colors shadow-sm text-xs md:text-sm flex flex-col items-center justify-center gap-1"><Printer size={18} /> สร้างเอกสาร A4</button>
+                      <button onClick={() => { setPrintQuizData({ data: (mockQuizDataLesson5_6 || []).filter((q: any) => q.question_id?.includes('PRE')), title: 'แบบทดสอบก่อนเรียน (Pre-test) - บทที่ 5' }); }} className="py-2.5 md:py-3 bg-white text-orange-600 border border-orange-200 hover:bg-orange-50 rounded-xl font-bold transition-colors shadow-sm text-xs md:text-sm flex flex-col items-center justify-center gap-1"><Printer size={18} /> สร้างเอกสาร A4</button>
                     </div>
                   </div>
                   <div className="w-full bg-gradient-to-br from-emerald-50 to-teal-50 border border-emerald-100 p-5 md:p-6 rounded-2xl shadow-sm flex flex-col gap-3 md:gap-4 hover:shadow-md transition-shadow">
                     <div><h4 className="text-lg md:text-xl font-bold text-emerald-700">แบบทดสอบหลังเรียน (Post-test)</h4><p className="text-emerald-600/80 text-xs md:text-sm mt-1">วัดความเข้าใจหลังเรียนจบ</p></div>
                     <div className="grid grid-cols-2 gap-2 mt-auto">
                       <button onClick={() => { setActiveQuizData(getRandomQuestions((mockQuizDataLesson5_6 || []).filter((q: any) => q.question_id?.includes('POST')), 10) as any); }} className="py-2.5 md:py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-bold transition-colors shadow-sm text-xs md:text-sm flex flex-col items-center justify-center gap-1"><Play size={18} /> สุ่มทำ 10 ข้อ</button>
-                      <button onClick={() => { setPrintQuizData({ data: (mockQuizDataLesson5_6 || []).filter((q: any) => q.question_id?.includes('POST')), title: 'แบบทดสอบหลังเรียน (Post-test) - บทที่ 5-6' }); }} className="py-2.5 md:py-3 bg-white text-emerald-600 border border-emerald-200 hover:bg-emerald-50 rounded-xl font-bold transition-colors shadow-sm text-xs md:text-sm flex flex-col items-center justify-center gap-1"><Printer size={18} /> สร้างเอกสาร A4</button>
+                      <button onClick={() => { setPrintQuizData({ data: (mockQuizDataLesson5_6 || []).filter((q: any) => q.question_id?.includes('POST')), title: 'แบบทดสอบหลังเรียน (Post-test) - บทที่ 5' }); }} className="py-2.5 md:py-3 bg-white text-emerald-600 border border-emerald-200 hover:bg-emerald-50 rounded-xl font-bold transition-colors shadow-sm text-xs md:text-sm flex flex-col items-center justify-center gap-1"><Printer size={18} /> สร้างเอกสาร A4</button>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section className="bg-white p-5 md:p-8 rounded-2xl md:rounded-3xl shadow-sm border border-slate-200">
+                <h2 className="text-xl md:text-2xl font-bold text-slate-800 mb-4 md:mb-6 border-b-2 border-slate-100 pb-3 md:pb-4 flex items-center gap-2 md:gap-3"><BookOpen className="text-violet-500 w-5 h-5 md:w-6 md:h-6" /> แบบทดสอบ: บทที่ 6</h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+                  <div className="w-full bg-gradient-to-br from-violet-50 to-fuchsia-50 border border-violet-100 p-5 md:p-6 rounded-2xl shadow-sm flex flex-col gap-3 md:gap-4 hover:shadow-md transition-shadow">
+                    <div><h4 className="text-lg md:text-xl font-bold text-violet-700">แบบทดสอบก่อนเรียน (Pre-test)</h4><p className="text-violet-600/80 text-xs md:text-sm mt-1">วัดพื้นฐานก่อนเริ่มเรียน</p></div>
+                    <div className="grid grid-cols-2 gap-2 mt-auto">
+                      <button onClick={() => { 
+                          if (!Array.isArray(mockQuizDataLesson6)) return alert("❌ ข้อผิดพลาด: โครงสร้างไฟล์ quizDataLesson6.json ต้องเป็นรูปแบบ Array");
+                          const pre = mockQuizDataLesson6.filter((q: any) => q.question_id?.includes('PRE'));
+                          if (pre.length === 0) return alert("❌ ไม่พบข้อสอบ Pre-test: กรุณาเช็คว่าในไฟล์ JSON มีข้อที่ 'question_id' มีคำว่า 'PRE' อยู่หรือไม่");
+                          setActiveQuizData(getRandomQuestions(pre, 10) as any); 
+                        }} className="py-2.5 md:py-3 bg-violet-600 hover:bg-violet-700 text-white rounded-xl font-bold transition-colors shadow-sm text-xs md:text-sm flex flex-col items-center justify-center gap-1"><Play size={18} /> สุ่มทำ 10 ข้อ</button>
+                      <button onClick={() => { 
+                          if (!Array.isArray(mockQuizDataLesson6)) return alert("❌ ข้อผิดพลาด: โครงสร้างไฟล์ quizDataLesson6.json ต้องเป็นรูปแบบ Array");
+                          const pre = mockQuizDataLesson6.filter((q: any) => q.question_id?.includes('PRE'));
+                          if (pre.length === 0) return alert("❌ ไม่พบข้อสอบ Pre-test: กรุณาเช็คว่าในไฟล์ JSON มีข้อที่ 'question_id' มีคำว่า 'PRE' อยู่หรือไม่");
+                          setPrintQuizData({ data: pre, title: 'แบบทดสอบก่อนเรียน (Pre-test) - บทที่ 6' }); 
+                        }} className="py-2.5 md:py-3 bg-white text-violet-600 border border-violet-200 hover:bg-violet-50 rounded-xl font-bold transition-colors shadow-sm text-xs md:text-sm flex flex-col items-center justify-center gap-1"><Printer size={18} /> สร้างเอกสาร A4</button>
+                    </div>
+                  </div>
+                  <div className="w-full bg-gradient-to-br from-emerald-50 to-teal-50 border border-emerald-100 p-5 md:p-6 rounded-2xl shadow-sm flex flex-col gap-3 md:gap-4 hover:shadow-md transition-shadow">
+                    <div><h4 className="text-lg md:text-xl font-bold text-emerald-700">แบบทดสอบหลังเรียน (Post-test)</h4><p className="text-emerald-600/80 text-xs md:text-sm mt-1">วัดความเข้าใจหลังเรียนจบ</p></div>
+                    <div className="grid grid-cols-2 gap-2 mt-auto">
+                      <button onClick={() => { 
+                          if (!Array.isArray(mockQuizDataLesson6)) return alert("❌ ข้อผิดพลาด: โครงสร้างไฟล์ quizDataLesson6.json ต้องเป็นรูปแบบ Array");
+                          const post = mockQuizDataLesson6.filter((q: any) => q.question_id?.includes('POST'));
+                          if (post.length === 0) return alert("❌ ไม่พบข้อสอบ Post-test: กรุณาเช็คว่าในไฟล์ JSON มีข้อที่ 'question_id' มีคำว่า 'POST' อยู่หรือไม่");
+                          setActiveQuizData(getRandomQuestions(post, 10) as any); 
+                        }} className="py-2.5 md:py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-bold transition-colors shadow-sm text-xs md:text-sm flex flex-col items-center justify-center gap-1"><Play size={18} /> สุ่มทำ 10 ข้อ</button>
+                      <button onClick={() => { 
+                          if (!Array.isArray(mockQuizDataLesson6)) return alert("❌ ข้อผิดพลาด: โครงสร้างไฟล์ quizDataLesson6.json ต้องเป็นรูปแบบ Array");
+                          const post = mockQuizDataLesson6.filter((q: any) => q.question_id?.includes('POST'));
+                          if (post.length === 0) return alert("❌ ไม่พบข้อสอบ Post-test: กรุณาเช็คว่าในไฟล์ JSON มีข้อที่ 'question_id' มีคำว่า 'POST' อยู่หรือไม่");
+                          setPrintQuizData({ data: post, title: 'แบบทดสอบหลังเรียน (Post-test) - บทที่ 6' }); 
+                        }} className="py-2.5 md:py-3 bg-white text-emerald-600 border border-emerald-200 hover:bg-emerald-50 rounded-xl font-bold transition-colors shadow-sm text-xs md:text-sm flex flex-col items-center justify-center gap-1"><Printer size={18} /> สร้างเอกสาร A4</button>
                     </div>
                   </div>
                 </div>
@@ -490,7 +565,7 @@ export default function OtherApp({
           <h1 className="text-4xl font-extrabold text-emerald-800 tracking-tight">{menuNames.other_home}</h1>
           <p className="text-slate-500 mt-2">เลือกคอร์สเพื่อเริ่มต้นการสอน</p>
         </header>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-6 w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-6 w-full max-w-xs sm:max-w-none mx-auto">
           {hskCards.filter((c) => c.isEnabled && !c.id.startsWith('hsk')).map((card) => {
             const IconComp = card.Icon;
             return (
@@ -545,7 +620,6 @@ export default function OtherApp({
                         {lesson.titleCn ? `第 ${lesson.lessonNumber} 课: ${lesson.titleCn}` : `บทที่ ${lesson.lessonNumber}`} 
                         {lesson.titleEn && <span className="text-slate-500 font-normal text-xl">({lesson.titleEn})</span>}
                       </h3>
-                      {/* 🎯 นำปุ่ม AI ติวเตอร์ออกจากตรงนี้แล้ว เพราะย้ายไปเมนูหลัก */}
                     </div>
                     <div className="flex flex-col gap-4">
                       {lesson.sections.map((sec: any, sIdx: number) => {
