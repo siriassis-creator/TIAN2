@@ -1,9 +1,12 @@
 // src/Settings2.tsx
 import React, { useState, useEffect } from 'react';
 import {
-  Edit3, Trash2, Eye, EyeOff, BookOpen, ListVideo, Save, ArrowUp, ArrowDown, PlusCircle, Palette, Compass, Menu, ArrowLeft
+  Edit3, Trash2, Eye, EyeOff, BookOpen, ListVideo, Save, ArrowUp, ArrowDown, PlusCircle, Palette, Compass, Menu, ArrowLeft, Image as ImageIcon
 } from 'lucide-react';
 import type { HskCardData, LessonData } from './types';
+
+// 🎯 นำเข้า Supabase สำหรับอัปโหลดรูปภาพ (ตรวจสอบ Path ให้ตรงกับไฟล์ในโปรเจกต์ของคุณครู)
+import { supabase } from './supabase'; 
 
 // Import Pattern Settings ทั้งหมด
 import SettingOther1 from './settings/setting_other1';
@@ -129,8 +132,6 @@ export default function Settings2({
 
   const [selectedCourseId, setSelectedCourseId] = useState<string>('');
   
-  // 🎯 State สำหรับจัดการหน้าตั้งค่าแบบแยก Section (หัวข้อย่อย)
-  // null = โชว์หน้าสารบัญ / string = โชว์แบบฟอร์มของหัวข้อนั้นๆ
   const [editingSectionId, setEditingSectionId] = useState<string | null>(null);
 
   useEffect(() => {
@@ -139,7 +140,6 @@ export default function Settings2({
     }
   }, [otherCourses, selectedCourseId]);
 
-  // รีเซ็ตการเข้าดูเนื้อหาย่อยเมื่อเปลี่ยนคอร์ส
   useEffect(() => {
     setEditingSectionId(null);
   }, [selectedCourseId]);
@@ -675,7 +675,6 @@ export default function Settings2({
       {activeSettingTab === 'lessons' && (
         <div className="flex flex-col gap-6 w-full animate-fade-in">
           
-          {/* แถบเลือกคอร์ส */}
           <div className="w-full bg-white/80 backdrop-blur-md p-5 rounded-2xl border border-emerald-200 shadow-sm flex flex-col sm:flex-row sm:items-center gap-4">
             <label className="font-bold text-emerald-800 flex items-center gap-2 whitespace-nowrap">
               <BookOpen size={20} /> เลือกคอร์สเพื่อจัดการเนื้อหา:
@@ -697,7 +696,6 @@ export default function Settings2({
           <div className="w-full bg-white/60 backdrop-blur-xl rounded-2xl shadow-sm border border-emerald-100 p-6 min-h-[500px]">
             {selectedCard ? (
               
-              /* 🎯 โหมดสารบัญ (เมื่อยังไม่ได้กดเข้าไปแก้บทไหน) */
               editingSectionId === null ? (
                 <div className="space-y-8 animate-fade-in w-full">
                   <h3 className="text-2xl font-bold text-slate-800 border-b border-emerald-100 pb-4">
@@ -734,7 +732,6 @@ export default function Settings2({
                     selectedCard.lessons.map((lesson, lIdx) => (
                       <div key={lesson.id} className="w-full bg-white rounded-3xl p-6 md:p-8 border border-emerald-100 shadow-sm mb-8">
                         
-                        {/* 1. จัดการชื่อกลุ่มเนื้อหา */}
                         <div className="flex flex-col md:flex-row justify-between md:items-end gap-4 mb-6 border-b border-slate-100 pb-6 w-full">
                           <div className="flex-1 w-full">
                              <label className="block text-sm font-bold text-slate-500 mb-2">กลุ่มเนื้อหา (จัดกลุ่มสารบัญให้ดูง่าย):</label>
@@ -748,10 +745,8 @@ export default function Settings2({
                           </div>
                         </div>
 
-                        {/* 2. ลิสต์รายการสารบัญย่อย (Sections) */}
                         <div className="space-y-3 w-full">
                           {lesson.sections.map((sec, sIdx) => {
-                            // 🎯 ฟังก์ชันดึงหัวข้อหลักและคำอธิบาย (รองรับแบบชุดที่ 1 และ 2)
                             const title1 = sec.mainTitle || sec.mainTitle1 || sec.titleZh || sec.titleZh1;
                             const title2 = sec.mainTitle2 || sec.titleZh2;
                             const displayTitle = [title1, title2].filter(Boolean).join(' | ') || `เนื้อหาส่วนที่ ${sIdx + 1}`;
@@ -767,8 +762,6 @@ export default function Settings2({
                                     <div className="w-10 h-10 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center font-black shadow-sm shrink-0 mt-1">
                                       {sIdx + 1}
                                     </div>
-                                    
-                                    {/* 🎯 แสดงข้อความธรรมดาแทน Textbox (ดึงมาทั้ง 2 ชุดถ้ามี) */}
                                     <div className="flex flex-col w-full justify-center">
                                        <span className="text-lg font-bold text-slate-800 line-clamp-1 group-hover:text-emerald-700 transition-colors">
                                           {displayTitle}
@@ -788,8 +781,6 @@ export default function Settings2({
                                         <button onClick={() => moveSection(selectedCard.id, lesson.id, sIdx, 'down')} disabled={sIdx === lesson.sections.length - 1} className="p-2.5 bg-white border border-slate-200 text-slate-500 rounded-xl hover:bg-slate-100 disabled:opacity-30 transition-colors" title="ย้ายลง"><ArrowDown size={18} /></button>
                                         <button onClick={() => handleDeleteSection(selectedCard.id, lesson.id, sec.id)} className="p-2.5 bg-red-50 border border-red-100 text-red-500 rounded-xl hover:bg-red-100 hover:text-red-600 transition-colors ml-1" title="ลบหัวข้อนี้"><Trash2 size={18} /></button>
                                     </div>
-
-                                    {/* 🎯 ปุ่มเข้าไปแก้ไขเนื้อหาเพิ่มเติม */}
                                     <button
                                       onClick={() => setEditingSectionId(sec.id)}
                                       className="w-full xl:w-auto px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-sm font-bold flex items-center justify-center gap-2 shadow-sm transition-transform active:scale-95 whitespace-nowrap"
@@ -801,7 +792,6 @@ export default function Settings2({
                             );
                           })}
                           
-                          {/* 🎯 ปุ่มเพิ่มหน้าเนื้อหาย่อย พร้อม Dropdown ให้เลือก Pattern ทันที */}
                           <div className="mt-6 flex flex-col sm:flex-row gap-3 w-full border-t border-emerald-100 pt-6">
                             <select
                               id={`select_new_pattern_${lesson.id}`}
@@ -875,7 +865,6 @@ export default function Settings2({
                   )}
                 </div>
               ) : (
-                /* 🎯 โหมดแก้ไขเนื้อหา (ฟอร์มกรอกข้อมูลแบบเดี่ยวๆ หน้าเดียว) */
                 <div className="space-y-6 animate-fade-in w-full">
                   <div className="flex items-center justify-between bg-white p-4 rounded-xl border border-slate-200 shadow-sm sticky top-0 z-50 mb-6">
                     <button
@@ -891,59 +880,166 @@ export default function Settings2({
 
                   {selectedCard.lessons.map(lesson => 
                     lesson.sections.map(sec => {
-                      if (sec.id !== editingSectionId) return null; // เรนเดอร์เฉพาะอันที่คลิก
+                      if (sec.id !== editingSectionId) return null; 
                       
                       return (
                         <div key={sec.id} className="w-full bg-white rounded-3xl p-6 md:p-8 border border-emerald-100 shadow-sm">
                            
-                           {/* 🎯 กรณีเป็นโหมดโหลดหน้าจอจาก JSON (Dynamic) */}
+                           {/* 🌟 🌟 🌟 ระบบแก้ไข JSON และจัดการรูปภาพอัตโนมัติ 🌟 🌟 🌟 */}
                            {sec.patternType === 'dynamic_json' && (
-                             <div className="mt-4 p-5 bg-indigo-50 border border-indigo-200 rounded-xl shadow-inner">
-                               <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
-                                 <label className="text-base font-bold text-indigo-700 flex items-center gap-2">
-                                   <span className="text-2xl">📝</span> โค้ด JSON สำหรับสร้างบทเรียนอัตโนมัติ
+                             <div className="mt-4 p-5 bg-indigo-50 border border-indigo-200 rounded-xl shadow-inner flex flex-col gap-6">
+                               
+                               <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                                 <label className="text-lg font-bold text-indigo-800 flex items-center gap-2">
+                                   <span className="text-2xl">📝</span> โค้ด JSON สำหรับบทเรียนแบบ Interactive
                                  </label>
                                  <button 
                                    onClick={() => {
-                                     // ฟังก์ชันตัวช่วยใส่ JSON พื้นฐานให้ครูอัตโนมัติ
                                      const defaultJson = JSON.stringify({
-                                       mainTitle: sec.mainTitle || "บทที่ X",
-                                       subTitle: "คำอธิบาย...",
-                                       content: [
-                                         {
-                                           type: "vocabulary",
-                                           title: "คำศัพท์ใหม่ (生词)",
-                                           items: [
-                                             { chinese: "你好", pinyin: "nǐ hǎo", translation: "สวัสดี" }
-                                           ]
-                                         }
-                                       ]
+                                       lesson: {
+                                         pages: [
+                                           { type: 'intro', title: 'บทนำ', image: { imageUrl: null, imageAlt: 'รูปภาพประกอบ' }, content: {} }
+                                         ]
+                                       }
                                      }, null, 2);
                                      updateSectionState(selectedCard.id, lesson.id, sec.id, (s) => ({...s, jsonData: defaultJson}));
                                    }}
                                    className="px-4 py-2 bg-white border border-indigo-200 text-indigo-600 hover:bg-indigo-100 rounded-lg text-sm font-bold transition-all shadow-sm active:scale-95"
                                  >
-                                   + ใส่โครงร่าง JSON พื้นฐาน
+                                   + วางโครงร่าง JSON พื้นฐาน
                                  </button>
                                </div>
-                               
-                               <textarea
-                                 value={sec.jsonData || ''}
-                                 onChange={(e) => {
-                                   updateSectionState(selectedCard.id, lesson.id, sec.id, (s) => ({...s, jsonData: e.target.value}));
-                                 }}
-                                 className="w-full h-[500px] p-4 rounded-xl border-2 border-indigo-200 focus:border-indigo-500 font-mono text-sm leading-relaxed outline-none whitespace-pre overflow-wrap-normal shadow-inner"
-                                 style={{ color: '#a5d6ff', backgroundColor: '#0d1117' }} // สีธีม Code Editor
-                                 placeholder='{\n  "mainTitle": "บทที่...",\n  "content": []\n}'
-                                 spellCheck="false"
-                               />
-                               <p className="mt-3 text-sm text-indigo-500 font-medium">
-                                 * ระบบจะแปลง JSON นี้เป็นหน้าต่างที่มีเสียงอ่านและระบบฝึกเขียนให้อัตโนมัติในหน้าเรียน (ไม่จำเป็นต้องเขียนโค้ดเพิ่ม)
-                               </p>
+
+                               {/* 🌟 ตัวจัดการรูปภาพผ่าน Supabase (Image Manager) 🌟 */}
+                               <div className="bg-white p-5 rounded-xl border border-indigo-100 shadow-sm">
+                                 <h4 className="font-bold text-indigo-800 mb-4 flex items-center gap-2">
+                                   <ImageIcon size={20} className="text-indigo-500" />
+                                   ระบบอัปโหลดรูปภาพประจำหน้า (Supabase)
+                                 </h4>
+                                 {(() => {
+                                   if (!sec.jsonData) return <p className="text-sm text-slate-400">ยังไม่มีข้อมูล JSON</p>;
+                                   try {
+                                     const parsed = JSON.parse(sec.jsonData);
+                                     const pages = parsed.lesson ? parsed.lesson.pages : parsed.pages;
+                                     if (!pages || !Array.isArray(pages)) return <p className="text-sm text-slate-400">ไม่พบโครงสร้าง pages ใน JSON</p>;
+                                     
+                                     const pagesWithImages = pages.filter((p: any) => p.image);
+                                     if (pagesWithImages.length === 0) return <p className="text-sm text-slate-400">ใน JSON ไม่มีหน้าที่ต้องใช้รูปภาพเลย</p>;
+
+                                     return (
+                                       <div className="flex flex-col gap-3">
+                                         {pages.map((p: any, pIdx: number) => {
+                                           if (!p.image) return null;
+                                           return (
+                                             <div key={pIdx} className="flex flex-col md:flex-row md:items-center justify-between bg-slate-50 p-4 rounded-xl border border-slate-200 gap-4">
+                                               <div className="flex items-center gap-4">
+                                                 <div className="w-10 h-10 bg-indigo-100 text-indigo-700 rounded-full flex items-center justify-center font-bold shrink-0">
+                                                   {p.pageNumber || pIdx + 1}
+                                                 </div>
+                                                 <div className="flex flex-col">
+                                                   <span className="text-base font-bold text-slate-800">{p.title || `หน้า ${pIdx + 1}`}</span>
+                                                   <span className="text-sm text-slate-500 line-clamp-1">{p.image.imageAlt || p.image.imagePrompt || 'ไม่มีคำอธิบายรูป'}</span>
+                                                 </div>
+                                               </div>
+                                               <div className="flex items-center gap-3 shrink-0">
+                                                 {p.image.imageUrl ? (
+                                                   <img src={p.image.imageUrl} alt="preview" className="w-16 h-16 object-cover rounded-lg shadow-sm border border-slate-200" />
+                                                 ) : (
+                                                   <div className="w-16 h-16 bg-red-50 text-red-400 text-[10px] flex items-center justify-center text-center font-bold rounded-lg border border-red-200 leading-tight">
+                                                     ยังไม่มีรูป
+                                                   </div>
+                                                 )}
+                                                 <div className="flex flex-col gap-2">
+                                                   <input 
+                                                     type="file" 
+                                                     accept="image/*"
+                                                     id={`upload-${sec.id}-${pIdx}`}
+                                                     className="hidden"
+                                                     onChange={async (e) => {
+                                                       const file = e.target.files?.[0];
+                                                       if(!file) return;
+                                                       
+                                                       try {
+                                                         // 🎯 ชื่อ Bucket ตรงนี้คือ 'images' (สามารถแก้ให้ตรงกับของคุณครูได้เลย)
+                                                         const bucketName = 'quiz-images'; 
+
+                                                         const fileExt = file.name.split('.').pop();
+                                                         const fileName = `lesson_${Date.now()}_p${pIdx}.${fileExt}`;
+                                                         
+                                                         const { data, error } = await supabase.storage.from(bucketName).upload(`lessons/${fileName}`, file);
+                                                         
+                                                         if (error) {
+                                                            alert("อัปโหลดไม่สำเร็จ: " + error.message);
+                                                            return;
+                                                         }
+                                                         
+                                                         const { data: publicUrlData } = supabase.storage.from(bucketName).getPublicUrl(`lessons/${fileName}`);
+                                                         const imageUrl = publicUrlData.publicUrl;
+                                                         
+                                                         // อัปเดตกลับไปที่ JSON
+                                                         const newParsed = JSON.parse(sec.jsonData);
+                                                         const targetPages = newParsed.lesson ? newParsed.lesson.pages : newParsed.pages;
+                                                         targetPages[pIdx].image.imageUrl = imageUrl;
+                                                         
+                                                         updateSectionState(selectedCard.id, lesson.id, sec.id, (s) => ({...s, jsonData: JSON.stringify(newParsed, null, 2)}));
+                                                         
+                                                       } catch (err: any) {
+                                                         alert("เกิดข้อผิดพลาด: " + err.message);
+                                                       }
+                                                     }}
+                                                   />
+                                                   <button 
+                                                     onClick={() => document.getElementById(`upload-${sec.id}-${pIdx}`)?.click()}
+                                                     className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg text-xs font-bold transition-colors shadow-sm"
+                                                   >
+                                                     อัปโหลดรูป
+                                                   </button>
+                                                   {p.image.imageUrl && (
+                                                     <button 
+                                                       onClick={() => {
+                                                         if(window.confirm('ต้องการลบรูปภาพนี้หรือไม่?')) {
+                                                           const newParsed = JSON.parse(sec.jsonData);
+                                                           const targetPages = newParsed.lesson ? newParsed.lesson.pages : newParsed.pages;
+                                                           targetPages[pIdx].image.imageUrl = null;
+                                                           updateSectionState(selectedCard.id, lesson.id, sec.id, (s) => ({...s, jsonData: JSON.stringify(newParsed, null, 2)}));
+                                                         }
+                                                       }}
+                                                       className="px-4 py-1.5 bg-red-50 text-red-600 hover:bg-red-100 rounded-lg text-xs font-bold transition-colors"
+                                                     >
+                                                       ลบรูป
+                                                     </button>
+                                                   )}
+                                                 </div>
+                                               </div>
+                                             </div>
+                                           );
+                                         })}
+                                       </div>
+                                     );
+                                   } catch (e) {
+                                     return <p className="text-sm text-red-500 font-bold bg-red-50 p-3 rounded-lg border border-red-200">❌ JSON มีข้อผิดพลาดทางไวยากรณ์ (Syntax Error) โปรดแก้ไขในกล่องข้อความด้านล่างก่อน</p>;
+                                   }
+                                 })()}
+                               </div>
+
+                               <div>
+                                 <textarea
+                                   value={sec.jsonData || ''}
+                                   onChange={(e) => {
+                                     updateSectionState(selectedCard.id, lesson.id, sec.id, (s) => ({...s, jsonData: e.target.value}));
+                                   }}
+                                   className="w-full h-[600px] p-5 rounded-xl border-4 border-indigo-200 focus:border-indigo-500 font-mono text-sm leading-relaxed outline-none whitespace-pre overflow-wrap-normal shadow-inner"
+                                   style={{ color: '#a5d6ff', backgroundColor: '#0d1117' }} 
+                                   spellCheck="false"
+                                 />
+                                 <p className="mt-2 text-sm text-indigo-500 font-medium bg-indigo-50 p-3 rounded-lg border border-indigo-100">
+                                   💡 หากอัปโหลดรูปภาพผ่านระบบด้านบน ลิงก์ URL ของรูปจะถูกนำมาแทรกในโค้ด JSON นี้ให้โดยอัตโนมัติ
+                                 </p>
+                               </div>
                              </div>
                            )}
 
-                           {/* โหลด Component ตั้งค่าเฉพาะหน้าที่ถูกเลือก */}
+                           {/* โหลด Component อื่นๆ ตามปกติ */}
                            {sec.patternType === 'other_pattern_1' && <SettingOther1 section={sec} cardId={selectedCard.id} lessonId={lesson.id} updateSectionState={updateSectionState} />}
                            {sec.patternType === 'other_classroom' && <SettingOtherClassroom section={sec} cardId={selectedCard.id} lessonId={lesson.id} updateSectionState={updateSectionState} />}
                            {sec.patternType === 'other_lesson1' && <SettingOtherLesson1 section={sec} cardId={selectedCard.id} lessonId={lesson.id} updateSectionState={updateSectionState} />}
@@ -963,7 +1059,6 @@ export default function Settings2({
                            {sec.patternType === 'other_lesson5-15' && <SettingOtherLesson5_15 section={sec} cardId={selectedCard.id} lessonId={lesson.id} updateSectionState={updateSectionState} />}
                            {sec.patternType === 'other_lesson6-1' && <SettingOtherLesson6_1 section={sec} cardId={selectedCard.id} lessonId={lesson.id} updateSectionState={updateSectionState} />}
                            {sec.patternType === 'other_lesson6-2' && <SettingOtherLesson6_2 section={sec} cardId={selectedCard.id} lessonId={lesson.id} updateSectionState={updateSectionState} />}
-             
                            {sec.patternType === 'other_lesson6-3' && <SettingOtherLesson6_3 section={sec} cardId={selectedCard.id} lessonId={lesson.id} updateSectionState={updateSectionState} />}
                            {sec.patternType === 'other_lesson6-4' && <SettingOtherLesson6_4 section={sec} cardId={selectedCard.id} lessonId={lesson.id} updateSectionState={updateSectionState} />}
                            {sec.patternType === 'other_lesson6-5' && <SettingOtherLesson6_5 section={sec} cardId={selectedCard.id} lessonId={lesson.id} updateSectionState={updateSectionState} />}
