@@ -1,10 +1,7 @@
 // src/OtherApp.tsx
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft, Play, ChevronRight, BookOpen, Bot, ClipboardList, Printer, Pencil, Eye, EyeOff, Users, Trash2, X } from 'lucide-react';
+import { ArrowLeft, Play, ChevronRight, BookOpen, Bot, ClipboardList, Printer, Pencil } from 'lucide-react';
 import Settings2 from './Settings2';
-import { db } from './firebase';
-import { doc, updateDoc } from 'firebase/firestore'; 
-import CanvasDraw from 'react-canvas-draw';
 
 import LessonPattern1 from './components/LessonPattern1';
 import LessonTones from './components/LessonTones';
@@ -84,6 +81,9 @@ import QuizContainer from './components/quiz/QuizContainer';
 import PrintableQuiz from './components/quiz/PrintableQuiz'; 
 import QuizEditor from './components/quiz/QuizEditor';
 
+// 🎯 Import ตัวอ่าน JSON ที่เพิ่งสร้างใหม่
+import DynamicLessonRenderer from './components/DynamicLessonRenderer';
+
 import mockQuizDataLesson1 from './data/quizDataLesson1.json';
 import mockQuizDataLesson2 from './data/quizDataLesson2.json';
 import mockQuizDataLesson3 from './data/quizDataLesson3.json';
@@ -117,7 +117,7 @@ export function OtherSlideRenderer({
 }: { 
   slide: any, updateNote?: (note: string) => void, userRole?: 'teacher' | 'student', roomPin?: string | null, allSlides?: any[] 
 }) {
-  if (!slide || !slide.patternType.startsWith('other_')) return null;
+  if (!slide || (!slide.patternType.startsWith('other_') && slide.patternType !== 'dynamic_json')) return null;
   const lesson5Slide = allSlides.find((s: any) => s.patternType === 'other_lesson5');
   const lesson5Characters = lesson5Slide ? lesson5Slide.characters : [];
 
@@ -125,6 +125,9 @@ export function OtherSlideRenderer({
     <div key={slide.id} className="w-full">
       {(() => {
         switch (slide.patternType) {
+          // 🎯 เพิ่มการเชื่อมต่อตรงนี้! ถ้าเป็น JSON ให้ไปเรียก DynamicLessonRenderer
+          case 'dynamic_json': return <DynamicLessonRenderer data={slide} userRole={userRole} roomPin={roomPin} />;
+          
           case 'other_pattern_1': return <OtherPattern1 data={slide} onUpdateNote={updateNote} />;
           case 'other_classroom': return <OtherClassroom data={slide} onUpdateNote={updateNote} />;
           case 'other_lesson1': return <OtherLesson1 data={slide} onUpdateNote={updateNote} />;
@@ -260,6 +263,24 @@ export default function OtherApp({
       
       if (sec.content) textBlock += ` [เนื้อหา: ${sec.content}]`;
       if (sec.text && typeof sec.text === 'string') textBlock += ` [ข้อความ: ${sec.text}]`;
+      
+      // ดึงเนื้อหาจาก jsonData มายัดใส่ Context ให้ AI รู้ด้วย
+      if (sec.patternType === 'dynamic_json' && sec.jsonData) {
+        try {
+          const parsed = typeof sec.jsonData === 'string' ? JSON.parse(sec.jsonData) : sec.jsonData;
+          if (parsed && parsed.pages) {
+            parsed.pages.forEach((p: any) => {
+              if (p.type === 'vocabulary') {
+                p.content.vocabularies?.forEach((v: any) => textBlock += ` [คำศัพท์: ${v.hanzi} (${v.pinyin}) = ${v.thai}]`);
+              }
+              if (p.type === 'speaking') {
+                p.content.dialogues?.forEach((d: any) => textBlock += ` [บทสนทนา: ${d.speaker}พูดว่า ${d.hanzi} แปลว่า ${d.thai}]`);
+              }
+            });
+          }
+        } catch (e) {}
+      }
+
       if (textBlock.trim()) { contextData.push(textBlock.trim()); }
     });
 

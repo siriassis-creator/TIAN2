@@ -54,6 +54,7 @@ import SettingOtherLesson6_18 from './settings/setting_other_lesson6-18';
 
 // 🎯 Mapping ชื่อ Pattern ไว้โชว์เป็นข้อความ
 const PATTERN_LABELS: Record<string, string> = {
+  'dynamic_json': '🧩 โหลดหน้าจอจาก JSON (Dynamic)',
   'other_pattern_1': 'Pattern: แบบเรียนทั่วไป 1',
   'other_classroom': 'Pattern: Classroom Chinese (ประโยคในห้องเรียน)',
   'other_lesson1': 'Pattern: Lesson Text (บทสนทนาและรูปภาพ)',
@@ -807,6 +808,7 @@ export default function Settings2({
                               defaultValue="other_pattern_1"
                               className="flex-1 bg-white border-2 border-emerald-200 rounded-xl px-4 py-3 font-bold text-emerald-700 outline-none focus:border-emerald-500"
                             >
+                              <option value="dynamic_json">🧩 โหลดหน้าจอจาก JSON (Dynamic)</option>
                               <option value="other_pattern_1">Pattern: แบบเรียนทั่วไป 1</option>
                               <option value="other_classroom">Pattern: Classroom Chinese (ประโยคในห้องเรียน)</option>
                               <option value="other_lesson1">Pattern: Lesson Text (บทสนทนาและรูปภาพ)</option>
@@ -893,6 +895,54 @@ export default function Settings2({
                       
                       return (
                         <div key={sec.id} className="w-full bg-white rounded-3xl p-6 md:p-8 border border-emerald-100 shadow-sm">
+                           
+                           {/* 🎯 กรณีเป็นโหมดโหลดหน้าจอจาก JSON (Dynamic) */}
+                           {sec.patternType === 'dynamic_json' && (
+                             <div className="mt-4 p-5 bg-indigo-50 border border-indigo-200 rounded-xl shadow-inner">
+                               <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+                                 <label className="text-base font-bold text-indigo-700 flex items-center gap-2">
+                                   <span className="text-2xl">📝</span> โค้ด JSON สำหรับสร้างบทเรียนอัตโนมัติ
+                                 </label>
+                                 <button 
+                                   onClick={() => {
+                                     // ฟังก์ชันตัวช่วยใส่ JSON พื้นฐานให้ครูอัตโนมัติ
+                                     const defaultJson = JSON.stringify({
+                                       mainTitle: sec.mainTitle || "บทที่ X",
+                                       subTitle: "คำอธิบาย...",
+                                       content: [
+                                         {
+                                           type: "vocabulary",
+                                           title: "คำศัพท์ใหม่ (生词)",
+                                           items: [
+                                             { chinese: "你好", pinyin: "nǐ hǎo", translation: "สวัสดี" }
+                                           ]
+                                         }
+                                       ]
+                                     }, null, 2);
+                                     updateSectionState(selectedCard.id, lesson.id, sec.id, (s) => ({...s, jsonData: defaultJson}));
+                                   }}
+                                   className="px-4 py-2 bg-white border border-indigo-200 text-indigo-600 hover:bg-indigo-100 rounded-lg text-sm font-bold transition-all shadow-sm active:scale-95"
+                                 >
+                                   + ใส่โครงร่าง JSON พื้นฐาน
+                                 </button>
+                               </div>
+                               
+                               <textarea
+                                 value={sec.jsonData || ''}
+                                 onChange={(e) => {
+                                   updateSectionState(selectedCard.id, lesson.id, sec.id, (s) => ({...s, jsonData: e.target.value}));
+                                 }}
+                                 className="w-full h-[500px] p-4 rounded-xl border-2 border-indigo-200 focus:border-indigo-500 font-mono text-sm leading-relaxed outline-none whitespace-pre overflow-wrap-normal shadow-inner"
+                                 style={{ color: '#a5d6ff', backgroundColor: '#0d1117' }} // สีธีม Code Editor
+                                 placeholder='{\n  "mainTitle": "บทที่...",\n  "content": []\n}'
+                                 spellCheck="false"
+                               />
+                               <p className="mt-3 text-sm text-indigo-500 font-medium">
+                                 * ระบบจะแปลง JSON นี้เป็นหน้าต่างที่มีเสียงอ่านและระบบฝึกเขียนให้อัตโนมัติในหน้าเรียน (ไม่จำเป็นต้องเขียนโค้ดเพิ่ม)
+                               </p>
+                             </div>
+                           )}
+
                            {/* โหลด Component ตั้งค่าเฉพาะหน้าที่ถูกเลือก */}
                            {sec.patternType === 'other_pattern_1' && <SettingOther1 section={sec} cardId={selectedCard.id} lessonId={lesson.id} updateSectionState={updateSectionState} />}
                            {sec.patternType === 'other_classroom' && <SettingOtherClassroom section={sec} cardId={selectedCard.id} lessonId={lesson.id} updateSectionState={updateSectionState} />}
