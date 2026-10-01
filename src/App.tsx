@@ -48,7 +48,7 @@ import {
   Bot
 } from 'lucide-react';
 import { db } from './firebase';
-import { doc, setDoc, getDoc, updateDoc, onSnapshot } from 'firebase/firestore'; 
+import { doc, setDoc, getDoc, updateDoc, onSnapshot, deleteDoc } from 'firebase/firestore'; 
 import type { HskCardData } from './types';
 
 import SettingsView from './Settings';
@@ -206,8 +206,6 @@ export default function App() {
 
   const [userRole, setUserRole] = useState<'teacher' | 'student'>('teacher');
   const [roomPin, setRoomPin] = useState<string | null>(null);
-  const [showJoinModal, setShowJoinModal] = useState(false);
-  const [joinPinInput, setJoinPinInput] = useState('');
   const [remoteDrawingData, setRemoteDrawingData] = useState<string>('');
 
   useEffect(() => {
@@ -321,10 +319,15 @@ export default function App() {
             container.scrollTo({ top: targetY, behavior: 'smooth' });
           }
         } else {
-          alert("คุณครูได้ปิดห้องเรียนแล้ว");
+          // 🎯 ถ้าห้องถูกลบโดยครู ให้นักเรียนเด้งกลับไปหน้าแรก (Login) ทันที
+          alert("คุณครูได้ปิดห้องเรียนแล้ว ระบบจะนำคุณกลับสู่หน้าแรก");
           setIsPresenting(false);
           setRoomPin(null);
-          setUserRole(appLoginRole === 'student' ? 'student' : 'teacher'); 
+          setAppLoginRole('guest');
+          setLoginStep('role');
+          setTargetRole(null);
+          setLoginPinInput('');
+          setCurrentView('home');
         }
       });
       return () => unsub();
@@ -435,45 +438,6 @@ export default function App() {
     }
   };
 
-  const handleJoinRoom = async () => {
-    if(joinPinInput.length !== 4) return alert("กรุณากรอกรหัสห้อง 4 หลัก");
-    try {
-      const snap = await getDoc(doc(db, 'live_sessions', joinPinInput));
-      if(snap.exists()) {
-        const data = snap.data();
-        setRoomPin(joinPinInput);
-        setUserRole('student');
-        setShowJoinModal(false);
-        setJoinPinInput('');
-        setShowSlideControls(false); // เริ่มต้นมาให้ซ่อนแผงควบคุม
-        
-        const course = hskCards.find(c => c.id === data.courseId);
-        if(course) {
-           const activeLessons = course.lessons?.filter((l) => l.isEnabled !== false) || [];
-           const allSlides = activeLessons.flatMap((lesson) =>
-             lesson.sections.map((sec) => ({
-               ...sec,
-               lessonInfo: `บทที่ ${lesson.lessonNumber}: ${lesson.titleCn}`,
-               courseInfo: `${course.mainText} ${course.level}`,
-               vocabulary: sec.vocabulary || [],
-             }))
-           );
-           setSlides(allSlides);
-           const foundIdx = allSlides.findIndex((s) => s.id === data.activeSlideId);
-           setSlideIndex(foundIdx !== -1 ? foundIdx : 0);
-           setIsPresenting(true);
-           alert("✅ เข้าร่วมชั้นเรียนสำเร็จ! กรุณารอคุณครูเปลี่ยนสไลด์");
-        } else {
-           alert("เกิดข้อผิดพลาด ไม่พบข้อมูลคอร์สนี้");
-        }
-      } else {
-        alert("❌ ไม่พบรหัสห้องนี้ หรือห้องอาจจะถูกปิดไปแล้ว");
-      }
-    } catch(e) {
-      alert("❌ เกิดข้อผิดพลาดในการเชื่อมต่อ");
-    }
-  };
-
   const toggleDrawing = async () => {
     const newState = !isDrawing;
     setIsDrawing(newState);
@@ -572,7 +536,7 @@ export default function App() {
             <div className="flex flex-col w-full items-center animate-fade-in">
               <div className="text-xs font-bold text-slate-400 mb-4 uppercase tracking-widest flex items-center gap-2">
                 <Lock size={14} /> 
-                {targetRole === 'teacher' ? 'รหัสผ่านสำหรับคุณครู' : targetRole === 'admin' ? 'รหัสผ่านสำหรับผู้ดูแลระบบ' : 'รหัสเข้าสู่ระบบนักเรียน'}
+                {targetRole === 'teacher' ? 'รหัสผ่านสำหรับคุณครู' : targetRole === 'admin' ? 'รหัสผ่านสำหรับผู้ดูแลระบบ' : 'กรอก PIN ห้องเรียน หรือ รหัสผ่านนักเรียน'}
               </div>
               <input 
                 type="text" 
@@ -593,19 +557,62 @@ export default function App() {
                   ย้อนกลับ
                 </button>
                 <button 
-                  onClick={() => {
+                  onClick={async () => {
                     const params = new URLSearchParams(window.location.search);
                     const intendedView = params.get('view'); 
 
-                    if (targetRole === 'student' && loginPinInput === globalStudentPin) {
-                      setAppLoginRole('student');
-                      setUserRole('student');
-                      setCurrentView(intendedView ? intendedView : (menuVisibility.student.home ? 'home' : 'other_home'));
-                    } else if (targetRole === 'teacher' && loginPinInput === globalTeacherPin) {
+                    // 🎯 1. ถ้านักเรียนกรอกรหัส ให้เช็คก่อนว่ารหัสนี้คือ PIN ห้องเรียน (Live Session) หรือไม่
+                    if (targetRole === 'student') {
+                      try {
+                        const snap = await getDoc(doc(db, 'live_sessions', loginPinInput));
+                        if (snap.exists()) {
+                          const data = snap.data();
+                          setRoomPin(loginPinInput);
+                          setUserRole('student');
+                          setAppLoginRole('student');
+                          setShowSlideControls(false);
+
+                          const course = hskCards.find(c => c.id === data.courseId);
+                          if (course) {
+                            const activeLessons = course.lessons?.filter((l: any) => l.isEnabled !== false) || [];
+                            const allSlides = activeLessons.flatMap((lesson: any) =>
+                              lesson.sections.map((sec: any) => ({
+                                ...sec,
+                                lessonInfo: `บทที่ ${lesson.lessonNumber}: ${lesson.titleCn}`,
+                                courseInfo: `${course.mainText} ${course.level}`,
+                                vocabulary: sec.vocabulary || [],
+                              }))
+                            );
+                            setSlides(allSlides);
+                            const foundIdx = allSlides.findIndex((s: any) => s.id === data.activeSlideId);
+                            setSlideIndex(foundIdx !== -1 ? foundIdx : 0);
+                            setCurrentView(course.id);
+                            setIsPresenting(true); // 🎯 วาร์ปพุ่งตรงเข้าโหมดนักเรียน (Slide Show Overlay) ทันที!
+                            return;
+                          }
+                        }
+                      } catch (e) {
+                        console.error(e);
+                      }
+
+                      // 🎯 2. ถ้ารหัสไม่ใช่ห้องเรียน ให้เช็คว่าเป็นรหัสผ่านนักเรียนทั่วไปหรือไม่ (โหมดอ่านเอง)
+                      if (loginPinInput === globalStudentPin) {
+                        setAppLoginRole('student');
+                        setUserRole('student');
+                        setCurrentView(intendedView ? intendedView : (menuVisibility.student.home ? 'home' : 'other_home'));
+                      } else {
+                        alert("❌ รหัสห้อง หรือ รหัสผ่าน ไม่ถูกต้อง");
+                      }
+
+                    } 
+                    // โหมดคุณครู
+                    else if (targetRole === 'teacher' && loginPinInput === globalTeacherPin) {
                       setAppLoginRole('teacher');
                       setUserRole('teacher');
                       setCurrentView(intendedView ? intendedView : (menuVisibility.teacher.home ? 'home' : 'other_home'));
-                    } else if (targetRole === 'admin' && loginPinInput === globalAdminPin) {
+                    } 
+                    // โหมดแอดมิน
+                    else if (targetRole === 'admin' && loginPinInput === globalAdminPin) {
                       setAppLoginRole('admin');
                       setUserRole('teacher');
                       setCurrentView('home');
@@ -618,7 +625,7 @@ export default function App() {
                       targetRole === 'admin' ? 'bg-slate-700 hover:bg-slate-800' : 
                       'bg-orange-500 hover:bg-orange-600'}`}
                 >
-                  ปลดล็อก
+                  เข้าสู่ระบบ
                 </button>
               </div>
             </div>
@@ -630,30 +637,6 @@ export default function App() {
 
   return (
     <>
-      {showJoinModal && (
-        <div className="fixed inset-0 z-[9999] bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4 print:hidden">
-          <div className="bg-white p-8 rounded-3xl shadow-2xl w-full max-w-sm flex flex-col items-center transform transition-all">
-            <div className="w-20 h-20 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center mb-6 shadow-sm">
-              <Users size={40} />
-            </div>
-            <h2 className="text-2xl font-black text-slate-800 mb-2">ติดตามคุณครู</h2>
-            <p className="text-slate-500 mb-8 text-center text-sm">กรอกรหัส 4 หลักที่ปรากฏบนหน้าจอของครู</p>
-            <input 
-              type="text" 
-              maxLength={4}
-              value={joinPinInput}
-              onChange={(e) => setJoinPinInput(e.target.value.replace(/[^0-9]/g, ''))}
-              className="w-full text-center text-5xl tracking-[0.4em] font-black p-4 border-2 border-orange-200 rounded-2xl focus:border-orange-500 focus:ring-0 outline-none mb-8 text-slate-800"
-              placeholder="0000"
-            />
-            <div className="flex w-full gap-4">
-              <button onClick={() => setShowJoinModal(false)} className="flex-1 py-3 bg-slate-100 hover:bg-slate-200 text-slate-600 font-bold rounded-xl transition-colors">ยกเลิก</button>
-              <button onClick={handleJoinRoom} className="flex-1 py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-xl transition-colors shadow-lg">เข้าร่วม</button>
-            </div>
-          </div>
-        </div>
-      )}
-
       {/* 🎯 ปลดล็อก Main Layout ให้ความสูงยืดตามเนื้อหากระดาษตอนพิมพ์ */}
       <div className="flex flex-col h-screen font-sans bg-[#f8fafc] overflow-hidden w-full relative print:h-auto print:overflow-visible print:block">
         
@@ -769,7 +752,23 @@ export default function App() {
                       </>
                     )}
                   </div>
-                  <button onClick={() => { setIsPresenting(false); setIsDrawing(false); setRoomPin(null); setUserRole(appLoginRole === 'student' ? 'student' : 'teacher'); }} className="px-3 py-1.5 md:px-4 md:py-2 bg-red-500 hover:bg-red-600 text-white rounded-lg transition-colors flex items-center gap-1.5 text-sm font-bold shadow-sm">
+                  <button onClick={async () => { 
+                    if (userRole === 'teacher' && roomPin) {
+                      try { await deleteDoc(doc(db, 'live_sessions', roomPin)); } catch(e) {}
+                    }
+                    setIsPresenting(false); 
+                    setIsDrawing(false); 
+                    setRoomPin(null); 
+                    if (appLoginRole === 'student') {
+                      setAppLoginRole('guest');
+                      setLoginStep('role');
+                      setTargetRole(null);
+                      setLoginPinInput('');
+                      setCurrentView('home');
+                    } else {
+                      setUserRole('teacher'); 
+                    }
+                  }} className="px-3 py-1.5 md:px-4 md:py-2 bg-red-500 hover:bg-red-600 text-white rounded-lg transition-colors flex items-center gap-1.5 text-sm font-bold shadow-sm">
                     <X size={18} /> <span className="hidden sm:inline">ปิดหน้าต่าง</span><span className="sm:hidden">ปิด</span>
                   </button>
                 </div>
@@ -915,13 +914,6 @@ export default function App() {
               )}
 
               <div className="w-px h-6 bg-slate-200 mx-1 hidden md:block"></div>
-              
-              <button
-                onClick={() => setShowJoinModal(true)}
-                className="flex-shrink-0 flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition-all text-slate-600 bg-slate-50 hover:bg-orange-50 hover:text-orange-600"
-              >
-                <Users size={18} /> เข้าร่วมชั้น
-              </button>
               
               <button 
                 onClick={handleLogout}

@@ -21,7 +21,7 @@ const getMoneyDetails = (text: string) => {
   return { unitW, unitS, textW, textS, isMoney };
 };
 
-const LOCAL_DICT: Record<string, string> = { "多少钱": "ราคาเท่าไหร่", "一共": "ทั้งหมด", "谢谢": "ขอบคุณ", "你好": "สวัสดี", "老师": "คุณครู" }; // ย่อให้เพื่อความกะทัดรัด (สามารถนำ Dict เต็มๆ มาวางได้ครับ)
+const LOCAL_DICT: Record<string, string> = { "多少钱": "ราคาเท่าไหร่", "一共": "ทั้งหมด", "谢谢": "ขอบคุณ", "你好": "สวัสดี", "老师": "คุณครู" };
 
 const tokenizeLiveText = (text: string) => {
   let result = [], i = 0, colorIndex = 0;
@@ -243,9 +243,9 @@ export default function OtherLesson6_1({ data, userRole = 'teacher', roomPin = n
   );
 
   return (
-    <div ref={mainContainerRef} className="flex w-full transition-all duration-500 items-start my-4 font-sans text-left relative bg-slate-50 rounded-2xl border border-slate-200">
+    <div ref={mainContainerRef} className="flex w-full transition-all duration-500 items-start mt-8 font-sans text-left relative bg-slate-50 rounded-2xl border border-slate-200">
       
-      {/* 🎯 เรียกใช้ SharedTeacherPanel */}
+      {/* 🎯 เรียกใช้ SharedTeacherPanel (จะลอยอยู่ด้านบน) */}
       <SharedTeacherPanel 
         userRole={userRole} 
         roomPin={roomPin} 
@@ -255,7 +255,7 @@ export default function OtherLesson6_1({ data, userRole = 'teacher', roomPin = n
         customTools={customAudioTools}
       />
 
-      <div className="flex-1 w-full p-4 md:p-6 relative z-[1] pb-24">
+      <div className="flex-1 w-full p-4 md:p-6 relative z-[1] pb-8 pt-10">
         
         {/* 1. Header & Subtitle */}
         <div className="w-full mb-4">

@@ -81,7 +81,7 @@ import QuizContainer from './components/quiz/QuizContainer';
 import PrintableQuiz from './components/quiz/PrintableQuiz'; 
 import QuizEditor from './components/quiz/QuizEditor';
 
-// 🎯 Import ตัวอ่าน JSON ที่เพิ่งสร้างใหม่
+// 🎯 Import ตัวอ่าน JSON 
 import DynamicLessonRenderer from './components/DynamicLessonRenderer';
 
 import mockQuizDataLesson1 from './data/quizDataLesson1.json';
@@ -125,9 +125,7 @@ export function OtherSlideRenderer({
     <div key={slide.id} className="w-full">
       {(() => {
         switch (slide.patternType) {
-          // 🎯 เพิ่มการเชื่อมต่อตรงนี้! ถ้าเป็น JSON ให้ไปเรียก DynamicLessonRenderer
           case 'dynamic_json': return <DynamicLessonRenderer data={slide} userRole={userRole} roomPin={roomPin} />;
-          
           case 'other_pattern_1': return <OtherPattern1 data={slide} onUpdateNote={updateNote} />;
           case 'other_classroom': return <OtherClassroom data={slide} onUpdateNote={updateNote} />;
           case 'other_lesson1': return <OtherLesson1 data={slide} onUpdateNote={updateNote} />;
@@ -264,7 +262,6 @@ export default function OtherApp({
       if (sec.content) textBlock += ` [เนื้อหา: ${sec.content}]`;
       if (sec.text && typeof sec.text === 'string') textBlock += ` [ข้อความ: ${sec.text}]`;
       
-      // ดึงเนื้อหาจาก jsonData มายัดใส่ Context ให้ AI รู้ด้วย
       if (sec.patternType === 'dynamic_json' && sec.jsonData) {
         try {
           const parsed = typeof sec.jsonData === 'string' ? JSON.parse(sec.jsonData) : sec.jsonData;
@@ -295,7 +292,7 @@ export default function OtherApp({
   };
 
   // =========================================================================
-  // 🎯 โหมดหน้าต่าง AI ติวเตอร์ (AI Tutor Home)
+  // 🎯 โหมดหน้าต่าง AI ติวเตอร์
   // =========================================================================
   if (currentView === 'ai_tutor') {
     return (
@@ -403,7 +400,6 @@ export default function OtherApp({
                 <h1 className="text-2xl md:text-4xl font-extrabold text-amber-600 tracking-tight flex items-center justify-center md:justify-start gap-3"><ClipboardList size={32} className="md:w-10 md:h-10 text-amber-500" />{menuNames.quiz_home || 'แบบทดสอบ'}</h1>
                 <p className="text-slate-500 mt-2 text-sm md:text-lg">เลือกรูปแบบการทดสอบ ทำแบบออนไลน์ 10 ข้อ หรือพิมพ์เป็นกระดาษข้อสอบ</p>
               </div>
-              {/* 🎯 ปุ่มสำหรับเข้าหน้าแก้ไขข้อสอบ (เฉพาะครู/แอดมิน) */}
               {(appLoginRole === 'teacher' || appLoginRole === 'admin') && (
                 <button 
                   onClick={() => setCurrentView('quiz_editor')} 
@@ -614,6 +610,7 @@ export default function OtherApp({
 
   if (course) {
     const activeLessons = course.lessons?.filter((l: any) => l.isEnabled !== false) || [];
+    const hasDynamicJson = activeLessons.some((l: any) => l.sections.some((s: any) => s.patternType === 'dynamic_json'));
 
     return (
       <div className="p-6 md:p-10 w-full relative z-10">
@@ -623,9 +620,11 @@ export default function OtherApp({
               <button onClick={() => setCurrentView('other_home')} className="flex items-center text-slate-500 hover:text-emerald-600 font-medium transition-colors">
                 <ArrowLeft className="mr-2" /> กลับหน้าหลักคอร์ส
               </button>
-              <button onClick={() => startPresentation(course)} className="flex items-center gap-2 bg-emerald-600 text-white px-6 py-2.5 rounded-full font-bold shadow-lg hover:bg-emerald-700 transition-all active:scale-95">
-                <Play size={18} fill="currentColor" /> เริ่มสอน Slide Show (ทุกหน้า)
-              </button>
+              {!hasDynamicJson && (
+                <button onClick={() => startPresentation(course)} className="flex items-center gap-2 bg-emerald-600 text-white px-6 py-2.5 rounded-full font-bold shadow-lg hover:bg-emerald-700 transition-all active:scale-95">
+                  <Play size={18} fill="currentColor" /> เริ่มสอน Slide Show (ทุกหน้า)
+                </button>
+              )}
             </div>
             <h2 className="text-4xl font-bold text-slate-700 mb-10 border-b-4 border-emerald-100 pb-4 inline-block">สารบัญ: {course.mainText} {course.level}</h2>
 
@@ -689,54 +688,56 @@ export default function OtherApp({
           </div>
         )}
 
-        {activeSectionId !== null && (
-          <div className="animate-fade-in w-full">
-             <div className="flex items-center justify-between mb-6 bg-white p-4 rounded-2xl border border-slate-200 shadow-sm sticky top-0 z-50">
-               <button onClick={() => setActiveSectionId(null)} className="flex items-center gap-2 text-slate-500 hover:text-emerald-600 font-bold bg-slate-50 hover:bg-emerald-50 px-5 py-2 rounded-xl transition-colors"><ArrowLeft size={18} /> กลับไปหน้าสารบัญ</button>
-               <button onClick={() => startPresentation(course, activeSectionId)} className="flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2 rounded-xl text-sm font-bold shadow-md transition-all active:scale-95"><Play size={16} fill="currentColor" /> นำเสนอหน้านี้ (Slide)</button>
-             </div>
-             {activeLessons.map((lesson: any, lIdx: number) => 
-               lesson.sections.map((sec: any, sIdx: number) => {
-                 if (sec.id !== activeSectionId) return null;
-                 const updateNote = (newNote: string) => {
-                   const updated = [...hskCards];
-                   const cIdx = updated.findIndex((c) => c.id === currentView);
-                   updated[cIdx].lessons[lIdx].sections[sIdx].teacherNote = newNote;
-                   setHskCards(updated);
-                 };
-                 return (
-                   <div key={sec.id} className="w-full">
-                     {sec.patternType === 'pattern1' && <LessonPattern1 data={{ ...sec, newWords: sec.vocabulary }} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'pattern2' && <LessonTones data={sec} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'patternTone2' && <PatternTone2 data={sec} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'patternSyllables' && <PatternSyllables data={sec} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'patternMonosyllabic' && <PatternMonosyllabic data={sec} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'patternSandhi' && <PatternSandhi data={sec} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'pattern3ColTable' && <Pattern3ColTable data={sec} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'patternStrokes' && <PatternStrokes data={sec} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'patternSinglecharacter' && <PatternSinglecharacter data={sec} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'neutraltone' && <PatternNeutraltone data={sec} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'patternmatchpicture' && <PatternMatchPicture data={sec} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'patterntonemaking' && <PatternTonemaking data={sec} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'patterndialog2' && <PatternDialog2 data={sec} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'patternnote' && <PatternNote data={sec} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'patternsentence3cols' && <PatternSentence3Cols data={sec} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'patternsentence4cols' && <PatternSentence4Cols data={sec} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'patterndespicture' && <PatternDespicture data={sec} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'patternpreceding' && <PatternPreceding data={sec} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'patternpairwork' && <PatternPairwork data={sec} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'patternflextable3cols' && <PatternFlextable3cols data={sec} onUpdateNote={updateNote} />}
-                     {sec.patternType === 'patterncanva' && <PatternCanva data={sec} />}
-                     {sec.patternType === 'patternStrokeOrderRules2' && <PatternStrokeOrderRules2 data={sec} />}
-                     {sec.patternType === 'patternFlextable2cols' && <PatternFlextable2cols data={sec} />}
-                     {sec.patternType === 'patternFlexibleDoubleTable' && <PatternFlexibleDoubleTable data={sec} />}
-                     <OtherSlideRenderer slide={sec} updateNote={updateNote} allSlides={lesson.sections} userRole={userRole} roomPin={roomPin} />
-                   </div>
-                 );
-               })
-             )}
-          </div>
-        )}
+        {activeSectionId !== null && (() => {
+          return (
+            <div className="animate-fade-in w-full">
+               <div className="flex items-center justify-between mb-6 bg-white p-4 rounded-2xl border border-slate-200 shadow-sm sticky top-0 z-50">
+                 <button onClick={() => setActiveSectionId(null)} className="flex items-center gap-2 text-slate-500 hover:text-emerald-600 font-bold bg-slate-50 hover:bg-emerald-50 px-5 py-2 rounded-xl transition-colors"><ArrowLeft size={18} /> กลับไปหน้าสารบัญ</button>
+                 <button onClick={() => startPresentation(course, activeSectionId)} className="flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2 rounded-xl text-sm font-bold shadow-md transition-all active:scale-95"><Play size={16} fill="currentColor" /> นำเสนอหน้านี้ (Slide)</button>
+               </div>
+               {activeLessons.map((lesson: any, lIdx: number) => 
+                 lesson.sections.map((sec: any, sIdx: number) => {
+                   if (sec.id !== activeSectionId) return null;
+                   const updateNote = (newNote: string) => {
+                     const updated = [...hskCards];
+                     const cIdx = updated.findIndex((c) => c.id === currentView);
+                     updated[cIdx].lessons[lIdx].sections[sIdx].teacherNote = newNote;
+                     setHskCards(updated);
+                   };
+                   return (
+                     <div key={sec.id} className="w-full">
+                       {sec.patternType === 'pattern1' && <LessonPattern1 data={{ ...sec, newWords: sec.vocabulary }} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'pattern2' && <LessonTones data={sec} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'patternTone2' && <PatternTone2 data={sec} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'patternSyllables' && <PatternSyllables data={sec} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'patternMonosyllabic' && <PatternMonosyllabic data={sec} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'patternSandhi' && <PatternSandhi data={sec} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'pattern3ColTable' && <Pattern3ColTable data={sec} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'patternStrokes' && <PatternStrokes data={sec} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'patternSinglecharacter' && <PatternSinglecharacter data={sec} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'neutraltone' && <PatternNeutraltone data={sec} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'patternmatchpicture' && <PatternMatchPicture data={sec} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'patterntonemaking' && <PatternTonemaking data={sec} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'patterndialog2' && <PatternDialog2 data={sec} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'patternnote' && <PatternNote data={sec} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'patternsentence3cols' && <PatternSentence3Cols data={sec} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'patternsentence4cols' && <PatternSentence4Cols data={sec} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'patterndespicture' && <PatternDespicture data={sec} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'patternpreceding' && <PatternPreceding data={sec} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'patternpairwork' && <PatternPairwork data={sec} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'patternflextable3cols' && <PatternFlextable3cols data={sec} onUpdateNote={updateNote} />}
+                       {sec.patternType === 'patterncanva' && <PatternCanva data={sec} />}
+                       {sec.patternType === 'patternStrokeOrderRules2' && <PatternStrokeOrderRules2 data={sec} />}
+                       {sec.patternType === 'patternFlextable2cols' && <PatternFlextable2cols data={sec} />}
+                       {sec.patternType === 'patternFlexibleDoubleTable' && <PatternFlexibleDoubleTable data={sec} />}
+                       <OtherSlideRenderer slide={sec} updateNote={updateNote} allSlides={lesson.sections} userRole={userRole} roomPin={roomPin} />
+                     </div>
+                   );
+                 })
+               )}
+            </div>
+          );
+        })()}
 
         {activeQuizData !== null && (
           <div className="animate-fade-in w-full">
